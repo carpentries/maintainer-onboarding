@@ -11,39 +11,200 @@ objectives:
 - "Apply Carpentry pedagogical principles to curricular decision making and interactions with contributors."
 - "Use the GitHub flow contribution model and Carpentry GitHub etiquette to contribute to Carpentry lessons."
 - "Determine how you and your co-Maintainers will communicate and how you will divide responsibilities for your lesson."
-- "Recognize complications involved with different types of PRs and practice deadling with difficult PRs diplomatically."
+- "Recognize complications involved with different types of PRs and practice dealing with difficult PRs diplomatically."
 keypoints:
-- "First key point."
+- "You're part of the Maintainer team now! Stay in touch with your teams."
+- "It's ok to say no."
 ---
 
-All new instructors contribute to one or more
-of the Carpentry lessons after going through the instructor training
-course. 
+Some introductory text.
 
-We want each group of Maintainers to work as a team. This means they will need to coordinate some strategy for who does what and on what timeframe. 
+## Interacting with Your Fellow Maintainers
 
-Avoiding demotivating language
-Example problems of appropriate difficulty
-Teach most useful first
-Avoid delving in the weeds
-Our motivation and demotivation episode covers much of this
+As a Maintainer, you will be part of an overlapping set of teams.
+From smallest, to largest, these include:
 
-What are the traits we want Maintainers to show?
-Patience with contributors who make mistakes
-Politeness, even if a contribution is not wanted
-Quick responsiveness
-Initiative
-Appropriate caution about not breaking things
-Deep familiarity with their lesson (and how it fits in with the overall workshop structure)
+* **Your Lesson Team** - the Maintainers who work with you on your lesson (a single GitHub repository).   
+* **Your Curricular Team** - Maintainers who work on your lesson and other lessons taught in the same workshop.   
+* **Your Technology Team** - Maintainers who work on other lessons that teach the same tool.   
+* **The full Maintainer Team** - all Carpentry Maintainers.  
 
-What to do with:
-Really old PRs (> 6 months)
-PRs introducing new exercises (examples: 1, 2, 3, 4, 5
-PRs with bad formatting (examples: 1, 
-PRs that are an improvement but not a full solution (e.g. this one)
-PRs that conflict with other PRs (examples: 1,
-Old PRs with merge conflicts (examples: 1, 
-PRs where Maintainer made suggestions but no one has implemented them (examples: 1, 2, 3
-PRs that introduce things beyond the level of the lesson (examples: 1
-PRs with a lot of debate (examples: 1, 2
-Comments from community members that might come across negatively (examples: 1
+> ## Find Your Technology Team!
+> 
+> For many of our exercises, we will be working in groups of related 
+> tools. In the Etherpad, next to your name, write the name of your
+> lesson (including whether it is a DC or SWC lesson). Identify your
+> group number and put it next to your name: 
+> 
+> 1) R Maintainers  
+> 2) Python Maintainers  
+> 3) SQL Maintainers  
+> 4) Unix / Git / and other Maintainers 
+> 
+> These are the people you'll be working with today in breakout sessions.
+{: .challenge}
+
+The overall Maintainer team communicates via our [mailing list]().
+Please make sure you are signed up, as this is the primary 
+communication channel for all Maintainer-related information. We also
+have monthly meetings to discuss topics relevant to the 
+Maintainer community. You can find the times for these meetings
+on the [community calendar]() and on the [Maintainer Etherpad](). 
+
+There is a separate email list for people going through
+Maintainer onboarding. To sign up for this, please contact Erin 
+Becker (ebecker@carpentries.org).
+
+Because co-Maintainers for a lesson work as a team, it is important
+to stay in touch with your co-Maintainers. All Lesson Teams work
+differently, and you will need to find a communication style and
+distribution of work that works for your team. We recommend that, at
+a minimum, your team meets by video-conference once a quarter to
+set priorities and deal with existing concerns.
+
+There are several decisions that your Lesson Team will need to make
+about how you will work together. Here are some issues you should
+consider:
+
+* Who will be responsible for what?  
+* How often will we each work on the lesson?  
+* What are our expectations for our repo in terms of response time, 
+turn-around time, issue taging, etc.  
+
+> ## Exercise
+> With your break-out group, discuss the points above and 
+> add to this list. What are other things that you want to 
+> communicate about with your Lesson Team? 
+{: .challenge}
+
+> ## Follow-up Homework
+> Get in touch with your Lesson Team to schedule an initial 
+> meeting. At this meeting, be sure to discuss the issues in the list
+> generated above. Communicating by email can also help to set the 
+> stage for your initial meeting and clarify any of these items
+> after the meeting.
+{: .challenge}
+
+## Interacting with Other Contributors
+
+Maintainers represent the Carpentries on some of our most
+active online spaces - our GitHub repositories. As a Maintainer,
+you will often be the first point of contact for people new to the 
+Carpentries community. 
+
+Igor Steinmacher, a computer scientist who researches
+retention of open source contributors, provides [a set of 
+recommendations](link-to-fostering-free-pdf) based on his research on how to reduce bariers to 
+new contributors becoming part of your community. While some of these
+are more specific to software projects, some are very applicable to
+our (or any) community: 
+
+* Answer quickly
+* Be kind and make newcomers feel part of the team
+* Set expectations and needs early
+* Point newcomers to easy tasks
+* Keep the issue list clean and triaged
+* Dismiss or identify outdated information
+* Create a live FAQ section
+
+> ## Callout
+> 
+> We'll be talking more about some of Steinmacher's other points in our third
+> meeting, when we talk about technical aspects of being a 
+> Maintainer. Including: 
+> 
+> * Document the processes and practices
+> * Make it easy for newcomers to build the system locally
+> * Keep the code as simple as possible
+> * Document the code structure
+{: .callout}
+
+> ## Preparatory Homework
+> Pick three of the points above and be prepared to discuss how 
+> you feel the Carpentry community does overall in meeting this 
+> goal. Can you identify ways in which we could improve? 
+{: .challenge}
+
+> ## Discussion
+> In your breakout groups, share your thoughts on the points you 
+> selected. Add your notes to the Etherpad.
+{: .discussion}
+
+When interacting with contributors, whether new or old, we want to 
+be sure to embody Carpentry values around communication and teaching
+and learning. 
+
+> ## Preparatory Homework
+> Review the episode on [Motivation and Demotivation](http://carpentries.github.io/instructor-training/08-motivation/)
+> from Instructor Training. Make some notes for yourself about 
+> how the factors discussed in this episode should influence the
+> way we interact with contributors.
+> > ## Solution
+> > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of scope of the novice learner or that involve unneccessary and distracting technical detail.
+> > * Actual Time - everything will probabily take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed. 
+> > * Things You Shouldn't Do in a Workshop - these are also things we shouldn't do in a PR or Issue conversation.
+> > * Imposter Syndrome - be encouraging to new contributors, even if they make a formatting mistake. 
+> > * Accessibility - take seriously any comments a contributor makes about accessibility issues. 
+> > * Inclusivity - avoid unnecessary use of gendered pronouns and other exclusive language.  
+> {: .solution}
+{: .challenge}
+
+> ## Discussion
+> With your breakout group, discuss your responses to the prepartory homework above. 
+> Add your notes to the Etherpad. 
+{: .discussion}
+
+Some summary text.
+
+## GitHub Etiquite and Processes
+
+> ## Preparatory Homework
+> Read the Carpentry [Contributor Guidelines](https://github.com/swcarpentry/lesson-example/blob/gh-pages/CONTRIBUTING.md) and 
+> work through those instructions to make a contribution to this
+> repository. Even if you're already familiar with Git and GitHub, 
+> follow those instructions carefully. Pay attention to anything that
+> was unclear or didn't work as you expected. Be prepared to discuss.
+{: .challenge}
+
+> ## Discussion 
+> How easy was it to use our Contributor Guidelines? Was there
+> anything unclear or difficult? What things do you think will
+> be confusing for new GitHub users?
+{: .discussion}
+
+In addition to formal contributor guidelines, the Carpentries have an
+unstated (until now!) but commonly used set of community norms for working with
+GitHub. These include:
+
+* **Including appropriate cross-references:**  
+    If putting in a PR to address an existing issue, include a link to the Issue. GitHub will automatically add a note to the Issue linking back to the PR. This is also good practice when communicating in conversation threads on related Issues and PRs.
+
+* **Using the `@` symbol to tag people on a conversation:**   
+    Most people don't subscribe to all of the SWC/DC repositories (there are a lot!) and will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. 
+
+* **Requesting reviews:**  
+    You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision making process.
+
+* **Not merging your own PRs:**  
+    Even for small PRs, it's a good idea to have a second pair of eyes to check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
+
+Being open to new contributions while keeping the lessons sleek and
+teachable is a difficult balancing act. It's ok to say no to a 
+contribution when it doesn't add anything useful to the materials,
+goes beyond the scope of the lesson, or introduces unnecessary 
+complexity. Even when saying no, however, we want to have positive
+interactions with contributors and let them know that their 
+involvement is valued. GitHub's [OpenSource Guide for Maintainers](https://opensource.guide/best-practices/#learning-to-say-no)
+has an excellent discussion on learning to say no. 
+
+> ## Preparatory Homework
+> Read ["Learning to Say No"](https://opensource.guide/best-practices/#learning-to-say-no). Be prepared to discuss how you can implement these suggestions as a Maintainer. 
+{: .challenge}
+
+> ## Exercise
+> With your breakout group, select one PR or Issue that has been 
+> open for > 6 months. Read the comments and discuss what the problem
+> is (i.e. why hasn't the PR been merged). Draft a response to the 
+> PR/Issue in the Etherpad. If you're comfortable doing so, add your
+> response to the conversation and tag the other Maintainers for the lesson.
+{: .challenge}
