@@ -17,15 +17,3 @@ objectives:
 keypoints:
 - "First key point."
 ---
-
-We also want Maintainers to feel empowered to make changes. We need to clearly communicate that they have the authority to make changes and give them guidelines about what types of changes are “above their paygrade” and they should get guidance from others about (and who to get guidance from). Need to make sure the people we’re directing them to to get guidance from are responsive (and know they’re going to be asked for guidance).
-
-Deep familiarity with their lesson (and how it fits in with the overall workshop structure)
-
-Appropriate caution about not breaking things
-
-Familiarity with our lesson release process / lesson development cycle.
-Issue Bonanza
-Bug BBQ
-For established lessons we tend to have only a Bug BBQ and not an Issue Bonanza. 
-What is the process for these events and how are Maintainers involved? What is their role?

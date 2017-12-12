@@ -14,14 +14,3 @@ objectives:
 keypoints:
 - "First key point."
 ---
-
-Read through the Lesson Example
-You can skip the episode on RMarkdown unless you’re going to be a Maintainer for the Data Carpentry Ecology R lesson
-
-Work through some exercises to make sure that they feel comfortable with the full process. Maybe assign each one or two issues to implement? 
-
-Need to review a certain number of PRs before finishing training?
-
-
-Familiarity with Git and GitHub
-Local rendering to preview changes
