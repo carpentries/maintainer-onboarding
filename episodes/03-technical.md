@@ -9,7 +9,8 @@ questions:
 - "What files are involved in the lesson and what do they do?"
 - "How are the lesson styles maintained?"
 objectives:
-- "First objective."
+- "Become comfortable rendering local previews of Carpentry lessons."
+- "Describe the relationship between your lesson and the styles repository."
 keypoints:
 - "First key point."
 ---
