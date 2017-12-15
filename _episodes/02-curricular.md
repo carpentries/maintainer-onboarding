@@ -101,5 +101,18 @@ specific Bash commands like `ls`, `cat`, `cd` and others.
 
 ## Types of Changes
 
+A common question from Maintainers is whether they have the authority to implement certain
+types of changes and who should be involved in the decision making process. Roughly 
+speaking, we can break down types of changes into three main categories: 
+
+- Typos and minor wording changes: These can be implemented immediately by individual Maintainers.  
+- Introduction of new material to a lesson: A decision to implement these changes (or not) should be made by at least two members of the Lesson Team.  
+- Large-scale changes to the structure of the lesson: Examples of this would be changing from base R to tidyverse, changing from ggplot to matplotlib for plotting in Python, and introduction of new tools like a different variant caller for the Genomics lesson.  
+
+
+
+
+
+
 
 
