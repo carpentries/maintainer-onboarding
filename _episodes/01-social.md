@@ -13,11 +13,9 @@ objectives:
 - "Determine how you and your co-Maintainers will communicate and how you will divide responsibilities for your lesson."
 - "Recognize complications involved with different types of PRs and practice dealing with difficult PRs diplomatically."
 keypoints:
-- "You're part of the Maintainer team now! Stay in touch with your teams."
+- "You're part of the Maintainer team now! Stay in touch with your team."
 - "It's ok to say no."
 ---
-
-Some introductory text.
 
 ## Interacting with Your Fellow Maintainers
 
@@ -31,8 +29,8 @@ From smallest, to largest, these include:
 
 > ## Find Your Technology Team!
 > 
-> For many of our exercises, we will be working in groups of related 
-> tools. In the Etherpad, next to your name, write the name of your
+> For our exercises today, we will be working with your Technology 
+> Team. In the Etherpad, next to your name, write the name of your
 > lesson (including whether it is a DC or SWC lesson). Identify your
 > group number and put it next to your name: 
 > 
@@ -40,25 +38,25 @@ From smallest, to largest, these include:
 > 2) Python Maintainers  
 > 3) SQL Maintainers  
 > 4) Unix / Git / and other Maintainers 
-> 
-> These are the people you'll be working with today in breakout sessions.
 {: .challenge}
 
-The overall Maintainer team communicates via our [mailing list]().
+The overall Maintainer team communicates via our [mailing list](http://lists.software-carpentry.org/listinfo/maintainers).
 Please make sure you are signed up, as this is the primary 
 communication channel for all Maintainer-related information. We also
 have monthly meetings to discuss topics relevant to the 
 Maintainer community. You can find the times for these meetings
-on the [community calendar]() and on the [Maintainer Etherpad](). 
+on the 
+[community calendar](https://software-carpentry.org/join/#calendar)
+and on the [Maintainer Etherpad](http://pad.software-carpentry.org/maintainers). 
 
 There is a separate email list for people going through
-Maintainer onboarding. To sign up for this, please contact Erin 
-Becker (ebecker@carpentries.org).
+Maintainer onboarding. To sign up for this list, visit our
+[Google Group](https://groups.google.com/a/carpentries.org/forum/#!forum/maintainer-onboarding).
 
-Because co-Maintainers for a lesson work as a team, it is important
-to stay in touch with your co-Maintainers. All Lesson Teams work
+It is important to stay in touch with your Lesson Team.
+All Lesson Teams work
 differently, and you will need to find a communication style and
-distribution of work that works for your team. We recommend that, at
+distribution of work that works for you. We recommend that, at
 a minimum, your team meets by video-conference once a quarter to
 set priorities and deal with existing concerns.
 
@@ -86,7 +84,7 @@ turn-around time, issue taging, etc.
 {: .challenge}
 
 > ## Getting Set up on Zoom
-> The Carpentries use Zoom for our video-conferencing meetings. You 
+> The Carpentries use Zoom for video-conferencing. You 
 > can get a personal Zoom account by going to [https://www.zoom.us/](https://www.zoom.us/) and clicking the `SIGN UP, IT'S FREE` 
 > button in the upper right corner. After signing up, click `Go to My Account` to see your personal Zoom meeting link.
 > You can invite people to your personal meeting by sending them 
