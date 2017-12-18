@@ -1,7 +1,7 @@
 ---
 title: "Curricular Aspects of Lesson Maintenance"
-teaching: 30
-exercises: 25
+teaching: 20
+exercises: 35
 questions:
 - "What is the overall curriculum development process and what is my role in it?"
 - "What is the overall lesson release process and what is my role in it?"
@@ -11,8 +11,7 @@ questions:
 objectives:
 - "Describe how the lesson release process works for your lesson."
 - "Identify interdependencies between your lesson and other lessons it will be taught with."
-- "Describe how your lesson differs from other Carpentry lessons on the same technology."
-- "Identify types of changes that you can implement alone, in collaboration with your co-Maintainers, and after consulation with other community members."
+- "Identify types of changes that you can implement alone, in collaboration with your Lesson Team, and after consulation with other community members."
 - "If a Curriculum Advisory Committee exists for your lesson, describe their responsibilities and how to contact them."
 keypoints:
 - "First key point."
@@ -92,7 +91,7 @@ is taught on the command line. It depends on the [Unix Shell](http://swcarpentry
 hierarchical directory structure, flags/options, file manipulation with nano, and
 specific Bash commands like `ls`, `cat`, `cd` and others.
 
-> ## Identify Your Interconnections
+> ## Identify Your Interconnections (15 min)
 > You will be placed in a breakout group with members of your Curricular Team. 
 > Spend about XX minutes identifying concepts, terms, and commands that are
 > introduced in one lesson and used in later lessons. Make a list of the ways
@@ -105,11 +104,34 @@ A common question from Maintainers is whether they have the authority to impleme
 types of changes and who should be involved in the decision making process. Roughly 
 speaking, we can break down types of changes into three main categories: 
 
-- Typos and minor wording changes: These can be implemented immediately by individual Maintainers.  
-- Introduction of new material to a lesson: A decision to implement these changes (or not) should be made by at least two members of the Lesson Team.  
-- Large-scale changes to the structure of the lesson: Examples of this would be changing from base R to tidyverse, changing from ggplot to matplotlib for plotting in Python, and introduction of new tools like a different variant caller for the Genomics lesson.  
+- **Typos and minor wording changes**  
+    These can be implemented immediately after review by an single Maintainer.  
 
+- **Introduction of new material to a lesson**   
+    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the changes) or write a comment to the contributor explaining why the change won't be implemented and close the issue or PR. 
 
+- **Large-scale changes to the structure of the lesson**   
+    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting in Python, or introduction of new tools like a different variant caller for the Genomics lesson. A decision of this scale should involve broader conversation with the community. 
+
+Some Data Carpentry curricula (Genomics, Social Sciences, and Geospatial) have a Curriculum 
+Advisory Committee. These Committees meet every six months to discuss the overall direction
+of the curriculum, including any proposed large-scale changes. 
+
+Software Carpentry lessons do not have this Curriculum Advisory Committee structure. 
+Decisions about large-scale changes to the lessons are made via conversations in GitHub 
+repos, the [Discuss list-serv](), and other communication channels. This process may be 
+changing in the future with the restructuring of the Carpentries.
+
+> ## Exploring Issues (20 min)
+> You will be placed in a breakout group with members of your Lesson Team. Open the GitHub
+> repo for your lesson and navigate to the `Issues` tab. Starting with the oldest issue
+> that is less than 6 months old, discuss each issue with your group and decide which of 
+> the above categories it fits into. Add a comment describing your group's suggested
+> action / follow-up on the issue. Be sure to tag any involved parties. It's ok if you
+> don't get through all of your group's issues! Some lessons have alot of issues.
+{: .challenge}
+
+Some group discussion to end.
 
 
 
