@@ -85,6 +85,15 @@ turn-around time, issue taging, etc.
 > after the meeting.
 {: .challenge}
 
+> ## Getting Set up on Zoom
+> The Carpentries use Zoom for our video-conferencing meetings. You 
+> can get a personal Zoom account by going to [https://www.zoom.us/](https://www.zoom.us/) and clicking the `SIGN UP, IT'S FREE` 
+> button in the upper right corner. After signing up, click `Go to My Account` to see your personal Zoom meeting link.
+> You can invite people to your personal meeting by sending them 
+> your personal meeting ID URL. Free accounts have a 40 minute limit 
+> on meetings with 3 or more participants, but meetings can be restarted. 
+{: .callout}
+
 ## Interacting with Other Contributors
 
 Maintainers represent the Carpentries on some of our most
