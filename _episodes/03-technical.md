@@ -103,6 +103,8 @@ are modifying.
 
 ## Style Maintenance
 
-Section about how lesson styles are maintained. Include information
-about Lesson Infrastructure Subcommittee and their mailing list. 
+The template for Carpentry lessons is managed through the [styles repository](https://github.com/swcarpentry/styles), which is 
+maintained by [Raniere Silva](https://github.com/rgaiacs) in 
+coordination with the Lesson Infrastructure Subcommittee. If you
+are interested in being involved, please contact Raniere.
 
