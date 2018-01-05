@@ -69,7 +69,7 @@ consider:
 * What are our expectations for our repo in terms of response time, 
 turn-around time, issue taging, etc.  
 
-> ## Exercise
+> ## Make a List (10 min)
 > With your break-out group, discuss the points above and 
 > add to this list. What are other things that you want to 
 > communicate about with your Lesson Team? 
@@ -114,25 +114,13 @@ our (or any) community:
 * Dismiss or identify outdated information
 * Create a live FAQ section
 
-> ## Callout
-> 
-> We'll be talking more about some of Steinmacher's other points in our third
-> meeting, when we talk about technical aspects of being a 
-> Maintainer. Including: 
-> 
-> * Document the processes and practices
-> * Make it easy for newcomers to build the system locally
-> * Keep the code as simple as possible
-> * Document the code structure
-{: .callout}
-
 > ## Preparatory Homework
-> Pick three of the points above and be prepared to discuss how 
+> Pick one of the points above and be prepared to discuss how 
 > you feel the Carpentry community does overall in meeting this 
 > goal. Can you identify ways in which we could improve? 
 {: .challenge}
 
-> ## Discussion
+> ## Discussion (10 min)
 > In your breakout groups, share your thoughts on the points you 
 > selected. Add your notes to the Etherpad.
 {: .discussion}
