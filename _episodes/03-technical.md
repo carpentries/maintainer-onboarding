@@ -38,7 +38,7 @@ Start with group discussion about questions?
 > {: .solution}
 {: .challenge}
 
-## Previwing Changes and Rendering locally
+## Previewing Changes and Rendering locally
 
 Even for small changes, it is always a good idea to preview changes
 to make sure that everything is formatted correctly. There are 
@@ -96,7 +96,7 @@ are modifying.
 > In breakout groups, make sure everyone has a local rendering of the
 > repo working. Troubleshoot together. Once everyone has a local 
 > rendering, have one person screenshare, make a change to one of the
-> repository files, and visually confirm that the change has occured
+> repository files, and visually confirm that the change has occurred
 > in the locally rendered webpage. Continue until everyone has 
 > screenshared.
 {: .challenge}

@@ -14,8 +14,8 @@ aspects, and technical aspects.
 
 1. Social aspects: Maintainers facilitate collaboration on lesson 
 development and are often the first point of contact
-for new contributors to the Carpentry community. They play a 
-promonent role in representing the Carpentry community online. 
+for new contributors to the Carpentry community. They play a
+prominent role in representing the Carpentry community online.
 
 2. Curricular aspects: Maintainers make sure that their lessons
 stay up-to-date, function smoothly, represent an appropriate level of material, and 
