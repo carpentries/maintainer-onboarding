@@ -5,13 +5,13 @@ exercises: 35
 questions:
 - "What is the overall curriculum development process and what is my role in it?"
 - "What is the overall lesson release process and what is my role in it?"
-- "How does my lesson fit in to the overall curriculum?"
+- "How does my lesson fit into the overall curriculum?"
 - "What kinds of changes do I have the authority to make?"
 - "Who should I talk to about bigger-scale changes?"
 objectives:
 - "Describe how the lesson release process works for your lesson."
 - "Identify interdependencies between your lesson and other lessons it will be taught with."
-- "Identify types of changes that you can implement alone, in collaboration with your Lesson Team, and after consulation with other community members."
+- "Identify types of changes that you can implement alone, in collaboration with your Lesson Team, and after consultation with other community members."
 - "If a Curriculum Advisory Committee exists for your lesson, describe their responsibilities and how to contact them."
 keypoints:
 - "First key point."
@@ -45,11 +45,11 @@ active development, to prepare those lessons for publication.
 
 | Lesson Development Stage | Description |
 | ---  | --- |
-| Preparation | Maintainers and staff make organzational changes to prepare for community contributions. This can include bringing in a new template, changing lesson or episode order, fixing broken formatting, and ensuring data accessibility. The purpose of this stage is to ensure that contributors aren't hindered by bad organization or formatting. |
+| Preparation | Maintainers and staff make organizational changes to prepare for community contributions. This can include bringing in a new template, changing lesson or episode order, fixing broken formatting, and ensuring data accessibility. The purpose of this stage is to ensure that contributors aren't hindered by bad organization or formatting. |
 | Issue Bonanza | Community members are invited to submit issues for problems they see in the materials. Issues can range from typos or broken links to larger content-related problems.|
 | Interim | Between the Issue Bonanza and Bug BBQ, Maintainers and staff go through existing issues, organizing and consolidating contributions. The purpose of this stage is to organize the community contributions so that the follow-up for each issue is clear and there aren't duplicated or contradicting issues. |
 | Bug BBQ | Community members are invited to submit PRs to fix problems that were identified during the Issue Bonanza (or new issues that they identified).|
-| Clean-up | Immediately after the Bug BBQ, Maintainers and staff finish merging PRs, submit PRs for any un-resolved issues, and go through the [lesson release checklist]() to ensure that everything is ready for publication.|
+| Clean-up | Immediately after the Bug BBQ, Maintainers and staff finish merging PRs, submit PRs for any unresolved issues, and go through the [lesson release checklist]() to ensure that everything is ready for publication.|
 | Publication | Staff submit the repository files to Zotero and generate a DOI for the lesson release. |
 
 The timeline for each of these stages differs between different lessons, as this is still a work in progress. Although not all
@@ -70,7 +70,7 @@ to create a new DOI for that version.
 ## Interconnectedness
 
 Even our "mature" and "stable" lessons are continuously changing.
-Although the types of changes that these lesson undergo are more
+Although the types of changes that these lessons undergo are more
 minor than the types of changes that happen in a lesson under
 active development, it's important to keep in mind that even minor
 changes can have larger impacts. A change in one episode of a lesson
@@ -101,17 +101,17 @@ specific Bash commands like `ls`, `cat`, `cd` and others.
 ## Types of Changes
 
 A common question from Maintainers is whether they have the authority to implement certain
-types of changes and who should be involved in the decision making process. Roughly
+types of changes and who should be involved in the decision-making process. Roughly
 speaking, we can break down types of changes into three main categories:
 
 - **Typos and minor wording changes**
-    These can be implemented immediately after review by an single Maintainer.
+    These can be implemented immediately after review by a single Maintainer.
 
 - **Introduction of new material to a lesson**
     A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the changes) or write a comment to the contributor explaining why the change won't be implemented and close the issue or PR.
 
 - **Large-scale changes to the structure of the lesson**
-    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting in Python, or introduction of new tools like a different variant caller for the Genomics lesson. A decision of this scale should involve broader conversation with the community.
+    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting in Python, or introduction of new tools like a different variant caller for the Genomics lesson. A decision of this scale should involve a broader conversation with the community.
 
 Some Data Carpentry curricula (Genomics, Social Sciences, and Geospatial) have a Curriculum
 Advisory Committee. These Committees meet every six months to discuss the overall direction
@@ -127,8 +127,8 @@ changing in the future with the restructuring of the Carpentries.
 > repo for your lesson and navigate to the `Issues` tab. Starting with the oldest issue
 > that is less than 6 months old, discuss each issue with your group and decide which of
 > the above categories it fits into. Add a comment describing your group's suggested
-> action / follow-up on the issue. Be sure to tag any involved parties. It's ok if you
-> don't get through all of your group's issues! Some lessons have alot of issues.
+> action/follow-up on the issue. Be sure to tag any involved parties. It's ok if you
+> don't get through all of your group's issues! Some lessons have a lot of issues.
 {: .challenge}
 
 Some group discussion to end.

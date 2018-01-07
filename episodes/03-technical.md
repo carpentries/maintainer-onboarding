@@ -24,7 +24,7 @@ keypoints:
 > come prepared to discuss any questions you have about formatting.
 {: .challenge}
 
-Start with group discussion about questions?
+Start with a roup discussion about the questions?
 
 > ## Exercise
 > With another member of your Lesson Team, look through the files
@@ -38,7 +38,7 @@ Start with group discussion about questions?
 > {: .solution}
 {: .challenge}
 
-## Previwing Changes and Rendering locally
+## Previewing Changes and Rendering locally
 
 Even for small changes, it is always a good idea to preview changes
 to make sure that everything is formatted correctly. There are
@@ -55,7 +55,7 @@ not sufficient for checking that blockquotes and code blocks are
 rendering properly.
 
 For more complex changes (or changes to multiple files), the safer
-option is to make changes locally, render the full webpage, and then
+option is to make the changes locally, render the full webpage, and then
 push those changes back up to GitHub. This requires Jekyll to be
 installed and for you to have a local clone of the repository you
 are modifying.
@@ -96,7 +96,7 @@ are modifying.
 > In breakout groups, make sure everyone has a local rendering of the
 > repo working. Troubleshoot together. Once everyone has a local
 > rendering, have one person screenshare, make a change to one of the
-> repository files, and visually confirm that the change has occured
+> repository files, and visually confirm that the change has occurred
 > in the locally rendered webpage. Continue until everyone has
 > screenshared.
 {: .challenge}
