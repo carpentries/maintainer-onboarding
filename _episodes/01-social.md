@@ -5,7 +5,7 @@ exercises: 25
 questions:
 - "What is the role of a Maintainer in interacting with contributors?"
 - "How will I interact with my fellow Maintainers?"
-- "What is the Carpentries etiquite for working with GitHub?"
+- "What is the Carpentries etiquette for working with GitHub?"
 - "What types of PRs am I likely to see and how should I handle them?"
 objectives:
 - "Apply Carpentry pedagogical principles to curricular decision making and interactions with contributors."
@@ -66,8 +66,8 @@ consider:
 
 * Who will be responsible for what?  
 * How often will we each work on the lesson?  
-* What are our expectations for our repo in terms of response time, 
-turn-around time, issue taging, etc.  
+* What are our expectations for our repo in terms of response time,
+turn-around time, issue tagging, etc.  
 
 > ## Make a List (10 min)
 > With your break-out group, discuss the points above and 
@@ -100,8 +100,8 @@ you will often be the first point of contact for people new to the
 Carpentries community. 
 
 Igor Steinmacher, a computer scientist who researches
-retention of open source contributors, provides [a set of 
-recommendations](link-to-fostering-free-pdf) based on his research on how to reduce bariers to 
+retention of open source contributors, provides [a set of
+recommendations](link-to-fostering-free-pdf) based on his research on how to reduce barriers to
 new contributors becoming part of your community. While some of these
 are more specific to software projects, some are very applicable to
 our (or any) community: 
@@ -135,8 +135,8 @@ and learning.
 > how the factors discussed in this episode should influence the
 > way we interact with contributors.
 > > ## Solution
-> > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of scope of the novice learner or that involve unneccessary and distracting technical detail.
-> > * Actual Time - everything will probabily take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed. 
+> > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of scope of the novice learner or that involve unnecessary and distracting technical detail.
+> > * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
 > > * Things You Shouldn't Do in a Workshop - these are also things we shouldn't do in a PR or Issue conversation.
 > > * Imposter Syndrome - be encouraging to new contributors, even if they make a formatting mistake. 
 > > * Accessibility - take seriously any comments a contributor makes about accessibility issues. 
@@ -145,13 +145,13 @@ and learning.
 {: .challenge}
 
 > ## Discussion
-> With your breakout group, discuss your responses to the prepartory homework above. 
-> Add your notes to the Etherpad. 
+> With your breakout group, discuss your responses to the preparatory homework above.
+> Add your notes to the Etherpad.
 {: .discussion}
 
 Some summary text.
 
-## GitHub Etiquite and Processes
+## GitHub etiquette and Processes
 
 > ## Preparatory Homework
 > Read the Carpentry [Contributor Guidelines](https://github.com/swcarpentry/lesson-example/blob/gh-pages/CONTRIBUTING.md) and 

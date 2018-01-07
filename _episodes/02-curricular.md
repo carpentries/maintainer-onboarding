@@ -11,7 +11,7 @@ questions:
 objectives:
 - "Describe how the lesson release process works for your lesson."
 - "Identify interdependencies between your lesson and other lessons it will be taught with."
-- "Identify types of changes that you can implement alone, in collaboration with your Lesson Team, and after consulation with other community members."
+- "Identify types of changes that you can implement alone, in collaboration with your Lesson Team, and after consultation with other community members."
 - "If a Curriculum Advisory Committee exists for your lesson, describe their responsibilities and how to contact them."
 keypoints:
 - "First key point."
@@ -128,7 +128,7 @@ changing in the future with the restructuring of the Carpentries.
 > that is less than 6 months old, discuss each issue with your group and decide which of 
 > the above categories it fits into. Add a comment describing your group's suggested
 > action / follow-up on the issue. Be sure to tag any involved parties. It's ok if you
-> don't get through all of your group's issues! Some lessons have alot of issues.
+> don't get through all of your group's issues! Some lessons have a lot of issues.
 {: .challenge}
 
 Some group discussion to end.
