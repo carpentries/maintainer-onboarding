@@ -24,7 +24,7 @@ keypoints:
 > come prepared to discuss any questions you have about formatting.
 {: .challenge}
 
-Start with a roup discussion about the questions?
+Start with a group discussion about the questions?
 
 > ## Exercise
 > With another member of your Lesson Team, look through the files
