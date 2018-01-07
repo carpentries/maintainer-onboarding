@@ -5,7 +5,7 @@ exercises: 25
 questions:
 - "What is the role of a Maintainer in interacting with contributors?"
 - "How will I interact with my fellow Maintainers?"
-- "What is the Carpentries etiquite for working with GitHub?"
+- "What is the Carpentries etiquette for working with GitHub?"
 - "What types of PRs am I likely to see and how should I handle them?"
 objectives:
 - "Apply Carpentry pedagogical principles to curricular decision making and interactions with contributors."
@@ -20,7 +20,7 @@ keypoints:
 ## Interacting with Your Fellow Maintainers
 
 As a Maintainer, you will be part of an overlapping set of teams.
-From smallest, to largest, these include:
+From smallest to largest, these include:
 
 * **Your Lesson Team** - the Maintainers who work with you on your lesson (a single GitHub repository).
 * **Your Curricular Team** - Maintainers who work on your lesson and other lessons taught in the same workshop.
@@ -67,7 +67,7 @@ consider:
 * Who will be responsible for what?
 * How often will we each work on the lesson?
 * What are our expectations for our repo in terms of response time,
-turn-around time, issue taging, etc.
+turn-around time, issue tagging, etc.
 
 > ## Make a List (10 min)
 > With your break-out group, discuss the points above and
@@ -88,7 +88,7 @@ turn-around time, issue taging, etc.
 > can get a personal Zoom account by going to [https://www.zoom.us/](https://www.zoom.us/) and clicking the `SIGN UP, IT'S FREE`
 > button in the upper right corner. After signing up, click `Go to My Account` to see your personal Zoom meeting link.
 > You can invite people to your personal meeting by sending them
-> your personal meeting ID URL. Free accounts have a 40 minute limit
+> your personal meeting ID URL. Free accounts have a 40-minute limit
 > on meetings with 3 or more participants, but meetings can be restarted.
 {: .callout}
 
@@ -101,7 +101,7 @@ Carpentries community.
 
 Igor Steinmacher, a computer scientist who researches
 retention of open source contributors, provides [a set of
-recommendations](link-to-fostering-free-pdf) based on his research on how to reduce bariers to
+recommendations](link-to-fostering-free-pdf) based on his research on how to reduce barriers to
 new contributors becoming part of your community. While some of these
 are more specific to software projects, some are very applicable to
 our (or any) community:
@@ -135,8 +135,8 @@ and learning.
 > how the factors discussed in this episode should influence the
 > way we interact with contributors.
 > > ## Solution
-> > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of scope of the novice learner or that involve unneccessary and distracting technical detail.
-> > * Actual Time - everything will probabily take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
+> > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of the scope of the novice learner or that involve unnecessary and distracting technical detail.
+> > * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
 > > * Things You Shouldn't Do in a Workshop - these are also things we shouldn't do in a PR or Issue conversation.
 > > * Imposter Syndrome - be encouraging to new contributors, even if they make a formatting mistake.
 > > * Accessibility - take seriously any comments a contributor makes about accessibility issues.
@@ -145,13 +145,13 @@ and learning.
 {: .challenge}
 
 > ## Discussion
-> With your breakout group, discuss your responses to the prepartory homework above.
+> With your breakout group, discuss your responses to the preparatory homework above.
 > Add your notes to the Etherpad.
 {: .discussion}
 
 Some summary text.
 
-## GitHub Etiquite and Processes
+## GitHub Etiquette and Processes
 
 > ## Preparatory Homework
 > Read the Carpentry [Contributor Guidelines](https://github.com/swcarpentry/lesson-example/blob/gh-pages/CONTRIBUTING.md) and
@@ -174,11 +174,11 @@ GitHub. These include:
 * **Including appropriate cross-references:**
     If putting in a PR to address an existing issue, include a link to the Issue. GitHub will automatically add a note to the Issue linking back to the PR. This is also good practice when communicating in conversation threads on related Issues and PRs.
 
-* **Using the `@` symbol to tag people on a conversation:**
+* **Using the `@` symbol to tag people in a conversation:**
     Most people don't subscribe to all of the SWC/DC repositories (there are a lot!) and will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation.
 
 * **Requesting reviews:**
-    You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision making process.
+    You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
 
 * **Not merging your own PRs:**
     Even for small PRs, it's a good idea to have a second pair of eyes to check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
