@@ -20,7 +20,7 @@ keypoints:
 > The Lesson Example includes information about all the formatting
 > you are likely to see in your lesson, as well as instructions
 > on how to locally render changes. If you are not maintaining an
-> R lesson, you can skip the episode on `Using RMarkdown`. Please 
+> R lesson, you can skip the episode on `Using RMarkdown`. Please
 > come prepared to discuss any questions you have about formatting.
 {: .challenge}
 
@@ -41,7 +41,7 @@ Start with group discussion about questions?
 ## Previwing Changes and Rendering locally
 
 Even for small changes, it is always a good idea to preview changes
-to make sure that everything is formatted correctly. There are 
+to make sure that everything is formatted correctly. There are
 (at least) two different ways to do this.
 
 If you are making changes to a single file, you can use
@@ -54,57 +54,57 @@ will not show you the fully rendered webpage for the lesson, it is
 not sufficient for checking that blockquotes and code blocks are
 rendering properly.
 
-For more complex changes (or changes to multiple files), the safer 
+For more complex changes (or changes to multiple files), the safer
 option is to make changes locally, render the full webpage, and then
 push those changes back up to GitHub. This requires Jekyll to be
-installed and for you to have a local clone of the repository you 
+installed and for you to have a local clone of the repository you
 are modifying.
 
 > ## Preparatory Homework
 > Follow the [instructions for installing Jekyll](http://swcarpentry.github.io/lesson-example/setup#optional-jekyll-setup-for-lesson-development) and its dependencies.
-> Then clone a copy of your lesson repository to your local computer. For example: 
-> 
+> Then clone a copy of your lesson repository to your local computer. For example:
+>
 > ~~~
 > $ git clone https://github.com/carpentries/maintainer-onboarding.git
 > ~~~
 > {: .language-bash}
-> 
+>
 > Navigate to your cloned copy of the repository and preview it
-> locally using: 
-> 
+> locally using:
+>
 > ~~~
 > $ make serve
 > ~~~
 > {: .language-bash}
-> 
+>
 > You should see output that ends with something like:
-> 
+>
 > ~~~
 > Server address: http://127.0.0.1:4000
 > Server running... press ctrl-c to stop.
 > ~~~
 > {: .output}
-> 
+>
 > Enter the server address into your web browser to see your local
-> website. 
-> 
-> If this doesn't work for you, don't worry! We're going to be 
+> website.
+>
+> If this doesn't work for you, don't worry! We're going to be
 > troubleshooting together in breakout groups.
 {: .challenge}
 
 > ## Exercise
 > In breakout groups, make sure everyone has a local rendering of the
-> repo working. Troubleshoot together. Once everyone has a local 
+> repo working. Troubleshoot together. Once everyone has a local
 > rendering, have one person screenshare, make a change to one of the
 > repository files, and visually confirm that the change has occured
-> in the locally rendered webpage. Continue until everyone has 
+> in the locally rendered webpage. Continue until everyone has
 > screenshared.
 {: .challenge}
 
 ## Style Maintenance
 
-The template for Carpentry lessons is managed through the [styles repository](https://github.com/swcarpentry/styles), which is 
-maintained by [Raniere Silva](https://github.com/rgaiacs) in 
+The template for Carpentry lessons is managed through the [styles repository](https://github.com/swcarpentry/styles), which is
+maintained by [Raniere Silva](https://github.com/rgaiacs) in
 coordination with the Lesson Infrastructure Subcommittee. If you
 are interested in being involved, please contact Raniere.
 
