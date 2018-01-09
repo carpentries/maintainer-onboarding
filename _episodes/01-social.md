@@ -101,7 +101,7 @@ Carpentries community.
 
 Igor Steinmacher, a computer scientist who researches
 retention of open source contributors, provides [a set of
-recommendations](link-to-fostering-free-pdf) based on his research on how to reduce barriers to
+recommendations](http://wsl.softwarelivre.org/2015/0002/fostering-freelibre-open-source-software-community-formation:-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf) based on his research on how to reduce barriers to
 new contributors becoming part of your community. While some of these
 are more specific to software projects, some are very applicable to
 our (or any) community:
