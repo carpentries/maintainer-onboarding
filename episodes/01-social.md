@@ -117,7 +117,7 @@ our (or any) community:
 > ## Preparatory Homework
 > Pick one of the points above and be prepared to discuss how
 > you feel the Carpentry community does overall in meeting this
-> goal. Can you identify ways in which we could improve?
+> recommendation. Can you identify ways in which we could improve?
 {: .challenge}
 
 > ## Discussion (10 min)
