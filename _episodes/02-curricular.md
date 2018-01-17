@@ -119,7 +119,7 @@ of the curriculum, including any proposed large-scale changes.
 
 Software Carpentry lessons do not have this Curriculum Advisory Committee structure.
 Decisions about large-scale changes to the lessons are made via conversations in GitHub
-repos, the [Discuss list-serv](), and other communication channels. This process may be
+repos, the [Discuss list-serv](http://lists.software-carpentry.org/listinfo/discuss), and other communication channels. This process may be
 changing in the future with the restructuring of the Carpentries.
 
 > ## Exploring Issues (20 min)
