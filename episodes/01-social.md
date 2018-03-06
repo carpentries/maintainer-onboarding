@@ -154,7 +154,7 @@ Some summary text.
 ## GitHub Etiquette and Processes
 
 > ## Preparatory Homework
-> Read the Carpentry [Contributor Guidelines](https://github.com/swcarpentry/lesson-example/blob/gh-pages/CONTRIBUTING.md) and
+> Read the Carpentry [Contributor Guidelines](https://github.com/carpentries/maintainer-onboarding/blob/gh-pages/CONTRIBUTING.md) and
 > work through those instructions to make a contribution to this
 > repository. Even if you're already familiar with Git and GitHub,
 > follow those instructions carefully. Pay attention to anything that
