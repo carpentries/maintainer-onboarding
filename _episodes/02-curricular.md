@@ -50,7 +50,7 @@ active development, to prepare those lessons for publication.
 | Interim | Between the Issue Bonanza and Bug BBQ, Maintainers and staff go through existing issues, organizing and consolidating contributions. The purpose of this stage is to organize the community contributions so that the follow-up for each issue is clear and there aren't duplicated or contradicting issues. |
 | Bug BBQ | Community members are invited to submit PRs to fix problems that were identified during the Issue Bonanza (or new issues that they identified).|
 | Clean-up | Immediately after the Bug BBQ, Maintainers and staff finish merging PRs, submit PRs for any unresolved issues, and go through the [lesson release checklist]() to ensure that everything is ready for publication.|
-| Publication | Staff submit the repository files to Zotero and generate a DOI for the lesson release. |
+| Publication | Staff submit the repository files to Zenodo and generate a DOI for the lesson release. |
 
 The timeline for each of these stages differs between different lessons, as this is still a work in progress. Although not all
 Maintainers are expected to be involved with the full process, it
