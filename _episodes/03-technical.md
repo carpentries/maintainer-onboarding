@@ -113,7 +113,7 @@ To **configure a remote** for a fork, follow these commands:
 
 ~~~
 $ git remote -v
-$ git git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 $ git merge upstream/gh-pages
 ~~~
 {: .bash}
