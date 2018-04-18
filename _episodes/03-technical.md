@@ -101,6 +101,38 @@ are modifying.
 > screenshared.
 {: .challenge}
 
+## Configuring and Sync Forks
+
+Forks are often used in open source development on GitHub 
+to make changes to a project without affecting the original repository. 
+You must first configure a remote that points to the upstream repository in Git.
+Then, you can sync and fetch updates from or 
+submit changes to the original repository with pull requests. 
+
+To **configure a remote** for a fork, follow these commands:
+
+~~~
+$ git remote -v
+$ git git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+$ git merge upstream/gh-pages
+~~~
+{: .bash}
+
+To **sync a fork** of a repository to keep it up-to-date 
+with the upstream repository, follow these commands:
+
+~~~
+$ git fetch upstream
+$ git checkout gh-pages
+$ git merge upstream/gh-pages
+~~~
+{: .bash}
+
+Note, this is different from the typical git workflow 
+where master is the typical branch. 
+You carn read more about [configuring a remote fork here](https://help.github.com/articles/configuring-a-remote-for-a-fork/) and [syncing a fork here](https://help.github.com/articles/syncing-a-fork/).
+
+
 ## Style Maintenance
 
 The template for Carpentry lessons is managed through the [styles repository](https://github.com/swcarpentry/styles), which is
