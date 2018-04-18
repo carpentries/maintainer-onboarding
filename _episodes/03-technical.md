@@ -130,7 +130,7 @@ $ git merge upstream/gh-pages
 
 Note, this is different from the typical git workflow 
 where master is the typical branch. 
-You carn read more about [configuring a remote fork here](https://help.github.com/articles/configuring-a-remote-for-a-fork/) and [syncing a fork here](https://help.github.com/articles/syncing-a-fork/).
+You can read more about [configuring a remote fork here](https://help.github.com/articles/configuring-a-remote-for-a-fork/) and [syncing a fork here](https://help.github.com/articles/syncing-a-fork/).
 
 
 ## Style Maintenance
