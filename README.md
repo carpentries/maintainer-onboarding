@@ -10,6 +10,5 @@ It will familiarize them with our process, the social aspects of dealing with co
 
 [swc-site]: http://software-carpentry.org
 [dc-site]: http://datacarpentry.org
-[dc-site]: http://datacarpentry.org
 [becker_erin]: http://www.datacarpentry.org/people/#becker_erin
 [lc-site]: https://librarycarpentry.org
