@@ -26,17 +26,10 @@ for development of new lessons. Your involvement with this process
 (and making modifications to this process) will depend on the lesson
 you are a Maintainer for. Some lessons have been around for a while
 and are quite mature and stable, while others are newer and are still in
-active development. As of December 2017, the status of each of the
-Software and Data Carpentry lessons is:
-
-| Lesson  | Status |
-| --------------- | ------ |
-| all SWC lessons | mature |
-| DC Ecology lessons | mature |
-| DC Genomics R | in active development |
-| all other DC Genomics lessons | mature |
-| DC Geospatial lessons | in active development |
-| DC Social Sciences lessons | in active development |
+active development. You can check the status of our lesson rosters on
+[Software-Carpentry.org/lessons](https://software-carpentry.org/lessons/),  
+[DataCarpentry.org/lessons](https://datacarpentry.org/lessons/) and
+[LibraryCarpentry.org/lessons](https://librarycarpentry.org/lessons/).
 
 If your lesson is in active development, you can expect to see a lot
 of changes to your repo in the near future. Data Carpentry holds an
