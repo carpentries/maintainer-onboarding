@@ -27,8 +27,9 @@ for development of new lessons. Your involvement with this process
 you are a Maintainer for. Some lessons have been around for a while
 and are quite mature and stable, while others are newer and are still in
 active development. You can check the status of our lesson rosters on
-[Software-Carpentry.org/lessons](https://software-carpentry.org/lessons/) and 
-[DataCarpentry.org/lessons](https://datacarpentry.org/lessons/).
+[Software-Carpentry.org/lessons](https://software-carpentry.org/lessons/),  
+[DataCarpentry.org/lessons](https://datacarpentry.org/lessons/) and
+[LibraryCarpentry.org/lessons](https://librarycarpentry.org/lessons/).
 
 If your lesson is in active development, you can expect to see a lot
 of changes to your repo in the near future. Data Carpentry holds an
