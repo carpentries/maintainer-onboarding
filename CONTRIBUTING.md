@@ -1,6 +1,6 @@
 # Contributing
 
-[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,
+[Software Carpentry][swc-site], [Data Carpentry][dc-site] and [Library Carpentry][lc-site] are open source projects,
 and we welcome contributions of all kinds:
 new lessons,
 fixes to existing material,
@@ -14,7 +14,7 @@ you agree that we may redistribute your work under [our license](LICENSE.md).
 In exchange,
 we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
-Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+Everyone involved in [Software Carpentry][swc-site], [Data Carpentry][dc-site] and [Library Carpentry][lc-site]
 agrees to abide by our [code of conduct](CONDUCT.md).
 
 ## How to Contribute
@@ -73,7 +73,7 @@ and submitting [bug reports][issues]
 about things that don't work, aren't clear, or are missing.
 If you are looking for ideas,
 please see [the list of issues for this repository][issues],
-or the issues for [Data Carpentry][dc-issues]
+or the issues for [Library Carpentry][lc-issues], [Data Carpentry][dc-issues]
 and [Software Carpentry][swc-issues] projects.
 
 Comments on issues and reviews of pull requests are just as welcome:
@@ -130,7 +130,7 @@ and have final say over what gets merged into the lesson.
 
 ## Other Resources
 
-General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+General discussion of [Software Carpentry][swc-site], [Data Carpentry][dc-site] and [Library Carpentry][lc-site] 
 happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][email].
@@ -149,3 +149,5 @@ You can also [reach us by email][email].
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
 [swc-lessons]: http://software-carpentry.org/lessons/
 [swc-site]: http://software-carpentry.org/
+[lc-site]: https://librarycarpentry.org/
+[lc-issues]: https://github.com/issues?q=user%3Alibrarycarpentry
