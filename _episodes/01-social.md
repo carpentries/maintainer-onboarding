@@ -40,18 +40,14 @@ From smallest to largest, these include:
 > 4) Unix / Git / and other Maintainers
 {: .challenge}
 
-The overall Maintainer team communicates via our [mailing list](http://lists.software-carpentry.org/listinfo/maintainers).
+The overall Maintainer team communicates via our [mailing list](https://carpentries.topicbox.com/groups/maintainers).
 Please make sure you are signed up, as this is the primary
 communication channel for all Maintainer-related information. We also
 have monthly meetings to discuss topics relevant to the
 Maintainer community. You can find the times for these meetings
 on the
-[community calendar](https://software-carpentry.org/join/#calendar)
+[community calendar](https://carpentries.org/community/#community-events)
 and on the [Maintainer Etherpad](http://pad.software-carpentry.org/maintainers).
-
-There is a separate email list for people going through
-Maintainer onboarding. To sign up for this list, visit our
-[Google Group](https://groups.google.com/a/carpentries.org/forum/#!forum/maintainer-onboarding).
 
 It is important to stay in touch with your Lesson Team.
 All Lesson Teams work
