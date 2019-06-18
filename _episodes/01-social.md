@@ -178,6 +178,15 @@ GitHub. These include:
 
 * **Not merging your own PRs:**
     Even for small PRs, it's a good idea to have a second pair of eyes to check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
+    
+* **Tagging issues with descriptive labels:**
+    For community-submitted issues, remember to label them as a Maintainer, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
+
+> ## How to Label Issues
+> To find a list of issue labels, their corresponding meanings, and when to use each, 
+> take a look at this guide on [How to label issues](https://docs.carpentries.org/topic_folders/maintainers/github_labels.html) in the Carpentries handbook. 
+> The guide also includes instructions on how to populate a Github repository with these issues.
+{: .callout}
 
 Being open to new contributions while keeping the lessons sleek and
 teachable is a difficult balancing act. It's ok to say no to a
