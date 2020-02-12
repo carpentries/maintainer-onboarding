@@ -26,8 +26,10 @@ have a consistent look and feel by following styling guidelines and
 formatting conventions.
 
 > ## Prerequisites
-> This course is open to accepted applicants for becoming Carpentry
-> Maintainers. If you are interested in joining a future round of
-> Maintainer onboarding, please contact Erin Becker (ebecker@carpentries.org).
+> This course is currently undergoing revision for Spring 2020, and will
+> be heavily adapted within the next several months. The next round of 
+> Maintainer onboarding will open to new Maintainers in April 2020. Please 
+> contact Angela Li (ali6@uchicago.edu), Maintainer Community Lead, with 
+> any questions.
 >
 {: .prereq}
