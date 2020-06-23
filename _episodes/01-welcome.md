@@ -47,6 +47,13 @@ To make clear what is expected, everyone participating in Carpentries activities
 to conform to our [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). This Code of Conduct applies to all spaces managed by the Carpentries including, but not limited to workshops, email lists, online forums and on GitHub. Please review
 [the Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) to familiarise yourself with it.
 
+> ## Zoom Etiquette
+> In the first session, ensure that you cover multiple ways for individuals to raise their hands so that few individuals dominate the conversation: they can use the Zoom "Raise Hand" feature, type "/hand" in the chat, or ask their question in the chat.
+>
+> Additionally, indicate whether or not individuals should have their camera on or off. In order to encourage folks to get to know each other, I recommend camera-on unless conditions prevent cameras from being on (i.e. broadband issues, family needs, etc.)
+{: .callout}
+
+
 ## Maintainer Onboarding Overview
 
 The goal of this three-week training is to provide you with the skills and information you need to become a Carpentries Lesson Maintainer. Our expectations of Carpentries Lesson Maintainers are that they:
