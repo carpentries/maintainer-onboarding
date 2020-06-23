@@ -65,15 +65,16 @@ our (or any) community:
 > * How might the factors discussed in the Motivation and Demotivation episode influence the way we interact with contributors?
 > * How might the contributing guidelines influence how a contributor contributes to your lesson? How can you use them effectively as a Maintainer?
 > * How might you implement the suggestions in “Learning to Say No” as a Maintainer?
-> > ## Solution
-> > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of the scope of the novice learner or that involve unnecessary and distracting technical detail.
-> > * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
-> > * Things You Shouldn't Do in a Workshop - these are also things we shouldn't do in a PR or Issue conversation.
-> > * Imposter Syndrome - be encouraging to new contributors, even if they make a formatting mistake.
-> > * Accessibility - take seriously any comments a contributor makes about accessibility issues.
-> > * Inclusivity - avoid unnecessary use of gendered pronouns and other exclusive language.
-> {: .solution}
 {: .discussion}
+
+> ## Solution
+> * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of the scope of the novice learner or that involve unnecessary and distracting technical detail.
+> * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
+> * Things You Shouldn't Do in a Workshop - these are also things we shouldn't do in a PR or Issue conversation.
+> * Imposter Syndrome - be encouraging to new contributors, even if they make a formatting mistake.
+> * Accessibility - take seriously any comments a contributor makes about accessibility issues.
+> * Inclusivity - avoid unnecessary use of gendered pronouns and other exclusive language.
+> {: .solution}
 
 When interacting with contributors, whether new or old, we want to
 be sure to embody Carpentry values around communication and teaching
