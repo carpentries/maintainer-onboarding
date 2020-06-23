@@ -56,7 +56,9 @@ The goal of this three-week training is to provide you with the skills and infor
 - Endeavour to be welcoming and supportive of contributions from all members of the community
 - Give feedback to contributors and evaluate lesson contributions in light of The Carpentries pedagogical model
 
-You can find more details about [Maintainer Guidelines](https://docs.carpentries.org/topic_folders/maintainers/maintainers.html) in the Carpentries documentation.
+> ## Maintainer Guidelines
+> You can find more details about [Maintainer Guidelines](https://docs.carpentries.org/topic_folders/maintainers/maintainers.html) in the Carpentries documentation.
+{: .callout}
 
 These goals will be achieved with a 3-week Maintainer Onboarding course, with the following goals:
 
