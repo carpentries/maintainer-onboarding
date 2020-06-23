@@ -28,8 +28,8 @@ keypoints:
 {: .prereq}
 
 > ## Preparatory Homework
-> Read the Carpentry [Contributor Guidelines](https://github.com/carpentries/maintainer-onboarding/blob/gh-pages/CONTRIBUTING.md). Pay attention to anything that
-> was unclear or didn't work as you expected. Be prepared to discuss.
+> Read the Carpentry [Contributor Guidelines](https://github.com/carpentries/maintainer-onboarding/blob/gh-pages/CONTRIBUTING.md). 
+> How might these guidelines influence how a contributor contributes to your lesson?
 {: .prereq}
 
 ## Interacting with Other Contributors
@@ -54,20 +54,17 @@ our (or any) community:
 * Dismiss or identify outdated information
 * Create a live FAQ section
 
-> ## Reflecting on Inclusivity
-> Pick one of the points above and be prepared to discuss how
-> you feel the Carpentry community does overall in meeting this
-> recommendation. Can you identify ways in which we could improve?
+> ## Reflecting on Inclusivity (5 min)
+> How do you feel the Carpentry community does overall in meeting these
+> recommendations? Can you identify ways in which we could improve?
 {: .challenge}
 
-> ## Discussion (10 min)
-> In your breakout groups, share your thoughts on the points you
-> selected. Add your notes to the Etherpad.
-{: .discussion}
-
-> ## Discussion
-> With your breakout group, discuss your responses to the preparatory homework above.
-> Add your notes to the Etherpad.
+> ## Discussion (15 min)
+> In breakout groups, discuss any of the following questions based on your pre-readings. Please make sure you are taking notes in the Etherpad:
+> * How can you balance saying no and being inclusive? What practices can help with this?
+> * How might the factors discussed in the Motivation and Demotivation episode influence the way we interact with contributors?
+> * How might the contributing guidelines influence how a contributor contributes to your lesson? How can you use them effectively as a Maintainer?
+> * How might you implement the suggestions in “Learning to Say No” as a Maintainer?
 > > ## Solution
 > > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of the scope of the novice learner or that involve unnecessary and distracting technical detail.
 > > * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
@@ -76,12 +73,6 @@ our (or any) community:
 > > * Accessibility - take seriously any comments a contributor makes about accessibility issues.
 > > * Inclusivity - avoid unnecessary use of gendered pronouns and other exclusive language.
 > {: .solution}
-{: .discussion}
-
-> ## Discussion
-> How easy was it to use our Contributor Guidelines? Was there
-> anything unclear or difficult? What things do you think will
-> be confusing for new GitHub users?
 {: .discussion}
 
 When interacting with contributors, whether new or old, we want to
@@ -111,6 +102,15 @@ Software Carpentry lessons do not have this Curriculum Advisory Committee struct
 Decisions about large-scale changes to the lessons are made via conversations in GitHub
 repos, the [Discuss list-serv](http://lists.software-carpentry.org/listinfo/discuss), and other communication channels. This process may be
 changing in the future with the restructuring of the Carpentries.
+
+> ## Exploring  Issues (20 min)
+> You will be placed in a breakout group with members of your Lesson Team. Open the GitHub
+> repo for your lesson and navigate to the `Issues` tab. Starting with the oldest issue
+> that is less than 6 months old, discuss each issue with your group and decide which of
+> the above categories it fits into. Add a comment describing your group's suggested
+> action/follow-up on the issue. Be sure to tag any involved parties. It's ok if you
+> don't get through all of your group's issues! Some lessons have a lot of issues.
+{: .challenge}
 
 ## GitHub Etiquette and Processes
 
@@ -147,15 +147,6 @@ complexity. Even when saying no, however, we want to have positive
 interactions with contributors and let them know that their
 involvement is valued. GitHub's [OpenSource Guide for Maintainers](https://opensource.guide/best-practices/#learning-to-say-no)
 has an excellent discussion on learning to say no.
-
-> ## Exploring Recent Issues (20 min)
-> You will be placed in a breakout group with members of your Lesson Team. Open the GitHub
-> repo for your lesson and navigate to the `Issues` tab. Starting with the oldest issue
-> that is less than 6 months old, discuss each issue with your group and decide which of
-> the above categories it fits into. Add a comment describing your group's suggested
-> action/follow-up on the issue. Be sure to tag any involved parties. It's ok if you
-> don't get through all of your group's issues! Some lessons have a lot of issues.
-{: .challenge}
 
 > ## Exploring Outstanding Issues (20 min)
 > With your breakout group, select one PR or Issue that has been
