@@ -32,6 +32,17 @@ keypoints:
 > How might these guidelines influence how a contributor contributes to your lesson?
 {: .prereq}
 
+> ## Responding to Minute Cards
+> Take a few minutes at the beginning of Onboarding to acknowledge that you have reviewed
+> the Minute Card feedback and address a few of the common questions. This will encourage 
+> individuals to continue to fill them out!
+{: .callout}
+
+> ## Initial Thoughts (5 min)
+> What is something new you learned from the readings? If you didn't learn something new, 
+> what is an idea that you found compelling or hope to implement as a Maintainer?
+{: .challenge}
+
 ## Interacting with Other Contributors
 
 Maintainers represent the Carpentries on some of our most
@@ -54,10 +65,7 @@ our (or any) community:
 * Dismiss or identify outdated information
 * Create a live FAQ section
 
-> ## Reflecting on Inclusivity (5 min)
-> How do you feel the Carpentry community does overall in meeting these
-> recommendations? Can you identify ways in which we could improve?
-{: .challenge}
+How do you feel the Carpentry community does overall in meeting these recommendations? Can you identify ways in which we could improve?
 
 > ## Discussion (15 min)
 > In breakout groups, discuss any of the following questions based on your pre-readings. Please make sure you are taking notes in the Etherpad:
@@ -78,44 +86,11 @@ our (or any) community:
 
 When interacting with contributors, whether new or old, we want to
 be sure to embody Carpentry values around communication and teaching
-and learning.
-
-## Types of Changes
-
-A common question from Maintainers is whether they have the authority to implement certain
-types of changes and who should be involved in the decision-making process. Roughly
-speaking, we can break down types of changes into three main categories:
-
-- **Typos and minor wording changes**
-    These can be implemented immediately after review by a single Maintainer.
-
-- **Introduction of new material to a lesson**
-    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the changes) or suggest revisions. Or, if they disagree with the spirit of the change, they should leave a comment explaining why, and allow some time for the contributor, the first approver, or anyone else to respond before closing the PR.
-
-- **Large-scale changes to the structure of the lesson**
-    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting in Python, or introduction of new tools like a different variant caller for the Genomics lesson. A decision of this scale should involve a broader conversation with the community.
-
-Some Data Carpentry curricula (Genomics, Social Sciences, and Geospatial) have a Curriculum
-Advisory Committee. These Committees meet every six months to discuss the overall direction
-of the curriculum, including any proposed large-scale changes.
-
-Software Carpentry lessons do not have this Curriculum Advisory Committee structure.
-Decisions about large-scale changes to the lessons are made via conversations in GitHub
-repos, the [Discuss list-serv](http://lists.software-carpentry.org/listinfo/discuss), and other communication channels. This process may be
-changing in the future with the restructuring of the Carpentries.
-
-> ## Exploring  Issues (20 min)
-> You will be placed in a breakout group with members of your Lesson Team. Open the GitHub
-> repo for your lesson and navigate to the `Issues` tab. Starting with the oldest issue
-> that is less than 6 months old, discuss each issue with your group and decide which of
-> the above categories it fits into. Add a comment describing your group's suggested
-> action/follow-up on the issue. Be sure to tag any involved parties. It's ok if you
-> don't get through all of your group's issues! Some lessons have a lot of issues.
-{: .challenge}
+and learning. Part of doing so includes communicating appropriately on Github.
 
 ## GitHub Etiquette and Processes
 
-In addition to formal contributor guidelines, the Carpentries have an
+In addition to formal [contributor guidelines](https://github.com/carpentries/maintainer-onboarding/blob/gh-pages/CONTRIBUTING.md), the Carpentries have an
 unstated (until now!) but commonly used set of community norms for working with
 GitHub. These include:
 
@@ -149,8 +124,43 @@ interactions with contributors and let them know that their
 involvement is valued. GitHub's [OpenSource Guide for Maintainers](https://opensource.guide/best-practices/#learning-to-say-no)
 has an excellent discussion on learning to say no.
 
-> ## Exploring Outstanding Issues (20 min)
-> With your breakout group, select one PR or Issue that has been
+> ## Lesson Maintenance Demo (10 min)
+> We will demonstrate briefly how one might respond to a (sample) issue on a lesson.
+> At what points during the demo did we use proper Github etiquette? What could have been improved?
+{: .challenge}
+
+## Types of Changes
+
+A common question from Maintainers is whether they have the authority to implement certain
+types of changes and who should be involved in the decision-making process. Roughly
+speaking, we can break down types of changes into three main categories:
+
+- **Typos and minor wording changes**
+    These can be implemented immediately after review by a single Maintainer.
+
+- **Introduction of new material to a lesson**
+    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the changes) or suggest revisions. Or, if they disagree with the spirit of the change, they should leave a comment explaining why, and allow some time for the contributor, the first approver, or anyone else to respond before closing the PR.
+
+- **Large-scale changes to the structure of the lesson**
+    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting in Python, or introduction of new tools like a different variant caller for the Genomics lesson. A decision of this scale should involve a broader conversation with the community.
+
+Some Data Carpentry curricula (Genomics, Social Sciences, and Geospatial) have a Curriculum
+Advisory Committee. These Committees meet every six months to discuss the overall direction
+of the curriculum, including any proposed large-scale changes.
+
+Software Carpentry lessons do not have this Curriculum Advisory Committee structure.
+Decisions about large-scale changes to the lessons are made via conversations in GitHub
+repos, the [Discuss list-serv](http://lists.software-carpentry.org/listinfo/discuss), and other communication channels. This process may be
+changing in the future with the restructuring of the Carpentries.
+
+> ## Exploring Issues (15-20 min)
+> You will be placed in a breakout group with members of your Lesson Team. 
+> Open the GitHub repo for your lesson and navigate to the `Issues` tab. 
+> **First**, select an issue that has been open for less than 6 months with your group and decide which of the above categories it fits into. 
+> Add a comment describing your group's suggested action/follow-up on at least one issue. 
+> Be sure to tag any involved parties.
+>
+> **Next**, with your breakout group, select one PR or Issue that has been
 > open for > 6 months. Read the comments and discuss what the problem
 > is (i.e. why hasn't the PR been merged). Draft a response to the
 > PR/Issue in the Etherpad. If you're comfortable doing so, add your
