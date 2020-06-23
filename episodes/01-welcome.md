@@ -1,0 +1,103 @@
+---
+title: "Welcome to the Maintainer Community"
+teaching: 20
+exercises: 40
+questions:
+- "What should you expect from Maintainer Onboarding?"
+- "What is my motivation for becoming a Lesson Maintainer?"
+- "What are the roles and responsibilities of a Lesson Maintainer?"
+- "Who are some of the other individuals on my Curriculum Team?"
+objectives:
+- "Familiarize yourself with the Carpentries philosophy and structure."
+- "Meet other Lesson Maintainers in the community and get plugged into the Carpentries community."
+- "Understand the role of a Lesson Maintainer within the Carpentries."
+- "Set the stage for Maintainer Onboarding and begin to develop relationships with the broader Maintainer community."
+keypoints:
+- "You do not have to be a Git master to be an effective Lesson Maintainer."
+- "There are many other Maintainers within the Carpentries community to ask questions and to reach out to for help."
+---
+
+> ## Pronouns and Names
+> 
+> Using correct names and pronouns is important to setting a tone of respect. Learning these is hard to
+> do quickly, so we recommend displaying it prominently during the workshop. 
+> 
+> If on Zoom, give everyone a moment to update their display name to reflect this information. 
+> 
+> If in person, encourage attendees to put this information on worn name tags or table-displayed name placards.
+> 
+> Note that pronouns are personal and some participants might prefer not to share them.
+> Do not force people to share their pronouns.
+{: .challenge}
+
+## Code of Conduct
+
+To make clear what is expected, everyone participating in Carpentries activities is required
+to conform to our [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). This Code of Conduct applies to all spaces managed by the Carpentries including, but not limited to workshops, email lists, online forums and on GitHub. Please review
+[the Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) to familiarise yourself with it.
+
+## Maintainer Onboarding Overview
+
+The goal of this three-week training is to provide you with the skills and information you need to become a Carpentries Lesson Maintainer. Our expectations of Carpentries Lesson Maintainers are that they:
+
+-  Monitor their lesson repository and make sure that PRs and Issues are addressed in a timely manner
+- Participate in the lesson development cycle including lesson releases
+- Endeavour to be welcoming and supportive of contributions from all members of the community
+- Give feedback to contributors and evaluate lesson contributions in light of The Carpentries pedagogical model
+
+These goals will be achieved with a 3-week Maintainer Onboarding course, with the following goals:
+
+- Orienting you to The Carpentries model and building relationships with other Lesson Maintainers within The Carpentries
+- Practicing Maintainer skills and cultivating a positive environment for contributors
+- Familiarizing you with the broader social and technical infrastructure around individual Carpentries lessons and curricula
+
+## What This Onboarding Does Not Cover
+
+We will **not** be teaching you everything you need to know about Git in this 3-week training. We will provide you with an introduction the basic skills to respond to issues and PRs. The best way to learn Git is to work with it, and we encourage you to reach out to your co-Maintainers and others in the Maintainer community for support and resources.
+
+We will not discuss Lesson Development extensively as these processes are undergoing revision.
+
+> ## Reflecting on Experience and Motivation
+
+>Please put an "x" next to each item that corresponds to your answer to the question
+>Have you ever participated in a Software Carpentry, Data Carpentry, or Library Carpentry Workshop?
+> * Yes, I have taught others to teach workshops.
+> * Yes, I have taught a workshop.
+> * Yes, I have taken a workshop.
+> * Yes, I have been a workshop helper.
+> * Yes, I organized a workshop.
+> * No, but I am familiar with what is taught at a workshop.
+> * No, and I am not familiar with what is taught at a workshop.
+>
+>Which of these most accurately describes your lesson development experience? 
+> * I have developed lessons in a university/college course settingx.
+> * I have not had any lesson development experience.
+> * I have developed a Carpentries-style lesson using the lesson template (potentially a fork of the original lesson).
+> * I have developed or contributed to a Carpentries Incubator lesson.
+> * I have developed or contributed to a Carpentries core lesson.
+> * I have used Carpentries materials as a basis to develop my own lessons.
+>
+> **Why are you becoming a Maintainer? What goals do you have for this Onboarding?**
+{: .challenge}
+
+> ## Maintainer Roles 
+> Based on your previous experiences, what do you think a Maintainer on a lesson should do? What do you think are key roles of the Lesson Maintainer in context of the Carpentries?
+>
+>If you have gone through Instructor Training, which lesson did you submit a contribution to? If you don’t remember, have you submitted an improvement to a lesson that you have taught? How did the Maintainer on that lesson respond, if at all?
+{: .challenge}
+
+
+> ## Curriculum Team Conversation
+> I will put you in breakout groups (15-20 min) of 3-4 based on your curriculum team. I will pop into your breakout rooms briefly to check in. Please:
+1. Discuss what you discovered from reviewing lessons within your curriculum this past week. What issues or PRs stood out? Which lessons need the most support? Which lessons are you the most interested in Maintaining?
+2. Designate someone to take notes on your discussion below.
+> * Group members + curriculum assignment: 
+> * Notetaker:
+> * Notes:
+{: .challenge}
+
+
+> ## Minute Cards
+> Have Maintainer Onboarding participants fill out Minute Cards to gain feedback on the session.
+{: .challenge}
+
