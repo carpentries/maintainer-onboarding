@@ -5,9 +5,8 @@ title: "Instructor Notes"
 
 ## Before each onboarding session
 
-Copy the appropriate section of Maintainer Onboarding from this [Maintainer Onboarding Etherpad Template](https://pad.carpentries.org/maintainer-onboarding-template) into the [Maintainer Onboarding Etherpad](https://pad.carpentries.org/maintainer-onboarding). Paste in the alphabetized names of the individuals in each session so they have a line to write on for the discussion questions.
-
-Set up Minute Cards using the [Virtual Minute Card template](https://docs.google.com/forms/d/1p7iOV5HNvy4POS4g6eottY8RSfKq4kaoKz1-jIFYTMI/edit) and have onboarding individuals fill them after each session. This will allow you to get feedback and pre-emptively address questions, as well as tailor your onboarding.
+- Copy the appropriate section of Maintainer Onboarding from this [Maintainer Onboarding Etherpad Template](https://pad.carpentries.org/maintainer-onboarding-template) into the [Maintainer Onboarding Etherpad](https://pad.carpentries.org/maintainer-onboarding). Paste in the alphabetized names of the individuals in each session so they have a line to write on for the discussion questions.
+- Set up Minute Cards using the [Virtual Minute Card template](https://docs.google.com/forms/d/1p7iOV5HNvy4POS4g6eottY8RSfKq4kaoKz1-jIFYTMI/edit) and have onboarding individuals fill them after each session. This will allow you to get feedback and pre-emptively address questions, as well as tailor your onboarding.
 
 ## Onboarding session #1 
 
