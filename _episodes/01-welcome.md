@@ -17,6 +17,11 @@ keypoints:
 - "There are many other Maintainers within the Carpentries community to ask questions and to reach out to for help."
 ---
 
+> ## Preparatory Homework
+> Take a look at some of the issues and PRs on various lessons within your assigned curriculum. Are there outstanding issues? What needs maintenance? We will be discussing these in groups during our first session.
+>
+{: .prereq}
+
 > ## Pronouns and Names
 > 
 > Using correct names and pronouns is important to setting a tone of respect. Learning these is hard to
