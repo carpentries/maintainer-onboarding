@@ -73,16 +73,15 @@ How do you feel the Carpentry community does overall in meeting these recommenda
 > * How might the factors discussed in the Motivation and Demotivation episode influence the way we interact with contributors?
 > * How might the contributing guidelines influence how a contributor contributes to your lesson? How can you use them effectively as a Maintainer?
 > * How might you implement the suggestions in “Learning to Say No” as a Maintainer?
-{: .discussion}
-
-> ## Solution
-> * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of the scope of the novice learner or that involve unnecessary and distracting technical detail.
-> * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
-> * Things You Shouldn't Do in a Workshop - these are also things we shouldn't do in a PR or Issue conversation.
-> * Imposter Syndrome - be encouraging to new contributors, even if they make a formatting mistake.
-> * Accessibility - take seriously any comments a contributor makes about accessibility issues.
-> * Inclusivity - avoid unnecessary use of gendered pronouns and other exclusive language.
+> > ## Solution
+> > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of the scope of the novice learner or that involve unnecessary and distracting technical detail.
+> > * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
+> > * Things You Shouldn't Do in a Workshop - these are also things we shouldn't do in a PR or Issue conversation.
+> > * Imposter Syndrome - be encouraging to new contributors, even if they make a formatting mistake.
+> > * Accessibility - take seriously any comments a contributor makes about accessibility issues.
+> > * Inclusivity - avoid unnecessary use of gendered pronouns and other exclusive language.
 > {: .solution}
+{: .challenge}
 
 When interacting with contributors, whether new or old, we want to
 be sure to embody Carpentry values around communication and teaching
@@ -156,6 +155,7 @@ changing in the future with the restructuring of the Carpentries.
 > ## Exploring Issues (15-20 min)
 > You will be placed in a breakout group with members of your Lesson Team. 
 > Open the GitHub repo for your lesson and navigate to the `Issues` tab. 
+>
 > **First**, select an issue that has been open for less than 6 months with your group and decide which of the above categories it fits into. 
 > Add a comment describing your group's suggested action/follow-up on at least one issue. 
 > Be sure to tag any involved parties.
@@ -166,7 +166,6 @@ changing in the future with the restructuring of the Carpentries.
 > PR/Issue in the Etherpad. If you're comfortable doing so, add your
 > response to the conversation and tag the other Maintainers for the lesson.
 {: .challenge}
-
 
 > ## Minute Cards (5 min)
 > Have Maintainer Onboarding participants fill out Minute Cards to gain feedback on the session.
