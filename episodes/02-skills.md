@@ -1,16 +1,14 @@
 ---
 title: "Building Maintainer Skills"
-teaching: 20
-exercises: 35
+teaching: 10
+exercises: 45
 questions:
 - "What is the role of a Maintainer in interacting with contributors?"
-- "How will I interact with my fellow Maintainers?"
 - "What is the Carpentries etiquette for working with GitHub?"
-- "What types of PRs am I likely to see and how should I handle them?"
+- "What types of issues and PRs am I likely to see and how should I handle them?"
 objectives:
 - "Apply Carpentry pedagogical principles to curricular decision making and interactions with contributors."
 - "Use the GitHub flow contribution model and Carpentry GitHub etiquette to contribute to Carpentry lessons."
-- "Determine how you and your co-Maintainers will communicate and how you will divide responsibilities for your lesson."
 - "Recognize complications involved with different types of PRs and practice dealing with difficult PRs diplomatically."
 keypoints:
 - ""
@@ -40,7 +38,7 @@ keypoints:
 
 > ## Initial Thoughts (5 min)
 > What is something new you learned from the readings? If you didn't learn something new, 
-> what is an idea that you found compelling or hope to implement as a Maintainer?
+> what is an idea that you found compelling, hope to implement, or already use as a Maintainer?
 {: .challenge}
 
 ## Interacting with Other Contributors
@@ -67,7 +65,7 @@ our (or any) community:
 
 How do you feel the Carpentry community does overall in meeting these recommendations? Can you identify ways in which we could improve?
 
-> ## Discussion (15 min)
+> ## Discussion (10 min)
 > In breakout groups, discuss any of the following questions based on your pre-readings. Please make sure you are taking notes in the Etherpad:
 > * How can you balance saying no and being inclusive? What practices can help with this?
 > * How might the factors discussed in the Motivation and Demotivation episode influence the way we interact with contributors?
@@ -123,7 +121,7 @@ interactions with contributors and let them know that their
 involvement is valued. GitHub's [OpenSource Guide for Maintainers](https://opensource.guide/best-practices/#learning-to-say-no)
 has an excellent discussion on learning to say no.
 
-> ## Lesson Maintenance Demo (10 min)
+> ## Lesson Maintenance Demo (5 min)
 > We will demonstrate briefly how one might respond to a (sample) issue on a lesson.
 > At what points during the demo did we use proper Github etiquette? What could have been improved?
 {: .challenge}
