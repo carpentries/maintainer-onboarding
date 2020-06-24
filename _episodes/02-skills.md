@@ -71,6 +71,8 @@ How do you feel the Carpentry community does overall in meeting these recommenda
 > * How might the factors discussed in the Motivation and Demotivation episode influence the way we interact with contributors?
 > * How might the contributing guidelines influence how a contributor contributes to your lesson? How can you use them effectively as a Maintainer?
 > * How might you implement the suggestions in “Learning to Say No” as a Maintainer?
+> This discussion should take around 10 minutes.
+>
 > > ## Solution
 > > * Teach Most Useful First - we can (and should) politely turn down contributions that take the material out of the scope of the novice learner or that involve unnecessary and distracting technical detail.
 > > * Actual Time - everything will probably take longer for learners than it does for you. Limit new additions to the materials and encourage cutting material where needed.
