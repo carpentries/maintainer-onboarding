@@ -3,6 +3,7 @@ title: "Infrastructure for Lesson Maintenance"
 teaching: 30
 exercises: 25
 questions:
+- "How will I interact with my fellow Maintainers?"
 - "What is the overall curriculum development process and what is my role in it?"
 - "What is the overall lesson release process and what is my role in it?"
 - "How does my lesson fit into the overall curriculum?"
@@ -19,12 +20,52 @@ objectives:
 - "Describe how the lesson release process works for your lesson."
 - "Identify interdependencies between your lesson and other lessons it will be taught with."
 - "Identify types of changes that you can implement alone, in collaboration with your Lesson Team, and after consultation with other community members."
+- "Determine how you and your co-Maintainers will communicate and how you will divide responsibilities for your lesson."
 - "If a Curriculum Advisory Committee exists for your lesson, describe their responsibilities and how to contact them."
 keypoints:
 - "First key point."
 ---
 
-Some introductory text.
+> ## Preparatory Homework
+> Please read the [Lesson Example](http://swcarpentry.github.io/lesson-example/) before our meeting this week.
+> The Lesson Example includes information about all the formatting
+> you are likely to see in your lesson, as well as instructions
+> on how to locally render changes. If you are not maintaining an
+> R lesson, you can skip the episode on `Using RMarkdown`. Please
+> come prepared to discuss any questions you have about formatting.
+{: .prereq}
+
+> ## Preparatory Homework (optional)
+> Follow the [instructions for installing Jekyll](http://swcarpentry.github.io/lesson-example/setup#optional-jekyll-setup-for-lesson-development) and its dependencies.
+> Then clone a copy of your lesson repository to your local computer. For example:
+>
+> ~~~
+> $ git clone https://github.com/carpentries/maintainer-onboarding.git
+> ~~~
+> {: .language-bash}
+>
+> Navigate to your cloned copy of the repository and preview it
+> locally using:
+>
+> ~~~
+> $ make serve
+> ~~~
+> {: .language-bash}
+>
+> You should see output that ends with something like:
+>
+> ~~~
+> Server address: http://127.0.0.1:4000
+> Server running... press ctrl-c to stop.
+> ~~~
+> {: .output}
+>
+> Enter the server address into your web browser to see your local
+> website.
+>
+> If this doesn't work for you, don't worry! We're going to be
+> troubleshooting together in breakout groups.
+{: .prereq}
 
 ## Curriculum Development Process
 
@@ -98,54 +139,6 @@ specific Bash commands like `ls`, `cat`, `cd` and others.
 > in which your lessons are interconnected in the Etherpad.
 {: .challenge}
 
-## Types of Changes
-
-A common question from Maintainers is whether they have the authority to implement certain
-types of changes and who should be involved in the decision-making process. Roughly
-speaking, we can break down types of changes into three main categories:
-
-- **Typos and minor wording changes**
-    These can be implemented immediately after review by a single Maintainer.
-
-- **Introduction of new material to a lesson**
-    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the changes) or suggest revisions. Or, if they disagree with the spirit of the change, they should leave a comment explaining why, and allow some time for the contributor, the first approver, or anyone else to respond before closing the PR.
-
-- **Large-scale changes to the structure of the lesson**
-    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting in Python, or introduction of new tools like a different variant caller for the Genomics lesson. A decision of this scale should involve a broader conversation with the community.
-
-Some Data Carpentry curricula (Genomics, Social Sciences, and Geospatial) have a Curriculum
-Advisory Committee. These Committees meet every six months to discuss the overall direction
-of the curriculum, including any proposed large-scale changes.
-
-Software Carpentry lessons do not have this Curriculum Advisory Committee structure.
-Decisions about large-scale changes to the lessons are made via conversations in GitHub
-repos, the [Discuss list-serv](http://lists.software-carpentry.org/listinfo/discuss), and other communication channels. This process may be
-changing in the future with the restructuring of the Carpentries.
-
-> ## Exploring Issues (20 min)
-> You will be placed in a breakout group with members of your Lesson Team. Open the GitHub
-> repo for your lesson and navigate to the `Issues` tab. Starting with the oldest issue
-> that is less than 6 months old, discuss each issue with your group and decide which of
-> the above categories it fits into. Add a comment describing your group's suggested
-> action/follow-up on the issue. Be sure to tag any involved parties. It's ok if you
-> don't get through all of your group's issues! Some lessons have a lot of issues.
-{: .challenge}
-
-Some group discussion to end.
-
-
-
-> ## Preparatory Homework
-> Please read the [Lesson Example](http://swcarpentry.github.io/lesson-example/) before our meeting this week.
-> The Lesson Example includes information about all the formatting
-> you are likely to see in your lesson, as well as instructions
-> on how to locally render changes. If you are not maintaining an
-> R lesson, you can skip the episode on `Using RMarkdown`. Please
-> come prepared to discuss any questions you have about formatting.
-{: .prereq}
-
-Start with a group discussion about the questions?
-
 > ## Exercise
 > With another member of your Lesson Team, look through the files
 > in your lesson's GitHub repo. Identify at least one point where
@@ -180,38 +173,6 @@ push those changes back up to GitHub. This requires Jekyll to be
 installed and for you to have a local clone of the repository you
 are modifying.
 
-> ## Preparatory Homework
-> Follow the [instructions for installing Jekyll](http://swcarpentry.github.io/lesson-example/setup#optional-jekyll-setup-for-lesson-development) and its dependencies.
-> Then clone a copy of your lesson repository to your local computer. For example:
->
-> ~~~
-> $ git clone https://github.com/carpentries/maintainer-onboarding.git
-> ~~~
-> {: .language-bash}
->
-> Navigate to your cloned copy of the repository and preview it
-> locally using:
->
-> ~~~
-> $ make serve
-> ~~~
-> {: .language-bash}
->
-> You should see output that ends with something like:
->
-> ~~~
-> Server address: http://127.0.0.1:4000
-> Server running... press ctrl-c to stop.
-> ~~~
-> {: .output}
->
-> Enter the server address into your web browser to see your local
-> website.
->
-> If this doesn't work for you, don't worry! We're going to be
-> troubleshooting together in breakout groups.
-{: .prereq}
-
 > ## Exercise
 > In breakout groups, make sure everyone has a local rendering of the
 > repo working. Troubleshoot together. Once everyone has a local
@@ -227,6 +188,69 @@ The template for Carpentry lessons is managed through the [styles repository](ht
 maintained by [Raniere Silva](https://github.com/rgaiacs) in
 coordination with the Lesson Infrastructure Subcommittee. If you
 are interested in being involved, please contact Raniere.
+
+## Interacting with Your Fellow Maintainers
+
+As a Maintainer, you will be part of an overlapping set of teams.
+From smallest to largest, these include:
+
+* **Your Lesson Team** - the Maintainers who work with you on your lesson (a single GitHub repository).
+* **Your Curricular Team** - Maintainers who work on your lesson and other lessons taught in the same workshop.
+* **Your Technology Team** - Maintainers who work on other lessons that teach the same tool.
+* **The full Maintainer Team** - all Carpentry Maintainers.
+
+> ## Find Your Technology Team!
+>
+> For our exercises today, we will be working with your Technology
+> Team. In the Etherpad, next to your name, write the name of your
+> lesson (including whether it is a DC or SWC lesson). Identify your
+> group number and put it next to your name:
+>
+> 1) R Maintainers
+> 2) Python Maintainers
+> 3) SQL Maintainers
+> 4) Unix / Git / and other Maintainers
+{: .challenge}
+
+The overall Maintainer team communicates via our [mailing list](https://carpentries.topicbox.com/groups/maintainers).
+Please make sure you are signed up, as this is the primary
+communication channel for all Maintainer-related information. We also
+have monthly meetings to discuss topics relevant to the
+Maintainer community. You can find the times for these meetings
+on the
+[community calendar](https://carpentries.org/community/#community-events)
+and on the [Maintainer Etherpad](http://pad.software-carpentry.org/maintainers).
+
+It is important to stay in touch with your Lesson Team.
+All Lesson Teams work
+differently, and you will need to find a communication style and
+distribution of work that works for you. We recommend that, at
+a minimum, your team meets by video-conference once a quarter to
+set priorities and deal with existing concerns.
+
+There are several decisions that your Lesson Team will need to make
+about how you will work together. Here are some issues you should
+consider:
+
+* Who will be responsible for what?
+* How often will we each work on the lesson?
+* What are our expectations for our repo in terms of response time,
+turn-around time, issue tagging, etc.
+
+> ## Make a List (10 min)
+> With your break-out group, discuss the points above and
+> add to this list. What are other things that you want to
+> communicate about with your Lesson Team?
+{: .challenge}
+
+> ## Follow-up Homework
+> Get in touch with your Lesson Team to schedule an initial
+> meeting. At this meeting, be sure to discuss the issues in the list
+> generated above. Communicating by email can also help to set the
+> stage for your initial meeting and clarify any of these items
+> after the meeting.
+{: .challenge}
+
 
 > ## Minute Cards (5 min)
 > Have Maintainer Onboarding participants fill out Minute Cards to gain feedback on the session.
