@@ -55,7 +55,7 @@ and to meet some of our community members.
     and can be viewed at <https://carpentries.github.io/lesson-example/>.
 
 3.  If you wish to change the template used for workshop websites,
-    please work in <https://carpentries.github.io/workshop-template/>.
+    please work in <https://github.com/carpentries/workshop-template>.
     The home page of that repository explains how to set up workshop websites,
     while the extra pages in <https://github.com/carpentries/workshop-template>
     provide more background on our design choices.
