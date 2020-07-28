@@ -36,7 +36,7 @@ keypoints:
 {: .prereq}
 
 > ## Preparatory Homework (optional)
-> Follow the [instructions for installing Jekyll](http://swcarpentry.github.io/lesson-example/setup#optional-jekyll-setup-for-lesson-development) and its dependencies.
+> Follow the [instructions for installing Jekyll](https://carpentries.github.io/lesson-example/setup#jekyll-setup-for-lesson-development) and its dependencies.
 > Then clone a copy of your lesson repository to your local computer. For example:
 >
 > ~~~

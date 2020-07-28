@@ -123,8 +123,13 @@ interactions with contributors and let them know that their
 involvement is valued. GitHub's [OpenSource Guide for Maintainers](https://opensource.guide/best-practices/#learning-to-say-no)
 has an excellent discussion on learning to say no.
 
-> ## Lesson Maintenance Demo (5 min)
+> ## Lesson Maintenance Demo, pt 1 (5 min)
 > We will demonstrate briefly how one might respond to a (sample) issue on a lesson.
+> At what points during the demo did we use proper Github etiquette? What could have been improved?
+{: .challenge}
+
+> ## Lesson Maintenance Demo, pt 2 (5 min)
+> We will demonstrate again how one might respond to a (sample) issue on a lesson.
 > At what points during the demo did we use proper Github etiquette? What could have been improved?
 {: .challenge}
 
