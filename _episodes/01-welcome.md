@@ -24,6 +24,11 @@ will be discussing these in groups during our first session.
 >
 {: .prereq}
 
+> ## Preparatory Homework (optional)
+> Review the [Carpentries Core Values](https://carpentries.org/values/). How might you uphold these values as a new Maintainer?
+>
+{: .prereq}
+
 > ## Pronouns and Names
 > 
 > Using correct names and pronouns is important to setting a tone of respect. Learning these is hard to
