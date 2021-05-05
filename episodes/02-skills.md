@@ -142,19 +142,25 @@ speaking, we can break down types of changes into three main categories:
     These can be implemented immediately after review by a single Maintainer.
 
 - **Introduction of new material to a lesson**
-    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the changes) or suggest revisions. Or, if they disagree with the spirit of the change, they should leave a comment explaining why, and allow some time for the contributor, the first approver, or anyone else to respond before closing the PR.
+    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first 
+    Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" 
+    (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the 
+    changes) or suggest revisions. Or, if they disagree with the spirit of the change, they should leave a comment explaining 
+    why, and allow some time for the contributor, the first approver, or anyone else to respond before closing the PR.
 
 - **Large-scale changes to the structure of the lesson**
-    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting in Python, or introduction of new tools like a different variant caller for the Genomics lesson. A decision of this scale should involve a broader conversation with the community.
+    Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting
+    in Python, or introduction of new tools like a different variant caller for the Data Carpentry Genomics lesson. 
+    A decision of this scale
+    should involve a broader conversation with the community.
 
-Some Data Carpentry curricula (Genomics, Social Sciences, and Geospatial) have a Curriculum
-Advisory Committee. These Committees meet every six months to discuss the overall direction
-of the curriculum, including any proposed large-scale changes.
-
-Software Carpentry lessons do not have this Curriculum Advisory Committee structure.
-Decisions about large-scale changes to the lessons are made via conversations in GitHub
-repos, the [Discuss list-serv](http://lists.software-carpentry.org/listinfo/discuss), and other communication channels. This process may be
-changing in the future with the restructuring of the Carpentries.
+Some lessons have a [Curriculum Advisory Committee](https://docs.carpentries.org/topic_folders/lesson_development/lesson_development_roles.html#curriculum-advisory-committee).
+These Committees are responsible for guiding the overall direction
+of the curriculum, including any proposed large-scale changes. As of May 2021, the Curriculum Advisory Committees are
+on hiatus and are scheduled to be reintroduced in September 2021. While Curriculum Advisors are on hiatus, and for
+lessons without a Curriculum Advisory Committee, decisions about large-scale changes to the lessons are made via conversations
+in GitHub
+repos, on The Carpentries [TopicBox lists](https://carpentries.topicbox.com/), and other communication channels.
 
 > ## Exploring Issues (15-20 min)
 > You will be placed in a breakout group with members of your Lesson Team. 
@@ -171,6 +177,6 @@ changing in the future with the restructuring of the Carpentries.
 > response to the conversation and tag the other Maintainers for the lesson.
 {: .challenge}
 
-> ## Minute Cards (5 min)
-> Have Maintainer Onboarding participants fill out Minute Cards to gain feedback on the session.
+> ## Instructor Note: Minute Cards (5 min)
+> Have Maintainer Onboarding participants fill out Minute Cards to collect feedback on the session.
 {: .challenge}
