@@ -8,24 +8,23 @@ questions:
 - "What are the roles and responsibilities of a Lesson Maintainer?"
 - "Who are some of the other individuals on my Curriculum Team?"
 objectives:
-- "Familiarize yourself with the Carpentries philosophy and structure."
-- "Meet other Lesson Maintainers in the community and get plugged into the Carpentries community."
-- "Understand the role of a Lesson Maintainer within the Carpentries."
+- "Familiarize yourself with The Carpentries philosophy and structure."
+- "Meet other Lesson Maintainers in the community and get plugged into The Carpentries community."
+- "Understand the role of a Lesson Maintainer within The Carpentries."
 - "Set the stage for Maintainer Onboarding and begin to develop relationships
 with the broader Maintainer community."
 keypoints:
-- "You do not have to be a Git master to be an effective Lesson Maintainer."
-- "There are many other Maintainers within the Carpentries community to ask questions and to reach out to for help."
+- "You do not have to be a Git expert to be an effective Lesson Maintainer."
+- "There are many other Maintainers within The Carpentries community to ask questions and to reach out to for help."
 ---
 
 > ## Preparatory Homework
-> Take a look at some of the issues and PRs on various lessons within your assigned curriculum. Are there outstanding issues? What needs maintenance? We 
+> Read through some of the issues and PRs on your assigned lesson. Are there outstanding issues? What needs maintenance? We 
 will be discussing these in groups during our first session.
->
 {: .prereq}
 
 > ## Preparatory Homework (optional)
-> Review the [Carpentries Core Values](https://carpentries.org/values/). How might you uphold these values as a new Maintainer?
+> Review the [Carpentries Core Values](https://carpentries.org/values/). How can you uphold and model these values as a new Maintainer?
 >
 {: .prereq}
 
@@ -60,7 +59,7 @@ to conform to our [Code of Conduct](https://docs.carpentries.org/topic_folders/p
 
 > ## Zoom Etiquette
 > In the first session, ensure that you cover multiple ways for individuals to raise 
-their hands so that few individuals dominate the conversation: they can use the 
+their hands so that few individuals do not dominate the conversation: they can use the 
 Zoom "Raise Hand" feature, type "/hand" in the chat, or ask their question in the chat.
 >
 > Additionally, indicate whether or not individuals should have their camera on or off. 
@@ -94,55 +93,54 @@ These goals will be achieved with a 3-week Maintainer Onboarding course, with th
 We will **not** be teaching you everything you need to know about Git in this 3-week training. 
 We will provide you with an introduction to the basic skills to respond to issues and PRs. 
 The best way to learn Git is to work with it, and we encourage you to reach out to your co-Maintainers and others in the Maintainer community for support and resources.
-
 We will not discuss Lesson Development extensively as these processes are undergoing revision.
 
 > ## Reflecting on Experience and Motivation (5 min)
 >
 > Please put an "x" next to each item that corresponds to your answer to the question
-> Have you ever participated in a Software Carpentry, Data Carpentry, or Library Carpentry Workshop?
-> * Yes, I have taught others to teach workshops.
+> Have you ever participated in a Data Carpentry, Library Carpentry, or Software Carpentry workshop?
 > * Yes, I have taught a workshop.
 > * Yes, I have taken a workshop.
 > * Yes, I have been a workshop helper.
 > * Yes, I organized a workshop.
+> * Yes, I have taught others to teach workshops.
 > * No, but I am familiar with what is taught at a workshop.
 > * No, and I am not familiar with what is taught at a workshop.
 >
->Which of these most accurately describes your lesson development experience? 
+> Which of these most accurately describes your lesson development experience? 
 > * I have developed lessons in a university/college course setting.
 > * I have not had any lesson development experience.
 > * I have developed a Carpentries-style lesson using the lesson template (potentially a fork of the original lesson).
-> * I have developed or contributed to a Carpentries Incubator lesson.
-> * I have developed or contributed to a Carpentries core lesson.
-> * I have used Carpentries materials as a basis to develop my own lessons.
+> * I have developed or contributed to a lesson in the Carpentries Incubator or CarpentriesLab.
+> * I have developed or contributed to an official Carpentries lesson.
+> * I have used Carpentries materials as a basis for developing my own lessons.
 >
 > **Why are you becoming a Maintainer? What goals do you have for this Onboarding?**
 {: .challenge}
 
 > ## Brainstorming Maintainer Roles (10 min)
-> Based on your previous experiences, what do you think a Maintainer on a lesson should do? 
-What do you think are key roles of the Lesson Maintainer in context of the Carpentries?
+> Based on your previous experiences, what do you think a Lesson Maintainer should do?
+> What do you think are key roles of the Lesson Maintainer in context of the Carpentries?
 >
->If you have gone through Instructor Training, which lesson did you submit a contribution to? 
-If you don’t remember, have you submitted an improvement to a lesson that you have taught? 
-How did the Maintainer on that lesson respond, if at all?
+> If you have gone through Instructor Training, which lesson did you submit a contribution to? 
+> If you don’t remember, have you submitted an improvement to a lesson that you have taught? 
+> What was your experience in interacting with the lesson Maintainer(s)?
 {: .challenge}
 
 
 > ## Meeting Your Curriculum Team (15-20 min)
 > I will put you in breakout groups (15-20 min) of 3-4 based on your curriculum team. 
-I will pop into your breakout rooms briefly to check in. Please:
-1. Discuss what you discovered from reviewing lessons within your curriculum this past week. 
-What issues or PRs stood out? Which lessons need the most support? Which lessons are you the most interested in Maintaining?
-2. Designate someone to take notes on your discussion below.
+> I will pop into your breakout rooms briefly to check in. Please:
+> 1. Discuss what you discovered from reviewing lessons within your curriculum this past week. 
+> What issues or PRs stood out? Which lessons need the most support? Which lessons are you the most interested in maintaining?
+> 2. Designate someone to take notes on your discussion in the Etherpad.
 > * Group members + curriculum assignment: 
 > * Notetaker:
 > * Notes:
 {: .challenge}
 
-
 > ## Minute Cards (5 min)
-> Have Maintainer Onboarding participants fill out Minute Cards to gain feedback on the session.
+> Have Maintainer Onboarding participants fill out Minute Cards to give feedback on the session. The Maintainer Community Lead
+> will set up minute cards using this [Google Form template](https://docs.google.com/forms/d/15m_MesnDRGITH8jjAoexvmwUWPGzg2MQsJYoJXuL5iA/edit).
 {: .challenge}
 
