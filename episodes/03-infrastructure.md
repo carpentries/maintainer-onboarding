@@ -187,7 +187,7 @@ are modifying.
 The template for Carpentries lessons is managed through the [styles
 repository](https://github.com/swcarpentry/styles), which is maintained by the
 [Lesson Infrastructure Committee](https://carpentries.org/lesson-infra/). The
-activity of the Committee was put on hold during the Covid-19 pandemic but is
+activity of the Committee was put on hold during the COVID-19 pandemic but is
 set to resume in the second half of 2021. In the meantime, the [Curriculum
 Team](https://carpentries.org/core-team-projects/#curriculum-team), with the
 help of [Maxim Belkin](https://github.com/maxim-belkin), has been maintaining
