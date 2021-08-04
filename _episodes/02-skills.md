@@ -26,18 +26,18 @@ keypoints:
 {: .prereq}
 
 > ## Preparatory Homework
-> Read The Carpentries [Contributor Guidelines](https://github.com/carpentries/maintainer-onboarding/blob/gh-pages/CONTRIBUTING.md). 
+> Read The Carpentries [Contributor Guidelines](https://github.com/carpentries/maintainer-onboarding/blob/gh-pages/CONTRIBUTING.md).
 > How might these guidelines influence how a contributor contributes to your lesson?
 {: .prereq}
 
 > ## Instructor Note: Responding to Minute Cards
 > Take a few minutes at the beginning of the session to acknowledge that you have reviewed
-> the Minute Card feedback and address a few of the common questions. This will encourage 
+> the Minute Card feedback and address a few of the common questions. This will encourage
 > individuals to continue to fill them out!
 {: .callout}
 
 > ## Initial Thoughts (5 min)
-> What is something new you learned from the readings? If you didn't learn something new, 
+> What is something new you learned from the readings? If you didn't learn something new,
 > what is an idea that you found compelling, hope to implement, or already use as a Maintainer?
 {: .challenge}
 
@@ -83,6 +83,27 @@ How do you feel the Carpentry community does overall in meeting these recommenda
 > {: .solution}
 {: .challenge}
 
+> ## Checkout Contributions by Email
+>
+> The Carpentries Lesson Programs have expanded to include
+> curricula that do not teach Git and GitHub,
+> and our [checkout process for new Instructors](https://carpentries.github.io/instructor-training/checkout/index.html#part-1-submit-a-small-contribution-to-a-lesson-or-glossary)
+> has changed to acknowledge this.
+> We allow trainees to submit feedback and suggested changes
+> to Library and Data Carpentry lessons via email,
+> as one part of their checkout.
+> These emails are handled by a member of the Core Team,
+> who will then open an Issue on the lesson repository
+> on behalf of the trainee.
+> The Core Team will not be able to follow up on these Issues,
+> e.g. by opening a Pull Request
+> or replying to the thread with more information.
+> All such Issues will include a brief introductory statement
+> to distinguish them from contributions made directly via GitHub.
+> [See an example of a contribution submitted by email](https://github.com/datacarpentry/r-socialsci/issues/320).
+>
+{: .callout }
+
 When interacting with contributors, whether new or old, we want to
 be sure to embody [The Carpentries values](https://carpentries.org/values/) around communication and teaching
 and learning. Part of doing so includes communicating appropriately on Github.
@@ -103,13 +124,13 @@ GitHub. These include:
 
 * **Not merging your own PRs:**
     Even for small PRs, it's a good idea to have a second pair of eyes to check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
-    
+
 * **Tagging issues with descriptive labels:**
     For community-submitted issues, remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
 
 > ## How to Label Issues
-> To find a list of issue labels, their corresponding meanings, and when to use each, 
-> take a look at this guide on [How to label issues](https://docs.carpentries.org/topic_folders/maintainers/github_labels.html) in The Carpentries handbook. 
+> To find a list of issue labels, their corresponding meanings, and when to use each,
+> take a look at this guide on [How to label issues](https://docs.carpentries.org/topic_folders/maintainers/github_labels.html) in The Carpentries handbook.
 > The guide also includes instructions on how to populate a Github repository with these issues.
 {: .callout}
 
@@ -142,15 +163,15 @@ speaking, we can break down types of changes into three main categories:
     These can be implemented immediately after review by a single Maintainer.
 
 - **Introduction of new material to a lesson**
-    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first 
-    Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM" 
-    (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the 
-    changes) or suggest revisions. Or, if they disagree with the spirit of the change, they should leave a comment explaining 
+    A decision to implement these changes (or not) should be made by at least two members of the Lesson Team. The first
+    Maintainer to review the change leaves a comment indicating whether it should be approved (we often use the comment "LGTM"
+    (looks good to me) to indicate approval). The second Maintainer to review can either merge (if both have approved the
+    changes) or suggest revisions. Or, if they disagree with the spirit of the change, they should leave a comment explaining
     why, and allow some time for the contributor, the first approver, or anyone else to respond before closing the PR.
 
 - **Large-scale changes to the structure of the lesson**
     Examples of this would be changing from base R to tidyverse for teaching R, changing from ggplot to matplotlib for plotting
-    in Python, or introduction of new tools like a different variant caller for the Data Carpentry Genomics lesson. 
+    in Python, or introduction of new tools like a different variant caller for the Data Carpentry Genomics lesson.
     A decision of this scale
     should involve a broader conversation with the community.
 
@@ -163,11 +184,11 @@ in GitHub
 repos, on The Carpentries [TopicBox lists](https://carpentries.topicbox.com/), and other communication channels.
 
 > ## Exploring Issues (15-20 min)
-> You will be placed in a breakout group with members of your Lesson Team. 
-> Open the GitHub repo for your lesson and navigate to the `Issues` tab. 
+> You will be placed in a breakout group with members of your Lesson Team.
+> Open the GitHub repo for your lesson and navigate to the `Issues` tab.
 >
-> **First**, select an issue that has been open for less than 6 months with your group and decide which of the above categories it fits into. 
-> Add a comment describing your group's suggested action/follow-up on at least one issue. 
+> **First**, select an issue that has been open for less than 6 months with your group and decide which of the above categories it fits into.
+> Add a comment describing your group's suggested action/follow-up on at least one issue.
 > Be sure to tag any involved parties.
 >
 > **Next**, with your breakout group, select one PR or Issue that has been
