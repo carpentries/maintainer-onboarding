@@ -3,7 +3,7 @@
 #------------------------------------------------------------
 
 # Which carpentry is this ("swc", "dc", or "lc")?
-carpentry: "swc"
+carpentry: "cp"
 
 # Overall title for pages.
 title: "Maintainer Onboarding"
