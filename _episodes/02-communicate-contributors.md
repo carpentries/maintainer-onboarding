@@ -1,47 +1,21 @@
 ---
-title: "Building Maintainer Skills"
-teaching: 10
-exercises: 45
+title: "Communicating with Contributors"
+teaching: 15
+exercises: 15
 questions:
-- "What is the role of a Maintainer in interacting with contributors?"
-- "What is The Carpentries etiquette for working with GitHub?"
-- "What types of issues and PRs am I likely to see and how should I handle them?"
+- "What types of contributions am I likely to encounter and how should I handle them?"
+- "How do I make sure contributors feel valued, even if their contribution is not accepted?"
+- "How can I direct contributors' energy to where it would be most useful?"
 objectives:
-- "Apply The Carpentries pedagogical principles to curricular decision making and interactions with contributors."
-- "Use the GitHub flow contribution model and Carpentries GitHub etiquette to contribute to Carpentries lessons."
-- "Recognize complications involved with different types of PRs and practice dealing with difficult PRs diplomatically."
+- "Use The Carpentries Core Values to guide your interactions with contributors."
+- "Gain confidence identifying and politely declining out-of-scope contributions."
+- "Develop strategies to avoid demotivating contributors."
 keypoints:
-- ""
+- "Valuing all contributions is one of The Carpentries Core Values."
+- "Not all contributions can, or should, be accepted."
 ---
 
-> ## Preparatory Homework
-> Read ["Learning to Say No"](https://opensource.guide/best-practices/#learning-to-say-no). Be prepared to discuss how you can implement these suggestions as a Maintainer.
-{: .prereq}
-
-> ## Preparatory Homework
-> Read the episode on [Motivation and Demotivation](http://carpentries.github.io/instructor-training/08-motivation/)
-> from Instructor Training. Make some notes for yourself about
-> how the factors discussed in this episode should influence the
-> way we interact with contributors.
-{: .prereq}
-
-> ## Preparatory Homework
-> Read The Carpentries [Contributor Guidelines](https://github.com/carpentries/maintainer-onboarding/blob/gh-pages/CONTRIBUTING.md).
-> How might these guidelines influence how a contributor contributes to your lesson?
-{: .prereq}
-
-> ## Instructor Note: Responding to Minute Cards
-> Take a few minutes at the beginning of the session to acknowledge that you have reviewed
-> the Minute Card feedback and address a few of the common questions. This will encourage
-> individuals to continue to fill them out!
-{: .callout}
-
-> ## Initial Thoughts (5 min)
-> What is something new you learned from the readings? If you didn't learn something new,
-> what is an idea that you found compelling, hope to implement, or already use as a Maintainer?
-{: .challenge}
-
-## Interacting with Other Contributors
+## Interacting with Contributors
 
 Maintainers represent The Carpentries on some of our most
 active online spaces - our GitHub repositories. As a Maintainer,
@@ -63,7 +37,46 @@ our (or any) community:
 * Dismiss or identify outdated information
 * Create a live FAQ section
 
-How do you feel the Carpentry community does overall in meeting these recommendations? Can you identify ways in which we could improve?
+> ## How Are We Doing?
+> How do you feel the Carpentry community does overall in meeting these recommendations? Are there particular areas of strength
+> or places where there is room for improvement?
+{: .challenge}
+
+## Where do Contributions Come From? 
+
+While anyone can contribute to The Carpentries lessons, the  vast majority of contributions come from:
+
+- Trainees who have gone through Instructor Training and are submitting a contribution as part of "checkout" to complete their Instructor certification. 
+- Workshop Instructors (and helpers) who have recently participated in a workshop and noticed difficulties with the materials. 
+
+Everyone who goes through The Carpentries Instructor Training program is required to contribute to a Carpentries lesson
+(or other resource) in order to become certified. We train over a thousand people each year to be Instructors, about half of whom complete the
+certification process. A large proportion of the contributions you will receive come from Instructor trainees. 
+
+During Instructor Training, we [strongly encourage contributors](https://carpentries.github.io/instructor-training/20-checkout/) to contribute to
+discussion on existing PRs and issues, to submit a PR to resolve an
+issue that the Maintainers have marked "help-wanted", or to submit issues describing bugs or difficulties in teaching the lesson. 
+
+Despite our best efforts in encouraging these types of contributions, you will also receive unwanted or unhelpful contribtions, including:
+- addition of new material covering topics outside of the scope of the lesson
+- changes to the way a topic is presented that are inconsistent with The Carpentries pedagogical model
+- other examples?
+
+These contributions may come in the form of an issue or a PR. It is important to recognize the effort of contributors, and be respectful, even if their contribution will not be merged. 
+
+Many of the contributions you will receive are from Intructor trainees. Others will be from Instructors who are 
+preparing to teach or have recently taught a workshop and noticed things that didn’t work as well as expected. 
+
+It is OK (and more than OK) to directly edit a contributor’s PR if there are minor issues preventing it from being accepted. 
+Many of our contributors are non-responsive to requests to update a PR. This is OK. If the contribution is important - make the minor changes 
+and merge. If it is not helpful - leave a short and polite explanation of why it won’t be accepted and either ask for edits or close. 
+
+Do not summarily close an issue or PR without commenting. Especially if the contributor is actively engaged and appears to be acting in good faith, 
+do not close the issue/PR. This can be very discouraging. 
+Ok to close if an issue has gone stale (define?) or if the issue or PR is out of scope (after explaining it is out of scope). 
+
+
+
 
 > ## Discussion (10 min)
 > In breakout groups, discuss any of the following questions based on your pre-readings. Please make sure you are taking notes in the Etherpad:
@@ -196,8 +209,4 @@ repos, on The Carpentries [TopicBox lists](https://carpentries.topicbox.com/), a
 > is (i.e. why hasn't the PR been merged). Draft a response to the
 > PR/Issue in the Etherpad. If you're comfortable doing so, add your
 > response to the conversation and tag the other Maintainers for the lesson.
-{: .challenge}
-
-> ## Instructor Note: Minute Cards (5 min)
-> Have Maintainer Onboarding participants fill out Minute Cards to collect feedback on the session.
 {: .challenge}
