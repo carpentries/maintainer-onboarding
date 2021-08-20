@@ -45,11 +45,6 @@ to conform to our [Code of Conduct]({{ site.coc }}). This Code of Conduct applie
 
 ## Introductions
 
-> Introductions set the stage for learning.
->
-> --- Tracy Teal, Former Executive Director, The Carpentries
-{: .testimonial}
-
 Hello everyone, and welcome to The Carpentries
 Maintainer Onboarding.  We are very pleased to have you with us.
 
@@ -132,29 +127,33 @@ support in asynchronous communication channels. We'll introduce those channels m
 The Carpentries teaches 400 - 600 workshops each year, meaning our lesson materials are being used practically every day for
 synchronous, guided learning. Making sure our lessons keep working uninteruptedly is therefore our number one goal for maintanence.
 
+A secondary (but still extremely important!) goal is ensuring that the spaces we use for lesson development and maintanence
+are just as welcoming and inclusive as our workshops. 
 
+Ensuring that our lessons are on the cutting-edge of new technology and tooling is *not* a priority for The Carpentries. Although
+we do want our materials to stay relevant, and we will talk about how we do that later, it is far more important that our lessons
+remain pedagogically sound and technically viable than that they represent the latest and greatest new developments in the field.
 
+With these goals in mind, The Carpentries expectations of Maintainers are that you:
 
-Our expectations of Maintainers are that they:
-
-- Monitor their lesson repository and make sure that pull requests (PRs) and Issues are addressed in a timely manner
-- Endeavour to be welcoming and supportive of contributions from all members of the community
-- Give feedback to contributors and evaluate lesson contributions in light of The Carpentries pedagogical model
-- Participate in the lesson development cycle including lesson releases
+- Monitor your lesson repository and make sure that pull requests (PRs) and Issues are responded to in a timely manner (even if that response is "sorry, this is out of scope"),
+- Do not introduce new errors into the lesson, 
+- Quickly fix anything that is unambiguously an error or that negatively affects workshop learners, 
+- Be receptive and welcoming to suggestions for improving the lessons. They aren’t perfect!
+- Evaluate all contributions in view of The Carpentries pedagogical model:
+    - Teach what is most relevant and useful for learners.
+    - Avoid unnecessary jargon and detailed explanations. Always ask yourself whether it is necessary for the learner. 
+    - Keep language motivating.
+    - Meet learners where they are.
+    - Emphasise the importance of continued learning and improvement.
 
 > ## Maintainer Guidelines
 > You can find more details about [Maintainer Guidelines](https://docs.carpentries.org/topic_folders/maintainers/maintainers.html) in The Carpentries documentation.
 {: .callout}
 
-- Do not introduce new errors into the lesson. 
-- Quickly fix anything that is unambiguously an error or that negatively affects workshop learners. 
-- Be receptive and welcoming to suggestions for improving the lessons. They aren’t perfect!
-- Evaluate all contributions in view of The Carpentries pedagogical model
-    - Sacrifice technical correctness for usability and user friendliness. 
-    - Meet learners where they are at. 
-    - Avoid unnecessary jargon and detailed explanations. Always ask yourself whether it is necessary for the learner. 
-    - Introduce connections on mental models, not just new content. 
-
 > ## Motivation (5 minutes)
 > Why are you becoming a Maintainer? What goals do you have for this training?
 {: .challenge}
+
+Next, will explore in more detail who contributes to The Carpentries lessons, what kinds of contributions you
+can expect to receive, and how to apply The Carpentries [Core Values](https://carpentries.org/values/) to communicating with contributors. 
