@@ -1,7 +1,7 @@
 ---
 title: "Communicating with Contributors"
-teaching: 15
-exercises: 15
+teaching: 20
+exercises: 20
 questions:
 - "What types of contributions am I likely to encounter and how should I handle them?"
 - "How do I make sure contributors feel valued, even if their contribution is not accepted?"
@@ -37,7 +37,7 @@ our (or any) community:
 * Dismiss or identify outdated information
 * Create a live FAQ section
 
-> ## How Are We Doing?
+> ## How Are We Doing? (5 minutes)
 > How do you feel the Carpentry community does overall in meeting these recommendations? Are there particular areas of strength
 > or places where there is room for improvement?
 {: .challenge}
@@ -55,17 +55,41 @@ certification process. A large proportion of the contributions you will receive 
 
 During Instructor Training, we [strongly encourage contributors](https://carpentries.github.io/instructor-training/20-checkout/) to contribute to
 discussion on existing PRs and issues, to submit a PR to resolve an
-issue that the Maintainers have marked "help-wanted", or to submit issues describing bugs or difficulties in teaching the lesson. 
+issue that the Maintainers have marked "help wanted", or to submit issues describing bugs or difficulties in teaching the lesson. 
 
-Despite our best efforts in encouraging these types of contributions, you will also receive unwanted or unhelpful contribtions, including:
+Keeping your repository's "help wanted" list up-to-date is a great way to maximize useful contributions. The Carpentries website
+compiles [a list of all issues marked with the "help wanted" tag](https://carpentries.org/help-wanted-issues/) across all of
+our official lessons. Contributors can search this list to find issues and PRs where Maintainers have specifically requested help,
+making it more likely that their contribution will be useful and accepted. 
+
+> ## Help Wanted (5 minutes)
+> Locate your lesson's help wanted list. 
+> - How many issues are currently open with that tag? How many have been closed?
+> - Is it clear what action is desired (ie what help is wanted?) for each issue marked help wanted?
+> - Are there any old issues that are out of date and are still marked help wanted? 
+> - Are there any new issues that should have the help wanted tag and don't?
+{: .challenge} 
+
+Spending some time cleaning up your lesson's help wanted list in your first few months as Maintainer will save
+you and your co-Maintainers time in the long term and help ensure higher-quality contributions.
+
+Despite our best efforts in encouraging the types of contributions listed above, you will also receive unwanted or unhelpful contribtions, including:
 - addition of new material covering topics outside of the scope of the lesson
 - changes to the way a topic is presented that are inconsistent with The Carpentries pedagogical model
-- other examples?
+- changes to the technology taught in the lesson (e.g. introduction of a new plotting system)
+- multiple unrelated suggestions (e.g. https://github.com/swcarpentry/r-novice-gapminder/issues/725)
 
 These contributions may come in the form of an issue or a PR. It is important to recognize the effort of contributors, and be respectful, even if their contribution will not be merged. 
 
-Many of the contributions you will receive are from Intructor trainees. Others will be from Instructors who are 
-preparing to teach or have recently taught a workshop and noticed things that didn’t work as well as expected. 
+> ## Motivating Language (5 minutes)
+> We teach Instructors to [avoid using language that can demotivate learners](https://carpentries.github.io/instructor-training/03-expertise/#dismissive-language). The same principles apply in lesson maintenance.  
+> d
+> d
+{: .challenge}
+
+## Do's and Don'ts for Responding to Contributions
+
+
 
 It is OK (and more than OK) to directly edit a contributor’s PR if there are minor issues preventing it from being accepted. 
 Many of our contributors are non-responsive to requests to update a PR. This is OK. If the contribution is important - make the minor changes 
@@ -74,9 +98,6 @@ and merge. If it is not helpful - leave a short and polite explanation of why it
 Do not summarily close an issue or PR without commenting. Especially if the contributor is actively engaged and appears to be acting in good faith, 
 do not close the issue/PR. This can be very discouraging. 
 Ok to close if an issue has gone stale (define?) or if the issue or PR is out of scope (after explaining it is out of scope). 
-
-
-
 
 > ## Discussion (10 min)
 > In breakout groups, discuss any of the following questions based on your pre-readings. Please make sure you are taking notes in the Etherpad:
@@ -155,16 +176,6 @@ complexity. Even when saying no, however, we want to have positive
 interactions with contributors and let them know that their
 involvement is valued. GitHub's [OpenSource Guide for Maintainers](https://opensource.guide/best-practices/#learning-to-say-no)
 has an excellent discussion on learning to say no.
-
-> ## Lesson Maintenance Demo, pt 1 (5 min)
-> We will demonstrate briefly how one might respond to a (sample) issue on a lesson.
-> At what points during the demo did we use proper Github etiquette? What could have been improved?
-{: .challenge}
-
-> ## Lesson Maintenance Demo, pt 2 (5 min)
-> We will demonstrate again how one might respond to a (sample) issue on a lesson.
-> At what points during the demo did we use proper Github etiquette? What could have been improved?
-{: .challenge}
 
 ## Types of Changes
 
