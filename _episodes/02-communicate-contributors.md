@@ -1,7 +1,7 @@
 ---
 title: "Communicating with Contributors"
 teaching: 20
-exercises: 20
+exercises: 30
 questions:
 - "What types of contributions am I likely to encounter and how should I handle them?"
 - "How do I make sure contributors feel valued, even if their contribution is not accepted?"
@@ -134,7 +134,7 @@ section on ["learning to say no"](https://opensource.guide/best-practices/#learn
 
 1. **Acknowledge receipt** - Even if you won't be able to take action on an issue/PR immediately, send the contributor a quick 
 message to let them know you received and appreciate their contribution. Always say thank you!
-2. * **Tag issues with descriptive labels** - For community-submitted issues, remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
+2. **Tag issues with descriptive labels** - For community-submitted issues, remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
 3. **Include appropriate cross-references** - If putting in a PR to address an existing Issue, include a link to the Issue. GitHub will automatically add a note to the Issue linking back to the PR. This is also good practice when communicating in conversation threads on related Issues and PRs.
 4. **Use the `@` symbol to tag people in a conversation** - Most people don't subscribe to all of The Carpentries repositories (there are a lot!) and will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. You can also use `@` to tag your Curriculum Advisory Committee. More on that later. 
 5. **Request reviews** for non-trivial changes. You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
@@ -154,5 +154,5 @@ acknowledge the contribution and explain why it won't be incorporated.
 {: .callout}
 
 > ## Final Exercise?
-> l
+> ???
 {: .challenge}
