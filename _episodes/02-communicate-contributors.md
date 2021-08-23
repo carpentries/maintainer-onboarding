@@ -79,17 +79,33 @@ Despite our best efforts in encouraging the types of contributions listed above,
 - changes to the technology taught in the lesson (e.g. introduction of a new plotting system)
 - multiple unrelated suggestions (e.g. https://github.com/swcarpentry/r-novice-gapminder/issues/725)
 
-These contributions may come in the form of an issue or a PR. It is important to recognize the effort of contributors, and be respectful, even if their contribution will not be merged. 
+These contributions may come in the form of an issue or a PR. It is important to recognize the effort of contributors, and be 
+respectful, even if their contribution will not be merged. GitHub's OpenSource Guide on "Best Practices for Maintainers" includes a
+section on ["learning to say no"](https://opensource.guide/best-practices/#learning-to-say-no). They recommend:
+
+- **Thank them** for their contribution
+- **Explain why it doesn’t fit** into the scope of the project, and offer clear suggestions for improvement, if you’re able. Be kind, but firm.
+- **Link to relevant documentation,** if you have it. If you notice repeated requests for things you don’t want to accept, add them into your documentation to avoid repeating yourself.
+- **Close the request**
+
+> Content based on [github.com/github/opensource.guide](https://github.com/github/opensource.guide) used under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+> ## Practice Saying No (10 minutes)
+> Choose one of the open issues linked below. Compose a 2-3 sentence response that follows the guidelines above. 
+> Add your response to the Etherpad.
+> Issue 1
+> Issue 2
+> Issue 3
+{: .challenge}
 
 > ## Motivating Language (5 minutes)
-> We teach Instructors to [avoid using language that can demotivate learners](https://carpentries.github.io/instructor-training/03-expertise/#dismissive-language). The same principles apply in lesson maintenance.  
-> d
-> d
+> We teach Instructors to [avoid using language that can demotivate learners](https://carpentries.github.io/instructor-training/03-expertise/#dismissive-language). The same principles apply in lesson maintenance. Choose one of the replies below and 
+> rewrite it to get rid of dismissive language. Add your version to the Etherpad.
+> Examples here 
+> Examples here
 {: .challenge}
 
 ## Do's and Don'ts for Responding to Contributions
-
-
 
 It is OK (and more than OK) to directly edit a contributor’s PR if there are minor issues preventing it from being accepted. 
 Many of our contributors are non-responsive to requests to update a PR. This is OK. If the contribution is important - make the minor changes 
