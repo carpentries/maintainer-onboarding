@@ -14,23 +14,9 @@ keypoints:
 - "There are two opportunities to connect synchronously each month - a co-working session and a general meeting."
 ---
 
-## Asynchronous communications
-
-Because we are a globally distributed group, the vast majority of our work is done asynchronously. There are three primary
-asynchronous communication channels shared across the Maintainer team. 
-
-### GitHub
-- RFC repo
-
-### Slack
-
-### TopicBox
-
-
 ## Synchronous communications
 
-In addition to the communication channels just described, there are two opportunities to connect with the overall
-Maintainer team each month. 
+There are two opportunities to connect with the overall Maintainer team each month. 
 
 ### Maintainer meetings
 
@@ -71,11 +57,46 @@ meetings to join the co-working corrals, and vice versa. All Maintainers are wel
 > If you're planning to attend the upcoming meeting, add your name to the CodiMD pad to let us know you'll be there!
 {: .challenge}
 
+In addition to these monthly opportunities to connect across the broad Maintainer community, you are encouraged to
+set up regular check-ins with your lesson team. The next section will provide more information about how to stay
+in touch with both the overall Maintainer community and your specific lesson team. 
+
+## Asynchronous communications
+
+Because we are a globally distributed group, the vast majority of our work is done asynchronously. There are three primary
+asynchronous communication channels shared across the Maintainer team. 
+
+### TopicBox
+
+
+
+### Slack
+
+
+### GitHub
+[RFC repo](https://github.com/carpentries/maintainer-RFCs/)
+
+
+
+
+## General Carpentries News
+
+Subscribing to these channels will ensure you are up to date on issues affecting your lesson and lesson maintenance in general. 
+To have a broader overview of all the exciting activity going on in The Carpentries community, we recommend subscribing to 
+one or more of the following channels:
+
+- [The Carpentries Clippings](https://carpentries.org/newsletter/) - our twice monthly newsletter
+- [@thecarpentries](https://twitter.com/thecarpentries) on Twitter
+- [The Carpentries blog](https://carpentries.org/blog/)
+
+If you would **really** like to keep up to date on **everything** that is happening, The Carpentries maintains a variety of
+[mailing lists on TopicBox](https://carpentries.topicbox.com) and over 100 [Slack channels](https://carpentries.org/connect/#slack), 
+including spaces dedicated to discussion of particular curricula, connecting local and regional groups, and job opportunites.
+
+
+
 
 Be familiar with the structure and purpose of the RFC repository. Know how to leave your feedback there. 
-
-Keeping up to date on news
-- newsletter, blog posts
 
 > ## Subscribe!
 > Check that you are subscribed to the following channels:
