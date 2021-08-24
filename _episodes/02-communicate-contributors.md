@@ -98,16 +98,20 @@ section on ["learning to say no"](https://opensource.guide/best-practices/#learn
 > ## Practice Saying No (10 minutes)
 > Choose one of the open issues linked below. Compose a 2-3 sentence response that follows the guidelines above. 
 > Add your response to the Etherpad.
-> Issue 1
-> Issue 2
-> Issue 3
+> * [lc-shell - Suggest adding Hello World](https://github.com/LibraryCarpentry/lc-shell/issues/143)
+> * [python-novice-inflammation - a couple of suggestions after reading the lesson](https://github.com/swcarpentry/python-novice-inflammation/issues/391)
+> ## Examples
+> The issues linked below are good examples of Maintainers saying "no" politely. 
+> * [swc-git - Lesson Contribution - Additional Commands](https://github.com/swcarpentry/git-novice/issues/765)
+> * [swc-r-novice-inflammation - Additional exercise for "Using loops" challenge](https://github.com/swcarpentry/r-novice-inflammation/pull/168)
 {: .challenge}
 
 > ## Motivating Language (5 minutes)
-> We teach Instructors to [avoid using language that can demotivate learners](https://carpentries.github.io/instructor-training/03-expertise/#dismissive-language). The same principles apply in lesson maintenance. Choose one of the replies below and 
-> rewrite it to get rid of dismissive language. Add your version to the Etherpad.
-> Examples here 
-> Examples here
+> We teach Instructors to [avoid using language that can demotivate learners](https://carpentries.github.io/instructor-training/03-expertise/#dismissive-language). The same principles apply in lesson maintenance. What are some words or
+> phrases that could have the effect of demotivating contributors? What alternatives can we use to express this meaning in a 
+> positive and motivational way?
+> 
+> In the Etherpad, make a list of demotivating words/phrases and alternatives.
 {: .challenge}
 
 > ## Checkout Contributions by Email
@@ -152,7 +156,3 @@ acknowledge the contribution and explain why it won't be incorporated.
 > take a look at this guide on [How to label issues](https://docs.carpentries.org/topic_folders/maintainers/github_labels.html) in The Carpentries handbook.
 > The guide also includes instructions on how to populate a Github repository with these issues.
 {: .callout}
-
-> ## Final Exercise?
-> ???
-{: .challenge}
