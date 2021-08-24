@@ -2,7 +2,7 @@
 title: "Welcome to the Maintainer Community"
 start: true
 teaching: 10
-exercises: 15
+exercises: 10
 questions:
 - "What does it mean to be a Carpentries Maintainer?"
 - "What is my motivation for becoming a Maintainer?"
@@ -27,7 +27,7 @@ keypoints:
 > 
 > Note that pronouns are personal and some participants might prefer not to share them.
 > Do not force people to share their pronouns.
-{: .challenge}
+{: .callout}
 
 ## Before The Course Begins
 
