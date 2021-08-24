@@ -100,10 +100,11 @@ section on ["learning to say no"](https://opensource.guide/best-practices/#learn
 > Add your response to the Etherpad.
 > * [lc-shell - Suggest adding Hello World](https://github.com/LibraryCarpentry/lc-shell/issues/143)
 > * [python-novice-inflammation - a couple of suggestions after reading the lesson](https://github.com/swcarpentry/python-novice-inflammation/issues/391)
-> ## Examples
-> The issues linked below are good examples of Maintainers saying "no" politely. 
-> * [swc-git - Lesson Contribution - Additional Commands](https://github.com/swcarpentry/git-novice/issues/765)
-> * [swc-r-novice-inflammation - Additional exercise for "Using loops" challenge](https://github.com/swcarpentry/r-novice-inflammation/pull/168)
+> > ## Examples
+> > The issues linked below are good examples of Maintainers saying "no" politely. 
+> > * [swc-git - Lesson Contribution - Additional Commands](https://github.com/swcarpentry/git-novice/issues/765)
+> > * [swc-r-novice-inflammation - Additional exercise for "Using loops" challenge](https://github.com/swcarpentry/r-novice-inflammation/pull/168)
+> {: .solution}
 {: .challenge}
 
 > ## Motivating Language (5 minutes)
