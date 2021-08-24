@@ -68,16 +68,41 @@ asynchronous communication channels shared across the Maintainer team.
 
 ### TopicBox
 
+The [Maintainers TopicBox list](https://carpentries.topicbox.com/groups/maintainers) is used primarily for announcements
+relevant to the full Maintainer team, including reminders about upcoming meetings. Posts from individual Maintainers asking
+questions or introducing topics for discussion are extremely welcome, but our Slack channel does seem to be a more active
+place for back-and-forth discussion.
 
+A few lists exist around specific curricula (search for lists starting with "curriculum", but most have not been very active. 
+If you would like to have a public TopicBox list created for discussions of your lesson, or a private list for your Maintainer 
+team, please [let Erin know](mailto: ebecker@carpentries.org). 
 
 ### Slack
 
+To be added to our private Maintainers channel on Slack, you will need to 
+[join The Carpentries organisation](https://swc-slack-invite.herokuapp.com/). 
+Our general Maintainers channel is a good place to ask questions of the full Maintainers team, or request input
+on specific issues/PRs. Most curricula also have a public Slack channel for discussing issues with the community (browse 
+for channels starting with `dc`, `lc`, or `swc`). Specific curriculum channels have not historically been very active, 
+but we encourage any efforts to increase interaction with the community on these channels. You can also use curriculum-specific
+channels for communicating with your lesson team, or you can create a private channel for yourself and your co-Maintainers. 
+If you would like a private channel to be created for you, please [let Erin know](mailto: ebecker@carpentries.org).
 
 ### GitHub
-[RFC repo](https://github.com/carpentries/maintainer-RFCs/)
 
+The majority of day-to-day interactions with your co-Maintainers will be on GitHub. You will need to be subscribed to
+("watching") your lesson repository to get email alerts about new issues, PRs, and other activity on your lesson. You can 
+`@` mention an individual Maintainer, your lesson team (see list of team names here), and / or your Curriculum Advisory
+Committee (list of teams here) to ensure that the appropriate person sees your message. Feel free also to `@` The Carpentries
+Curriculum Team (Toby Hodges, Erin Becker, François Michonneau, Zhian Kamvar, Michael Culshaw-Maurer) using `@ ????` and 
+the Maintainer Community Lead, Daniel Chen, using `@ ????`.
 
-
+We also highly recommend subscribing to the
+[Maintainer RFC (request for comments) repository](https://github.com/carpentries/maintainer-RFCs/). This repository is
+the primary platform for asynchronous discussion and feedback from the Maintainer community on issues affecting Maintainers
+as a whole. We try to remember to announce new RFCs on TopicBox and Slack, but staying subscribed here will allow you to see
+other's comments as they come in. To leave your feedback on an existing RFC, go to Issues and leave a comment. We also
+discuss RFCs at monthly Maintainer meetings to allow for a more nuanced back-and-forth conversation. 
 
 ## General Carpentries News
 
@@ -93,11 +118,7 @@ If you would **really** like to keep up to date on **everything** that is happen
 [mailing lists on TopicBox](https://carpentries.topicbox.com) and over 100 [Slack channels](https://carpentries.org/connect/#slack), 
 including spaces dedicated to discussion of particular curricula, connecting local and regional groups, and job opportunites.
 
-
-
-
-Be familiar with the structure and purpose of the RFC repository. Know how to leave your feedback there. 
-
+------------ Erin fix formatting and add details below -------------
 > ## Subscribe!
 > Check that you are subscribed to the following channels:
 > Maintainer onboarding Slack
