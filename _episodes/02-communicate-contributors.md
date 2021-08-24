@@ -1,7 +1,7 @@
 ---
 title: "Communicating with Contributors"
 teaching: 20
-exercises: 30
+exercises: 20
 questions:
 - "What types of contributions am I likely to encounter and how should I handle them?"
 - "How do I make sure contributors feel valued, even if their contribution is not accepted?"
