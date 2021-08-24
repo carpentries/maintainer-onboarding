@@ -43,7 +43,8 @@ from other Maintainers, and from the Maintainer Community Lead (Daniel Chen), on
 with Maintainers on other lessons also provides you with a broader overall vision of The Carpentries curriculum stack. It's
 a great opportunity to engage in lateral knowledge transfer and community learning!
 
-To add an issue or PR to the co-working corral agenda, DAN PLEASE ADD HERE APPROPRIATE THING TO DO. It's also perfectly fine
+Any Maintainer can add an issue or PR to the co-working corral agenda by adding it to the 
+[CodiMD pad](https://codimd.carpentries.org/maintainers?both). It is also perfectly fine
 to join the meetings without a specific issue already selected to work on. You do not need to attend the monthly Maintainer 
 meetings to join the co-working corrals, and vice versa. All Maintainers are welcome!
 
@@ -54,7 +55,7 @@ meetings to join the co-working corrals, and vice versa. All Maintainers are wel
 > - clicking the TimeandDate links on the Maintainers [CodiMD pad](https://codimd.carpentries.org/maintainers?both) to convert
 > the events to your local time, and adding to your calendar manually.
 > 
-> If you're planning to attend the upcoming meeting, add your name to the CodiMD pad to let us know you'll be there!
+> If you are planning to attend the upcoming meeting, add your name to the CodiMD pad to let us know you will be there!
 {: .challenge}
 
 In addition to these monthly opportunities to connect across the broad Maintainer community, you are encouraged to
@@ -94,8 +95,14 @@ The majority of day-to-day interactions with your co-Maintainers will be on GitH
 ("watching") your lesson repository to get email alerts about new issues, PRs, and other activity on your lesson. You can 
 `@` mention an individual Maintainer, your lesson team (see list of team names here), and / or your Curriculum Advisory
 Committee (list of teams here) to ensure that the appropriate person sees your message. Feel free also to `@` The Carpentries
-Curriculum Team (Toby Hodges, Erin Becker, François Michonneau, Zhian Kamvar, Michael Culshaw-Maurer) using `@ ????` and 
-the Maintainer Community Lead, Daniel Chen, using `@ ????`.
+Curriculum Team (Toby Hodges, Erin Becker, François Michonneau, Zhian Kamvar, Michael Culshaw-Maurer) using `@staff-curriculum` and 
+the Maintainer Community Lead, Daniel Chen, using `@chendaniely`.
+
+> ## Tagging in the Curriculum Team 
+> To tag in the curriculum team on any repository hosted in one of the official lesson program GitHub organisations
+> (Data Carpentry, Library Carpentry, Software Carpentry), use `@staff-curriculum`. On The Carpentries GitHub org,
+> the team name is `@core-team-curriculum`. We are working on reconciling team names across GitHub organisations.
+{: .callout}
 
 We also highly recommend subscribing to the
 [Maintainer RFC (request for comments) repository](https://github.com/carpentries/maintainer-RFCs/). This repository is
