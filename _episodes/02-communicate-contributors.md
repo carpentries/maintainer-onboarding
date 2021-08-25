@@ -77,7 +77,7 @@ Despite our best efforts in encouraging the types of contributions listed above,
 - addition of new material covering topics outside of the scope of the lesson
 - changes to the way a topic is presented that are inconsistent with The Carpentries pedagogical model
 - changes to the technology taught in the lesson (e.g. introduction of a new plotting system)
-- multiple unrelated suggestions (e.g. https://github.com/swcarpentry/r-novice-gapminder/issues/725)
+- multiple unrelated suggestions (e.g. [https://github.com/swcarpentry/r-novice-gapminder/issues/725](https://github.com/swcarpentry/r-novice-gapminder/issues/725))
 
 These contributions may come in the form of an issue or a PR. Being open to new contributions while keeping the lessons sleek and
 teachable is a difficult balancing act. It's ok to say no to a
