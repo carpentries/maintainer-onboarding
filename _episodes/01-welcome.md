@@ -121,6 +121,7 @@ however, there will undoubtedly be more complicated maintanence situations that 
 The best way to learn Git is to work with it, and we encourage you to reach out to your co-Maintainers and others in the Maintainer community
 for support and resources. We have regular co-working sessions where you can bring questions to the group, and also provide each other
 support in asynchronous communication channels. We'll introduce those channels momentarily. 
+The Software-Carpentry [Git Novice lesson](https://swcarpentry.github.io/git-novice/) is also a great resource for learning and reviewing the basics you will need to maintain your lesson.
 
 ## Goals for Lesson Maintanence
 
