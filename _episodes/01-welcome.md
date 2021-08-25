@@ -46,7 +46,7 @@ forums and on GitHub. Please review the Code of Conduct to familiarise yourself 
 
 ## Introductions
 
-Hello everyone, and welcome to The CarpentriesMaintainer Onboarding.  We are very pleased to have you with us.
+Hello everyone, and welcome to The Carpentries Maintainer Onboarding.  We are very pleased to have you with us.
 
 > ## Introductions
 > 
