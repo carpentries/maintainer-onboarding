@@ -40,8 +40,9 @@ keypoints:
 ## Code of Conduct
 
 To make clear what is expected, everyone participating in The Carpentries activities is required
-to conform to our [Code of Conduct]({{ site.coc }}). This Code of Conduct applies to all spaces managed by The Carpentries including, but not limited to workshops, email lists, online forums and on GitHub. Please review
-[the Code of Conduct]({{ site.coc }}) to familiarise yourself with it.
+to conform to our [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). 
+This Code of Conduct applies to all spaces managed by The Carpentries including, but not limited to workshops, email lists, online 
+forums and on GitHub. Please review the Code of Conduct to familiarise yourself with it.
 
 ## Introductions
 
