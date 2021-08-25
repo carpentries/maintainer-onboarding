@@ -33,7 +33,7 @@ keypoints:
 
 > ## Sign In
 >
-> Ask participants to sign in with their name, pronouns, institution, background, lesson assigned, and 
+> Ask participants to sign in with their name, pronouns, institution, lesson assigned, and 
 > potentially a short icebreaker question (“Tell us one good thing that happened in the past week.”) in the course's shared notes.
 {: .challenge}
 
@@ -46,8 +46,7 @@ forums and on GitHub. Please review the Code of Conduct to familiarise yourself 
 
 ## Introductions
 
-Hello everyone, and welcome to The Carpentries
-Maintainer Onboarding.  We are very pleased to have you with us.
+Hello everyone, and welcome to The CarpentriesMaintainer Onboarding.  We are very pleased to have you with us.
 
 > ## Introductions
 > 
