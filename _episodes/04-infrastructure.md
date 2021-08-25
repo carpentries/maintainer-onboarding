@@ -84,7 +84,7 @@ We will now practice using the recommended workflow for pushing and pulling to a
 You will be assigned to a breakout group of 2-3 people. Once you are in breakout rooms, decide who will play 
 the role of the Maintainer ("M"), and who will be the contributor ("C"). 
 
-> ## Working on the `gh-pages` branch
+> ## Working on the `gh-pages` branch (10 minutes)
 >
 > 1. M: Create a repository: `<date>-collab-example` and create it with at least a `README.md` file so the repository is not completely empty.
 > 1. M: Add C as a collaborator under the repository settings.
@@ -96,7 +96,7 @@ the role of the Maintainer ("M"), and who will be the contributor ("C").
 > 7. M + C: someone will have a merge conflict
 {: .challenge} 
 
-> ## Working on a new branch
+> ## Working on a new branch (15 minutes)
 > 
 > 1. Make sure that your local version is up-to-date: `git pull origin gh-pages`
 > 2. Create a new branch: `git checkout -b BRANCH_NAME` or `git switch -c BRANCH_NAME`
