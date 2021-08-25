@@ -39,7 +39,7 @@ though, as it's a good way to get to know other Maintainers.
 ### Maintainer co-working corrals
 
 On the first Wednesday of each month, we get together for a co-working session. This is a good time to get input
-from other Maintainers, and from the Maintainer Community Lead (Daniel Chen), on difficult or tricky issues. Co-working
+from other Maintainers, and from the Maintainer Community Lead, on difficult or tricky issues. Co-working
 with Maintainers on other lessons also provides you with a broader overall vision of The Carpentries curriculum stack. It's
 a great opportunity to engage in lateral knowledge transfer and community learning!
 
@@ -96,7 +96,7 @@ The majority of day-to-day interactions with your co-Maintainers will be on GitH
 `@` mention an individual Maintainer, your lesson team, and / or your Curriculum Advisory
 Committee to ensure that the appropriate person sees your message. Feel free also to `@` The Carpentries
 Curriculum Team (Toby Hodges, Erin Becker, François Michonneau, Zhian Kamvar, Michael Culshaw-Maurer) using `@staff-curriculum` and 
-the Maintainer Community Lead, Daniel Chen, using `@chendaniely`.
+the Maintainer Community Lead.
 
 > ## Tagging in your Lesson Team
 > Each group of Maintainers is associated with a GitHub team. You can find the name of your team below:
