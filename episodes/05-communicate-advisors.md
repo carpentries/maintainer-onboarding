@@ -65,10 +65,10 @@ Maintainers and other community members can bring issues for consideration.
 > ## Which strategy? (5 minutes)
 > Match the issue with the correct strategy for resolving it. 
 > 
-> a) Needs elevation to CAC
-> b) Simple fix by a single Maintainer without review
-> c) Put in a PR and wait for another Maintainer to review
-> d) Raise the issue for conversation at Maintainer co-working corral or on email list
+> 1. Needs elevation to CAC
+> 1. Simple fix by a single Maintainer without review
+> 1. Put in a PR and wait for another Maintainer to review
+> 1. Raise the issue for conversation at Maintainer co-working corral or on email list
 > 
 > - [Adding use of GitHub or Git Lab in the Prerequisites](https://github.com/swcarpentry/python-novice-gapminder/issues/557)
 > - [Reorganisation of lesson](https://github.com/swcarpentry/python-novice-gapminder/issues/548)
