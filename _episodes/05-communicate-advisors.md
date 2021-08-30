@@ -25,7 +25,7 @@ is complimented by the Curriculum Advisory Committee (CAC) for
 each curriculum. Curriculum Advisors provide high-level oversight, vision, and leadership 
 for a curriculum and guide large-scale updates.
 
-The [CAC Consultation Rubric](https://docs.google.com/document/d/1ifrEbkqqBK0Nc6A6HlcWtiu_SjOoFbc-HjfWkLk9nJA/edit) outlines the division of
+The [CAC Consultation Rubric](https://docs.carpentries.org/topic_folders/lesson_development/cac-consult-rubric.html) outlines the division of
 responsibilities for Maintainers and Curriculum Advisors, including
 - issues over which Maintainers have full authority and which do not need CAC involvement,
 - issues about which Maintainers should consult the CAC,
