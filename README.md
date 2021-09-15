@@ -10,7 +10,7 @@ It will familiarize them with our process, the social aspects of dealing with co
 **Maintainer(s):**
 
 * [Erin Becker](mailto:ebecker@carpentries.org)
-
+* [Daniel Chen](mailto:chendaniely@gmail.com)
 
 
 [swc-site]: http://software-carpentry.org
