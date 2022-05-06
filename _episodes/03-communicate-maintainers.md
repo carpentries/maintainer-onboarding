@@ -4,7 +4,7 @@ teaching: 25
 exercises: 10
 questions:
 - "How do I get in touch with other Maintainers?"
-- "What resources exist for supporting me in this new role?"
+- "What resources exist for supporting me in this role?"
 objectives:
 - "Join the appropriate communication channels to stay connected with fellow Maintainers."
 - "Know how to get in touch with others in The Carpentries who support Maintainers."
