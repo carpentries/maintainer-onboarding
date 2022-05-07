@@ -20,17 +20,11 @@ There are two opportunities to connect with the overall Maintainer team each mon
 
 ### Maintainer meetings
 
-We meet virtually on the third Wednesday of each month at two different time slots. You can add these meetings to your
-calendar either by 
-- subscribing to The Carpentries [community calendar](https://carpentries.org/community/#community-events) and
-copying events to your Google Calendar, or 
-- clicking the TimeandDate links on the Maintainers [CodiMD pad](https://codimd.carpentries.org/maintainers?both) to convert
-the events to your local time, and adding to your calendar manually. 
-We will take time to do this together momentarily. 
+We meet virtually on the third Wednesday of each month at two different time slots. We will take time together to add these meetings to your calendar in a moment. 
 
 Our monthly Maintainer meetings are an excellent place to connect with the broader Maintainer community, engage in discussions
 around topics of interest to Maintainers (including open Requests for Comment (RFCs)), and stay informed about upcoming 
-work by other sub-communities or committees that may impact lesson maintanence. 
+work by other parts of The Carpentries community that may impact lesson maintenance. 
 
 We recognize that not everyone can attend these monthly meetings, and so also communicate important information through 
 our main TopicBox and Slack channels. So don't worry if you can't attend! We do strongly encourage joining from time to time, 
@@ -59,8 +53,8 @@ meetings to join the co-working corrals, and vice versa. All Maintainers are wel
 {: .challenge}
 
 In addition to these monthly opportunities to connect across the broad Maintainer community, you are encouraged to
-set up regular check-ins with your lesson team. The next section will provide more information about how to stay
-in touch with both the overall Maintainer community and your specific lesson team. 
+set up regular check-ins with the co-Maintainers for your lesson. The next section will provide more information about how to stay
+in touch with both the overall Maintainer community and your co-Maintainers. 
 
 ## Asynchronous communications
 
@@ -74,20 +68,20 @@ relevant to the full Maintainer team, including reminders about upcoming meeting
 questions or introducing topics for discussion are extremely welcome, but our Slack channel does seem to be a more active
 place for back-and-forth discussion.
 
-A few lists exist around specific curricula (search for lists starting with "curriculum", but most have not been very active. 
+A few lists exist around specific curricula (search for lists starting with `curriculum`, but most have not been very active. 
 If you would like to have a public TopicBox list created for discussions of your lesson, or a private list for your Maintainer 
-team, please [let Erin know](mailto: ebecker@carpentries.org). 
+team, please [let us know](mailto: team@carpentries.org). 
 
 ### Slack
 
 To be added to our private Maintainers channel on Slack, you will need to 
 [join The Carpentries organisation](https://swc-slack-invite.herokuapp.com/). 
-Our general Maintainers channel is a good place to ask questions of the full Maintainers team, or request input
-on specific issues/PRs. Most curricula also have a public Slack channel for discussing issues with the community (browse 
+Our general Maintainers channel is a good place to ask questions of the full Maintainer team, or request input
+on specific issues and PRs. Most curricula also have a public Slack channel for discussing issues with the community (browse 
 for channels starting with `dc`, `lc`, or `swc`). Specific curriculum channels have not historically been very active, 
 but we encourage any efforts to increase interaction with the community on these channels. You can also use curriculum-specific
-channels for communicating with your lesson team, or you can create a private channel for yourself and your co-Maintainers. 
-If you would like a private channel to be created for you, please [let Erin know](mailto: ebecker@carpentries.org).
+channels for communicating with your co-Maintainers, or you can create a private channel for yourself and your co-Maintainers. 
+If you would like a private channel to be created for you, please [let us know](mailto: team@carpentries.org).
 
 ### GitHub
 
@@ -96,7 +90,7 @@ The majority of day-to-day interactions with your co-Maintainers will be on GitH
 `@` mention an individual Maintainer, your lesson team, and / or your Curriculum Advisory
 Committee to ensure that the appropriate person sees your message. Feel free also to `@` The Carpentries
 Curriculum Team (Toby Hodges, Erin Becker, François Michonneau, Zhian Kamvar, Michael Culshaw-Maurer) using `@staff-curriculum` and 
-the Maintainer Community Lead.
+the Maintainer Community Lead (`@vinisalazar`).
 
 > ## Tagging in your Lesson Team
 > Each group of Maintainers is associated with a GitHub team. You can find the name of your team below:
@@ -109,8 +103,7 @@ the Maintainer Community Lead.
 {: .callout}
 
 > ## What is your lesson team's name? (3 minutes)
-> Find your lessson team's name and add it to the Etherpad. Note: After you complete this onboarding, Erin will
-> add you to the appropriate lesson team. You will need to accept the invitation to join the team.
+> Find your lesson team's name and add it to the Etherpad.
 {: .challenge}
 
 > ## Tagging in the Curriculum Team 
@@ -121,9 +114,9 @@ the Maintainer Community Lead.
 
 We also highly recommend subscribing to the
 [Maintainer RFC (request for comments) repository](https://github.com/carpentries/maintainer-RFCs/). This repository is
-the primary platform for asynchronous discussion and feedback from the Maintainer community on issues affecting Maintainers
+the primary platform for discussion and feedback from the Maintainer community on issues affecting Maintainers
 as a whole. We try to remember to announce new RFCs on TopicBox and Slack, but staying subscribed here will allow you to see
-other's comments as they come in. To leave your feedback on an existing RFC, go to Issues and leave a comment. We also
+others' comments as they come in. To leave your feedback on an existing RFC, go to [Issues](https://github.com/carpentries/maintainer-RFCs/issues) and leave a comment. We also
 discuss RFCs at monthly Maintainer meetings to allow for a more nuanced back-and-forth conversation. 
 
 ## General Carpentries News
@@ -138,7 +131,7 @@ one or more of the following channels:
 
 If you would **really** like to keep up to date on **everything** that is happening, The Carpentries maintains a variety of
 [mailing lists on TopicBox](https://carpentries.topicbox.com) and over 100 [Slack channels](https://carpentries.org/connect/#slack), 
-including spaces dedicated to discussion of particular curricula, connecting local and regional groups, and job opportunites.
+including spaces dedicated to discussion of particular curricula, connecting local and regional groups, and job opportunities.
 
 > ## Subscribe! (5 minutes)
 > That's a lot of communication channels! You don't need to subscribe to everything. The list below summarizes
@@ -158,17 +151,18 @@ including spaces dedicated to discussion of particular curricula, connecting loc
 
 > ## Introduce Yourself (2 minutes)
 > While folks are working on subscribing to the channels above, 
-> Erin will add you to the private Maintainers Slack channel. 
+> I will add you to the private Maintainers Slack channel. 
 > Please introduce yourself on that channel, including what lesson you will be maintaining.
 {: .challenge} 
 
 > ## Maintainer Capacity
-> Signing on as a Maintainer is not a lifelong commitment! The Carpentries recognises that
+> Signing on as a Maintainer is not a lifelong commitment! The Carpentries recognizes that
 > this is a volunteer role and is committed to supporting your mental and emotional health. 
 > You are always free to step down from the Maintainer role, either permanently or to take a 
 > break. If you plan to take a short break (a couple of weeks), please let your co-Maintainers know.
 > For longer breaks (a few months or longer), or if you would like to step down
-> permanently, please notify the Curriculum Team so we can find someone else to support the lesson.
+> permanently, please notify the Curriculum Team by emailing team@carpentries.org
+> so we can find someone else to support the lesson.
 > 
 > This also applies in reverse! If you are not able to get in touch with at least one other Maintainer
 > for your lesson, please get in touch with the Curriculum Team. We may need to find more Maintainers to

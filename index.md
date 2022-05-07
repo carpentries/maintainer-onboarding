@@ -4,10 +4,10 @@ root: .
 permalink: index.html
 ---
 
-Welcome to The Carpentries Maintainer onboarding! By keeping the
-lessons running smoothly and making sure that they conform
-to The Carpentries pedagogical model, Maintainers form the
-backbone of The Carpentries community. This training is 
+Welcome to The Carpentries Maintainer onboarding! Maintainers form the
+backbone of The Carpentries community by keeping the
+lessons running smoothly and making sure they conform
+to The Carpentries pedagogical model. This training is 
 designed to prepare new Maintainers for this role, including:
 
 - Communicating with Contributors: Maintainers facilitate collaboration on lesson
@@ -17,14 +17,14 @@ prominent role in representing The Carpentries community online.
 You will develop skills for creating a positive environment for all contributors.
 
 - Communicating with other Maintainers: As a new Maintainer,
-you are part of a large team supporting over 40 official lessons. You will learn how to 
+you are part of a large team supporting 48 official lessons. You will learn how to 
 connect with other Maintainers, The Carpentries Curriculum
-Team, and the Maintainer Community Lead for advice and support. You will also learn
-about the role of the Curriculum Advisory Committees, and
-how lesson Maintianers and Curriculum Advisors work together to support the lessons.
+Team, and the Maintainer Community Lead for advice and support. 
 
-- Interacting with the technical infrastructure: Maintainers ensure that lessons
+- Infrastructure for Lesson Maintenance: Maintainers ensure that lessons
 have a consistent look and feel by following styling guidelines and
 formatting conventions. You will become familiar with key components of The Carpentries 
-lesson template and practice core technical skills for lesson maintanence through GitHub.
+lesson template and practice core technical skills for lesson maintenance through GitHub.
+
+- Communicating with Curriculum Advisors: You will learn about the role of Curriculum Advisors, and how lesson Maintainers and Curriculum Advisors work together to support the lessons.
 
