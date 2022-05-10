@@ -65,8 +65,8 @@ Maintainers and other community members can bring issues for consideration. More
 > 1. Put in a PR and wait for another Maintainer to review
 > 1. Raise the issue for conversation at Maintainer co-working corral or on email list
 > 
-> - [Adding use of GitHub or Git Lab in the Prerequisites](https://github.com/swcarpentry/python-novice-gapminder/issues/557)
-> - [Reorganisation of lesson](https://github.com/swcarpentry/python-novice-gapminder/issues/548)
-> - [Using bwa mem instead of bwa aln in 02-variant_calling.md](https://github.com/datacarpentry/wrangling-genomics/issues/111)
-> - [Error in 04-regular-expressions intro section](https://github.com/LibraryCarpentry/lc-data-intro/issues/111)
+> - [RStudio installer versioning](https://github.com/datacarpentry/R-ecology-lesson/issues/791)
+> - [A small change in the episode "Finding Things"](https://github.com/swcarpentry/shell-novice/issues/1294)
+> - [Move Backing Up with SQL to the top of the Creating tables... episode?](https://github.com/LibraryCarpentry/lc-sql/issues/135)
+> - [Update to the spatial packages lifecycle: migrate to use sf, terra, and stars](https://github.com/datacarpentry/r-raster-vector-geospatial/issues/363)
 {: .challenge}
