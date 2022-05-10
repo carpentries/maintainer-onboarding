@@ -98,7 +98,7 @@ section on ["learning to say no"](https://opensource.guide/best-practices/#learn
 > ## Practice Saying No (10 minutes)
 > Choose one of the open issues linked below. Compose a 2-3 sentence response that follows the guidelines above. 
 > Add your response to the Etherpad.
-> * ADD 
+> * [Adding contents related to personal/lab server](https://github.com/datacarpentry/cloud-genomics/issues/111)
 > * OPTIONS
 > * HERE
 >> ## Examples
