@@ -69,7 +69,7 @@ and you can `git push origin gh-pages`.
 > 
 > As more changes come in from other contributors and accepted by you or other Maintainers,
 > the forked repository (bottom right) and your own local copy (bottom left) will be out of sync.
-> You won't be able to "fork" the original `carpentries/repo` again, so you will need to set the original `carpentries/repo` as
+> You will not be able to "fork" the original `carpentries/repo` again, so you will need to set the original `carpentries/repo` as
 > *another* remote to get things synced up.
 > You do this by adding the original `carpentries/repo` repository as another remote, typically named `upstream` (see blue text).
 > To synchronise the work to your local and remote copy, you will `git pull upstream gh-pages` to get the upstream changes (see green label 6),
