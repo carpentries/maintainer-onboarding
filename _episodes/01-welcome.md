@@ -109,7 +109,7 @@ become a Carpentries Maintainer. During this training, we will:
 
 ## What This Onboarding Does Not Cover
 
-The Carpentries supports 48 official lessons across our three Lesson Programs (Data Carpentry, Library Carpentry, and Software Carpentry). 
+The Carpentries supports over 40 official lessons across our three Lesson Programs (Data Carpentry, Library Carpentry, and Software Carpentry). 
 At any given time, there are also dozens of community-supported lessons in active development in 
 [The Carpentries Incubator](https://carpentries-incubator.org/). This training is intended for Maintainers of official lessons, and we will 
 not cover how new lessons are developed, vetted, and adopted into The Carpentries core lesson stack. Those interested in curriculum 
