@@ -18,7 +18,6 @@ keypoints:
 
 ## Maintainers and Forked Repositories
 
-Congratulations! You're a lesson Maintainer!
 If this is the first time you are maintaining a project where you and other people are going to be submitting changes
 there are two perspectives you need to keep in mind:
 one of the "contributor" and one of the "maintainer".
@@ -26,7 +25,7 @@ one of the "contributor" and one of the "maintainer".
 - Contributors: cannot directly `push` code to the repository
 - Maintainers: *can* directly `push` code to the repository
 
-![](../fig/git-maintainer_contributor_diagram.png)
+![Diagram illustrating workflows for pushing and pulling to a remote for Maintainers and contributors.](../fig/git-maintainer_contributor_diagram.png)
 
 ### Our recommended workflow: Pushing and pulling to a remote (non-fork)
 
@@ -34,25 +33,25 @@ The
 [Software Carpentry Git lesson](https://swcarpentry.github.io/git-novice/) and
 [Library Carpentry Git lesson](https://librarycarpentry.org/lc-git/)
 show you how you can interact with a repository from an owner and Maintainer point of view
-because you are allowed to `push` directly to your project on GitHub (see label 1)
+because you are allowed to `push` directly to your project on GitHub (see label 1).
 
 As a Maintainer to one of our lessons,
 you will be able to interact with the lesson just like it was your own repository (see label 1).
 The only difference is the account the repository is under.
-So instead of `username/repo` it will be something along the lines of `carpentries/repo`.
+So instead of `username/repo` it will be something like `carpentries/repo`.
 This means when you get the `git clone` url, you will have to get it from the `carpentries/repo` location,
 not your own.
 
 In this setup, since you are `clone`ing down from the original `carpentries` repo,
 the remote will be your `origin`.
-This is same workflow as if you are working on your own personal repository,
+This is the same workflow as if you are working on your own personal repository,
 and you can `git push origin gh-pages`.
 
 > ## An alternative workflow: Pushing and pulling to a remote (fork)
 > 
 > Some Maintainers choose to work using the forking model of collaboration.
 > Even though they have access to the original "upstream" Carpentries repository,
-> they will make a "fork" of the Carpentries repository so they have a copy (i.e., fork) in their own account
+> they will make a "fork" of The Carpentries repository so they have a copy (i.e., fork) in their own account
 > (see label 2).
 > Using this workflow gives you (the Maintainer) the same workflow as any other contributor to your lesson
 > (since contributors will also need to work on a fork).
@@ -68,13 +67,13 @@ and you can `git push origin gh-pages`.
 > because as a Maintainer you will have the repository permissions (in `carpentries/repo`)
 > to accept the PR (see label 5).
 > 
-> As more changes come in and get accepted, from other contributors and accepted by you or other Maintainers,
-> the forked repository (bottom right quadrant) and your own local copy (bottom left quadrant) will be out of sync.
-> You won't be able to "fork" the original `carpentries/repo` again, so you will need to set the original `carpentries/repo` as
+> As more changes come in from other contributors and accepted by you or other Maintainers,
+> the forked repository (bottom right) and your own local copy (bottom left) will be out of sync.
+> You will not be able to "fork" the original `carpentries/repo` again, so you will need to set the original `carpentries/repo` as
 > *another* remote to get things synced up.
 > You do this by adding the original `carpentries/repo` repository as another remote, typically named `upstream` (see blue text).
-> To syncronise the work so your local and remote copy, you will `git pull upstream gh-pages` to get the upstream changes (see green label 6),
-> and then `git push origin gh-pages` to synconise your own forked remote (i.e., GitHub) copy.
+> To synchronise the work to your local and remote copy, you will `git pull upstream gh-pages` to get the upstream changes (see green label 6),
+> and then `git push origin gh-pages` to synchronise your own forked remote (i.e., GitHub) copy.
 {: .callout}
 
 ## Practice using the recommended workflow
@@ -86,7 +85,7 @@ the role of the Maintainer ("M"), and who will be the contributor ("C").
 
 > ## Working on the `gh-pages` branch (10 minutes)
 >
-> 1. M: Create a repository: `<date>-collab-example` and create it with at least a `README.md` file so the repository is not completely empty.
+> 1. M: Create a repository: `<date>-collab-example` and initialise it with a `README.md` file so the repository is not completely empty.
 > 1. M: Add C as a collaborator under the repository settings.
 > 2. C: Accept the collaboration invitation (check your e-mail)
 > 3. M + C: `clone` the repository to your local machine
@@ -153,9 +152,9 @@ the [lesson-example repository](https://carpentries.github.io/lesson-example/).
 
 The lesson homepage is built from the `index.md` file and
 provides an overview of the lesson, including
-any prequisites, an introduction to the
+any prerequisites, an introduction to the
 dataset used, a schedule showing
-the episodes and the time alloted for each, and any other
+the episodes and the time allotted for each, and any other
 information learners will need for the lesson.
 
 The schedule will automatically be included in the lesson homepage based on information present in the

@@ -19,7 +19,7 @@ keypoints:
 > ## Pronouns and Names
 > 
 > Using correct names and pronouns is important to setting a tone of respect. Learning these is hard to
-> do quickly, so we recommend displaying it prominently during the workshop. 
+> do quickly, so we recommend displaying it prominently during the training. 
 > 
 > If on Zoom, give everyone a moment to update their display name to reflect this information. 
 > 
@@ -113,27 +113,27 @@ The Carpentries supports over 40 official lessons across our three Lesson Progra
 At any given time, there are also dozens of community-supported lessons in active development in 
 [The Carpentries Incubator](https://carpentries-incubator.org/). This training is intended for Maintainers of official lessons, and we will 
 not cover how new lessons are developed, vetted, and adopted into The Carpentries core lesson stack. Those interested in curriculum 
-development are encouraged to read The Carpentries [Curriculum Development Handbook](https://cdh.carpentries.org/). 
+development are encouraged to read The Carpentries [Curriculum Development Handbook](https://cdh.carpentries.org/). Limited opportunities for training in collaborative lesson development may also be available - read [this blog post](https://carpentries.org/blog/2022/04/lesson-development-training-pilot/) for opportunities in June and July 2022. 
 
 We do not expect you to be an expert in Git or GitHub, or even to have used these tools at all in the past. We will provide you with
 an introduction to the core skills you need to respond to uncomplicated issues and pull requests, 
-however, there will undoubtedly be more complicated maintanence situations that require Git skills beyond what we will cover in this training. 
+however, there will undoubtedly be more complicated maintenance situations that require Git skills beyond what we will cover in this training. 
 The best way to learn Git is to work with it, and we encourage you to reach out to your co-Maintainers and others in the Maintainer community
 for support and resources. We have regular co-working sessions where you can bring questions to the group, and also provide each other
 support in asynchronous communication channels. We'll introduce those channels momentarily. 
-The Software-Carpentry [Git Novice lesson](https://swcarpentry.github.io/git-novice/) is also a great resource for learning and reviewing the basics you will need to maintain your lesson.
+The Software Carpentry [Git Novice lesson](https://swcarpentry.github.io/git-novice/) and the Library Carpentry [Introduction to Git lesson](https://librarycarpentry.org/lc-git/) are also great resources for learning and reviewing the basics you will need to maintain your lesson.
 
-## Goals for Lesson Maintanence
+## Goals for Lesson Maintenance
 
 The Carpentries teaches 400 - 600 workshops each year, meaning our lesson materials are being used practically every day for
-synchronous, guided learning. Making sure our lessons keep working uninteruptedly is therefore our number one goal for maintanence.
+synchronous, guided learning. Making sure our lessons keep working without interruptions is therefore our number one goal for maintenance.
 
-A secondary (but still extremely important!) goal is ensuring that the spaces we use for lesson development and maintanence
+A secondary (but still extremely important!) goal is ensuring that the spaces we use for lesson development and maintenance
 are just as welcoming and inclusive as our workshops. 
 
 Ensuring that our lessons are on the cutting-edge of new technology and tooling is *not* a priority for The Carpentries. Although
 we do want our materials to stay relevant, and we will talk about how we do that later, it is far more important that our lessons
-remain pedagogically sound and technically viable than that they represent the latest and greatest new developments in the field.
+remain pedagogically sound and technically viable, than that they represent the latest and greatest new developments in the field.
 
 With these goals in mind, The Carpentries expectations of Maintainers are that you:
 
@@ -156,5 +156,5 @@ With these goals in mind, The Carpentries expectations of Maintainers are that y
 > Why are you becoming a Maintainer? What goals do you have for this training?
 {: .challenge}
 
-Next, will explore in more detail who contributes to The Carpentries lessons, what kinds of contributions you
+Next, we will explore in more detail who contributes to The Carpentries lessons, what kinds of contributions you
 can expect to receive, and how to apply The Carpentries [Core Values](https://carpentries.org/values/) to communicating with contributors. 

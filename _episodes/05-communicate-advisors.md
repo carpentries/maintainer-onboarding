@@ -11,16 +11,16 @@ objectives:
 - "Gain confidence in merging simple PRs independently." 
 - "Know when and how to contact Curriculum Advisors."
 keypoints:
-- "The CAC consultation rubric outlines division of responsibilities between Maintainers and Curriculum Advisors."
+- "The Curriculum Advisory Committee consultation rubric outlines division of responsibilities between Maintainers and Curriculum Advisors."
 ---
 
 Your lesson is part of an overall curriculum within a Lesson Program. For example
 the [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/) lesson
 is part of the [Genomics curriculum](https://datacarpentry.org/genomics-workshop/), 
 which is part of the Data Carpentry Lesson Program. Data Carpentry has several curricula, 
-while Library Carpentry and Software Carpentry have a single curriculum. 
+while Library Carpentry and Software Carpentry each have a single curriculum. 
 
-The work that Maintainers do on day-to-day upkeep of the lessons
+The work that Maintainers do on routine upkeep of the lessons
 is complimented by the Curriculum Advisory Committee (CAC) for 
 each curriculum. Curriculum Advisors provide high-level oversight, vision, and leadership 
 for a curriculum and guide large-scale updates.
@@ -32,23 +32,19 @@ responsibilities for Maintainers and Curriculum Advisors, including
 - issues that may benefit from Maintainers consulting with the CAC, but over which Maintainers retain authority, and 
 - issues for which Maintainers must seek CAC approval.
 
-Curriculum Advisory Committees have been on hiatus from mid-2019 until present. 
-As of September 2021, we will be recruiting new Curriculum Advisors for the following curricula:
+Curriculum Advisory Committees exist for the following curricula: 
+- Data Carpentry Astronomy
+- Data Carpentry Geospatial
+- Data Carpentry Genomics
+- Library Carpentry
+- Software Carpentry
 
-- [Software Carpentry](https://carpentries.org/workshops-curricula/#swc-all)
-- [Data Carpentry Ecology](https://carpentries.org/workshops-curricula/#dc-ecology)
-- [Data Carpentry Geospatial](https://carpentries.org/workshops-curricula/#dc-geospatial)
-- [Data Carpentry Genomics](https://carpentries.org/workshops-curricula/#dc-genomics)
-- [Data Carpentry Social Sciences](https://carpentries.org/workshops-curricula/#dc-socialsci)
-- [Data Carpentry Image Processing](https://datacarpentry.org/image-processing/)
-- [Data Carpentry Astronomy](https://datacarpentry.org/astronomy-python/)
+In mid-2022, we will be recruiting Curriculum Advisors for the following curricula:
+- Data Carpentry Ecology
+- Data Carpentry Social Sciences
+- Data Carpentry Image Processing
 
-The [Library Carpentry Curriculum Advisory Committee](https://librarycarpentry.org/cac/) has 
-already been assembled. 
-
-Each CAC should include at least one Maintainer, and we encourage you to apply. The application
-will be shared on the official Maintainer channels in early September. CACs should start 
-to meet in October - November 2021.
+Each CAC includes at least one Maintainer, and we encourage you to apply for your curriculum's CAC when applications open.  
 
 > ## Urgent Issues
 > If any urgent issues arise which would normally be under the authority of the CAC,
@@ -56,11 +52,10 @@ to meet in October - November 2021.
 > the Curriculum Team for support and assistance. 
 {: .callout}
 
-Once the Curriculum Advisory Committee for your lesson is convened, you can
-tag them in on an issue using their team name. The CAC chair will be watching the
-repository and responsible for serving as a liaison with the curriculum's Maintainers. 
-Each Curriculum Advisory Committee will also have a public TopicBox list, where
-Maintainers and other community members can bring issues for consideration.
+You can tag in your Curriculum Advisory Committee on an issue in your lesson repository using their team name (e.g. "@datacarpentry/curriculum-advisors-astronomy" or "@LibraryCarpentry/curriculum-advisors"). The CAC chair is responsible for watching the
+repository and serving as a liaison with the curriculum's Maintainers. 
+Each Curriculum Advisory Committee also has a public TopicBox list, where
+Maintainers and other community members can bring issues for consideration. More information about each CAC, including mailing list and GitHub repositories, is available on the [Curriculum Advisors homepage](https://carpentries.org/curriculum-advisors/). 
 
 > ## Which strategy? (5 minutes)
 > Match the issue with the correct strategy for resolving it. 
@@ -70,8 +65,8 @@ Maintainers and other community members can bring issues for consideration.
 > 1. Put in a PR and wait for another Maintainer to review
 > 1. Raise the issue for conversation at Maintainer co-working corral or on email list
 > 
-> - [Adding use of GitHub or Git Lab in the Prerequisites](https://github.com/swcarpentry/python-novice-gapminder/issues/557)
-> - [Reorganisation of lesson](https://github.com/swcarpentry/python-novice-gapminder/issues/548)
-> - [Using bwa mem instead of bwa aln in 02-variant_calling.md](https://github.com/datacarpentry/wrangling-genomics/issues/111)
-> - [Error in 04-regular-expressions intro section](https://github.com/LibraryCarpentry/lc-data-intro/issues/111)
+> - [RStudio installer versioning](https://github.com/datacarpentry/R-ecology-lesson/issues/791)
+> - [A small change in the episode "Finding Things"](https://github.com/swcarpentry/shell-novice/issues/1294)
+> - [Move Backing Up with SQL to the top of the Creating tables... episode?](https://github.com/LibraryCarpentry/lc-sql/issues/135)
+> - [Update to the spatial packages lifecycle: migrate to use sf, terra, and stars](https://github.com/datacarpentry/r-raster-vector-geospatial/issues/363)
 {: .challenge}
