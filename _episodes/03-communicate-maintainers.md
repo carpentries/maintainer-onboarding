@@ -156,7 +156,7 @@ including spaces dedicated to discussion of particular curricula, connecting loc
 {: .challenge} 
 
 > ## Maintainer Capacity
-> Signing on as a Maintainer is not a lifelong commitment! The Carpentries recognizes that
+> Signing on as a Maintainer is not a lifelong commitment! The Carpentries recognises that
 > this is a volunteer role and is committed to supporting your mental and emotional health. 
 > You are always free to step down from the Maintainer role, either permanently or to take a 
 > break. If you plan to take a short break (a couple of weeks), please let your co-Maintainers know.
