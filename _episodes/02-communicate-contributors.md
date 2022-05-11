@@ -74,10 +74,10 @@ Spending some time cleaning up your lesson's help wanted list in your first few 
 you and your co-Maintainers time in the long term and help ensure higher-quality contributions.
 
 Despite our best efforts in encouraging the types of contributions listed above, you will also receive unwanted or unhelpful contributions, including:
-- addition of new material covering topics outside of the scope of the lesson
-- changes to the way a topic is presented that are inconsistent with The Carpentries pedagogical model
-- changes to the technology taught in the lesson (e.g. introduction of a new plotting system)
-- multiple unrelated suggestions
+- addition of new material covering topics outside of the scope of the lesson;
+- changes to the way a topic is presented that are inconsistent with The Carpentries pedagogical model;
+- changes to the technology taught in the lesson (e.g. introduction of a new plotting system);
+- multiple unrelated suggestions.
 
 These contributions may come in the form of an issue or a PR. Being open to new contributions while keeping the lessons sleek and
 teachable is a difficult balancing act. It's ok to say no to a
@@ -88,10 +88,10 @@ interactions with contributors and let them know that their
 involvement is valued. GitHub's OpenSource Guide on "Best Practices for Maintainers" includes a
 section on ["learning to say no"](https://opensource.guide/best-practices/#learning-to-say-no). They recommend that you:
 
-- **Thank them** for their contribution
+- **Thank them** for their contribution.
 - **Explain why it doesn’t fit** into the scope of the project, and offer clear suggestions for improvement, if you’re able. Be kind, but firm.
 - **Link to relevant documentation,** if you have it. If you notice repeated requests for things you don’t want to accept, add them into your documentation to avoid repeating yourself.
-- **Close the request**
+- **Close the request.**
 
 > Content based on [github.com/github/opensource.guide](https://github.com/github/opensource.guide) used under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
@@ -101,12 +101,12 @@ section on ["learning to say no"](https://opensource.guide/best-practices/#learn
 > * [Adding contents related to personal/lab server](https://github.com/datacarpentry/cloud-genomics/issues/111)
 > * OPTIONS
 > * HERE
+>
 >> ## Examples
 >> The issues linked below are good examples of Maintainers saying "no" politely. 
 >> * [lc-shell - email submission: suggest adding Hello World](https://github.com/LibraryCarpentry/lc-shell/issues/143)
 >> * [swc-git - Lesson Contribution - Additional Commands](https://github.com/swcarpentry/git-novice/issues/765)
->> * [swc-r-novice-inflammation - Additional exercise for "Using loops" challenge](https://github.com/swcarpentry/r-novice-inflammation/pull/168)
->> 
+>> * [swc-r-novice-inflammation - Additional exercise for "Using loops" challenge](https://github.com/swcarpentry/r-novice-inflammation/pull/168) 
 > {: .solution}
 {: .challenge}
 
