@@ -85,7 +85,7 @@ the role of the Maintainer ("M"), and who will be the contributor ("C").
 
 > ## Working on the `gh-pages` branch (10 minutes)
 >
-> 1. M: Create a repository: `<date>-collab-example` and initialize it with a `README.md` file so the repository is not completely empty.
+> 1. M: Create a repository: `<date>-collab-example` and initialise it with a `README.md` file so the repository is not completely empty.
 > 1. M: Add C as a collaborator under the repository settings.
 > 2. C: Accept the collaboration invitation (check your e-mail)
 > 3. M + C: `clone` the repository to your local machine
