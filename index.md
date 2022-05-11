@@ -17,7 +17,7 @@ prominent role in representing The Carpentries community online.
 You will develop skills for creating a positive environment for all contributors.
 
 - Communicating with other Maintainers: As a new Maintainer,
-you are part of a large team supporting 48 official lessons. You will learn how to 
+you are part of a large team supporting over 40 official lessons. You will learn how to 
 connect with other Maintainers, The Carpentries Curriculum
 Team, and the Maintainer Community Lead for advice and support. 
 
