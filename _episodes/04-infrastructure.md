@@ -8,9 +8,9 @@ questions:
 - "How do I accept pull requests?"
 - "What should I know about how the lessons are formatted?"
 objectives:
-- "Understand the structure of the lesson template - know which elements generate the various parts of the lesson page." 
-- "Navigate to the correct file and element to update each section - including instructor notes, setup, questions, timings, learning objectives, key points, and glossary."
-- "Be familiar with the various callout boxes uses in The Carpentries lesson template and be able to use them appropriately." 
+- "Understand the structure of the lesson source repository---know which elements generate the various parts of the lesson page." 
+- "Navigate to the correct file and element to update each section---including instructor notes, setup, questions, timings, learning objectives, key points, and glossary."
+- "Be familiar with the various callout boxes used in Carpentries lessons and be able to use them appropriately."
 keypoints:
 - "Make a branch to create a pull request."
 - "The Carpentries lessons share a consistent style, which is controlled by [styles](https://github.com/carpentries/styles) and documented in the [lesson-example](https://carpentries.github.io/lesson-example/)"
@@ -20,23 +20,25 @@ keypoints:
 
 If this is the first time you are maintaining a project where you and other people are going to be submitting changes
 there are two perspectives you need to keep in mind:
-one of the "contributor" and one of the "maintainer".
+one of the "maintainer" and one of the "contributor".
 
-- Contributors: cannot directly `push` code to the repository
-- Maintainers: *can* directly `push` code to the repository
+- Maintainers: can directly `push` code to the repository
+- Contributors: *cannot* directly `push` code to the repository, and need to create a separate fork
 
 ![Diagram illustrating workflows for pushing and pulling to a remote for Maintainers and contributors.](../fig/git-maintainer_contributor_diagram.png)
 
-### Our recommended workflow: Pushing and pulling to a remote (non-fork)
+### Pushing and pulling directly to the remote repository owned by The Carpentries
 
 The 
 [Software Carpentry Git lesson](https://swcarpentry.github.io/git-novice/) and
 [Library Carpentry Git lesson](https://librarycarpentry.org/lc-git/)
 show you how you can interact with a repository from an owner and Maintainer point of view
-because you are allowed to `push` directly to your project on GitHub (see label 1).
+because you are allowed to `push` directly to your project on GitHub (see label 1 in the above
+diagram).
 
 As a Maintainer to one of our lessons,
-you will be able to interact with the lesson just like it was your own repository (see label 1).
+you will be able to interact with the lesson just like it was your own repository (see label 1 in
+the above diagram).
 The only difference is the account the repository is under.
 So instead of `username/repo` it will be something like `carpentries/repo`.
 This means when you get the `git clone` url, you will have to get it from the `carpentries/repo` location,
@@ -47,12 +49,13 @@ the remote will be your `origin`.
 This is the same workflow as if you are working on your own personal repository,
 and you can `git push origin gh-pages`.
 
+
 > ## An alternative workflow: Pushing and pulling to a remote (fork)
 > 
 > Some Maintainers choose to work using the forking model of collaboration.
 > Even though they have access to the original "upstream" Carpentries repository,
 > they will make a "fork" of The Carpentries repository so they have a copy (i.e., fork) in their own account
-> (see label 2).
+> (see label 2 in the above diagram).
 > Using this workflow gives you (the Maintainer) the same workflow as any other contributor to your lesson
 > (since contributors will also need to work on a fork).
 > 
