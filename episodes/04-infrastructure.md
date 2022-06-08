@@ -55,27 +55,48 @@ and you can `git push origin gh-pages`.
 > Carpentries repository so they have a copy (i.e., fork) in their own account (see label 2 in the
 > above diagram). Using this workflow gives you (the Maintainer) the same workflow as any other
 > contributor to your lesson (since contributors will also need to work on a fork).
+>
+> ### Forking a Repository
+> 
+> To fork a repository on GitHub, you can visit a repository and add `/fork` at the end of the URL
+> or you can click the "fork" button in the top right:
+> 
+> ![Screenshot of the top bar of swcarpentry/git-novice with four buttons on the top right: sponsor,
+> watch, fork, and star](../fig/git-fork-button.png)
 > 
 > Once you fork the repository, there will be the original "upstream" `carpentries/repo` and your
-> own "fork", `username/repo` (see label 2). You can `clone` your `username/repo` down to your
-> computer like any other repository you want to work on locally and push and pull your changes to
-> your remote (label 3). Because the repository you `clone`d from is your own "fork"
-> (`username/repo`), the version in your account that you cloned from is the "origin" repository
-> (see the blue colored "origin" label in the diagram). You can then issue a pull request (PR) to
-> the original `carpentries/repo` repository (see label 4).
+> own "fork", `username/repo` (see label 2). When you visit your fork on the GitHub website, you
+> will see a grey toolbar above the file list that says "This branch is up to date with
+> carpentries/repo:branch."
+>
+> ![Screenshot of grey box above a file list on github that says "This branch is up to date with swcarpentry/git-novice:gh-pages." It has two buttons, one labelled "Contribute" and the other labelled "Fetch Upstream"](../fig/git-fork-updated.png)
+> 
+> You can `clone` your `username/repo` down to your computer like any other repository you want to
+> work on locally and push and pull your changes to your remote (label 3). Because the repository
+> you `clone`d from is your own "fork" (`username/repo`), the version in your account that you
+> cloned from is the "origin" repository (see the blue colored "origin" label in the diagram). You
+> can then issue a pull request (PR) to the original `carpentries/repo` repository (see label 4).
 > 
 > For PRs from non-maintainers you will review these changes and ask for changes if needed. As the
 > Maintainer, you can review and/or accept these PRs (including your own) because as a Maintainer
 > you will have the repository permissions (in `carpentries/repo`) to accept the PR (see label 5).
 > 
+> ### Keeping your fork up-to-date
+>
 > As more changes come in from other contributors and accepted by you or other Maintainers, the
-> forked repository (bottom right) and your own local copy (bottom left) will be out of sync. You
-> will not be able to "fork" the original `carpentries/repo` again, so you will need to set the
-> original `carpentries/repo` as *another* remote to get things synced up. You do this by adding the
-> original `carpentries/repo` repository as another remote, typically named `upstream` (see blue
-> text). To synchronise the work to your local and remote copy, you will `git pull upstream
-> gh-pages` to get the upstream changes (see green label 6), and then `git push origin gh-pages` to
-> synchronise your own forked remote (i.e., GitHub) copy.
+> forked repository (bottom right) and your own local copy (bottom left) will be out of sync. This
+> time, when you visit your fork on GitHub, you will see that GitHub will show you that your branch
+> is `N commits behind` the upstream repository. You can use the "Fetch upstream" button to bring 
+> those changes to your own repository.
+> ![Screenshot of grey box above a file list on github that says "This branch is 2 commits behind
+> with swcarpentry/git-novice:gh-pages." It has two buttons, one labelled "Contribute" and the other
+> labelled "Fetch Upstream". The "Fetch upstream" button has been clicked to reveal a menu that says
+> "Fetch and merge 2 upstream commits from swcarpentry:gh-pages" with subtext that says "Keep your
+> fork up-to-date-with the upstream repository" and a link that says "Learn More" There is a white
+> "compare" button and a green "fetch and merge" button displayed](../fig/git-update-fork.png)
+>
+> **If you wanted to perform this update locally**, you would set the `carpentries/repo` as a new remote
+> called "upstream" and then [pull the changes from upstream](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository#pulling-changes-from-a-remote-repository).
 {: .callout}
 
 ## Practice using the recommended workflow
