@@ -25,7 +25,7 @@ one of the "maintainer" and one of the "contributor".
 - Maintainers: can directly `push` code to the repository
 - Contributors: *cannot* directly `push` code to the repository, and need to create a separate fork
 
-![Diagram illustrating workflows for pushing and pulling to a remote for Maintainers and contributors.](../fig/git-maintainer_contributor_diagram.png)
+![Diagram illustrating workflows for pushing and pulling to a remote for Maintainers and contributors.](../fig/git-maintainer_contributor_diagram.svg)
 
 ### Pushing and pulling directly to the remote repository owned by The Carpentries
 
