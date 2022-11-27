@@ -77,7 +77,7 @@ and you can `git push origin gh-pages`.
 > cloned from is the "origin" repository (see the blue colored "origin" label in the diagram). You
 > can then issue a pull request (PR) to the original `carpentries/repo` repository (see label 4).
 > 
-> For PRs from non-maintainers you will review these changes and ask for changes if needed. As the
+> For PRs from non-maintainers you will [review these changes](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request) and ask for changes if needed. As the
 > Maintainer, you can review and/or accept these PRs (including your own) because as a Maintainer
 > you will have the repository permissions (in `carpentries/repo`) to accept the PR (see label 5).
 > 
