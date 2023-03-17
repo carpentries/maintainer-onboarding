@@ -14,7 +14,7 @@ carpentry: 'cp'
 title: 'Maintainer Onboarding'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created: '2017-12-11'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
@@ -27,7 +27,7 @@ life_cycle: 'stable'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/fishtree-attempt/maintainer-onboarding/'
+source: 'https://github.com/carpentries/maintainer-onboarding'
 
 # Default branch of your lesson
 branch: 'main'
@@ -80,5 +80,4 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: https://preview.carpentries.org/maintainer-onboarding
-workbench-beta: 'true'
+url: 'https://carpentries.github.io/maintainer-onboarding'
