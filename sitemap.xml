@@ -22,7 +22,13 @@
     <loc>https://carpentries.github.io/maintainer-onboarding/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/maintainer-onboarding/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/maintainer-onboarding/index.html</loc>
@@ -49,16 +55,34 @@
     <loc>https://carpentries.github.io/maintainer-onboarding/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/maintainer-onboarding/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/maintainer-onboarding/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/maintainer-onboarding/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/maintainer-onboarding/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/maintainer-onboarding/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/maintainer-onboarding/profiles.html</loc>
