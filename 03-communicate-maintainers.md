@@ -100,7 +100,7 @@ The majority of day-to-day interactions with your co-Maintainers will be on GitH
 ("watching") your lesson repository to get email alerts about new issues, PRs, and other activity on your lesson. You can
 `@` mention an individual Maintainer, your lesson team, and / or your Curriculum Advisory
 Committee to ensure that the appropriate person sees your message. Feel free also to `@` The Carpentries
-Curriculum Team (Toby Hodges, Erin Becker, François Michonneau, Zhian Kamvar, Michael Culshaw-Maurer) using `@staff-curriculum` and
+Curriculum Team (Toby Hodges, Erin Becker, Zhian Kamvar) using `@staff-curriculum` and
 the Maintainer Community Lead (`@vinisalazar`).
 
 :::::::::::::::::::::::::::::::::::::::::  callout
