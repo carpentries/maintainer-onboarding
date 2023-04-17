@@ -1,6 +1,6 @@
 ---
 title: Communicating with Other Maintainers
-teaching: 10
+teaching: 5
 exercises: 5
 ---
 
