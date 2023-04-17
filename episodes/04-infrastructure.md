@@ -187,9 +187,12 @@ the [lesson-example repository](https://carpentries.github.io/lesson-example/).
 
 We are in the beta testing phase for [The Carpentries
 Workbench](https://carpentries.github.io/workbench) that is designed to be more user friendly for
-both contributors and Maintainers. All lessons will transition to using the workbench in January
-2023\.
+both contributors and Maintainers. All lessons will transition to using the workbench in May 
+2023.
 
+In order to prepare your lesson for The Workbench transtion, it is absolutely important to **merge
+or resolve all open pull requests** by May. Lessons that have no pull requests currently open can
+opt-in to migrate to The Workbench early in April.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -200,7 +203,7 @@ both contributors and Maintainers. All lessons will transition to using the work
 Up until March 2020, the lesson infrastructure was maintained by the
 [Lesson Infrastructure Committee](https://carpentries.org/lesson-infra/). The
 activity of the Committee was put on hold during the COVID-19 pandemic and we are making concious
-strategic decisions about how to reform this committee ahead of January 2023.
+strategic decisions about how to reform this committee ahead of May 2023.
 
 The Lesson Infrastructure is officially maintained by the [Curriculum
 Team](https://carpentries.org/core-team-projects/#curriculum-team), with the help of [Maxim
