@@ -1,6 +1,6 @@
 ---
 title: Communicating with Contributors
-teaching: 20
+teaching: 15
 exercises: 10
 ---
 
