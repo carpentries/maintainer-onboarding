@@ -4,12 +4,6 @@ teaching: 10
 exercises: 5
 ---
 
-Your lesson is part of an overall curriculum within a Lesson Program. For example
-the [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/) lesson
-is part of the [Genomics curriculum](https://datacarpentry.org/genomics-workshop/),
-which is part of the Data Carpentry Lesson Program. Data Carpentry has several curricula,
-while Library Carpentry and Software Carpentry each have a single curriculum.
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Describe who has authority, and responsibility, to make different types of decisions.
@@ -26,6 +20,12 @@ while Library Carpentry and Software Carpentry each have a single curriculum.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+Your lesson is part of an overall curriculum within a Lesson Program. For example
+the [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/) lesson
+is part of the [Genomics curriculum](https://datacarpentry.org/genomics-workshop/),
+which is part of the Data Carpentry Lesson Program. Data Carpentry has several curricula,
+while Library Carpentry and Software Carpentry each have a single curriculum.
+
 The work that Maintainers do on routine upkeep of the lessons
 is complimented by the Curriculum Advisory Committee (CAC) for
 each curriculum. Curriculum Advisors provide high-level oversight, vision, and leadership
@@ -39,32 +39,7 @@ responsibilities for Maintainers and Curriculum Advisors, including
 - issues that may benefit from Maintainers consulting with the CAC, but over which Maintainers retain authority, and
 - issues for which Maintainers must seek CAC approval.
 
-Curriculum Advisory Committees exist for the following curricula:
-
-- Data Carpentry Astronomy
-- Data Carpentry Geospatial
-- Data Carpentry Genomics
-- Library Carpentry
-- Software Carpentry
-
-In mid-2022, we will be recruiting Curriculum Advisors for the following curricula:
-
-- Data Carpentry Ecology
-- Data Carpentry Social Sciences
-- Data Carpentry Image Processing
-
-Each CAC includes at least one Maintainer, and we encourage you to apply for your curriculum's CAC when applications open.
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Urgent Issues
-
-If any urgent issues arise which would normally be under the authority of the CAC,
-and the CAC for your curriculum has not yet convened, please contact
-the Curriculum Team for support and assistance.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
+Each Curriculum Advisory Committee includes at least one Maintainer, and we encourage you to apply for your curriculum's CAC when applications open.
 
 You can tag in your Curriculum Advisory Committee on an issue in your lesson repository using their team name (e.g. "@datacarpentry/curriculum-advisors-astronomy" or "@LibraryCarpentry/curriculum-advisors"). The CAC chair is responsible for watching the
 repository and serving as a liaison with the curriculum's Maintainers.

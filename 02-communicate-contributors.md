@@ -1,10 +1,8 @@
 ---
 title: Communicating with Contributors
-teaching: 20
-exercises: 20
+teaching: 15
+exercises: 10
 ---
-
-## Interacting with Contributors
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
@@ -22,35 +20,12 @@ exercises: 20
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Interacting with Contributors
+
 Maintainers represent The Carpentries on some of our most
 active online spaces - our GitHub repositories. As a Maintainer,
 you will often be the first point of contact for people new to The
 Carpentries community.
-
-Igor Steinmacher, a computer scientist who researches
-retention of open source contributors, provides [a set of
-recommendations](https://wsl.softwarelivre.org/2015/0002/fostering-freelibre-open-source-software-community-formation:-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf) based on his research on how to reduce barriers to
-new contributors becoming part of your community. While some of these
-are more specific to software projects, some are very applicable to
-our (or any) community:
-
-- Answer quickly
-- Be kind and make newcomers feel part of the team
-- Set expectations and needs early
-- Point newcomers to easy tasks
-- Keep the issue list clean and triaged
-- Dismiss or identify outdated information
-- Create a live FAQ section
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## How Are We Doing? (5 minutes)
-
-How do you feel The Carpentries community does overall in meeting these recommendations? Are there particular areas of strength
-or places where there is room for improvement?
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Where do Contributions Come From?
 
@@ -59,11 +34,12 @@ While anyone can contribute to The Carpentries lessons, the vast majority of con
 - Trainees who have gone through Instructor Training and are submitting a contribution as part of "checkout" to complete their Instructor certification.
 - Workshop Instructors (and helpers) who have recently participated in a workshop and noticed difficulties with the materials.
 
-Everyone who goes through The Carpentries Instructor Training program is required to contribute to a Carpentries lesson
+As of April 2023, everyone who goes through The Carpentries Instructor Training program is required to contribute to a Carpentries lesson
 (or other resource) in order to become certified. We train over a thousand people each year to be Instructors, about half of whom complete the
-certification process. A large proportion of the contributions you will receive come from Instructor trainees.
+certification process. A large proportion of the contributions you will receive come from Instructor trainees. This requirement will be changing in the coming
+months. 
 
-During Instructor Training, we [strongly encourage contributors](https://carpentries.github.io/instructor-training/checkout/) to contribute to
+During Instructor Training, we [strongly encourage contributors](https://carpentries.github.io/instructor-training/checkout.html) to contribute to
 discussion on existing PRs and issues, to submit a PR to resolve an
 issue that the Maintainers have marked "help wanted", or to submit issues describing bugs or difficulties in teaching the lesson.
 
@@ -82,7 +58,6 @@ Locate your lesson's help wanted list.
 - Is it clear what action is desired (ie what help is wanted?) for each issue marked help wanted?
 - Are there any old issues that are out of date and are still marked help wanted?
 - Are there any new issues that should have the help wanted tag and don't?
-  
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -114,28 +89,14 @@ section on ["learning to say no"](https://opensource.guide/best-practices/#learn
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Practice Saying No (10 minutes)
+## Practice Saying No (5 minutes)
 
-Choose one of the open issues linked below. Compose a 2-3 sentence response that follows the guidelines above.
-Add your response to the Etherpad.
-
-- [Adding contents related to personal/lab server](https://github.com/datacarpentry/cloud-genomics/issues/111)
-- OPTIONS
-- HERE
-
-:::::::::::::::  solution
-
-## Examples
-
-The issues linked below are good examples of Maintainers saying "no" politely.
+The issues linked below are good examples of Maintainers saying "no" politely. Read one of these and reflect on how it uses the recommendations from GitHub's 
+OpenSource Guide. If you had to respond to this issue, is there anything you would add or do differently? 
 
 - [lc-shell - email submission: suggest adding Hello World](https://github.com/LibraryCarpentry/lc-shell/issues/143)
 - [swc-git - Lesson Contribution - Additional Commands](https://github.com/swcarpentry/git-novice/issues/765)
 - [swc-r-novice-inflammation - Additional exercise for "Using loops" challenge](https://github.com/swcarpentry/r-novice-inflammation/pull/168)
-  
-  
-
-:::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -143,7 +104,7 @@ The issues linked below are good examples of Maintainers saying "no" politely.
 
 ## Motivating Language (5 minutes)
 
-We teach Instructors to [avoid using language that can demotivate learners](https://carpentries.github.io/instructor-training/04-expertise/#just-and-other-dismissive-language). The same principles apply in lesson maintenance. What are some words or
+We teach Instructors to [avoid using language that can demotivate learners](https://carpentries.github.io/instructor-training/04-expertise.html#just-and-other-dismissive-language). The same principles apply in lesson maintenance. What are some words or
 phrases that could have the effect of demotivating contributors? What alternatives can we use to express this meaning in a
 positive and motivational way?
 

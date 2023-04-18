@@ -1,10 +1,8 @@
 ---
 title: Communicating with Other Maintainers
-teaching: 25
-exercises: 10
+teaching: 5
+exercises: 5
 ---
-
-## Synchronous communications
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
@@ -21,7 +19,7 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-There are two opportunities to connect with the overall Maintainer team each month.
+## Synchronous communications
 
 ### Maintainer meetings
 
@@ -35,23 +33,11 @@ We recognize that not everyone can attend these monthly meetings, and so also co
 our main TopicBox and Slack channels. So don't worry if you can't attend! We do strongly encourage joining from time to time,
 though, as it's a good way to get to know other Maintainers.
 
-### Maintainer co-working corrals
-
-On the first Wednesday of each month, we get together for a co-working session. This is a good time to get input
-from other Maintainers, and from the Maintainer Community Lead, on difficult or tricky issues. Co-working
-with Maintainers on other lessons also provides you with a broader overall vision of The Carpentries curriculum stack. It's
-a great opportunity to engage in lateral knowledge transfer and community learning!
-
-Any Maintainer can add an issue or PR to the co-working corral agenda by adding it to the
-[CodiMD pad](https://codimd.carpentries.org/maintainers?both). It is also perfectly fine
-to join the meetings without a specific issue already selected to work on. You do not need to attend the monthly Maintainer
-meetings to join the co-working corrals, and vice versa. All Maintainers are welcome!
-
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Add to Your Calendar (5 minutes)
 
-Add the monthly Maintainer meetings and co-working corrals to your calendar by either
+Add the monthly Maintainer meetings to your calendar by either
 
 - subscribing to The Carpentries [community calendar](https://carpentries.org/community/#community-events) and
   copying events to your Google Calendar, or
@@ -76,7 +62,7 @@ asynchronous communication channels shared across the Maintainer team.
 
 The [Maintainers TopicBox list](https://carpentries.topicbox.com/groups/maintainers) is used primarily for announcements
 relevant to the full Maintainer team, including reminders about upcoming meetings. Posts from individual Maintainers asking
-questions or introducing topics for discussion are extremely welcome, but our Slack channel does seem to be a more active
+questions or introducing topics for discussion are extremely welcome, but our Slack channel is a more active
 place for back-and-forth discussion.
 
 A few lists exist around specific curricula (search for lists starting with `curriculum`, but most have not been very active.
@@ -107,7 +93,8 @@ the Maintainer Community Lead (`@vinisalazar`).
 
 ## Tagging in your Lesson Team
 
-Each group of Maintainers is associated with a GitHub team. You can find the name of your team below:
+Each group of Maintainers is associated with a GitHub team. After you have completed this onboarding, you will
+be added to the appropriate Maintainer team. You will then be able to find the name of your team below:
 
 - [Library Carpentry Maintainer teams](https://github.com/orgs/LibraryCarpentry/teams/lesson-maintainers/teams)
 - [Software Carpentry Maintainer teams](https://github.com/orgs/swcarpentry/teams/lesson-maintainers/teams)
@@ -119,15 +106,6 @@ Each group of Maintainers is associated with a GitHub team. You can find the nam
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## What is your lesson team's name? (3 minutes)
-
-Find your lesson team's name and add it to the Etherpad.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 :::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Tagging in the Curriculum Team
@@ -135,7 +113,6 @@ Find your lesson team's name and add it to the Etherpad.
 To tag in the curriculum team on any repository hosted in one of the official lesson program GitHub organisations
 (Data Carpentry, Library Carpentry, Software Carpentry), use `@staff-curriculum`. On The Carpentries GitHub org,
 the team name is `@core-team-curriculum`. We are working on reconciling team names across GitHub organisations.
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -216,7 +193,7 @@ support the lesson.
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - The Maintainer community communicates on TopicBox, Slack, and GitHub.
-- There are two opportunities to connect synchronously each month - a co-working session and a general meeting.
+- The Maintainer community meets monthly. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

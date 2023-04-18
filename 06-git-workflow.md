@@ -1,16 +1,13 @@
 ---
-title: Infrastructure for Lesson Maintenance
+title: The Carpentries Git Workflow
 teaching: 30
 exercises: 30
 ---
 
-## Maintainers and Forked Repositories
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand the structure of the lesson source repository---know which elements generate the various parts of the lesson page.
-- Navigate to the correct file and element to update each section---including instructor notes, setup, questions, timings, learning objectives, key points, and glossary.
-- Be familiar with the various callout boxes used in Carpentries lessons and be able to use them appropriately.
+- List
+- here
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -19,9 +16,10 @@ exercises: 30
 - How do I review pull requests?
 - How do I make changes to pull requests?
 - How do I accept pull requests?
-- What should I know about how the lessons are formatted?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Maintainers and Forked Repositories
 
 If this is the first time you are maintaining a project where you and other people are going to be submitting changes
 there are two perspectives you need to keep in mind:
@@ -175,119 +173,14 @@ Please add questions to the Etherpad.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## The Carpentries Lesson Infrastructure
 
-The infrastructure for Carpentries lessons is managed through the [styles
-repository](https://github.com/swcarpentry/styles), and documented on
-the [lesson-example repository](https://carpentries.github.io/lesson-example/).
+:::::::::::::::::::::::::::::::::::::::  keypoints
 
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## New Infrastructure Coming!
-
-We are in the beta testing phase for [The Carpentries
-Workbench](https://carpentries.github.io/workbench) that is designed to be more user friendly for
-both contributors and Maintainers. All lessons will transition to using the workbench in May 
-2023.
-
-In order to prepare your lesson for The Workbench transtion, it is absolutely important to **merge
-or resolve all open pull requests** by May. Lessons that have no pull requests currently open can
-opt-in to migrate to The Workbench early in April.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Who Maintains the Lesson Infrastructure?
-
-Up until March 2020, the lesson infrastructure was maintained by the
-[Lesson Infrastructure Committee](https://carpentries.org/lesson-infra/). The
-activity of the Committee was put on hold during the COVID-19 pandemic and we are making concious
-strategic decisions about how to reform this committee ahead of May 2023.
-
-The Lesson Infrastructure is officially maintained by the [Curriculum
-Team](https://carpentries.org/core-team-projects/#curriculum-team), with the help of [Maxim
-Belkin](https://github.com/maxim-belkin).
+- List
+- here
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Lesson homepage
-
-The lesson homepage is built from the `index.md` file and provides an overview of the lesson,
-including any prerequisites, an introduction to the dataset used, a schedule showing the episodes
-and the time allotted for each, and any other information learners will need for the lesson.
-
-The schedule will automatically be included in the lesson homepage based on information present in
-the episode files.
-
-### Episode files
-
-The majority of a lessons content is in its episode files. Episode files are stored in the
-`_episodes/` folder within your lesson repo (or in `_episodes_rmd/` for lessons written in R).
-Episode file names must start with a two-digit identifier number (e.g. `01`) followed by a short
-descriptive name, separated by a dash (`-`). For example `02-loop.md`, `03-lists.md`. The numeric
-identifier is used to place your episode files in the correct sequence within the lesson. Episode
-files are written in *Markdown* or *RMarkdown*.
-
-#### Episode headers
-
-Each episode starts with a YAML header that looks something like this:
-
-```
----
-title: "What is the shell?"
-teaching: 5
-exercises: 0
-questions:
-- "What is the shell?"
-- "What is the command line?"
-- "Why should I use it?"
-objectives:
-- "Describe the basics of the Unix shell"
-- "Explain why and how to use the command line"
-keypoints:
-- "The shell is powerful"
-- "The shell can be used to copy, move, and combine multiple files"
----
-```
-
-The information stored in the YAML header is used by the lesson infrastructure to populate important
-parts of the lesson webpage.
-
-For example, "questions" are scraped from each episode file and added to the schedule on the lesson
-homepage.
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## Scavenger Hunt (5 minutes)
-
-Identify the file and lines of the file that control the following output for your lesson.
-Add the file name and copy the relevant lines to the Etherpad.
-
-- Questions (for episode 1)
-- Timings (for episode 1)
-- Learning objectives (for episode 1)
-- Key points (for episode 1)
-- Instructor notes
-- Setup instructions
-- Glossary
-  
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-For a step-by-step guide to how the lessons are structured, and what syntax to use to add code
-chunks, exercises, and other elements, please read the [technological introductions
-chapter](https://cdh.carpentries.org/technological-introductions.html) of The Carpentries Curriculum
-Development Handbook.
-
-For a more in-depth guide, read through the [lesson example](https://carpentries.github.io/lesson-example/).
-
-:::::::::::::::::::::::::::::::::::::::: keypoints
-
-- Make a branch to create a pull request.
-- The Carpentries lessons share a consistent style, which is controlled by [styles](https://github.com/carpentries/styles) and documented in the [lesson-example](https://carpentries.github.io/lesson-example/)
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

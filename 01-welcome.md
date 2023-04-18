@@ -2,7 +2,7 @@
 title: Welcome to the Maintainer Community
 start: yes
 teaching: 10
-exercises: 10
+exercises: 5
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -21,7 +21,7 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::  callout
+::::::::::::::::::::::::::::::::::::: instructor
 
 ## Pronouns and Names
 
@@ -40,7 +40,7 @@ Do not force people to share their pronouns.
 
 ## Before The Course Begins
 
-:::::::::::::::::::::::::::::::::::::::  challenge
+::::::::::::::::::::::::::::::::::::: instructor
 
 ## Sign In
 
@@ -61,7 +61,7 @@ forums and on GitHub. Please review the Code of Conduct to familiarise yourself 
 
 Hello everyone, and welcome to The Carpentries Maintainer Onboarding.  We are very pleased to have you with us.
 
-::::::::::::::::::::::::::::::::::::::  discussion
+::::::::::::::::::::::::::::::::::::: instructor
 
 ## Introductions
 
@@ -138,15 +138,17 @@ The Carpentries supports over 40 official lessons across our three Lesson Progra
 At any given time, there are also dozens of community-supported lessons in active development in
 [The Carpentries Incubator](https://carpentries-incubator.org/). This training is intended for Maintainers of official lessons, and we will
 not cover how new lessons are developed, vetted, and adopted into The Carpentries core lesson stack. Those interested in curriculum
-development are encouraged to read The Carpentries [Curriculum Development Handbook](https://cdh.carpentries.org/). Limited opportunities for training in collaborative lesson development may also be available - read [this blog post](https://carpentries.org/blog/2022/04/lesson-development-training-pilot/) for opportunities in June and July 2022.
+development are encouraged to read The Carpentries [Curriculum Development Handbook](https://cdh.carpentries.org/). We will begin offering [training in collaborative 
+lesson development](https://carpentries.github.io/lesson-development-training/) in mid-2023.
 
 We do not expect you to be an expert in Git or GitHub, or even to have used these tools at all in the past. We will provide you with
 an introduction to the core skills you need to respond to uncomplicated issues and pull requests,
 however, there will undoubtedly be more complicated maintenance situations that require Git skills beyond what we will cover in this training.
 The best way to learn Git is to work with it, and we encourage you to reach out to your co-Maintainers and others in the Maintainer community
-for support and resources. We have regular co-working sessions where you can bring questions to the group, and also provide each other
-support in asynchronous communication channels. We'll introduce those channels momentarily.
-The Software Carpentry [Git Novice lesson](https://swcarpentry.github.io/git-novice/) and the Library Carpentry [Introduction to Git lesson](https://librarycarpentry.org/lc-git/) are also great resources for learning and reviewing the basics you will need to maintain your lesson.
+for support and resources. We have monthly Maintainer meetings where you can bring questions to the group, and also provide each other support in asynchronous 
+communication channels. We'll introduce those channels later in this onboarding. The Software Carpentry [Git Novice lesson](https://swcarpentry.github.io/git-novice/)
+and the Library Carpentry [Introduction to Git lesson](https://librarycarpentry.org/lc-git/) are also great resources for learning and reviewing the core skills you
+will need to maintain your lesson.
 
 ## Goals for Lesson Maintenance
 
@@ -178,15 +180,6 @@ With these goals in mind, The Carpentries expectations of Maintainers are that y
 ## Maintainer Guidelines
 
 You can find more details about [Maintainer Guidelines](https://docs.carpentries.org/topic_folders/maintainers/maintainers.html) in The Carpentries documentation.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## Motivation (5 minutes)
-
-Why are you becoming a Maintainer? What goals do you have for this training?
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::

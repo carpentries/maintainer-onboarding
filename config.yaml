@@ -59,11 +59,6 @@ contact: 'mailto:team@software-carpentry.org'
 
 # Order of episodes in your lesson
 episodes: 
-- 01-welcome.md
-- 02-communicate-contributors.md
-- 03-communicate-maintainers.md
-- 04-infrastructure.md
-- 05-communicate-advisors.md
 
 # Information for Learners
 learners: 
