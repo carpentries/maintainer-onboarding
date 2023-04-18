@@ -77,11 +77,11 @@
   Maintainer Onboarding
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 12%" class="percentage">
-    12%
+<aside class="col-md-12 lesson-progress"><div style="width: 11%" class="percentage">
+    11%
   </div>
   <div class="progress carpentries">
-    <div class="progress-bar carpentries" role="progressbar" style="width: 12%" aria-valuenow="12" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar carpentries" role="progressbar" style="width: 11%" aria-valuenow="11" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -176,7 +176,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-infrastructure.html">4. Infrastructure for Lesson Maintenance</a>
+        <a href="04-communicate-advisors.html">4. Communicating with Curriculum Advisors</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -185,7 +185,16 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="05-communicate-advisors.html">5. Communicating with Curriculum Advisors</a>
+        <a href="05-infrastructure.html">5. Infrastructure for Lesson Maintenance</a>
+    </div><!--/div.accordion-header-->
+        
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06-git-workflow.html">6. The Carpentries Git Workflow</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -242,13 +251,13 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Communicating with Contributors</h1>
-        <p> Last updated on 2023-03-17 | 
+        <p> Last updated on 2023-04-18 | 
         
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/02-communicate-contributors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
         
         
-        <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 40 minutes </p>
+        <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 25 minutes </p>
         
         <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -256,9 +265,7 @@
 
         
 
-<section id="interacting-with-contributors"><h2 class="section-heading">Interacting with Contributors<a class="anchor" aria-label="anchor" href="#interacting-with-contributors"></a>
-</h2>
-<hr class="half-width"><div class="overview card">
+<div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
 <div class="col-md-4">
@@ -288,37 +295,12 @@ contributions.</li>
 </div>
 </div>
 </div>
-<p>Maintainers represent The Carpentries on some of our most active
+<section id="interacting-with-contributors"><h2 class="section-heading">Interacting with Contributors<a class="anchor" aria-label="anchor" href="#interacting-with-contributors"></a>
+</h2>
+<hr class="half-width"><p>Maintainers represent The Carpentries on some of our most active
 online spaces - our GitHub repositories. As a Maintainer, you will often
 be the first point of contact for people new to The Carpentries
 community.</p>
-<p>Igor Steinmacher, a computer scientist who researches retention of
-open source contributors, provides <a href="https://wsl.softwarelivre.org/2015/0002/fostering-freelibre-open-source-software-community-formation:-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf" class="external-link">a
-set of recommendations</a> based on his research on how to reduce
-barriers to new contributors becoming part of your community. While some
-of these are more specific to software projects, some are very
-applicable to our (or any) community:</p>
-<ul><li>Answer quickly</li>
-<li>Be kind and make newcomers feel part of the team</li>
-<li>Set expectations and needs early</li>
-<li>Point newcomers to easy tasks</li>
-<li>Keep the issue list clean and triaged</li>
-<li>Dismiss or identify outdated information</li>
-<li>Create a live FAQ section</li>
-</ul><div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="how-are-we-doing-5-minutes" class="callout-inner">
-<h3 class="callout-title">How Are We Doing? (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
-</h3>
-<div class="callout-content">
-<p>How do you feel The Carpentries community does overall in meeting
-these recommendations? Are there particular areas of strength or places
-where there is room for improvement?</p>
-</div>
-</div>
-</div>
 </section><section id="where-do-contributions-come-from"><h2 class="section-heading">Where do Contributions Come From?<a class="anchor" aria-label="anchor" href="#where-do-contributions-come-from"></a>
 </h2>
 <hr class="half-width"><p>While anyone can contribute to The Carpentries lessons, the vast
@@ -328,13 +310,14 @@ submitting a contribution as part of “checkout” to complete their
 Instructor certification.</li>
 <li>Workshop Instructors (and helpers) who have recently participated in
 a workshop and noticed difficulties with the materials.</li>
-</ul><p>Everyone who goes through The Carpentries Instructor Training program
-is required to contribute to a Carpentries lesson (or other resource) in
-order to become certified. We train over a thousand people each year to
-be Instructors, about half of whom complete the certification process. A
-large proportion of the contributions you will receive come from
-Instructor trainees.</p>
-<p>During Instructor Training, we <a href="https://carpentries.github.io/instructor-training/checkout/" class="external-link">strongly
+</ul><p>As of April 2023, everyone who goes through The Carpentries
+Instructor Training program is required to contribute to a Carpentries
+lesson (or other resource) in order to become certified. We train over a
+thousand people each year to be Instructors, about half of whom complete
+the certification process. A large proportion of the contributions you
+will receive come from Instructor trainees. This requirement will be
+changing in the coming months.</p>
+<p>During Instructor Training, we <a href="https://carpentries.github.io/instructor-training/checkout.html" class="external-link">strongly
 encourage contributors</a> to contribute to discussion on existing PRs
 and issues, to submit a PR to resolve an issue that the Maintainers have
 marked “help wanted”, or to submit issues describing bugs or
@@ -346,12 +329,12 @@ issues marked with the “help wanted” tag</a> across all of our official
 lessons. Contributors can search this list to find places where
 Maintainers have specifically requested help, making it more likely that
 their contribution will be useful and accepted.</p>
-<div id="discussion2" class="callout discussion">
+<div id="discussion1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="help-wanted-5-minutes" class="callout-inner">
-<h3 class="callout-title">Help Wanted (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Help Wanted (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
 <p>Locate your lesson’s help wanted list.</p>
@@ -404,35 +387,18 @@ them into your documentation to avoid repeating yourself.</li>
 used under the <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link">CC-BY-4.0</a>
 license.</p>
 </blockquote>
-<div id="challenge1" class="callout challenge">
+<div id="discussion2" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="practice-saying-no-10-minutes" class="callout-inner">
-<h3 class="callout-title">Practice Saying No (10 minutes)<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<div id="practice-saying-no-5-minutes" class="callout-inner">
+<h3 class="callout-title">Practice Saying No (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
 </h3>
 <div class="callout-content">
-<p>Choose one of the open issues linked below. Compose a 2-3 sentence
-response that follows the guidelines above. Add your response to the
-Etherpad.</p>
-<ul><li><a href="https://github.com/datacarpentry/cloud-genomics/issues/111" class="external-link">Adding
-contents related to personal/lab server</a></li>
-<li>OPTIONS</li>
-<li>HERE</li>
-</ul></div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Examples
-  </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
 <p>The issues linked below are good examples of Maintainers saying “no”
-politely.</p>
+politely. Read one of these and reflect on how it uses the
+recommendations from GitHub’s OpenSource Guide. If you had to respond to
+this issue, is there anything you would add or do differently?</p>
 <ul><li><a href="https://github.com/LibraryCarpentry/lc-shell/issues/143" class="external-link">lc-shell
 - email submission: suggest adding Hello World</a></li>
 <li><a href="https://github.com/swcarpentry/git-novice/issues/765" class="external-link">swc-git -
@@ -440,7 +406,6 @@ Lesson Contribution - Additional Commands</a></li>
 <li><a href="https://github.com/swcarpentry/r-novice-inflammation/pull/168" class="external-link">swc-r-novice-inflammation
 - Additional exercise for “Using loops” challenge</a></li>
 </ul></div>
-</div>
 </div>
 </div>
 <div id="discussion3" class="callout discussion">
@@ -451,7 +416,7 @@ Lesson Contribution - Additional Commands</a></li>
 <h3 class="callout-title">Motivating Language (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion3"></a>
 </h3>
 <div class="callout-content">
-<p>We teach Instructors to <a href="https://carpentries.github.io/instructor-training/04-expertise/#just-and-other-dismissive-language" class="external-link">avoid
+<p>We teach Instructors to <a href="https://carpentries.github.io/instructor-training/04-expertise.html#just-and-other-dismissive-language" class="external-link">avoid
 using language that can demotivate learners</a>. The same principles
 apply in lesson maintenance. What are some words or phrases that could
 have the effect of demotivating contributors? What alternatives can we
@@ -617,7 +582,7 @@ Values.</li>
   "url": "https://carpentries.github.io/maintainer-onboarding/instructor/02-communicate-contributors.html",
   "identifier": "https://carpentries.github.io/maintainer-onboarding/instructor/02-communicate-contributors.html",
   "dateCreated": "2017-12-11",
-  "dateModified": "2023-03-17",
+  "dateModified": "2023-04-18",
   "datePublished": "2023-04-18"
 }
 

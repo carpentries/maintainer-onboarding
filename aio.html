@@ -209,7 +209,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="04-infrastructure.html">4. Infrastructure for Lesson Maintenance</a>
+        <a href="04-communicate-advisors.html">4. Communicating with Curriculum Advisors</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -221,7 +221,19 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="05-communicate-advisors.html">5. Communicating with Curriculum Advisors</a>
+        <a href="05-infrastructure.html">5. Infrastructure for Lesson Maintenance</a>
+    </div>
+<!--/div.accordion-header-->
+        
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06-git-workflow.html">6. The Carpentries Git Workflow</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -286,7 +298,7 @@
         
 <section id="aio-01-welcome"><p>Content from <a href="01-welcome.html">Welcome to the Maintainer Community</a></p>
 <hr>
-<p> Last updated on 2023-03-17 | 
+<p> Last updated on 2023-04-18 | 
         
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/01-welcome.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -322,45 +334,9 @@ community.</li>
 </div>
 </div>
 </div>
-<div id="callout1" class="callout callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="pronouns-and-names" class="callout-inner">
-<h3 class="callout-title">Pronouns and Names<a class="anchor" aria-label="anchor" href="#callout1"></a>
-</h3>
-<div class="callout-content">
-<p>Using correct names and pronouns is important to setting a tone of
-respect. Learning these is hard to do quickly, so we recommend
-displaying it prominently during the training.</p>
-<p>If on Zoom, give everyone a moment to update their display name to
-reflect this information.</p>
-<p>If in person, encourage attendees to put this information on worn
-name tags or table-displayed name placards.</p>
-<p>Note that pronouns are personal and some participants might prefer
-not to share them. Do not force people to share their pronouns.</p>
-</div>
-</div>
-</div>
 <section id="before-the-course-begins"><h2 class="section-heading">Before The Course Begins<a class="anchor" aria-label="anchor" href="#before-the-course-begins"></a>
 </h2>
-<hr class="half-width">
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="sign-in" class="callout-inner">
-<h3 class="callout-title">Sign In<a class="anchor" aria-label="anchor" href="#discussion1"></a>
-</h3>
-<div class="callout-content">
-<p>Ask participants to sign in with their name, pronouns, institution,
-lesson assigned, and potentially a short icebreaker question (“Tell us
-one good thing that happened in the past week.”) in the course’s shared
-notes.</p>
-</div>
-</div>
-</div>
-</section><section id="code-of-conduct"><h2 class="section-heading">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+<hr class="half-width"></section><section id="code-of-conduct"><h2 class="section-heading">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
 </h2>
 <hr class="half-width">
 <p>To make clear what is expected, everyone participating in The
@@ -374,25 +350,13 @@ familiarise yourself with it.</p>
 <hr class="half-width">
 <p>Hello everyone, and welcome to The Carpentries Maintainer Onboarding.
 We are very pleased to have you with us.</p>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="introductions-1" class="callout-inner">
-<h3 class="callout-title">Introductions<a class="anchor" aria-label="anchor" href="#discussion2"></a>
-</h3>
-<div class="callout-content">
-<p>Ask participants to introduce themselves verbally with the same
-information as in sign-in.</p>
-</div>
-</div>
-</div>
-<div id="discussion3" class="callout discussion">
+
+<div id="discussion1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="previous-experience-5-min" class="callout-inner">
-<h3 class="callout-title">Previous Experience (5 min)<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Previous Experience (5 min)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
 <p>Please put an “x” next to each item that corresponds to your answer
@@ -471,9 +435,8 @@ This training is intended for Maintainers of official lessons, and we
 will not cover how new lessons are developed, vetted, and adopted into
 The Carpentries core lesson stack. Those interested in curriculum
 development are encouraged to read The Carpentries <a href="https://cdh.carpentries.org/" class="external-link">Curriculum Development Handbook</a>.
-Limited opportunities for training in collaborative lesson development
-may also be available - read <a href="https://carpentries.org/blog/2022/04/lesson-development-training-pilot/" class="external-link">this
-blog post</a> for opportunities in June and July 2022.</p>
+We will begin offering <a href="https://carpentries.github.io/lesson-development-training/" class="external-link">training
+in collaborative lesson development</a> in mid-2023.</p>
 <p>We do not expect you to be an expert in Git or GitHub, or even to
 have used these tools at all in the past. We will provide you with an
 introduction to the core skills you need to respond to uncomplicated
@@ -482,13 +445,13 @@ complicated maintenance situations that require Git skills beyond what
 we will cover in this training. The best way to learn Git is to work
 with it, and we encourage you to reach out to your co-Maintainers and
 others in the Maintainer community for support and resources. We have
-regular co-working sessions where you can bring questions to the group,
+monthly Maintainer meetings where you can bring questions to the group,
 and also provide each other support in asynchronous communication
-channels. We’ll introduce those channels momentarily. The Software
-Carpentry <a href="https://swcarpentry.github.io/git-novice/" class="external-link">Git Novice
-lesson</a> and the Library Carpentry <a href="https://librarycarpentry.org/lc-git/" class="external-link">Introduction to Git
-lesson</a> are also great resources for learning and reviewing the
-basics you will need to maintain your lesson.</p>
+channels. We’ll introduce those channels later in this onboarding. The
+Software Carpentry <a href="https://swcarpentry.github.io/git-novice/" class="external-link">Git Novice lesson</a>
+and the Library Carpentry <a href="https://librarycarpentry.org/lc-git/" class="external-link">Introduction to Git
+lesson</a> are also great resources for learning and reviewing the core
+skills you will need to maintain your lesson.</p>
 </section><section id="goals-for-lesson-maintenance"><h2 class="section-heading">Goals for Lesson Maintenance<a class="anchor" aria-label="anchor" href="#goals-for-lesson-maintenance"></a>
 </h2>
 <hr class="half-width">
@@ -528,29 +491,16 @@ yourself whether it is necessary for the learner.</li>
 </ul>
 </li>
 </ul>
-<div id="callout2" class="callout callout">
+<div id="callout1" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="maintainer-guidelines" class="callout-inner">
-<h3 class="callout-title">Maintainer Guidelines<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Maintainer Guidelines<a class="anchor" aria-label="anchor" href="#callout1"></a>
 </h3>
 <div class="callout-content">
 <p>You can find more details about <a href="https://docs.carpentries.org/topic_folders/maintainers/maintainers.html" class="external-link">Maintainer
 Guidelines</a> in The Carpentries documentation.</p>
-</div>
-</div>
-</div>
-<div id="discussion4" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="motivation-5-minutes" class="callout-inner">
-<h3 class="callout-title">Motivation (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion4"></a>
-</h3>
-<div class="callout-content">
-<p>Why are you becoming a Maintainer? What goals do you have for this
-training?</p>
 </div>
 </div>
 </div>
@@ -578,15 +528,12 @@ Maintainer.</li>
 </div>
 </section></section><section id="aio-02-communicate-contributors"><p>Content from <a href="02-communicate-contributors.html">Communicating with Contributors</a></p>
 <hr>
-<p> Last updated on 2023-03-17 | 
+<p> Last updated on 2023-04-18 | 
         
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/02-communicate-contributors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<section id="interacting-with-contributors"><h2 class="section-heading">Interacting with Contributors<a class="anchor" aria-label="anchor" href="#interacting-with-contributors"></a>
-</h2>
-<hr class="half-width">
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
@@ -621,39 +568,13 @@ contributions.</li>
 </div>
 </div>
 </div>
+<section id="interacting-with-contributors"><h2 class="section-heading">Interacting with Contributors<a class="anchor" aria-label="anchor" href="#interacting-with-contributors"></a>
+</h2>
+<hr class="half-width">
 <p>Maintainers represent The Carpentries on some of our most active
 online spaces - our GitHub repositories. As a Maintainer, you will often
 be the first point of contact for people new to The Carpentries
 community.</p>
-<p>Igor Steinmacher, a computer scientist who researches retention of
-open source contributors, provides <a href="https://wsl.softwarelivre.org/2015/0002/fostering-freelibre-open-source-software-community-formation:-guidelines-for-communities-to-support-newcomers-onboarding-wsl-2015.pdf" class="external-link">a
-set of recommendations</a> based on his research on how to reduce
-barriers to new contributors becoming part of your community. While some
-of these are more specific to software projects, some are very
-applicable to our (or any) community:</p>
-<ul>
-<li>Answer quickly</li>
-<li>Be kind and make newcomers feel part of the team</li>
-<li>Set expectations and needs early</li>
-<li>Point newcomers to easy tasks</li>
-<li>Keep the issue list clean and triaged</li>
-<li>Dismiss or identify outdated information</li>
-<li>Create a live FAQ section</li>
-</ul>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="how-are-we-doing-5-minutes" class="callout-inner">
-<h3 class="callout-title">How Are We Doing? (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
-</h3>
-<div class="callout-content">
-<p>How do you feel The Carpentries community does overall in meeting
-these recommendations? Are there particular areas of strength or places
-where there is room for improvement?</p>
-</div>
-</div>
-</div>
 </section><section id="where-do-contributions-come-from"><h2 class="section-heading">Where do Contributions Come From?<a class="anchor" aria-label="anchor" href="#where-do-contributions-come-from"></a>
 </h2>
 <hr class="half-width">
@@ -666,13 +587,14 @@ Instructor certification.</li>
 <li>Workshop Instructors (and helpers) who have recently participated in
 a workshop and noticed difficulties with the materials.</li>
 </ul>
-<p>Everyone who goes through The Carpentries Instructor Training program
-is required to contribute to a Carpentries lesson (or other resource) in
-order to become certified. We train over a thousand people each year to
-be Instructors, about half of whom complete the certification process. A
-large proportion of the contributions you will receive come from
-Instructor trainees.</p>
-<p>During Instructor Training, we <a href="https://carpentries.github.io/instructor-training/checkout/" class="external-link">strongly
+<p>As of April 2023, everyone who goes through The Carpentries
+Instructor Training program is required to contribute to a Carpentries
+lesson (or other resource) in order to become certified. We train over a
+thousand people each year to be Instructors, about half of whom complete
+the certification process. A large proportion of the contributions you
+will receive come from Instructor trainees. This requirement will be
+changing in the coming months.</p>
+<p>During Instructor Training, we <a href="https://carpentries.github.io/instructor-training/checkout.html" class="external-link">strongly
 encourage contributors</a> to contribute to discussion on existing PRs
 and issues, to submit a PR to resolve an issue that the Maintainers have
 marked “help wanted”, or to submit issues describing bugs or
@@ -684,12 +606,12 @@ issues marked with the “help wanted” tag</a> across all of our official
 lessons. Contributors can search this list to find places where
 Maintainers have specifically requested help, making it more likely that
 their contribution will be useful and accepted.</p>
-<div id="discussion2" class="callout discussion">
+<div id="discussion1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="help-wanted-5-minutes" class="callout-inner">
-<h3 class="callout-title">Help Wanted (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Help Wanted (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
 <p>Locate your lesson’s help wanted list.</p>
@@ -748,37 +670,18 @@ them into your documentation to avoid repeating yourself.</li>
 used under the <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link">CC-BY-4.0</a>
 license.</p>
 </blockquote>
-<div id="challenge1" class="callout challenge">
+<div id="discussion2" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="practice-saying-no-10-minutes" class="callout-inner">
-<h3 class="callout-title">Practice Saying No (10 minutes)<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<div id="practice-saying-no-5-minutes" class="callout-inner">
+<h3 class="callout-title">Practice Saying No (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
 </h3>
 <div class="callout-content">
-<p>Choose one of the open issues linked below. Compose a 2-3 sentence
-response that follows the guidelines above. Add your response to the
-Etherpad.</p>
-<ul>
-<li><a href="https://github.com/datacarpentry/cloud-genomics/issues/111" class="external-link">Adding
-contents related to personal/lab server</a></li>
-<li>OPTIONS</li>
-<li>HERE</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Examples
-  </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
 <p>The issues linked below are good examples of Maintainers saying “no”
-politely.</p>
+politely. Read one of these and reflect on how it uses the
+recommendations from GitHub’s OpenSource Guide. If you had to respond to
+this issue, is there anything you would add or do differently?</p>
 <ul>
 <li><a href="https://github.com/LibraryCarpentry/lc-shell/issues/143" class="external-link">lc-shell
 - email submission: suggest adding Hello World</a></li>
@@ -790,7 +693,6 @@ Lesson Contribution - Additional Commands</a></li>
 </div>
 </div>
 </div>
-</div>
 <div id="discussion3" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -799,7 +701,7 @@ Lesson Contribution - Additional Commands</a></li>
 <h3 class="callout-title">Motivating Language (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion3"></a>
 </h3>
 <div class="callout-content">
-<p>We teach Instructors to <a href="https://carpentries.github.io/instructor-training/04-expertise/#just-and-other-dismissive-language" class="external-link">avoid
+<p>We teach Instructors to <a href="https://carpentries.github.io/instructor-training/04-expertise.html#just-and-other-dismissive-language" class="external-link">avoid
 using language that can demotivate learners</a>. The same principles
 apply in lesson maintenance. What are some words or phrases that could
 have the effect of demotivating contributors? What alternatives can we
@@ -919,15 +821,12 @@ Values.</li>
 </div>
 </section></section><section id="aio-03-communicate-maintainers"><p>Content from <a href="03-communicate-maintainers.html">Communicating with Other Maintainers</a></p>
 <hr>
-<p> Last updated on 2023-03-27 | 
+<p> Last updated on 2023-04-18 | 
         
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/03-communicate-maintainers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<section id="synchronous-communications"><h2 class="section-heading">Synchronous communications<a class="anchor" aria-label="anchor" href="#synchronous-communications"></a>
-</h2>
-<hr class="half-width">
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
@@ -958,8 +857,9 @@ Maintainers.</li>
 </div>
 </div>
 </div>
-<p>There are two opportunities to connect with the overall Maintainer
-team each month.</p>
+<section id="synchronous-communications"><h2 class="section-heading">Synchronous communications<a class="anchor" aria-label="anchor" href="#synchronous-communications"></a>
+</h2>
+<hr class="half-width">
 <div class="section level3">
 <h3 id="maintainer-meetings">Maintainer meetings<a class="anchor" aria-label="anchor" href="#maintainer-meetings"></a>
 </h3>
@@ -976,23 +876,6 @@ so also communicate important information through our main TopicBox and
 Slack channels. So don’t worry if you can’t attend! We do strongly
 encourage joining from time to time, though, as it’s a good way to get
 to know other Maintainers.</p>
-</div>
-<div class="section level3">
-<h3 id="maintainer-co-working-corrals">Maintainer co-working corrals<a class="anchor" aria-label="anchor" href="#maintainer-co-working-corrals"></a>
-</h3>
-<p>On the first Wednesday of each month, we get together for a
-co-working session. This is a good time to get input from other
-Maintainers, and from the Maintainer Community Lead, on difficult or
-tricky issues. Co-working with Maintainers on other lessons also
-provides you with a broader overall vision of The Carpentries curriculum
-stack. It’s a great opportunity to engage in lateral knowledge transfer
-and community learning!</p>
-<p>Any Maintainer can add an issue or PR to the co-working corral agenda
-by adding it to the <a href="https://codimd.carpentries.org/maintainers?both" class="external-link">CodiMD pad</a>.
-It is also perfectly fine to join the meetings without a specific issue
-already selected to work on. You do not need to attend the monthly
-Maintainer meetings to join the co-working corrals, and vice versa. All
-Maintainers are welcome!</p>
 <div id="discussion1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -1001,8 +884,7 @@ Maintainers are welcome!</p>
 <h3 class="callout-title">Add to Your Calendar (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
-<p>Add the monthly Maintainer meetings and co-working corrals to your
-calendar by either</p>
+<p>Add the monthly Maintainer meetings to your calendar by either</p>
 <ul>
 <li>subscribing to The Carpentries <a href="https://carpentries.org/community/#community-events" class="external-link">community
 calendar</a> and copying events to your Google Calendar, or</li>
@@ -1034,8 +916,8 @@ communication channels shared across the Maintainer team.</p>
 TopicBox list</a> is used primarily for announcements relevant to the
 full Maintainer team, including reminders about upcoming meetings. Posts
 from individual Maintainers asking questions or introducing topics for
-discussion are extremely welcome, but our Slack channel does seem to be
-a more active place for back-and-forth discussion.</p>
+discussion are extremely welcome, but our Slack channel is a more active
+place for back-and-forth discussion.</p>
 <p>A few lists exist around specific curricula (search for lists
 starting with <code>curriculum</code>, but most have not been very
 active. If you would like to have a public TopicBox list created for
@@ -1081,8 +963,10 @@ Maintainer Community Lead (<code>@vinisalazar</code>).</p>
 <h3 class="callout-title">Tagging in your Lesson Team<a class="anchor" aria-label="anchor" href="#callout1"></a>
 </h3>
 <div class="callout-content">
-<p>Each group of Maintainers is associated with a GitHub team. You can
-find the name of your team below:</p>
+<p>Each group of Maintainers is associated with a GitHub team. After you
+have completed this onboarding, you will be added to the appropriate
+Maintainer team. You will then be able to find the name of your team
+below:</p>
 <ul>
 <li><a href="https://github.com/orgs/LibraryCarpentry/teams/lesson-maintainers/teams" class="external-link">Library
 Carpentry Maintainer teams</a></li>
@@ -1095,19 +979,6 @@ using the <a href="https://github.com/orgs/datacarpentry/teams/lesson-maintainer
 names listed here</a> or click on your curriculum and then “Teams” on
 the top menu to find the name of your lesson team.</li>
 </ul>
-</div>
-</div>
-</div>
-<div id="discussion2" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="what-is-your-lesson-teams-name-3-minutes" class="callout-inner">
-<h3 class="callout-title">What is your lesson team’s name? (3
-minutes)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
-</h3>
-<div class="callout-content">
-<p>Find your lesson team’s name and add it to the Etherpad.</p>
 </div>
 </div>
 </div>
@@ -1161,12 +1032,12 @@ a variety of <a href="https://carpentries.topicbox.com" class="external-link">ma
 TopicBox</a> and over 100 <a href="https://carpentries.org/connect/#slack" class="external-link">Slack channels</a>,
 including spaces dedicated to discussion of particular curricula,
 connecting local and regional groups, and job opportunities.</p>
-<div id="discussion3" class="callout discussion">
+<div id="discussion2" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="subscribe-5-minutes" class="callout-inner">
-<h3 class="callout-title">Subscribe! (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Subscribe! (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
 </h3>
 <div class="callout-content">
 <p>That’s a lot of communication channels! You don’t need to subscribe
@@ -1191,12 +1062,12 @@ in the Etherpad.</p>
 </div>
 </div>
 </div>
-<div id="discussion4" class="callout discussion">
+<div id="discussion3" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="introduce-yourself-2-minutes" class="callout-inner">
-<h3 class="callout-title">Introduce Yourself (2 minutes)<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Introduce Yourself (2 minutes)<a class="anchor" aria-label="anchor" href="#discussion3"></a>
 </h3>
 <div class="callout-content">
 <p>While folks are working on subscribing to the channels above, I will
@@ -1241,23 +1112,457 @@ support the lesson.</p>
 <ul>
 <li>The Maintainer community communicates on TopicBox, Slack, and
 GitHub.</li>
-<li>There are two opportunities to connect synchronously each month - a
-co-working session and a general meeting.</li>
+<li>The Maintainer community meets monthly.</li>
 </ul>
 </div>
 </div>
 </div>
-</section></section><section id="aio-04-infrastructure"><p>Content from <a href="04-infrastructure.html">Infrastructure for Lesson Maintenance</a></p>
+</section></section><section id="aio-04-communicate-advisors"><p>Content from <a href="04-communicate-advisors.html">Communicating with Curriculum Advisors</a></p>
 <hr>
-<p> Last updated on 2023-04-17 | 
+<p> Last updated on 2023-04-18 | 
         
-        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/04-infrastructure.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/04-communicate-advisors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<section id="maintainers-and-forked-repositories"><h2 class="section-heading">Maintainers and Forked Repositories<a class="anchor" aria-label="anchor" href="#maintainers-and-forked-repositories"></a>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How does my lesson fit into the overall curriculum?</li>
+<li>What kinds of changes do I have the authority to make?</li>
+<li>Who should I talk to about larger-scale changes?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Describe who has authority, and responsibility, to make different
+types of decisions.</li>
+<li>Gain confidence in merging simple PRs independently.</li>
+<li>Know when and how to contact Curriculum Advisors.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Your lesson is part of an overall curriculum within a Lesson Program.
+For example the <a href="https://datacarpentry.org/organization-genomics/" class="external-link">Project
+Organization and Management for Genomics</a> lesson is part of the <a href="https://datacarpentry.org/genomics-workshop/" class="external-link">Genomics
+curriculum</a>, which is part of the Data Carpentry Lesson Program. Data
+Carpentry has several curricula, while Library Carpentry and Software
+Carpentry each have a single curriculum.</p>
+<p>The work that Maintainers do on routine upkeep of the lessons is
+complimented by the Curriculum Advisory Committee (CAC) for each
+curriculum. Curriculum Advisors provide high-level oversight, vision,
+and leadership for a curriculum and guide large-scale updates.</p>
+<p>The <a href="https://docs.carpentries.org/topic_folders/lesson_development/cac-consult-rubric.html" class="external-link">CAC
+Consultation Rubric</a> outlines the division of responsibilities for
+Maintainers and Curriculum Advisors, including</p>
+<ul>
+<li>issues over which Maintainers have full authority and which do not
+need CAC involvement,</li>
+<li>issues about which Maintainers should consult the CAC,</li>
+<li>issues that may benefit from Maintainers consulting with the CAC,
+but over which Maintainers retain authority, and</li>
+<li>issues for which Maintainers must seek CAC approval.</li>
+</ul>
+<p>Each Curriculum Advisory Committee includes at least one Maintainer,
+and we encourage you to apply for your curriculum’s CAC when
+applications open.</p>
+<p>You can tag in your Curriculum Advisory Committee on an issue in your
+lesson repository using their team name (e.g. “<span class="citation">@datacarpentry/curriculum-advisors-astronomy</span>” or
+“<span class="citation">@LibraryCarpentry/curriculum-advisors</span>”).
+The CAC chair is responsible for watching the repository and serving as
+a liaison with the curriculum’s Maintainers. Each Curriculum Advisory
+Committee also has a public TopicBox list, where Maintainers and other
+community members can bring issues for consideration. More information
+about each CAC, including mailing list and GitHub repositories, is
+available on the <a href="https://carpentries.org/curriculum-advisors/" class="external-link">Curriculum Advisors
+homepage</a>.</p>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="which-strategy-5-minutes" class="callout-inner">
+<h3 class="callout-title">Which strategy? (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<p>Match the issue with the correct strategy for resolving it.</p>
+<ol style="list-style-type: decimal">
+<li>Needs elevation to CAC</li>
+<li>Simple fix by a single Maintainer without review</li>
+<li>Put in a PR and wait for another Maintainer to review</li>
+<li>Raise the issue for conversation at Maintainer co-working corral or
+on email list</li>
+</ol>
+<ul>
+<li><a href="https://github.com/datacarpentry/R-ecology-lesson/issues/791" class="external-link">RStudio
+installer versioning</a></li>
+<li><a href="https://github.com/swcarpentry/shell-novice/issues/1294" class="external-link">A
+small change in the episode “Finding Things”</a></li>
+<li><a href="https://github.com/LibraryCarpentry/lc-sql/issues/135" class="external-link">Move
+Backing Up with SQL to the top of the Creating tables… episode?</a></li>
+<li><a href="https://github.com/datacarpentry/r-raster-vector-geospatial/issues/363" class="external-link">Update
+to the spatial packages lifecycle: migrate to use sf, terra, and
+stars</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>The Curriculum Advisory Committee consultation rubric outlines
+division of responsibilities between Maintainers and Curriculum
+Advisors.</li>
+</ul>
+</div>
+</div>
+</div></section><section id="aio-05-infrastructure"><p>Content from <a href="05-infrastructure.html">Infrastructure for Lesson Maintenance</a></p>
+<hr>
+<p> Last updated on 2023-04-18 | 
+        
+        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/05-infrastructure.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What should I know about how the lessons are formatted?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Understand the structure of the lesson source repository — know
+which elements generate the various parts of the lesson page.</li>
+<li>Navigate to the correct file and element to update each section,
+including instructor notes, setup, questions, timings, learning
+objectives, key points, and glossary.</li>
+<li>Be familiar with the various callout boxes used in Carpentries
+lessons and be able to use them appropriately.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="the-carpentries-lesson-infrastructure"><h2 class="section-heading">The Carpentries Lesson Infrastructure<a class="anchor" aria-label="anchor" href="#the-carpentries-lesson-infrastructure"></a>
 </h2>
 <hr class="half-width">
+<p>This is an exciting time for The Carpentries Lesson Infrastructure!
+We are in the midst of the official transition to a new infrastructure -
+<a href="https://carpentries.github.io/workbench" class="external-link">The Carpentries
+Workbench</a>, which is designed to be more user friendly for both
+contributors and Maintainers. All lessons will transition to using the
+Workbench in May 2023. This episode will teach you some of the most
+important elements of the Workbench that you will need to interact with
+as a Maintainer. Full documentation can be found on <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
+Carpentries Workbench</a>.</p>
+<div id="callout1" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="important-resolve-all-open-pull-requests" class="callout-inner">
+<h3 class="callout-title">Important: Resolve All Open Pull Requests<a class="anchor" aria-label="anchor" href="#callout1"></a>
+</h3>
+<div class="callout-content">
+<p>In order to prepare lessons for The Workbench transtion, <strong>all
+open pull requests must be merged or closed by 1 May</strong>. The
+Carpentries Curriculum Team will be assisting Maintainers across all of
+our lessons to ensure pull requests are resolved before the
+deadline.</p>
+</div>
+</div>
+</div>
+<div id="callout2" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="what-was-styles" class="callout-inner">
+<h3 class="callout-title">What Was “Styles”?<a class="anchor" aria-label="anchor" href="#callout2"></a>
+</h3>
+<div class="callout-content">
+<p>You may come across references to something called “Styles”. Styles
+is the name for the infrastructure that was used for The Carpentries
+lessons from 2014 - May 2023. This infrastructure was managed through
+the <a href="https://github.com/swcarpentry/styles" class="external-link">styles
+repository</a>, and documented on the <a href="https://carpentries.github.io/lesson-example/" class="external-link">lesson-example
+repository</a>.</p>
+</div>
+</div>
+</div>
+<div id="callout3" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="who-maintains-the-lesson-infrastructure" class="callout-inner">
+<h3 class="callout-title">Who Maintains the Lesson Infrastructure?<a class="anchor" aria-label="anchor" href="#callout3"></a>
+</h3>
+<div class="callout-content">
+<p>Up until March 2020, the lesson infrastructure was maintained by the
+<a href="https://carpentries.org/lesson-infra/" class="external-link">Lesson Infrastructure
+Committee</a>. The activity of the Committee was put on hold during the
+COVID-19 pandemic and we are making concious strategic decisions about
+how to re-form this committee ahead of May 2023.</p>
+<p>The Lesson Infrastructure is currently maintained by the <a href="https://carpentries.org/core-team-projects/#curriculum-team" class="external-link">Curriculum
+Team</a>, with the help of <a href="https://github.com/maxim-belkin" class="external-link">Maxim Belkin</a>.</p>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="lesson-homepage">Lesson homepage<a class="anchor" aria-label="anchor" href="#lesson-homepage"></a>
+</h3>
+<p>The lesson homepage is built from the <code>index.md</code> file and
+provides an overview of the lesson, including any prerequisites, an
+introduction to the dataset used, and any other information learners
+will need for the lesson.</p>
+<p>The Instructor view of the lesson homepage also includes a schedule
+showing the individual episodes included in the lesson, and the time
+allotted for each. The schedule is automatically created based on
+information present in the episode files.</p>
+</div>
+<div class="section level3">
+<h3 id="episodes">Episodes<a class="anchor" aria-label="anchor" href="#episodes"></a>
+</h3>
+<p>The majority of a lessons content is in its episode files. Episode
+files are stored in the <code>episodes/</code> folder within your lesson
+repository. Episode files are written in <em>Markdown</em> or
+<em>RMarkdown</em>. The essential elements of an episode are mentioned
+below. For complete information about how to construct each element of
+an episode file, please see <a href="https://carpentries.github.io/sandpaper-docs/episodes.html" class="external-link">the
+documentation</a>.</p>
+<div class="section level4">
+<h4 id="episode-headers">Episode headers<a class="anchor" aria-label="anchor" href="#episode-headers"></a>
+</h4>
+<p>Each episode starts with a YAML header that looks like this:</p>
+<pre><code>---
+title: "What is the shell?"
+teaching: 5
+exercises: 0
+---</code></pre>
+<p><code>title</code> sets the title of the episode, which will be
+displayed as a top-level heading on the webpage. <code>teaching</code>
+and <code>exercises</code> are values (in minutes) indicating how much
+time the episode is estimated to take to teach, and for learners to
+complete its exercises. The information stored in the YAML header is
+used by the lesson infrastructure to populate the schedule.</p>
+</div>
+</div>
+<div class="section level3">
+<h3 id="fenced-divs">Fenced Divs<a class="anchor" aria-label="anchor" href="#fenced-divs"></a>
+</h3>
+<p>As well as general explanatory content, episodes usually contain a
+number of blocks of particular typees, such as Instructor notes, a list
+of key points, and exercises and solutions. These blocks of content are
+formatted to stand out from the other content on the page, and in some
+cases are treated differently by the lesson infrastructure
+(e.g. Instructor notes are hidden in the Learner View of the
+lesson).</p>
+<p>These formatted blocks of content are added to episodes (and other
+pages in the lesson site) as <em>fenced divs</em>: chunks of content
+delineated (“fenced”) by lines of colon <code>:</code> symbols, with the
+opening fence accompanied by a tag that defines the class of fenced div
+being created.</p>
+<p>For example, a fenced div belonging to the <code>callout</code> class
+- used to highlight a particular block of content - can be defined
+with:</p>
+<pre><code>::::::::::::::::::::::::::::::::::::::: callout
+
+Some text here.
+
+:::::::::::::::::::::::::::::::::::::::</code></pre>
+<div id="callout4" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout4"></a>
+</h3>
+<div class="callout-content">
+<p>Some text here.</p>
+</div>
+</div>
+</div>
+<div class="section level4">
+<h4 id="questions-objectives-and-keypoints">Questions, objectives, and keypoints<a class="anchor" aria-label="anchor" href="#questions-objectives-and-keypoints"></a>
+</h4>
+<p>Every episode must contain one of each of the following types of
+fenced div:</p>
+<ul>
+<li>Questions: Located at the top of the episode file, these are plain
+language questions that show learners what to expect to gain from the
+episode. Fenced div class: <code>questions</code>.</li>
+<li>Objectives: Located at the top of the episode file, objectives are
+specific goals that learners should be able to accomplish by the end of
+the episode. Fenced div class: <code>objectives</code>.</li>
+<li>Keypoints: Located at the end of the episode file, key points are
+statements of the major take-aways learners should remember from each
+episode. Fenced div class: <code>keypoints</code>.</li>
+</ul>
+<p>Keypoints are automatically gathered from each episode and collected
+on the “Key Points” page of each lesson. Questions and Objectives are
+represented in an “Overview” box at the top of each rendered episode
+page.</p>
+</div>
+<div class="section level4">
+<h4 id="other-fenced-divs">Other Fenced Divs<a class="anchor" aria-label="anchor" href="#other-fenced-divs"></a>
+</h4>
+<p>In addition to the <code>callout</code> class shown above, the
+infrastructure supports several other classes of fenced div that,
+although not essential, are often included in episodes.</p>
+<p>Fenced divs with the tag “challenge” will render as exercises:</p>
+<pre><code>::::::::::::::::::::::::::::::::::::::: challenge
+
+This is a challenge.
+
+:::::::::::::::::::::::::::::::::::::::
+</code></pre>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<p>This is a challenge.</p>
+</div>
+</div>
+</div>
+<p>Another block with the tag “solution” can be nested inside a
+challenge to provide the solution to an exercise:</p>
+<pre><code>::::::::::::::::::::::::::::::::::::::: challenge
+
+What is the solution to this exercise?
+
+::::::::::::::::::::::::::::::::::::::::::::: solution
+
+This is the solution to this exercise.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::
+</code></pre>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+</h3>
+<div class="callout-content">
+<p>What is the solution to this exercise?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>This is the solution to this exercise.</p>
+</div>
+</div>
+</div>
+</div>
+<p>Callouts with the tag “instructor” will render as Instructor notes,
+and will only show up on the Instructor view for the lesson.</p>
+<pre><code>::::::::::::::::::::::::::::::::::::::: instructor
+
+This is an Instructor note.
+
+:::::::::::::::::::::::::::::::::::::::
+</code></pre>
+
+<p>In addition to showing up in-line in the Instructor view, callouts
+with the “instructor” tag are gathered to a separate “Instructor Notes”
+page.</p>
+<div id="discussion2" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="scavenger-hunt-5-minutes" class="callout-inner">
+<h3 class="callout-title">Scavenger Hunt (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+</h3>
+<div class="callout-content">
+<p>Identify the file and lines of the file that control the following
+output for The Carpentries <a href="https://carpentries.github.io/instructor-training/" class="external-link">Instructor
+Training lesson</a>. Add the file name and copy the relevant lines to
+the Etherpad.</p>
+<ul>
+<li>Questions (for episode 1)</li>
+<li>Timings (for episode 1)</li>
+<li>Objectives (for episode 1)</li>
+<li>Key points (for episode 1)</li>
+<li>Instructor notes (for all episodes)</li>
+<li>Setup instructions</li>
+<li>Glossary</li>
+</ul>
+</div>
+</div>
+</div>
+<p>For a step-by-step guide to how the lessons are structured, and what
+syntax to use to add code chunks, exercises, and other elements, please
+read the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
+Carpentries Workbench</a>.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>The Carpentries lessons share a consistent style, which is
+controlled by <a href="https://carpentries.github.io/workbench" class="external-link">The
+Carpentries Workbench</a> and documented in the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
+Carpentries Workbench</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></section><section id="aio-06-git-workflow"><p>Content from <a href="06-git-workflow.html">The Carpentries Git Workflow</a></p>
+<hr>
+<p> Last updated on 2023-04-18 | 
+        
+        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/06-git-workflow.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
@@ -1269,7 +1574,6 @@ co-working session and a general meeting.</li>
 <li>How do I review pull requests?</li>
 <li>How do I make changes to pull requests?</li>
 <li>How do I accept pull requests?</li>
-<li>What should I know about how the lessons are formatted?</li>
 </ul>
 </div>
 </div>
@@ -1279,19 +1583,17 @@ co-working session and a general meeting.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Understand the structure of the lesson source repository—know which
-elements generate the various parts of the lesson page.</li>
-<li>Navigate to the correct file and element to update each
-section—including instructor notes, setup, questions, timings, learning
-objectives, key points, and glossary.</li>
-<li>Be familiar with the various callout boxes used in Carpentries
-lessons and be able to use them appropriately.</li>
+<li>List</li>
+<li>here</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
+<section id="maintainers-and-forked-repositories"><h2 class="section-heading">Maintainers and Forked Repositories<a class="anchor" aria-label="anchor" href="#maintainers-and-forked-repositories"></a>
+</h2>
+<hr class="half-width">
 <p>If this is the first time you are maintaining a project where you and
 other people are going to be submitting changes there are two
 perspectives you need to keep in mind: one of the “maintainer” and one
@@ -1444,7 +1746,7 @@ not completely empty.</li>
   Practice using the fork workflow (Optional)
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Working on the <code>gh-pages</code> branch</p>
 <ol style="list-style-type: decimal">
@@ -1493,126 +1795,6 @@ fork</li>
 </div>
 </div>
 </div>
-</section><section id="the-carpentries-lesson-infrastructure"><h2 class="section-heading">The Carpentries Lesson Infrastructure<a class="anchor" aria-label="anchor" href="#the-carpentries-lesson-infrastructure"></a>
-</h2>
-<hr class="half-width">
-<p>The infrastructure for Carpentries lessons is managed through the <a href="https://github.com/swcarpentry/styles" class="external-link">styles repository</a>, and
-documented on the <a href="https://carpentries.github.io/lesson-example/" class="external-link">lesson-example
-repository</a>.</p>
-<div id="callout2" class="callout callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="new-infrastructure-coming" class="callout-inner">
-<h3 class="callout-title">New Infrastructure Coming!<a class="anchor" aria-label="anchor" href="#callout2"></a>
-</h3>
-<div class="callout-content">
-<p>We are in the beta testing phase for <a href="https://carpentries.github.io/workbench" class="external-link">The Carpentries
-Workbench</a> that is designed to be more user friendly for both
-contributors and Maintainers. All lessons will transition to using the
-workbench in May 2023.</p>
-<p>In order to prepare your lesson for The Workbench transtion, it is
-absolutely important to <strong>merge or resolve all open pull
-requests</strong> by May. Lessons that have no pull requests currently
-open can opt-in to migrate to The Workbench early in April.</p>
-</div>
-</div>
-</div>
-<div id="callout3" class="callout callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="who-maintains-the-lesson-infrastructure" class="callout-inner">
-<h3 class="callout-title">Who Maintains the Lesson Infrastructure?<a class="anchor" aria-label="anchor" href="#callout3"></a>
-</h3>
-<div class="callout-content">
-<p>Up until March 2020, the lesson infrastructure was maintained by the
-<a href="https://carpentries.org/lesson-infra/" class="external-link">Lesson Infrastructure
-Committee</a>. The activity of the Committee was put on hold during the
-COVID-19 pandemic and we are making concious strategic decisions about
-how to reform this committee ahead of May 2023.</p>
-<p>The Lesson Infrastructure is officially maintained by the <a href="https://carpentries.org/core-team-projects/#curriculum-team" class="external-link">Curriculum
-Team</a>, with the help of <a href="https://github.com/maxim-belkin" class="external-link">Maxim Belkin</a>.</p>
-</div>
-</div>
-</div>
-<div class="section level3">
-<h3 id="lesson-homepage">Lesson homepage<a class="anchor" aria-label="anchor" href="#lesson-homepage"></a>
-</h3>
-<p>The lesson homepage is built from the <code>index.md</code> file and
-provides an overview of the lesson, including any prerequisites, an
-introduction to the dataset used, a schedule showing the episodes and
-the time allotted for each, and any other information learners will need
-for the lesson.</p>
-<p>The schedule will automatically be included in the lesson homepage
-based on information present in the episode files.</p>
-</div>
-<div class="section level3">
-<h3 id="episode-files">Episode files<a class="anchor" aria-label="anchor" href="#episode-files"></a>
-</h3>
-<p>The majority of a lessons content is in its episode files. Episode
-files are stored in the <code>_episodes/</code> folder within your
-lesson repo (or in <code>_episodes_rmd/</code> for lessons written in
-R). Episode file names must start with a two-digit identifier number
-(e.g. <code>01</code>) followed by a short descriptive name, separated
-by a dash (<code>-</code>). For example <code>02-loop.md</code>,
-<code>03-lists.md</code>. The numeric identifier is used to place your
-episode files in the correct sequence within the lesson. Episode files
-are written in <em>Markdown</em> or <em>RMarkdown</em>.</p>
-<div class="section level4">
-<h4 id="episode-headers">Episode headers<a class="anchor" aria-label="anchor" href="#episode-headers"></a>
-</h4>
-<p>Each episode starts with a YAML header that looks something like
-this:</p>
-<pre><code>---
-title: "What is the shell?"
-teaching: 5
-exercises: 0
-questions:
-- "What is the shell?"
-- "What is the command line?"
-- "Why should I use it?"
-objectives:
-- "Describe the basics of the Unix shell"
-- "Explain why and how to use the command line"
-keypoints:
-- "The shell is powerful"
-- "The shell can be used to copy, move, and combine multiple files"
----</code></pre>
-<p>The information stored in the YAML header is used by the lesson
-infrastructure to populate important parts of the lesson webpage.</p>
-<p>For example, “questions” are scraped from each episode file and added
-to the schedule on the lesson homepage.</p>
-<div id="discussion4" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="scavenger-hunt-5-minutes" class="callout-inner">
-<h3 class="callout-title">Scavenger Hunt (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion4"></a>
-</h3>
-<div class="callout-content">
-<p>Identify the file and lines of the file that control the following
-output for your lesson. Add the file name and copy the relevant lines to
-the Etherpad.</p>
-<ul>
-<li>Questions (for episode 1)</li>
-<li>Timings (for episode 1)</li>
-<li>Learning objectives (for episode 1)</li>
-<li>Key points (for episode 1)</li>
-<li>Instructor notes</li>
-<li>Setup instructions</li>
-<li>Glossary</li>
-</ul>
-</div>
-</div>
-</div>
-<p>For a step-by-step guide to how the lessons are structured, and what
-syntax to use to add code chunks, exercises, and other elements, please
-read the <a href="https://cdh.carpentries.org/technological-introductions.html" class="external-link">technological
-introductions chapter</a> of The Carpentries Curriculum Development
-Handbook.</p>
-<p>For a more in-depth guide, read through the <a href="https://carpentries.github.io/lesson-example/" class="external-link">lesson
-example</a>.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1622,164 +1804,13 @@ example</a>.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Make a branch to create a pull request.</li>
-<li>The Carpentries lessons share a consistent style, which is
-controlled by <a href="https://github.com/carpentries/styles" class="external-link">styles</a>
-and documented in the <a href="https://carpentries.github.io/lesson-example/" class="external-link">lesson-example</a>
-</li>
+<li>List</li>
+<li>here</li>
 </ul>
 </div>
 </div>
 </div>
-</div>
-</div>
-</section></section><section id="aio-05-communicate-advisors"><p>Content from <a href="05-communicate-advisors.html">Communicating with Curriculum Advisors</a></p>
-<hr>
-<p> Last updated on 2023-03-17 | 
-        
-        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/05-communicate-advisors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<p>Your lesson is part of an overall curriculum within a Lesson Program.
-For example the <a href="https://datacarpentry.org/organization-genomics/" class="external-link">Project
-Organization and Management for Genomics</a> lesson is part of the <a href="https://datacarpentry.org/genomics-workshop/" class="external-link">Genomics
-curriculum</a>, which is part of the Data Carpentry Lesson Program. Data
-Carpentry has several curricula, while Library Carpentry and Software
-Carpentry each have a single curriculum.</p>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul>
-<li>How does my lesson fit into the overall curriculum?</li>
-<li>What kinds of changes do I have the authority to make?</li>
-<li>Who should I talk to about larger-scale changes?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li>Describe who has authority, and responsibility, to make different
-types of decisions.</li>
-<li>Gain confidence in merging simple PRs independently.</li>
-<li>Know when and how to contact Curriculum Advisors.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p>The work that Maintainers do on routine upkeep of the lessons is
-complimented by the Curriculum Advisory Committee (CAC) for each
-curriculum. Curriculum Advisors provide high-level oversight, vision,
-and leadership for a curriculum and guide large-scale updates.</p>
-<p>The <a href="https://docs.carpentries.org/topic_folders/lesson_development/cac-consult-rubric.html" class="external-link">CAC
-Consultation Rubric</a> outlines the division of responsibilities for
-Maintainers and Curriculum Advisors, including</p>
-<ul>
-<li>issues over which Maintainers have full authority and which do not
-need CAC involvement,</li>
-<li>issues about which Maintainers should consult the CAC,</li>
-<li>issues that may benefit from Maintainers consulting with the CAC,
-but over which Maintainers retain authority, and</li>
-<li>issues for which Maintainers must seek CAC approval.</li>
-</ul>
-<p>Curriculum Advisory Committees exist for the following curricula:</p>
-<ul>
-<li>Data Carpentry Astronomy</li>
-<li>Data Carpentry Geospatial</li>
-<li>Data Carpentry Genomics</li>
-<li>Library Carpentry</li>
-<li>Software Carpentry</li>
-</ul>
-<p>In mid-2022, we will be recruiting Curriculum Advisors for the
-following curricula:</p>
-<ul>
-<li>Data Carpentry Ecology</li>
-<li>Data Carpentry Social Sciences</li>
-<li>Data Carpentry Image Processing</li>
-</ul>
-<p>Each CAC includes at least one Maintainer, and we encourage you to
-apply for your curriculum’s CAC when applications open.</p>
-<div id="callout1" class="callout callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="urgent-issues" class="callout-inner">
-<h3 class="callout-title">Urgent Issues<a class="anchor" aria-label="anchor" href="#callout1"></a>
-</h3>
-<div class="callout-content">
-<p>If any urgent issues arise which would normally be under the
-authority of the CAC, and the CAC for your curriculum has not yet
-convened, please contact the Curriculum Team for support and
-assistance.</p>
-</div>
-</div>
-</div>
-<p>You can tag in your Curriculum Advisory Committee on an issue in your
-lesson repository using their team name (e.g. “<span class="citation">@datacarpentry/curriculum-advisors-astronomy</span>” or
-“<span class="citation">@LibraryCarpentry/curriculum-advisors</span>”).
-The CAC chair is responsible for watching the repository and serving as
-a liaison with the curriculum’s Maintainers. Each Curriculum Advisory
-Committee also has a public TopicBox list, where Maintainers and other
-community members can bring issues for consideration. More information
-about each CAC, including mailing list and GitHub repositories, is
-available on the <a href="https://carpentries.org/curriculum-advisors/" class="external-link">Curriculum Advisors
-homepage</a>.</p>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div id="which-strategy-5-minutes" class="callout-inner">
-<h3 class="callout-title">Which strategy? (5 minutes)<a class="anchor" aria-label="anchor" href="#discussion1"></a>
-</h3>
-<div class="callout-content">
-<p>Match the issue with the correct strategy for resolving it.</p>
-<ol style="list-style-type: decimal">
-<li>Needs elevation to CAC</li>
-<li>Simple fix by a single Maintainer without review</li>
-<li>Put in a PR and wait for another Maintainer to review</li>
-<li>Raise the issue for conversation at Maintainer co-working corral or
-on email list</li>
-</ol>
-<ul>
-<li><a href="https://github.com/datacarpentry/R-ecology-lesson/issues/791" class="external-link">RStudio
-installer versioning</a></li>
-<li><a href="https://github.com/swcarpentry/shell-novice/issues/1294" class="external-link">A
-small change in the episode “Finding Things”</a></li>
-<li><a href="https://github.com/LibraryCarpentry/lc-sql/issues/135" class="external-link">Move
-Backing Up with SQL to the top of the Creating tables… episode?</a></li>
-<li><a href="https://github.com/datacarpentry/r-raster-vector-geospatial/issues/363" class="external-link">Update
-to the spatial packages lifecycle: migrate to use sf, terra, and
-stars</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
-</h3>
-<div class="callout-content">
-<ul>
-<li>The Curriculum Advisory Committee consultation rubric outlines
-division of responsibilities between Maintainers and Curriculum
-Advisors.</li>
-</ul>
-</div>
-</div>
-</div></section>
+</section></section>
 </div>
     </main>
 </div>
