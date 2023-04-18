@@ -22,10 +22,10 @@ exercises: 5
 ## The Carpentries Lesson Infrastructure
 
 This is an exciting time for The Carpentries Lesson Infrastructure! We are in the midst of the 
-official transition to a new infrastrucutre - [The Carpentries
+official transition to a new infrastructure - [The Carpentries
 Workbench](https://carpentries.github.io/workbench), which is designed to be more user friendly for
-both contributors and Maintainers. All lessons will transition to using the workbench in 
-May 2023. This episode will teach you some of the most important elements of The Workbench that you will need
+both contributors and Maintainers. All lessons will transition to using the Workbench in 
+May 2023. This episode will teach you some of the most important elements of the Workbench that you will need
 to interact with as a Maintainer. Full documentation can be found on 
 [Introduction to The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/).
 
@@ -81,9 +81,9 @@ the episode files.
 ### Episodes
 
 The majority of a lessons content is in its episode files. Episode files are stored in the
-`_episodes/` folder within your lesson repo (or in `_episodes_rmd/` for lessons written in R).
+`episodes/` folder within your lesson repository.
 Episode files are written in *Markdown* or *RMarkdown*. The essential elements of an episode
-are mentioned below. For complete information about how to contrust each element
+are mentioned below. For complete information about how to construct each element
 of an episode file, please see [the documentation](https://carpentries.github.io/sandpaper-docs/episodes.html). 
 
 #### Episode headers
@@ -98,7 +98,7 @@ exercises: 0
 ---
 ```
 
-The information stored in the YAML header is used by the lesson infrastructure to populate the schedule.
+`title` sets the title of the episode, which will be displayed as a top-level heading on the webpage. `teaching` and `exercises` are values (in minutes) indicating how much time the episode is estimated to take to teach, and for learners to complete its exercises. The information stored in the YAML header is used by the lesson infrastructure to populate the schedule.
 
 
 ### Fenced Divs

@@ -138,8 +138,8 @@ The Carpentries supports over 40 official lessons across our three Lesson Progra
 At any given time, there are also dozens of community-supported lessons in active development in
 [The Carpentries Incubator](https://carpentries-incubator.org/). This training is intended for Maintainers of official lessons, and we will
 not cover how new lessons are developed, vetted, and adopted into The Carpentries core lesson stack. Those interested in curriculum
-development are encouraged to read The Carpentries [Curriculum Development Handbook](https://cdh.carpentries.org/). We will begin offering training in collaborative 
-lesson development in mid-2023.
+development are encouraged to read The Carpentries [Curriculum Development Handbook](https://cdh.carpentries.org/). We will begin offering [training in collaborative 
+lesson development](https://carpentries.github.io/lesson-development-training/) in mid-2023.
 
 We do not expect you to be an expert in Git or GitHub, or even to have used these tools at all in the past. We will provide you with
 an introduction to the core skills you need to respond to uncomplicated issues and pull requests,
