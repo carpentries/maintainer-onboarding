@@ -101,22 +101,13 @@ exercises: 0
 The information stored in the YAML header is used by the lesson infrastructure to populate the schedule.
 
 
-#### Questions, objectives, and keypoints
+### Fenced Divs
 
-Each episode must contain one of each of the following types of callouts: 
+As well as general explanatory content, episodes usually contain a number of blocks of particular typees, such as Instructor notes, a list of key points, and exercises and solutions. These blocks of content are formatted to stand out from the other content on the page, and in some cases are treated differently by the lesson infrastructure (e.g. Instructor notes are hidden in the Learner View of the lesson).
 
-- Questions: Located at the top of the episode file, these are plain language questions that show learners what to expect to gain from the episode.
-- Objectives: Located at the top of the episode file, objectives are specific goals that learners should be able to accomplish by the end of the episode.
-- Keypoints: Located at the end of the episode file, key points are statements of the major take-aways learners should remember from each episode. 
+These formatted blocks of content are added to episodes (and other pages in the lesson site) as _fenced divs_: chunks of content delineated ("fenced") by lines of colon `:` symbols, with the opening fence accompanied by a tag that defines the class of fenced div being created. 
 
-Keypoints are automatically gathered from each episode and collected on the "Key Points" page of each lesson. Questions and Objectives are represented
-in an "Overview" box at the top of each rendered episode page.
-
-#### Callouts
-
-While not essential, most episodes will contain one or more callouts. Callouts can be
-of different types, with the most common being challenges (or exercises) and Instructor notes. The general callout syntax uses 
-fenced divs, as shown below. 
+For example, a fenced div belonging to the `callout` class - used to highlight a particular block of content - can be defined with:
 
 ```
 ::::::::::::::::::::::::::::::::::::::: callout
@@ -124,10 +115,32 @@ fenced divs, as shown below.
 Some text here.
 
 :::::::::::::::::::::::::::::::::::::::
-
 ```
 
-Callouts with the tag "challenge" will render as exercises:
+::::::::::::::::::::::::::::::::::::::: callout
+
+Some text here.
+
+:::::::::::::::::::::::::::::::::::::::
+
+#### Questions, objectives, and keypoints
+
+Every episode must contain one of each of the following types of fenced div: 
+
+- Questions: Located at the top of the episode file, these are plain language questions that show learners what to expect to gain from the episode. Fenced div class: `questions`.
+- Objectives: Located at the top of the episode file, objectives are specific goals that learners should be able to accomplish by the end of the episode. Fenced div class: `objectives`.
+- Keypoints: Located at the end of the episode file, key points are statements of the major take-aways learners should remember from each episode. Fenced div class: `keypoints`.
+
+Keypoints are automatically gathered from each episode and collected on the "Key Points" page of each lesson. Questions and Objectives are represented
+in an "Overview" box at the top of each rendered episode page.
+
+#### Other Fenced Divs
+
+In addition to the `callout` class shown above, 
+the infrastructure supports several other classes of fenced div that,
+although not essential, are often included in episodes.
+
+Fenced divs with the tag "challenge" will render as exercises:
 
 ```
 ::::::::::::::::::::::::::::::::::::::: challenge
