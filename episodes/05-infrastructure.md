@@ -1,7 +1,7 @@
 ---
 title: Infrastructure for Lesson Maintenance
 teaching: 10
-exercises: 10
+exercises: 5
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives
