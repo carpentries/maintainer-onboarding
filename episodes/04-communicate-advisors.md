@@ -4,12 +4,6 @@ teaching: 10
 exercises: 5
 ---
 
-Your lesson is part of an overall curriculum within a Lesson Program. For example
-the [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/) lesson
-is part of the [Genomics curriculum](https://datacarpentry.org/genomics-workshop/),
-which is part of the Data Carpentry Lesson Program. Data Carpentry has several curricula,
-while Library Carpentry and Software Carpentry each have a single curriculum.
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Describe who has authority, and responsibility, to make different types of decisions.
@@ -25,6 +19,12 @@ while Library Carpentry and Software Carpentry each have a single curriculum.
 - Who should I talk to about larger-scale changes?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Your lesson is part of an overall curriculum within a Lesson Program. For example
+the [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/) lesson
+is part of the [Genomics curriculum](https://datacarpentry.org/genomics-workshop/),
+which is part of the Data Carpentry Lesson Program. Data Carpentry has several curricula,
+while Library Carpentry and Software Carpentry each have a single curriculum.
 
 The work that Maintainers do on routine upkeep of the lessons
 is complimented by the Curriculum Advisory Committee (CAC) for

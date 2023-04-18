@@ -4,8 +4,6 @@ teaching: 30
 exercises: 30
 ---
 
-## Maintainers and Forked Repositories
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - List
@@ -20,6 +18,8 @@ exercises: 30
 - How do I accept pull requests?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Maintainers and Forked Repositories
 
 If this is the first time you are maintaining a project where you and other people are going to be submitting changes
 there are two perspectives you need to keep in mind:

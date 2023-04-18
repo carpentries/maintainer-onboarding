@@ -4,8 +4,6 @@ teaching: 15
 exercises: 10
 ---
 
-## Interacting with Contributors
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Use The Carpentries Core Values to guide your interactions with contributors.
@@ -21,6 +19,8 @@ exercises: 10
 - How can I direct contributors' energy to where it will be most useful?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Interacting with Contributors
 
 Maintainers represent The Carpentries on some of our most
 active online spaces - our GitHub repositories. As a Maintainer,

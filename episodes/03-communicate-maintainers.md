@@ -4,8 +4,6 @@ teaching: 5
 exercises: 5
 ---
 
-## Synchronous communications
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Join the appropriate communication channels to stay connected with fellow Maintainers.
@@ -20,6 +18,8 @@ exercises: 5
 - What resources exist for supporting me in this role?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Synchronous communications
 
 ### Maintainer meetings
 
