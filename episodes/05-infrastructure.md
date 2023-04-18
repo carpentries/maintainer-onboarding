@@ -144,6 +144,36 @@ This is a challenge.
 
 :::::::::::::::::::::::::::::::::::::::
 
+Another block with the tag "solution" can be nested inside a challenge to provide the solution to an exercise:
+
+```
+::::::::::::::::::::::::::::::::::::::: challenge
+
+What is the solution to this exercise?
+
+::::::::::::::::::::::::::::::::::::::::::::: solution
+
+This is the solution to this exercise.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::
+
+```
+
+::::::::::::::::::::::::::::::::::::::: challenge
+
+What is the solution to this exercise?
+
+::::::::::::::::::::::::::::::::::::::::::::: solution
+
+This is the solution to this exercise.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::
+
+
 Callouts with the tag "instructor" will render as Instructor notes, and will only show up on the Instructor view for the lesson. 
 
 ```
