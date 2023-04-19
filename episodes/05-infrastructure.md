@@ -19,7 +19,7 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## The Carpentries Lesson Infrastructure
+## Lesson Infrastructure Transition
 
 This is an exciting time for The Carpentries Lesson Infrastructure! We are in the midst of the 
 official transition to a new infrastructure - [The Carpentries
@@ -69,7 +69,7 @@ Belkin](https://github.com/maxim-belkin).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Lesson configuration
+## Lesson configuration
 
 The global configuration of the lesson - 
 settings that affect the lesson as a whole, 
@@ -80,7 +80,7 @@ are stored in the `config.yaml` file.
 This file is in [YAML format](https://learnxinyminutes.com/docs/yaml/), containing configuration parameters as key-value pairs. 
 Lesson Maintainers should only need to modify this file very rarely.
 
-### Lesson homepage
+## Lesson homepage
 
 The lesson homepage is built from the `index.md` file and provides an overview of the lesson,
 including any prerequisites, an introduction to the dataset used, and any other information learners will need for the lesson.
@@ -89,7 +89,7 @@ The Instructor view of the lesson homepage also includes a schedule showing the 
 and the time allotted for each. The schedule is automatically created based on information present in
 the episode files.
 
-### Episodes
+## Episodes
 
 The majority of a lessons content is in its episode files. Episode files are stored in the
 `episodes/` folder within your lesson repository.
@@ -97,7 +97,7 @@ Episode files are written in *Markdown* or *RMarkdown*. The essential elements o
 are mentioned below. For complete information about how to construct each element
 of an episode file, please see [the documentation](https://carpentries.github.io/sandpaper-docs/episodes.html). 
 
-#### Episode headers
+### Episode headers
 
 Each episode starts with a YAML header that looks like this:
 
@@ -112,7 +112,7 @@ exercises: 0
 `title` sets the title of the episode, which will be displayed as a top-level heading on the webpage. `teaching` and `exercises` are values (in minutes) indicating how much time the episode is estimated to take to teach, and for learners to complete its exercises. The information stored in the YAML header is used by the lesson infrastructure to populate the schedule.
 
 
-### Fenced Divs
+## Fenced Divs
 
 As well as general explanatory content, episodes usually contain a number of blocks of particular types, such as Instructor notes, a list of key points, and exercises and solutions. These blocks of content are formatted to stand out from the other content on the page, and in some cases are treated differently by the lesson infrastructure (e.g. Instructor notes are hidden in the Learner View of the lesson).
 
@@ -134,7 +134,7 @@ Some text here.
 
 :::::::::::::::::::::::::::::::::::::::
 
-#### Questions, objectives, and keypoints
+### Questions, objectives, and keypoints
 
 Every episode must contain one of each of the following types of fenced div: 
 
@@ -145,7 +145,7 @@ Every episode must contain one of each of the following types of fenced div:
 Keypoints are automatically gathered from each episode and collected on the "Key Points" page of each lesson. Questions and Objectives are represented
 in an "Overview" box at the top of each rendered episode page.
 
-#### Other Fenced Divs
+### Other Fenced Divs
 
 In addition to the `callout` class shown above, 
 the infrastructure supports several other classes of fenced div that,
@@ -237,7 +237,7 @@ Add the file name and copy the relevant lines to the Etherpad.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Other repository contents
+## Other repository contents
 
 Most lesson content is stored in `index.md` and the files within the `episodes/` folder,
 but the lesson repository also contains source files in other folders:
