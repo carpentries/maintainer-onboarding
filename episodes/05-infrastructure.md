@@ -82,12 +82,17 @@ Lesson Maintainers should only need to modify this file very rarely.
 
 ## Lesson homepage
 
-The lesson homepage is built from the `index.md` file and provides an overview of the lesson,
+The lesson homepage provides an overview of the lesson,
 including any prerequisites, an introduction to the dataset used, and any other information learners will need for the lesson.
+This content is built from the `index.md` file in the root folder of the lesson repository.
 
 The Instructor view of the lesson homepage also includes a schedule showing the individual episodes included in the lesson,
 and the time allotted for each. The schedule is automatically created based on information present in
 the episode files.
+
+The Learner view of the homepage includes the setup instructions for the lesson:
+information about the software to install and data to download in order to be ready to follow the lesson.
+This content is built from the `setup.md` file in the `learners/` folder of the lesson repository (more details later).
 
 ## Episodes
 
