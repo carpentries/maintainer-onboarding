@@ -69,6 +69,17 @@ Belkin](https://github.com/maxim-belkin).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+### Lesson configuration
+
+The global configuration of the lesson - 
+settings that affect the lesson as a whole, 
+such as its title, 
+the ["lesson life cycle" stage](https://cdh.carpentries.org/the-lesson-life-cycle.html) that may be displayed in the banner at the top of its pages,
+and the contact information and source repository URL linked in its page footers -
+are stored in the `config.yaml` file.
+This file is in [YAML format](https://learnxinyminutes.com/docs/yaml/), containing configuration parameters as key-value pairs. 
+Lesson Maintainers should only need to modify this file very rarely.
+
 ### Lesson homepage
 
 The lesson homepage is built from the `index.md` file and provides an overview of the lesson,
