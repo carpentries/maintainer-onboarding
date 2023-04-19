@@ -103,7 +103,7 @@ exercises: 0
 
 ### Fenced Divs
 
-As well as general explanatory content, episodes usually contain a number of blocks of particular typees, such as Instructor notes, a list of key points, and exercises and solutions. These blocks of content are formatted to stand out from the other content on the page, and in some cases are treated differently by the lesson infrastructure (e.g. Instructor notes are hidden in the Learner View of the lesson).
+As well as general explanatory content, episodes usually contain a number of blocks of particular types, such as Instructor notes, a list of key points, and exercises and solutions. These blocks of content are formatted to stand out from the other content on the page, and in some cases are treated differently by the lesson infrastructure (e.g. Instructor notes are hidden in the Learner View of the lesson).
 
 These formatted blocks of content are added to episodes (and other pages in the lesson site) as _fenced divs_: chunks of content delineated ("fenced") by lines of colon `:` symbols, with the opening fence accompanied by a tag that defines the class of fenced div being created. 
 
