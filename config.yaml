@@ -33,7 +33,7 @@ source: 'https://github.com/carpentries/maintainer-onboarding'
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'mailto:team@software-carpentry.org'
+contact: 'mailto:team@carpentries.org'
 
 # Navigation ------------------------------------------------
 #
