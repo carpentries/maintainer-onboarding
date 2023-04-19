@@ -339,7 +339,7 @@ community.</li>
   Pronouns and Names
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Using correct names and pronouns is important to setting a tone of
 respect. Learning these is hard to do quickly, so we recommend
@@ -365,7 +365,7 @@ not to share them. Do not force people to share their pronouns.</p>
   Sign In
   </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
 <div class="accordion-body">
 <p>Ask participants to sign in with their name, pronouns, institution,
 lesson assigned, and potentially a short icebreaker question (“Tell us
@@ -397,7 +397,7 @@ We are very pleased to have you with us.</p>
   Introductions
   </h3>
 </button>
-<div id="collapseInstructor3" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor3" aria-labelledby="headingInstructor3">
+<div id="collapseInstructor3" class="accordion-collapse collapse" aria-labelledby="headingInstructor3" data-bs-parent="#accordionInstructor3">
 <div class="accordion-body">
 <p>Ask participants to introduce themselves verbally with the same
 information as in sign-in.</p>
@@ -1395,6 +1395,18 @@ Team</a>, with the help of <a href="https://github.com/maxim-belkin" class="exte
 </div>
 </div>
 <div class="section level3">
+<h3 id="lesson-configuration">Lesson configuration<a class="anchor" aria-label="anchor" href="#lesson-configuration"></a>
+</h3>
+<p>The global configuration of the lesson - settings that affect the
+lesson as a whole, such as its title, the <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html" class="external-link">“lesson
+life cycle” stage</a> that may be displayed in the banner at the top of
+its pages, and the contact information and source repository URL linked
+in its page footers - are stored in the <code>config.yaml</code> file.
+This file is in <a href="https://learnxinyminutes.com/docs/yaml/" class="external-link">YAML
+format</a>, containing configuration parameters as key-value pairs.
+Lesson Maintainers should only need to modify this file very rarely.</p>
+</div>
+<div class="section level3">
 <h3 id="lesson-homepage">Lesson homepage<a class="anchor" aria-label="anchor" href="#lesson-homepage"></a>
 </h3>
 <p>The lesson homepage is built from the <code>index.md</code> file and
@@ -1547,7 +1559,7 @@ This is the solution to this exercise.
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>This is the solution to this exercise.</p>
 </div>
@@ -1570,7 +1582,7 @@ This is an Instructor note.
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>This is an Instructor note.</p>
 </div>
@@ -1604,6 +1616,86 @@ the Etherpad.</p>
 </div>
 </div>
 </div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="other-repository-contents">Other repository contents<a class="anchor" aria-label="anchor" href="#other-repository-contents"></a>
+</h3>
+<p>Most lesson content is stored in <code>index.md</code> and the files
+within the <code>episodes/</code> folder, but the lesson repository also
+contains source files in other folders:</p>
+<ul>
+<li>the <code>instructors/</code> and <code>learners/</code> folders
+contain more Markdown and/or R Markdown files that will be presented as
+accompanying pages in the Instructor and Learner views of the lesson,
+respectively.
+<ul>
+<li>For example, the <code>instructors/</code> folder contains the
+source file for the Instructor Notes page, which - in addition to
+collating the inline Instructor Notes inlcuded in the episodes of a
+lesson - can contain general guidance for Instructors.</li>
+<li>The <code>learners/</code> folder contains <code>setup.md</code>,
+the source file for the setup instructions that will appear on the
+landing page of the lesson in the Learner view.</li>
+</ul>
+</li>
+<li>the <code>profiles/</code> folder contains a source file that can be
+used to provide learner profiles for the lesson: a way to describe its
+target audience.</li>
+<li>the <code>site/</code> folder exists to store the built version of
+the lesson site, and should not be modified directly.</li>
+<li>the <code>.github/</code> folder contains the GitHub Actions
+workflows that tell GitHub’s systems how to build the lesson site from
+the source files in the <code>main</code> branch of the repository.
+These workflows will be regularly updated by automated pull requests,
+and <strong>Maintainers should not modify the contents of this folder
+directly</strong>.</li>
+</ul>
+<div id="callout5" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="for-r-markdown-lessons-only" class="callout-inner">
+<h3 class="callout-title">For R Markdown Lessons Only<a class="anchor" aria-label="anchor" href="#callout5"></a>
+</h3>
+<div class="callout-content">
+<p>Lesson repositories set up to build from R Markdown source files also
+contain the <code>.Rbuildignore</code> file and <code>renv/</code>
+folder. These provide the configuration required for the interpretation
+and conversion of R Markdown source files in the lesson repository.</p>
+</div>
+</div>
+</div>
+<div id="callout6" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="non-source-files" class="callout-inner">
+<h3 class="callout-title">Non-source files<a class="anchor" aria-label="anchor" href="#callout6"></a>
+</h3>
+<div class="callout-content">
+<p>The other repository contents not covered elsewhere in this episode
+are:</p>
+<ul>
+<li>
+<code>.editorconfig</code> and <code>.gitignore</code> are files
+that help people work with lesson repositories on their local
+system.</li>
+<li>other files with upper-case names (<code>AUTHORS</code>,
+<code>LICENSE.md</code>, etc) are “repository-internal” files i.e. they
+are most relevant to the lesson as an open source repository, rather
+than as a website.</li>
+</ul>
+<p>Although these repository files may be occasionally updated,
+Maintainers can mostly ignore them and focus on the source files for the
+lesson itself.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="full-infrastructure-documentation">Full Infrastructure Documentation<a class="anchor" aria-label="anchor" href="#full-infrastructure-documentation"></a>
+</h3>
 <p>For a step-by-step guide to how the lessons are structured, and what
 syntax to use to add code chunks, exercises, and other elements, please
 read the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
@@ -1622,7 +1714,6 @@ controlled by <a href="https://carpentries.github.io/workbench" class="external-
 Carpentries Workbench</a> and documented in the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
 Carpentries Workbench</a>.</li>
 </ul>
-</div>
 </div>
 </div>
 </div>
