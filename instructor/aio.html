@@ -1331,7 +1331,7 @@ lessons and be able to use them appropriately.</li>
 </div>
 </div>
 </div>
-<section id="the-carpentries-lesson-infrastructure"><h2 class="section-heading">The Carpentries Lesson Infrastructure<a class="anchor" aria-label="anchor" href="#the-carpentries-lesson-infrastructure"></a>
+<section id="lesson-infrastructure-transition"><h2 class="section-heading">Lesson Infrastructure Transition<a class="anchor" aria-label="anchor" href="#lesson-infrastructure-transition"></a>
 </h2>
 <hr class="half-width">
 <p>This is an exciting time for The Carpentries Lesson Infrastructure!
@@ -1394,9 +1394,9 @@ Team</a>, with the help of <a href="https://github.com/maxim-belkin" class="exte
 </div>
 </div>
 </div>
-<div class="section level3">
-<h3 id="lesson-configuration">Lesson configuration<a class="anchor" aria-label="anchor" href="#lesson-configuration"></a>
-</h3>
+</section><section id="lesson-configuration"><h2 class="section-heading">Lesson configuration<a class="anchor" aria-label="anchor" href="#lesson-configuration"></a>
+</h2>
+<hr class="half-width">
 <p>The global configuration of the lesson - settings that affect the
 lesson as a whole, such as its title, the <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html" class="external-link">“lesson
 life cycle” stage</a> that may be displayed in the banner at the top of
@@ -1405,10 +1405,9 @@ in its page footers - are stored in the <code>config.yaml</code> file.
 This file is in <a href="https://learnxinyminutes.com/docs/yaml/" class="external-link">YAML
 format</a>, containing configuration parameters as key-value pairs.
 Lesson Maintainers should only need to modify this file very rarely.</p>
-</div>
-<div class="section level3">
-<h3 id="lesson-homepage">Lesson homepage<a class="anchor" aria-label="anchor" href="#lesson-homepage"></a>
-</h3>
+</section><section id="lesson-homepage"><h2 class="section-heading">Lesson homepage<a class="anchor" aria-label="anchor" href="#lesson-homepage"></a>
+</h2>
+<hr class="half-width">
 <p>The lesson homepage is built from the <code>index.md</code> file and
 provides an overview of the lesson, including any prerequisites, an
 introduction to the dataset used, and any other information learners
@@ -1417,10 +1416,9 @@ will need for the lesson.</p>
 showing the individual episodes included in the lesson, and the time
 allotted for each. The schedule is automatically created based on
 information present in the episode files.</p>
-</div>
-<div class="section level3">
-<h3 id="episodes">Episodes<a class="anchor" aria-label="anchor" href="#episodes"></a>
-</h3>
+</section><section id="episodes"><h2 class="section-heading">Episodes<a class="anchor" aria-label="anchor" href="#episodes"></a>
+</h2>
+<hr class="half-width">
 <p>The majority of a lessons content is in its episode files. Episode
 files are stored in the <code>episodes/</code> folder within your lesson
 repository. Episode files are written in <em>Markdown</em> or
@@ -1428,9 +1426,9 @@ repository. Episode files are written in <em>Markdown</em> or
 below. For complete information about how to construct each element of
 an episode file, please see <a href="https://carpentries.github.io/sandpaper-docs/episodes.html" class="external-link">the
 documentation</a>.</p>
-<div class="section level4">
-<h4 id="episode-headers">Episode headers<a class="anchor" aria-label="anchor" href="#episode-headers"></a>
-</h4>
+<div class="section level3">
+<h3 id="episode-headers">Episode headers<a class="anchor" aria-label="anchor" href="#episode-headers"></a>
+</h3>
 <p>Each episode starts with a YAML header that looks like this:</p>
 <pre><code>---
 title: "What is the shell?"
@@ -1444,10 +1442,9 @@ time the episode is estimated to take to teach, and for learners to
 complete its exercises. The information stored in the YAML header is
 used by the lesson infrastructure to populate the schedule.</p>
 </div>
-</div>
-<div class="section level3">
-<h3 id="fenced-divs">Fenced Divs<a class="anchor" aria-label="anchor" href="#fenced-divs"></a>
-</h3>
+</section><section id="fenced-divs"><h2 class="section-heading">Fenced Divs<a class="anchor" aria-label="anchor" href="#fenced-divs"></a>
+</h2>
+<hr class="half-width">
 <p>As well as general explanatory content, episodes usually contain a
 number of blocks of particular types, such as Instructor notes, a list
 of key points, and exercises and solutions. These blocks of content are
@@ -1480,9 +1477,9 @@ Some text here.
 </div>
 </div>
 </div>
-<div class="section level4">
-<h4 id="questions-objectives-and-keypoints">Questions, objectives, and keypoints<a class="anchor" aria-label="anchor" href="#questions-objectives-and-keypoints"></a>
-</h4>
+<div class="section level3">
+<h3 id="questions-objectives-and-keypoints">Questions, objectives, and keypoints<a class="anchor" aria-label="anchor" href="#questions-objectives-and-keypoints"></a>
+</h3>
 <p>Every episode must contain one of each of the following types of
 fenced div:</p>
 <ul>
@@ -1501,9 +1498,9 @@ on the “Key Points” page of each lesson. Questions and Objectives are
 represented in an “Overview” box at the top of each rendered episode
 page.</p>
 </div>
-<div class="section level4">
-<h4 id="other-fenced-divs">Other Fenced Divs<a class="anchor" aria-label="anchor" href="#other-fenced-divs"></a>
-</h4>
+<div class="section level3">
+<h3 id="other-fenced-divs">Other Fenced Divs<a class="anchor" aria-label="anchor" href="#other-fenced-divs"></a>
+</h3>
 <p>In addition to the <code>callout</code> class shown above, the
 infrastructure supports several other classes of fenced div that,
 although not essential, are often included in episodes.</p>
@@ -1559,7 +1556,7 @@ This is the solution to this exercise.
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>This is the solution to this exercise.</p>
 </div>
@@ -1582,7 +1579,7 @@ This is an Instructor note.
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>This is an Instructor note.</p>
 </div>
@@ -1617,10 +1614,9 @@ the Etherpad.</p>
 </div>
 </div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="other-repository-contents">Other repository contents<a class="anchor" aria-label="anchor" href="#other-repository-contents"></a>
-</h3>
+</section><section id="other-repository-contents"><h2 class="section-heading">Other repository contents<a class="anchor" aria-label="anchor" href="#other-repository-contents"></a>
+</h2>
+<hr class="half-width">
 <p>Most lesson content is stored in <code>index.md</code> and the files
 within the <code>episodes/</code> folder, but the lesson repository also
 contains source files in other folders:</p>
@@ -1689,7 +1685,6 @@ than as a website.</li>
 <p>Although these repository files may be occasionally updated,
 Maintainers can mostly ignore them and focus on the source files for the
 lesson itself.</p>
-</div>
 </div>
 </div>
 </div>
@@ -1910,7 +1905,7 @@ not completely empty.</li>
   Practice using the fork workflow (Optional)
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Working on the <code>gh-pages</code> branch</p>
 <ol style="list-style-type: decimal">
