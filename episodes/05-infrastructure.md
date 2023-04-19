@@ -237,6 +237,44 @@ Add the file name and copy the relevant lines to the Etherpad.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+### Other repository contents
+
+Most lesson content is stored in `index.md` and the files within the `episodes/` folder,
+but the lesson repository also contains source files in other folders:
+
+- the `instructors/` and `learners/` folders contain more Markdown and/or R Markdown files that will be presented as accompanying pages in the Instructor and Learner views of the lesson, respectively.
+  - For example, the `instructors/` folder contains the source file for the Instructor Notes page, which - in addition to collating the inline Instructor Notes inlcuded in the episodes of a lesson - can contain general guidance for Instructors.
+  - The `learners/` folder contains `setup.md`, the source file for the setup instructions that will appear on the landing page of the lesson in the Learner view.
+- the `profiles/` folder contains a source file that can be used to provide learner profiles for the lesson: a way to describe its target audience.
+- the `site/` folder exists to store the built version of the lesson site, and should not be modified directly.
+- the `.github/` folder contains the GitHub Actions workflows that tell GitHub's systems how to build the lesson site from the source files in the `main` branch of the repository. These workflows will be regularly updated by automated pull requests, and **Maintainers should not modify the contents of this folder directly**.
+
+::::::::::::::::::::::::::::::::::::::::::::::::: callout
+
+## For R Markdown Lessons Only
+
+Lesson repositories set up to build from R Markdown source files also contain 
+the `.Rbuildignore` file and `renv/` folder.
+These provide the configuration required for the interpretation and conversion of R Markdown source files in the lesson repository.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::: callout
+
+## Non-source files
+
+The other repository contents not covered elsewhere in this episode are:
+
+- `.editorconfig` and `.gitignore` are files that help people work with lesson repositories on their local system.
+- other files with upper-case names (`AUTHORS`, `LICENSE.md`, etc) are "repository-internal" files i.e. they are most relevant to the lesson as an open source repository, rather than as a website. 
+
+Although these repository files may be occasionally updated, Maintainers can mostly ignore them and focus on the source files for the lesson itself.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Full Infrastructure Documentation
+
 For a step-by-step guide to how the lessons are structured, and what syntax to use to add code
 chunks, exercises, and other elements, please read the
 [Introduction to The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/).
