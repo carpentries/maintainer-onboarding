@@ -162,7 +162,7 @@ you might consider taking either or both of the following steps:
 1. Adding the "invalid" label to the issue/pull request
 2. Reporting the issue or pull request to GitHub
    by clicking `...` at the top right of the comment box
-   at the beginning of the conversation thread for  the issue/pull request
+   at the beginning of the conversation thread for the issue/pull request
    and selecting "Report content".
    This will take you to the form for reporting violations of [GitHub's terms of service](https://github.com/site/terms).
 
