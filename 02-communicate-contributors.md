@@ -134,6 +134,38 @@ to distinguish them from contributions made directly via GitHub.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+## Bots and Spam
+
+Unfortunately, The Carpentries repositories occasionally receive time-wasting contributions,
+for example containing spurious changes that are not a legitimate attempt to improve the content.
+(Previously seen examples have included renaming a file for no clear reason
+and making unnecessary and unhelpful changes to the repository README.)
+Although we generally encourage you to be thoughtful 
+and to avoid demotivating community members when responding to genuine contributions,
+you are welcome to close any pull requests and issues that you judge to have been opened in bad faith.
+If you suspect that a spammy contribution has been made by an automated account
+(for example using the interaction as a way to train and improve a bot's model for automation and communication)
+you may wish to close it without any additional comment that could be used as data for the bot's training process.
+
+In addition to closing the issue or pull request,
+please [send a short message to The Carpentries team](mailto:team@carpentries.org),
+including the user's username and a link to the interaction you have concerns about,
+so that the Technology Team can consider blocking the user from your and other Carpentries repositories.
+
+If you believe it is urgent that action is taken,
+you may receive a response more quickly by posting to the Maintainers channel on Slack.
+
+As well as closing the pull request or issue and informing The Carpentries team, 
+you might consider taking either or both of the following steps:
+
+1. Adding the "invalid" label to the issue/pull request
+2. Reporting the issue or pull request to GitHub
+   by clicking `...` at the top right of the comment box
+   at the beginning of the conversation thread for the issue/pull request
+   and selecting "Report content".
+   This will take you to the form for reporting violations of [GitHub's terms of service](https://github.com/site/terms).
+
 ## Top Ten Tips for Managing Issues and PRs
 
 1. **Acknowledge receipt** - Even if you won't be able to take action on an issue/PR immediately, send the contributor a quick
