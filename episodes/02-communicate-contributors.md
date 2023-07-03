@@ -151,7 +151,7 @@ you may wish to close it without any additional comment that could be used as da
 In addition to closing the issue or pull request,
 please [send a short message to The Carpentries team](mailto:team@carpentries.org),
 including the user's username and a link to the interaction you have concerns about,
-so that the Technology Team can consider blocking the user from yours and other Carpentries repositories.
+so that the Technology Team can consider blocking the user from your and other Carpentries repositories.
 
 If you believe it is urgent that action is taken,
 you may receive a response more quickly by posting to the Maintainers channel on Slack.
