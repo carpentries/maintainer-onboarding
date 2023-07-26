@@ -55,7 +55,7 @@ making it more likely that their contribution will be useful and accepted.
 Locate your lesson's help wanted list.
 
 - How many issues are currently open with that tag? How many have been closed?
-- Is it clear what action is desired (ie what help is wanted?) for each issue marked help wanted?
+- Is it clear what action is desired (i.e. what help is wanted?) for each issue marked help wanted?
 - Are there any old issues that are out of date and are still marked help wanted?
 - Are there any new issues that should have the help wanted tag and don't?
 
