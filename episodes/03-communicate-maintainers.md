@@ -41,7 +41,7 @@ Add the monthly Maintainer meetings to your calendar by either
 
 - subscribing to The Carpentries [community calendar](https://carpentries.org/community/#community-events) and
   copying events to your Google Calendar, or
-- clicking the TimeandDate links on the Maintainers [CodiMD pad](https://codimd.carpentries.org/maintainers?both) to convert
+- clicking the TimeandDate links on the [Maintainers CodiMD pad](https://codimd.carpentries.org/maintainers?both) to convert
   the events to your local time, and adding to your calendar manually.
 
 If you are planning to attend the upcoming meeting, add your name to the CodiMD pad to let us know you will be there!
