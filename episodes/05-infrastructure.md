@@ -280,7 +280,7 @@ Although these repository files may be occasionally updated, Maintainers can mos
 
 ![The organisation of a typical lesson repository. Note that this figure contains some files and folders that may not be found in every lesson repository. Refer to the rest of this episode, and the full Workbench documentation, for a list of the minimum set of files and folders that are required for a lesson repository to build successfully.](fig/repo-organisation.png){alt="The contents of a typical lesson repository, with files and folders labeled according to whether they are relevant to the lesson content, the lesson repository, or the lesson infrastructure, and whether they are specific to R Markdown-based lessons or not."}
 
-### Full Infrastructure Documentation
+## Full Infrastructure Documentation
 
 For a step-by-step guide to how the lessons are structured, and what syntax to use to add code
 chunks, exercises, and other elements, please read the
