@@ -67,7 +67,7 @@ place for back-and-forth discussion.
 
 A few lists exist around specific curricula (search for lists starting with `curriculum`, but most have not been very active.
 If you would like to have a public TopicBox list created for discussions of your lesson, or a private list for your Maintainer
-team, please [let us know](mailto: [team@carpentries.org](mailto:team@carpentries.org)).
+team, please [let us know](mailto:team@carpentries.org).
 
 ### Slack
 
@@ -78,7 +78,7 @@ on specific issues and PRs. Most curricula also have a public Slack channel for 
 for channels starting with `dc`, `lc`, or `swc`). Specific curriculum channels have not historically been very active,
 but we encourage any efforts to increase interaction with the community on these channels. You can also use curriculum-specific
 channels for communicating with your co-Maintainers, or you can create a private channel for yourself and your co-Maintainers.
-If you would like a private channel to be created for you, please [let us know](mailto: [team@carpentries.org](mailto:team@carpentries.org)).
+If you would like a private channel to be created for you, please [let us know](mailto:team@carpentries.org).
 
 ### GitHub
 
