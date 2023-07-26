@@ -125,11 +125,11 @@ with The Carpentries lessons on GitHub during this training and get information 
 The goal of this training is to provide you with the skills and information you need to
 become a Carpentries Maintainer. During this training, we will:
 
-- Orient you to The Carpentries goals and vision for lesson maintanence
+- Orient you to The Carpentries goals and vision for lesson maintenance
 - Help you get connected with other Maintainers and the overall Maintainer community
 - Develop skills for creating a positive environment for all contributors
 - Become familiar with the key components of the lesson template
-- Practice core technical skills for lesson maintanence
+- Practice core technical skills for lesson maintenance
 - Learn how and when to elevate issues to your Curriculum Advisory Committee
 
 ## What This Onboarding Does Not Cover
