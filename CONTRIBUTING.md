@@ -61,7 +61,7 @@ to updating or filling in the documentation
 and submitting [bug reports][issues]
 about things that don't work, aren't clear, or are missing.
 If you are looking for ideas,
-please see [the list of issues for this repository][issues],
+please see [the list of issues for this repository][repo-issues],
 or the issues for [Data Carpentry][dc-issues]
 and [Software Carpentry][swc-issues] projects.
 
@@ -125,8 +125,9 @@ You can also [reach us by email][contact].
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/carpentries/maintainer-onboarding/issues/
+[issues]: https://guides.github.com/features/issues/
 [repo]: https://github.com/carpentries/maintainer-onboarding/
+[repo-issues]: https://github.com/carpentries/maintainer-onboarding/issues/
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
 [swc-lessons]: https://software-carpentry.org/lessons/
 [swc-site]: https://software-carpentry.org/
