@@ -41,7 +41,7 @@ Add the monthly Maintainer meetings to your calendar by either
 
 - subscribing to The Carpentries [community calendar](https://carpentries.org/community/#community-events) and
   copying events to your Google Calendar, or
-- clicking the TimeandDate links on the Maintainers [CodiMD pad](https://codimd.carpentries.org/maintainers?both) to convert
+- clicking the TimeandDate links on the [Maintainers CodiMD pad](https://codimd.carpentries.org/maintainers?both) to convert
   the events to your local time, and adding to your calendar manually.
 
 If you are planning to attend the upcoming meeting, add your name to the CodiMD pad to let us know you will be there!
@@ -67,7 +67,7 @@ place for back-and-forth discussion.
 
 A few lists exist around specific curricula (search for lists starting with `curriculum`, but most have not been very active.
 If you would like to have a public TopicBox list created for discussions of your lesson, or a private list for your Maintainer
-team, please [let us know](mailto: [team@carpentries.org](mailto:team@carpentries.org)).
+team, please [let us know](mailto:team@carpentries.org).
 
 ### Slack
 
@@ -78,7 +78,7 @@ on specific issues and PRs. Most curricula also have a public Slack channel for 
 for channels starting with `dc`, `lc`, or `swc`). Specific curriculum channels have not historically been very active,
 but we encourage any efforts to increase interaction with the community on these channels. You can also use curriculum-specific
 channels for communicating with your co-Maintainers, or you can create a private channel for yourself and your co-Maintainers.
-If you would like a private channel to be created for you, please [let us know](mailto: [team@carpentries.org](mailto:team@carpentries.org)).
+If you would like a private channel to be created for you, please [let us know](mailto:team@carpentries.org).
 
 ### GitHub
 

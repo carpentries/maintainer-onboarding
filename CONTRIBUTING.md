@@ -15,7 +15,7 @@ In exchange,
 we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
 Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
-agrees to abide by our [code of conduct](CONDUCT.md).
+agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## How to Contribute
 
@@ -61,7 +61,7 @@ to updating or filling in the documentation
 and submitting [bug reports][issues]
 about things that don't work, aren't clear, or are missing.
 If you are looking for ideas,
-please see [the list of issues for this repository][issues],
+please see [the list of issues for this repository][repo-issues],
 or the issues for [Data Carpentry][dc-issues]
 and [Software Carpentry][swc-issues] projects.
 
@@ -97,7 +97,7 @@ In brief, we use [GitHub flow][github-flow] to manage changes:
     1.  Create a new branch in your desktop copy of this repository for each significant change.
     2.  Commit the change in that branch.
     3.  Push that branch to your fork of this repository on GitHub.
-    4.  Submit a pull request from that branch to the [master repository][repo].
+    4.  Submit a pull request from that branch to the [upstream repository][repo].
     5.  If you receive feedback,
         make changes on your desktop and push to your branch on GitHub:
         the pull request will update automatically.
@@ -116,18 +116,19 @@ happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][contact].
 
-[contact]: mailto:admin@software-carpentry.org
+[contact]: mailto:team@carpentries.org
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
-[dc-lessons]: http://datacarpentry.org/lessons/
-[dc-site]: http://datacarpentry.org/
-[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss
-[github]: http://github.com
+[dc-lessons]: https://datacarpentry.org/lessons/
+[dc-site]: https://datacarpentry.org/
+[discuss-list]: https://carpentries.topicbox.com/groups/discuss
+[github]: https://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
-[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/swcarpentry/shell-novice/issues/
-[repo]: https://github.com/swcarpentry/shell-novice/
+[how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
+[issues]: https://guides.github.com/features/issues/
+[repo]: https://github.com/carpentries/maintainer-onboarding/
+[repo-issues]: https://github.com/carpentries/maintainer-onboarding/issues/
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
-[swc-lessons]: http://software-carpentry.org/lessons/
-[swc-site]: http://software-carpentry.org/
+[swc-lessons]: https://software-carpentry.org/lessons/
+[swc-site]: https://software-carpentry.org/
 [template-doc]: https://carpentries.github.io/workbench/
