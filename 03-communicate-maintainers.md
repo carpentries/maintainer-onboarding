@@ -72,7 +72,7 @@ team, please [let us know](mailto:team@carpentries.org).
 ### Slack
 
 To be added to our private Maintainers channel on Slack, you will need to
-[join The Carpentries organisation](https://swc-slack-invite.herokuapp.com/).
+[join The Carpentries organisation](https://slack-invite.carpentries.org/).
 Our general Maintainers channel is a good place to ask questions of the full Maintainer team, or request input
 on specific issues and PRs. Most curricula also have a public Slack channel for discussing issues with the community (browse
 for channels starting with `dc`, `lc`, or `swc`). Specific curriculum channels have not historically been very active,
@@ -102,7 +102,7 @@ be added to the appropriate Maintainer team. You will then be able to find the n
   Lesson Program. You can tag the full set of Maintainers for an entire curriculum (e.g. Ecology) using the
   [team names listed here](https://github.com/orgs/datacarpentry/teams/lesson-maintainers/teams) or click on
   your curriculum and then "Teams" on the top menu to find the name of your lesson team.
-  
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -193,7 +193,7 @@ support the lesson.
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - The Maintainer community communicates on TopicBox, Slack, and GitHub.
-- The Maintainer community meets monthly. 
+- The Maintainer community meets monthly.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
