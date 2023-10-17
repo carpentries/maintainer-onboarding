@@ -130,7 +130,7 @@ To have a broader overview of all the exciting activity going on in The Carpentr
 one or more of the following channels:
 
 - [The Carpentries Clippings](https://carpentries.org/newsletter/) - our twice monthly newsletter
-- [@thecarpentries](https://twitter.com/thecarpentries) on Twitter
+- [@thecarpentries@hachyderm.io](https://hachyderm.io/@thecarpentries) on Mastodon
 - [The Carpentries blog](https://carpentries.org/blog/)
 
 If you would **really** like to keep up to date on **everything** that is happening, The Carpentries maintains a variety of
