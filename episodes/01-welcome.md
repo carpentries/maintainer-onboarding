@@ -9,7 +9,7 @@ exercises: 5
 
 - Introduce yourself to your fellow new Maintainers.
 - Describe what will and will not be covered in this training.
-- Articulate The Carpentries overall goals for our Maintainer community.
+- Articulate The Carpentries' overall goals for our Maintainer community.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -167,7 +167,7 @@ With these goals in mind, The Carpentries expectations of Maintainers are that y
 - Monitor your lesson repository and make sure that pull requests (PRs) and Issues are responded to in a timely manner (even if that response is "sorry, this is out of scope"),
 - Do not introduce new errors into the lesson,
 - Quickly fix anything that is unambiguously an error or that negatively affects workshop learners,
-- Be receptive and welcoming to suggestions for improving the lessons. They aren't perfect!
+- Be receptive and welcoming to suggestions for improving the lessons. The lessons aren't perfect!
 - Evaluate all contributions in view of The Carpentries pedagogical model:
   - Teach what is most relevant and useful for learners.
   - Avoid unnecessary jargon and detailed explanations. Always ask yourself whether it is necessary for the learner.
