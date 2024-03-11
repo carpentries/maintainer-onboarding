@@ -34,10 +34,8 @@ While anyone can contribute to The Carpentries lessons, the vast majority of con
 - Trainees who have gone through Instructor Training and are submitting a contribution as part of "checkout" to complete their Instructor certification.
 - Workshop Instructors (and helpers) who have recently participated in a workshop and noticed difficulties with the materials.
 
-As of April 2023, everyone who goes through The Carpentries Instructor Training program is required to contribute to a Carpentries lesson
-(or other resource) in order to become certified. We train over a thousand people each year to be Instructors, about half of whom complete the
-certification process. A large proportion of the contributions you will receive come from Instructor trainees. This requirement will be changing in the coming
-months. 
+Everyone who goes through The Carpentries Instructor Training program is required to [get involved](https://carpentries.github.io/instructor-training/checkout.html#getinvolved) in the Carpentries community in order to become certified, and contributing to a lesson is a popular option. We train over a thousand people each year to be Instructors, about half of whom complete the
+certification process. Many of the contributions you will receive come from Instructor trainees. 
 
 During Instructor Training, we [strongly encourage contributors](https://carpentries.github.io/instructor-training/checkout.html) to contribute to
 discussion on existing PRs and issues, to submit a PR to resolve an
