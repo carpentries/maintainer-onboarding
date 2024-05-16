@@ -132,6 +132,15 @@ to distinguish them from contributions made directly via GitHub.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::: callout
+
+## The Curriculum Team may review and merge pull requests
+From time to time, members of The Carpentries Curriculum Team may review and/or merge pull requests opened on your lesson repositories.
+This might happen because a change is particularly urgent (e.g. it fixes something that is broken in the lesson) or because the change is uncontroversial (e.g. a typo fix or a small improvement to wording, etc) and the Curriculum Team member happens to be looking at the lesson repository at the time.
+When a member of the Core Team takes this action, it is not because that they expected one of the Maintainers to have handled the contribution sooner.
+If you disagree with a pull request merged by a member of the Curriculum Team, or want to discuss changes like these with them, please get in touch!
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Bots and Spam
 
