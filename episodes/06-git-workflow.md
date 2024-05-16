@@ -6,16 +6,14 @@ exercises: 30
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- List
-- here
+- manage potential changes to a lesson using forks and branches
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- How do I review pull requests?
-- How do I make changes to pull requests?
-- How do I accept pull requests?
+- How can I use git to explore and edit changes suggested by contributors to a lesson?
+- How can Maintainers make changes to their lessons?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -48,7 +46,7 @@ location, not your own.
 In this setup, since you are `clone`ing down from the original `carpentries` repo,
 the remote will be your `origin`.
 This is the same workflow as if you are working on your own personal repository,
-and you can `git push origin gh-pages`.
+and you can `git push origin main`.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -108,7 +106,7 @@ will play the role of the Maintainer ("M"), and who will be the contributor ("C"
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Working on the `gh-pages` branch (10 minutes)
+## Working on the default branch (10 minutes)
 
 1. M: Create a repository: `<date>-collab-example` and initialise it with a `README.md` file so
   the repository is not completely empty.
@@ -127,8 +125,8 @@ will play the role of the Maintainer ("M"), and who will be the contributor ("C"
 
 ## Working on a new branch (15 minutes)
 
-1. Make sure that your local version is up-to-date: `git pull origin gh-pages`
-2. Create a new branch: `git checkout -b BRANCH_NAME` or `git switch -c BRANCH_NAME`
+1. Make sure that your local version is up-to-date: `git pull origin main`
+2. Create a new branch: `git switch -c BRANCH_NAME` or `git checkout -b BRANCH_NAME`
 3. Make changes, `add`, `commit`, and `push` the changes
 4. Create a PR
   
@@ -139,7 +137,7 @@ will play the role of the Maintainer ("M"), and who will be the contributor ("C"
 
 ## Practice using the fork workflow (Optional)
 
-Working on the `gh-pages` branch
+Working on the `main` branch
 
 1. C: fork the repository from M
 2. C: `clone` from your respitory (`c/<date>-collab-example`)
@@ -153,7 +151,7 @@ Working on the `gh-pages` branch
 
 Repeat but using a branch
 
-1. Make sure that your local version is up-to-date: `git pull origin gh-pages`
+1. Make sure that your local version is up-to-date: `git pull origin main`
 2. Create a new branch: `git checkout -b BRANCH_NAME` or `git switch -c BRANCH_NAME`
 3. Make changes, `add`, `commit`, and `push` the changes
 4. Create a PR
@@ -176,8 +174,8 @@ Please add questions to the Etherpad.
 
 :::::::::::::::::::::::::::::::::::::::  keypoints
 
-- List
-- here
+- It can be helpful to clone a pull request branch to your computer and build a local version of the lesson to see how a contributor's changes will look in the website
+- As a Maintainer, you can choose to edit your lesson using branches on the repository or on your fork
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
