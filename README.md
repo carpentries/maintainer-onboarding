@@ -8,7 +8,8 @@ It will familiarize them with our process, the social aspects of dealing with co
 **Maintainer(s):**
 
 - [Erin Becker](mailto:ebecker@carpentries.org)
-- [Daniel Chen](mailto:chendaniely@gmail.com)
+- [Toby Hodges](mailto:tobyhodges@carpentries.org)
+- Nathaniel Porter
 
 [swc-site]: https://software-carpentry.org
 [dc-site]: https://datacarpentry.org
