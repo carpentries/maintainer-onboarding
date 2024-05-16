@@ -1872,12 +1872,12 @@ not completely empty.</li>
 </div>
 </div>
 </div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div id="accordionHint1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">Practice using the fork workflow (Optional)</h4>
+<button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
+  <h4 class="accordion-header" id="headingHint1">Practice using the fork workflow (Optional)</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
 <div class="accordion-body">
 <p>Working on the <code>main</code> branch</p>
 <ol style="list-style-type: decimal">
@@ -1914,6 +1914,27 @@ fork</li>
 </div>
 </div>
 </div>
+</section><section id="protected-branches"><h2 class="section-heading">Protected branches<a class="anchor" aria-label="anchor" href="#protected-branches"></a>
+</h2>
+<hr class="half-width">
+<p>Carpentries lesson repositories are configured with <em>branch
+protection</em> rules: safeguards to reduce the likelihood of
+accidentally making breaking changes to the lesson. Repositories have
+two protected branches:</p>
+<ol style="list-style-type: decimal">
+<li>A rule preventing anyone from making changes to the
+<code>legacy/gh-pages</code> branch, which includes the last version of
+the lesson that existed before it was transitioned to a new
+infrastructure in 2023. This branch exists to enable the automated
+closure of pull requests made from a fork that is still using a version
+of the lesson with the previous infrastructure.</li>
+<li>A rule prevent anyone from changing the <code>main</code> branch
+directly. This rule exists to prevent breaking or unfinished changes
+from being accidentally committed to directly to the lesson.</li>
+</ol>
+<p>In addition to the danger of merge conflicts, the protection on the
+<code>main</code> branch is another reason why you should follow a
+branching/forking workflow when making changes to a lesson.</p>
 <div id="questions-and-answers-5-minutes" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
