@@ -121,6 +121,7 @@ will play the role of the Maintainer ("M"), and who will be the contributor ("C"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Working on a new branch (15 minutes)
@@ -133,7 +134,7 @@ will play the role of the Maintainer ("M"), and who will be the contributor ("C"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::  hint
 
 ## Practice using the fork workflow (Optional)
 
@@ -161,6 +162,18 @@ Repeat but using a branch
   
 
 :::::::::::::::::::::::::
+
+## Protected branches
+
+Carpentries lesson repositories are configured with _branch protection_ rules:
+safeguards to reduce the likelihood of accidentally making breaking changes to the lesson.
+Repositories have two protected branches:
+
+1. A rule preventing anyone from making changes to the `legacy/gh-pages` branch, which includes the last version of the lesson that existed before it was transitioned to a new infrastructure in 2023. This branch exists to enable the automated closure of pull requests made from a fork that is still using a version of the lesson with the previous infrastructure.
+2. A rule prevent anyone from changing the `main` branch directly. This rule exists to prevent breaking or unfinished changes from being accidentally committed to directly to the lesson.
+
+In addition to the danger of merge conflicts, the protection on the `main` branch is another reason why you should follow a branching/forking workflow when making changes to a lesson.
+
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
