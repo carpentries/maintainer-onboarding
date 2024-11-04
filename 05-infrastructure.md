@@ -21,24 +21,9 @@ exercises: 5
 
 ## Lesson Infrastructure Transition
 
-This is an exciting time for The Carpentries Lesson Infrastructure! We are in the midst of the 
-official transition to a new infrastructure - [The Carpentries
-Workbench](https://carpentries.github.io/workbench), which is designed to be more user friendly for
-both contributors and Maintainers. All lessons will transition to using the Workbench in 
-May 2023. This episode will teach you some of the most important elements of the Workbench that you will need
+This episode will teach you some of the most important elements of The Carpentries lesson infrastructure (the Workbench) that you will need
 to interact with as a Maintainer. Full documentation can be found on 
 [Introduction to The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/).
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Important: Resolve All Open Pull Requests
-
-In order to prepare lessons for The Workbench transtion, **all open pull requests must be merged or closed by 1 May**. 
-The Carpentries Curriculum Team will be assisting
-Maintainers across all of our lessons to ensure pull requests are resolved before the deadline. 
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
