@@ -169,7 +169,7 @@ take a look at this guide on [How to label issues](https://docs.carpentries.org/
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::  caution
+:::::::::::::::::::::::::::::::::::::::::  spoiler
 
 ### Bots and Spam
 
