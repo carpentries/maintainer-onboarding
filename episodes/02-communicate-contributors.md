@@ -144,20 +144,17 @@ If you disagree with a pull request merged by a member of the Curriculum Team, o
 
 ## Top Ten Tips for Managing Issues and PRs
 
-1. **Acknowledge receipt** - Even if you won't be able to take action on an issue/PR immediately, send the contributor a quick
-  message to let them know you received and appreciate their contribution. Always say thank you!
-2. **Tag issues with descriptive labels** - For community-submitted issues, remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
-3. **Include appropriate cross-references** - When putting in a PR to address an existing Issue, include a link to the Issue. GitHub will automatically add a note to the Issue linking back to the PR. This is also good practice when communicating in conversation threads on related Issues and PRs.
-4. **Use the `@` symbol to tag people in a conversation** - Most people don't subscribe to all of The Carpentries repositories (there are a lot!) and will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. You can also use `@` to tag your Curriculum Advisory Committee. More on that later.
-5. **Request reviews** for non-trivial changes. You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
-6. **Don't merge your own PRs** - Even for small PRs, it's a good idea to have a second person check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
-7. **Do edit PRs as needed** - It is OK to directly edit a contributor's PR if there are minor issues preventing it from being
-  accepted. Many of our contributors are non-responsive to requests to update a PR. This is OK. If the contribution is important - make
-  the minor changes and merge.
-8. **Don't close an issue or PR without explaining why** - Except in the (very rare) case of spammy contributions, take a moment to
-  acknowledge the contribution and explain why it won't be incorporated.
-9. **Do close issues** that have gone stale, are outdated, or out of scope (after explaining why).
-10. **Pay attention** to comments about accessibility and demotivating or exclusionary language.
+1. **Acknowledge receipt** - Even if you won’t be able to take action on an issue or PR immediately, send the contributor a quick reply to let them know you received and appreciate their contribution. Always say thank you!
+1. **Tag issues with descriptive labels** - Remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues. [Adding the “help wanted” label will draw more attention to an issue](#where-do-contributions-come-from).
+1. **Include appropriate cross-references** - When putting in a PR to address an existing Issue, [refer to it with `#` and the issue number](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#referencing-issues-and-pull-requests), or a link to the issue. GitHub will automatically add a note to the issue linking back to the PR. This is also good practice when communicating in conversation threads on related issues and PRs.
+1. **Use the `@` symbol to tag people in a conversation** - Most people will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. You can also use `@` to tag your [Curriculum Advisory Committee](./04-communicate-advisors.md) and members of the Core Team.
+1. **Request reviews for non-trivial changes** -  You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
+1. **Avoid merging your own PRs** - Even for small PRs, it’s a good idea to have a second person check for typos and formatting issues. In general, always try to get a second opinion before merging your own PR. There are some exceptions when the lesson is broken.
+1. **Do edit PRs as needed** - If you see potential problems or improvements to a PR, use the [suggest changes feature](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review) within code review, which will notify the contributor of your suggestions. Contributors are not always responsive to follow-up, so feel free to merge the changes into the PR yourself if you've waited a short time for them to respond. 
+1. **Do not close an issue or PR without explaining why** - Except in the rare case of [spammy contributions](#bots-and-spam), take a moment to acknowledge the contribution and explain why it won’t be incorporated.
+1. **Do close issues** that have gone stale, are outdated, or out of scope (after explaining why).
+1. **Pay attention** to comments about accessibility and demotivating or exclusionary language.
+
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
