@@ -142,7 +142,36 @@ If you disagree with a pull request merged by a member of the Curriculum Team, o
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Bots and Spam
+## Top Ten Tips for Managing Issues and PRs
+
+1. **Acknowledge receipt** - Even if you won't be able to take action on an issue/PR immediately, send the contributor a quick
+  message to let them know you received and appreciate their contribution. Always say thank you!
+2. **Tag issues with descriptive labels** - For community-submitted issues, remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
+3. **Include appropriate cross-references** - When putting in a PR to address an existing Issue, include a link to the Issue. GitHub will automatically add a note to the Issue linking back to the PR. This is also good practice when communicating in conversation threads on related Issues and PRs.
+4. **Use the `@` symbol to tag people in a conversation** - Most people don't subscribe to all of The Carpentries repositories (there are a lot!) and will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. You can also use `@` to tag your Curriculum Advisory Committee. More on that later.
+5. **Request reviews** for non-trivial changes. You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
+6. **Don't merge your own PRs** - Even for small PRs, it's a good idea to have a second person check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
+7. **Do edit PRs as needed** - It is OK to directly edit a contributor's PR if there are minor issues preventing it from being
+  accepted. Many of our contributors are non-responsive to requests to update a PR. This is OK. If the contribution is important - make
+  the minor changes and merge.
+8. **Don't close an issue or PR without explaining why** - Except in the (very rare) case of spammy contributions, take a moment to
+  acknowledge the contribution and explain why it won't be incorporated.
+9. **Do close issues** that have gone stale, are outdated, or out of scope (after explaining why).
+10. **Pay attention** to comments about accessibility and demotivating or exclusionary language.
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+### How to Label Issues
+
+To find a list of issue labels, their corresponding meanings, and when to use each,
+take a look at this guide on [How to label issues](https://docs.carpentries.org/topic_folders/maintainers/github_labels.html) in The Carpentries handbook.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::  caution
+
+### Bots and Spam
 
 Unfortunately, The Carpentries repositories occasionally receive time-wasting contributions,
 for example containing spurious changes that are not a legitimate attempt to improve the content.
@@ -172,31 +201,6 @@ you might consider taking either or both of the following steps:
    at the beginning of the conversation thread for the issue/pull request
    and selecting "Report content".
    This will take you to the form for reporting violations of [GitHub's terms of service](https://github.com/site/terms).
-
-## Top Ten Tips for Managing Issues and PRs
-
-1. **Acknowledge receipt** - Even if you won't be able to take action on an issue/PR immediately, send the contributor a quick
-  message to let them know you received and appreciate their contribution. Always say thank you!
-2. **Tag issues with descriptive labels** - For community-submitted issues, remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
-3. **Include appropriate cross-references** - When putting in a PR to address an existing Issue, include a link to the Issue. GitHub will automatically add a note to the Issue linking back to the PR. This is also good practice when communicating in conversation threads on related Issues and PRs.
-4. **Use the `@` symbol to tag people in a conversation** - Most people don't subscribe to all of The Carpentries repositories (there are a lot!) and will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. You can also use `@` to tag your Curriculum Advisory Committee. More on that later.
-5. **Request reviews** for non-trivial changes. You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
-6. **Don't merge your own PRs** - Even for small PRs, it's a good idea to have a second person check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
-7. **Do edit PRs as needed** - It is OK to directly edit a contributor's PR if there are minor issues preventing it from being
-  accepted. Many of our contributors are non-responsive to requests to update a PR. This is OK. If the contribution is important - make
-  the minor changes and merge.
-8. **Don't close an issue or PR without explaining why** - Except in the (very rare) case of spammy contributions, take a moment to
-  acknowledge the contribution and explain why it won't be incorporated.
-9. **Do close issues** that have gone stale, are outdated, or out of scope (after explaining why).
-10. **Pay attention** to comments about accessibility and demotivating or exclusionary language.
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## How to Label Issues
-
-To find a list of issue labels, their corresponding meanings, and when to use each,
-take a look at this guide on [How to label issues](https://docs.carpentries.org/topic_folders/maintainers/github_labels.html) in The Carpentries handbook.
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
