@@ -53,7 +53,7 @@ potentially a short icebreaker question ("Tell us one good thing that happened i
 ## Code of Conduct
 
 To make clear what is expected, everyone participating in The Carpentries activities is required
-to conform to our [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
+to conform to our [Code of Conduct](https://docs.carpentries.org/policies/coc/).
 This Code of Conduct applies to all spaces managed by The Carpentries including, but not limited to workshops, email lists, online
 forums and on GitHub. Please review the Code of Conduct to familiarise yourself with it.
 
@@ -179,7 +179,7 @@ With these goals in mind, The Carpentries expectations of Maintainers are that y
 
 ## Maintainer Guidelines
 
-You can find more details about [Maintainer Guidelines](https://docs.carpentries.org/topic_folders/maintainers/maintainers.html) in The Carpentries documentation.
+You can find more details about [Maintainer Guidelines](https://docs.carpentries.org/handbooks/maintainers.html) in The Carpentries documentation.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
