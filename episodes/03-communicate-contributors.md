@@ -31,10 +31,10 @@ Carpentries community.
 
 While anyone can contribute to The Carpentries lessons, the vast majority of contributions come from:
 
-- Trainees who have gone through Instructor Training and are submitting a contribution as part of "checkout" to complete their Instructor certification.
 - Workshop Instructors (and helpers) who have recently participated in a workshop and noticed difficulties with the materials.
+- Trainees who have gone through Instructor Training and are submitting a contribution as part of "checkout" to complete their Instructor certification.
 
-Everyone who goes through The Carpentries Instructor Training program is required to [get involved](https://carpentries.github.io/instructor-training/checkout.html#getinvolved) in the Carpentries community in order to become certified, and contributing to a lesson is a popular option. We train over a thousand people each year to be Instructors, about half of whom complete the
+Everyone who goes through The Carpentries Instructor Training program is required to [get involved](https://carpentries.github.io/instructor-training/checkout.html#getinvolved) in the Carpentries community in order to become certified, and contributing to a lesson is a popular option. We train hundreds of people each year to be Instructors, about half of whom complete the
 certification process. Many of the contributions you will receive come from Instructor trainees. 
 
 During Instructor Training, we [strongly encourage contributors](https://carpentries.github.io/instructor-training/checkout.html) to contribute to
@@ -50,7 +50,7 @@ making it more likely that their contribution will be useful and accepted.
 
 ## Help Wanted (5 minutes)
 
-Locate your lesson's help wanted list.
+Pick a lesson and locate its help wanted list.
 
 - How many issues are currently open with that tag? How many have been closed?
 - Is it clear what action is desired (i.e. what help is wanted?) for each issue marked help wanted?
@@ -59,7 +59,8 @@ Locate your lesson's help wanted list.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Spending some time cleaning up your lesson's help wanted list in your first few months as Maintainer will save
+You will receive your lesson assignment after completing onboarding. 
+Spending some time cleaning up your lesson's help wanted list is a great activity to engage in during your first few months as a Maintainer. This will save
 you and your co-Maintainers time in the long term and help ensure higher-quality contributions.
 
 Despite our best efforts in encouraging the types of contributions listed above, you will also receive unwanted or unhelpful contributions, including:
@@ -67,9 +68,9 @@ Despite our best efforts in encouraging the types of contributions listed above,
 - addition of new material covering topics outside of the scope of the lesson;
 - changes to the way a topic is presented that are inconsistent with The Carpentries pedagogical model;
 - changes to the technology taught in the lesson (e.g. introduction of a new plotting system);
-- multiple unrelated suggestions.
+- multiple unrelated suggestions in the contribution.
 
-These contributions may come in the form of an issue or a PR. Being open to new contributions while keeping the lessons sleek and
+These contributions may come in the form of an issue or a pull request. Being open to new contributions while keeping the lessons sleek and
 teachable is a difficult balancing act. It's ok to say no to a
 contribution when it doesn't add anything useful to the materials,
 goes beyond the scope of the lesson, or introduces unnecessary
@@ -78,7 +79,7 @@ interactions with contributors and let them know that their
 involvement is valued. GitHub's OpenSource Guide on "Best Practices for Maintainers" includes a
 section on ["learning to say no"](https://opensource.guide/best-practices/#learning-to-say-no). They recommend that you:
 
-- **Thank them** for their contribution.
+- **Thank contributors** for their contribution.
 - **Explain why it doesn't fit** into the scope of the project, and offer clear suggestions for improvement, if you're able. Be kind, but firm.
 - **Link to relevant documentation,** if you have it. If you notice repeated requests for things you don't want to accept, add them into your documentation to avoid repeating yourself.
 - **Close the request.**
@@ -135,37 +136,35 @@ to distinguish them from contributions made directly via GitHub.
 :::::::::::::::::::::::::::::::::::::::::: callout
 
 ## The Curriculum Team may review and merge pull requests
+
 From time to time, members of The Carpentries Curriculum Team may review and/or merge pull requests opened on your lesson repositories.
 This might happen because a change is particularly urgent (e.g. it fixes something that is broken in the lesson) or because the change is uncontroversial (e.g. a typo fix or a small improvement to wording, etc) and the Curriculum Team member happens to be looking at the lesson repository at the time.
 When a member of the Core Team takes this action, it is not because that they expected one of the Maintainers to have handled the contribution sooner.
-If you disagree with a pull request merged by a member of the Curriculum Team, or want to discuss changes like these with them, please get in touch!
+If you disagree with a pull request merged by a member of the Curriculum Team, or want to discuss changes like these with them, please get in touch! You can reopen an issue or pull request with further discussion, or [contact the Curriculum Team by email](mailto:team@carpentries.org).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Top Ten Tips for Managing Issues and PRs
+## Top Ten Tips for Managing Issues and Pull Requests
 
-1. **Acknowledge receipt** - Even if you won't be able to take action on an issue/PR immediately, send the contributor a quick
-  message to let them know you received and appreciate their contribution. Always say thank you!
-2. **Tag issues with descriptive labels** - For community-submitted issues, remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues.
-3. **Include appropriate cross-references** - When putting in a PR to address an existing Issue, include a link to the Issue. GitHub will automatically add a note to the Issue linking back to the PR. This is also good practice when communicating in conversation threads on related Issues and PRs.
-4. **Use the `@` symbol to tag people in a conversation** - Most people don't subscribe to all of The Carpentries repositories (there are a lot!) and will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. You can also use `@` to tag your Curriculum Advisory Committee. More on that later.
-5. **Request reviews** for non-trivial changes. You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
-6. **Don't merge your own PRs** - Even for small PRs, it's a good idea to have a second person check for typos and formatting issues. In general, always get a second opinion before merging your own PR. This is a good time to request a review.
-7. **Do edit PRs as needed** - It is OK to directly edit a contributor's PR if there are minor issues preventing it from being
-  accepted. Many of our contributors are non-responsive to requests to update a PR. This is OK. If the contribution is important - make
-  the minor changes and merge.
-8. **Don't close an issue or PR without explaining why** - Except in the (very rare) case of spammy contributions, take a moment to
-  acknowledge the contribution and explain why it won't be incorporated.
-9. **Do close issues** that have gone stale, are outdated, or out of scope (after explaining why).
-10. **Pay attention** to comments about accessibility and demotivating or exclusionary language.
+1. **Acknowledge receipt** - Even if you won’t be able to take action on an issue or pull request immediately, send the contributor a quick reply to let them know you received and appreciate their contribution. Always say thank you!
+1. **Tag issues with descriptive labels** - Remember to add appropriate labels, even if you are not going to immediately take action. This shows contributors that issues are being paid attention to and encourages others to take action on issues. [Adding the “help wanted” label will draw more attention to an issue](#where-do-contributions-come-from).
+1. **Include appropriate cross-references** - When putting in a pull request to address an existing issue, [refer to it with `#` and the issue number](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#referencing-issues-and-pull-requests), or a link to the issue. GitHub will automatically add a note to the issue linking back to the PR. This is also good practice when communicating in conversation threads on related issues and PRs.
+1. **Use the `@` symbol to tag people in a conversation** - Most people will only get email alerts if their GitHub handle is tagged. This is a good way to make sure relevant people are included in the conversation. You can also use `@` to tag your [Curriculum Advisory Committee](./04-communicate-advisors.md) and members of the Core Team.
+1. **Request reviews for non-trivial changes** -  You can request a review from a fellow Maintainer or from someone else who has been active on the repository. This is another way of including relevant people in the decision-making process.
+1. **Avoid merging your own pull requests** - Even for small pull requests, it’s a good idea to have a second person check for typos and formatting issues. In general, always try to get a second opinion before merging your own pull request. There are some exceptions when the lesson is broken.
+1. **Do edit pull requests as needed** - If you see potential problems or improvements to a pull request, use the [suggest changes feature](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review) within code review, which will notify the contributor of your suggestions. Contributors are not always responsive to follow-up, so feel free to merge the changes into the pull request yourself if you've waited a short time for them to respond. 
+1. **Do not close an issue or pull request without explaining why** - Except in the rare case of [spammy contributions](#bots-and-spam), take a moment to acknowledge the contribution and explain why it won’t be incorporated.
+1. **Do close issues** that have gone stale, are outdated, or out of scope (after explaining why).
+1. **Be responsive* to comments about accessibility and demotivating or exclusionary language.
+
+More detailed tips are available in the [FAQ section of our Maintainer Handbook](https://docs.carpentries.org/handbooks/maintainers.html#faq).
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
 ### How to Label Issues
 
 To find a list of issue labels, their corresponding meanings, and when to use each,
-take a look at this guide on [How to label issues](https://docs.carpentries.org/topic_folders/maintainers/github_labels.html) in The Carpentries handbook.
-
+take a look at this guide on [How to label issues](https://docs.carpentries.org/handbooks/maintainers.html#using-issue-labels-to-promote-collaboration) in The Carpentries handbook.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

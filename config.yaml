@@ -68,12 +68,14 @@ episodes:
 
 # Information for Learners
 learners: 
-
+   - setup.md
+   
 # Information for Instructors
-instructors: 
+instructors:
+ - instructor-notes.md
 
 # Learner Profiles
-profiles: 
+# profiles: 
 
 # Customisation ---------------------------------------------
 #
