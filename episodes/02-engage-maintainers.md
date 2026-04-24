@@ -158,6 +158,25 @@ Please introduce yourself on that channel.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+To help us coordinate events aimed at our Maintainer community, it is very useful to have accurate information about each Maintainer's time zone. 
+We keep track of this information in our AMY database. 
+Please take a moment to update your time zone, and other info if desired, in your AMY profile. 
+
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Update your AMY Profile (5 minutes)
+
+- Login to AMY using your GitHub credentials at [amy.carpentries.org](https://amy.carpentries.org).
+- In the upper-right hand corner, open the drop-down menu under your name and select "Your Profile". 
+- Click the "Edit" button in the upper left. 
+- Add your Airport, Country, and/or Timezone to the appropriate fields. 
+- Update any other information if desired. 
+
+Thank you!
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 :::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Maintainer Capacity
