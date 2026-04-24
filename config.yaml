@@ -64,7 +64,6 @@ episodes:
   - 03-communicate-contributors.md
   - 04-communicate-advisors.md
   - 05-infrastructure.md
-  - 06-git-workflow.md
 
 # Information for Learners
 learners: 
@@ -75,7 +74,8 @@ instructors:
  - instructor-notes.md
 
 # Learner Profiles
-# profiles: 
+profiles:
+ - learner-profiles.md
 
 # Customisation ---------------------------------------------
 #

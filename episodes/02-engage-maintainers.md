@@ -1,7 +1,7 @@
 ---
 title: Engaging with the Maintainer Community
-teaching: 5
-exercises: 5
+teaching: 20
+exercises: 20
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives

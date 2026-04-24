@@ -1,7 +1,7 @@
 ---
 title: Communicating with Contributors
 teaching: 15
-exercises: 10
+exercises: 15
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives
