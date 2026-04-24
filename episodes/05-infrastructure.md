@@ -19,7 +19,7 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Lesson Infrastructure Transition
+## Lesson Infrastructure
 
 This episode will teach you some of the most important elements of The Carpentries lesson infrastructure (the Workbench) that you will need
 to interact with as a Maintainer. Full documentation can be found on 
@@ -34,6 +34,7 @@ the infrastructure that was used for The Carpentries lessons from 2014 - May 202
 infrastructure was managed through the [styles
 repository](https://github.com/swcarpentry/styles), and documented on
 the [lesson-example repository](https://carpentries.github.io/lesson-example/).
+Styles is no longer actively maintained. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -44,12 +45,10 @@ the [lesson-example repository](https://carpentries.github.io/lesson-example/).
 
 Up until March 2020, the lesson infrastructure was maintained by the
 [Lesson Infrastructure Committee](https://carpentries.org/lesson-infra/). The
-activity of the Committee was put on hold during the COVID-19 pandemic and we are making concious
-strategic decisions about how to re-form this committee ahead of May 2023.
+activity of the Committee was put on hold during the COVID-19 pandemic.
 
-The Lesson Infrastructure is currently maintained by the [Curriculum
-Team](https://carpentries.org/core-team-projects/#curriculum-team), with the help of [Maxim
-Belkin](https://github.com/maxim-belkin).
+The Workbench is currently maintained by members of The Carpentries Core Team, with significant
+[contributions from many community members](https://github.com/carpentries/sandpaper/graphs/contributors). 
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -208,6 +207,9 @@ This is an Instructor note.
 In addition to showing up in-line in the Instructor view, callouts with the "instructor" tag are gathered to a separate "Instructor Notes" page. 
 
 
+A comprehensive list of supported callout types is available in [The Workbench's component guide](https://carpentries.github.io/sandpaper-docs/component-guide.html).
+
+
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Scavenger Hunt (5 minutes)
@@ -233,7 +235,7 @@ Most lesson content is stored in `index.md` and the files within the `episodes/`
 but the lesson repository also contains source files in other folders:
 
 - the `instructors/` and `learners/` folders contain more Markdown and/or R Markdown files that will be presented as accompanying pages in the Instructor and Learner views of the lesson, respectively.
-  - For example, the `instructors/` folder contains the source file for the Instructor Notes page, which - in addition to collating the inline Instructor Notes inlcuded in the episodes of a lesson - can contain general guidance for Instructors.
+  - For example, the `instructors/` folder contains the source file for the Instructor Notes page, which - in addition to collating the inline Instructor Notes included in the episodes of a lesson - can contain general guidance for Instructors.
   - The `learners/` folder contains `setup.md`, the source file for the setup instructions that will appear on the landing page of the lesson in the Learner view.
 - the `profiles/` folder contains a source file that can be used to provide learner profiles for the lesson: a way to describe its target audience.
 - the `site/` folder exists to store the built version of the lesson site, and should not be modified directly.
