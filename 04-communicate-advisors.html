@@ -92,8 +92,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">FIXME</a></li>
-          </ul></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul></li>
       </ul></div>
     <!--
     <form class="d-flex col-md-2 search-form">
@@ -107,11 +106,11 @@
     -->
     <a id="search-button" class="btn btn-primary" href="aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
-</nav><aside class="col-md-12 lesson-progress"><div style="width: 36%" class="percentage">
-    36%
+</nav><aside class="col-md-12 lesson-progress"><div style="width: 74%" class="percentage">
+    74%
   </div>
   <div class="progress carpentries">
-    <div class="progress-bar carpentries" role="progressbar" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="36" style="width: 36%">
+    <div class="progress-bar carpentries" role="progressbar" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="74" style="width: 74%">
     </div>
   </div>
 </aside><div class="container">
@@ -202,7 +201,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="02-communicate-contributors.html">2. Communicating with Contributors</a>
+        <a href="02-engage-maintainers.html">2. Engaging with the Maintainer Community</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -211,7 +210,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-communicate-maintainers.html">3. Communicating with Other Maintainers</a>
+        <a href="03-communicate-contributors.html">3. Communicating with Contributors</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -239,15 +238,6 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush7">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading7">
-        <a href="06-git-workflow.html">6. The Carpentries Git Workflow</a>
-    </div><!--/div.accordion-header-->
-
-  </div><!--/div.accordion-item-->
-</div><!--/div.accordion-flush-->
-
                 </div>
               </div>
             </div>
@@ -270,7 +260,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="discuss.html">Discussion</a></li><li><a href="reference.html">FIXME</a></li>
+
                     </ul></div>
                 </div>
               </div>
@@ -290,12 +280,12 @@
         <!-- START: inst/pkgdown/templates/content-instructor.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter Top"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="03-communicate-maintainers.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link" href="03-communicate-contributors.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="05-infrastructure.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="03-communicate-maintainers.html" rel="prev">
+        <a class="chapter-link" href="03-communicate-contributors.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: Communicating with
         </a>
@@ -306,7 +296,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Communicating with Curriculum Advisors</h1>
-        <p>Last updated on 2025-01-09 |
+        <p>Last updated on 2026-04-25 |
 
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/04-communicate-advisors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -337,7 +327,7 @@
 <h3 class="card-title">Objectives</h3>
 <ul><li>Describe who has authority, and responsibility, to make different
 types of decisions.</li>
-<li>Gain confidence in merging simple PRs independently.</li>
+<li>Gain confidence in merging simple pull requests independently.</li>
 <li>Know when and how to contact Curriculum Advisors.</li>
 </ul></div>
 </div>
@@ -348,8 +338,8 @@ types of decisions.</li>
 For example the <a href="https://datacarpentry.org/organization-genomics/" class="external-link">Project
 Organization and Management for Genomics</a> lesson is part of the <a href="https://datacarpentry.org/genomics-workshop/" class="external-link">Genomics
 curriculum</a>, which is part of the Data Carpentry Lesson Program. Data
-Carpentry has several curricula, while Library Carpentry and Software
-Carpentry each have a single curriculum.</p>
+Carpentry has several curricula, while HPC Carpentry, Library Carpentry,
+and Software Carpentry each have a single curriculum.</p>
 <p>The work that Maintainers do on routine upkeep of the lessons is
 complimented by the Curriculum Advisory Committee (CAC) for each
 curriculum. Curriculum Advisors provide high-level oversight, vision,
@@ -369,27 +359,41 @@ applications open.</p>
 <p>You can tag in your Curriculum Advisory Committee on an issue in your
 lesson repository using their team name (e.g. “<span class="citation">@datacarpentry/curriculum-advisors-astronomy</span>” or
 “<span class="citation">@LibraryCarpentry/curriculum-advisors</span>”).
-The CAC chair is responsible for watching the repository and serving as
-a liaison with the curriculum’s Maintainers. Each Curriculum Advisory
-Committee also has a public TopicBox list, where Maintainers and other
-community members can bring issues for consideration. More information
-about each CAC, including mailing list and GitHub repositories, is
-available on the <a href="https://carpentries.org/curriculum-advisors/" class="external-link">Curriculum Advisors
+The CAC chair is responsible for watching each associated lesson
+repository and serving as a liaison with the curriculum’s Maintainers.
+Each Curriculum Advisory Committee also has a public TopicBox list,
+where Maintainers and other community members can bring issues for
+consideration. More information about each CAC, including mailing list
+and GitHub repositories, is available on the <a href="https://carpentries.org/curriculum-advisors/" class="external-link">Curriculum Advisors
 homepage</a>.</p>
-<div id="which-strategy-5-minutes" class="callout discussion">
+<div id="callout1" class="callout">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="bell"></i>
 </div>
-<span class="callout-header">Discussion</span>
-<div id="which-strategy-5-minutes" class="callout-inner">
-<h3 class="callout-title">Which strategy? (5 minutes)</h3>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
 <div class="callout-content">
-<p>Match the issue with the correct strategy for resolving it.</p>
+<p>As of April 2026, the Curriculum Advisory Committees for Software
+Carpentry and for the Social Sciences curriculum within Data Carpentry
+were inactive. Efforts to revive these committees are ongoing. If you
+are interested in being considered for one of these committees, please
+<a href="mailto:tobyhodges@carpentries.org">contact Toby Hodges</a>.</p>
+</div>
+</div>
+</div>
+<div id="which-strategy-10-minutes" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="which-strategy-10-minutes" class="callout-inner">
+<h3 class="callout-title">Which strategy? (10 minutes)</h3>
+<div class="callout-content">
+<p>Match the issue with the correct strategy for resolving it. Some
+options may be used more than once.</p>
 <ol style="list-style-type: decimal"><li>Needs elevation to CAC</li>
 <li>Simple fix by a single Maintainer without review</li>
-<li>Put in a PR and wait for another Maintainer to review</li>
-<li>Raise the issue for conversation at Maintainer co-working corral or
-on email list</li>
+<li>Put in a pull request and wait for another Maintainer to review</li>
 </ol><ul><li><a href="https://github.com/datacarpentry/R-ecology-lesson/issues/791" class="external-link">RStudio
 installer versioning</a></li>
 <li><a href="https://github.com/swcarpentry/shell-novice/issues/1294" class="external-link">A
@@ -400,6 +404,23 @@ Backing Up with SQL to the top of the Creating tables… episode?</a></li>
 to the spatial packages lifecycle: migrate to use sf, terra, and
 stars</a></li>
 </ul></div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ul><li>RStudio installer versioning - 2 or 3</li>
+<li>A small change in the episode “Finding Things” - 2</li>
+<li>Move Backing Up with SQL to the top of the Creating tables… episode?
+- 3</li>
+<li>Update to the spatial packages lifecycle: migrate to use sf, terra,
+and stars - 1</li>
+</ul></div>
+</div>
 </div>
 </div>
 <div id="keypoints1" class="callout keypoints">
@@ -420,12 +441,12 @@ Advisors.</li>
 
       </div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="03-communicate-maintainers.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link" href="03-communicate-contributors.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="05-infrastructure.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="03-communicate-maintainers.html" rel="prev">
+        <a class="chapter-link" href="03-communicate-contributors.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: Communicating with
         </a>
@@ -478,8 +499,8 @@ Advisors.</li>
   "url": "https://carpentries.github.io/maintainer-onboarding/04-communicate-advisors.html",
   "identifier": "https://carpentries.github.io/maintainer-onboarding/04-communicate-advisors.html",
   "dateCreated": "2017-12-11",
-  "dateModified": "2025-01-09",
-  "datePublished": "2026-04-24"
+  "dateModified": "2026-04-25",
+  "datePublished": "2026-04-25"
 }
 
   </script><script>

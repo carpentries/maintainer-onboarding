@@ -117,10 +117,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-<li><a class="dropdown-item" href="discuss.html">Discussion</a></li>
-<li><a class="dropdown-item" href="reference.html">FIXME</a></li>
-          </ul>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
 </li>
       </ul>
 </div>
@@ -241,7 +238,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="02-communicate-contributors.html">2. Communicating with Contributors</a>
+        <a href="02-engage-maintainers.html">2. Engaging with the Maintainer Community</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -253,7 +250,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-communicate-maintainers.html">3. Communicating with Other Maintainers</a>
+        <a href="03-communicate-contributors.html">3. Communicating with Contributors</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -286,18 +283,6 @@
 </div>
 <!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush7">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading7">
-        <a href="06-git-workflow.html">6. The Carpentries Git Workflow</a>
-    </div>
-<!--/div.accordion-header-->
-
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
                 </div>
               </div>
             </div>
@@ -322,8 +307,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="discuss.html">Discussion</a></li>
-<li><a href="reference.html">FIXME</a></li>
+
                     </ul>
 </div>
                 </div>
@@ -355,7 +339,7 @@
         
 <section id="aio-01-welcome"><p>Content from <a href="01-welcome.html">Welcome to the Maintainer Community</a></p>
 <hr>
-<p>Last updated on 2025-01-09 |
+<p>Last updated on 2026-04-25 |
 
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/01-welcome.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -424,8 +408,9 @@ to the question</p>
 <li>Helper</li>
 <li>Instructor</li>
 <li>Learner</li>
-<li>Trainer</li>
-<li>Executive Council member</li>
+<li>Instructor Trainer</li>
+<li>Lesson Developer Trainer</li>
+<li>Executive Council of Board of Directors member</li>
 <li>Committee or Task Force member</li>
 <li>Workshop organizer or host</li>
 <li>None of the above</li>
@@ -471,29 +456,28 @@ about how to continue learning and growing in this role.</p>
 information you need to become a Carpentries Maintainer. During this
 training, we will:</p>
 <ul>
-<li>Orient you to The Carpentries goals and vision for lesson
-maintenance</li>
 <li>Help you get connected with other Maintainers and the overall
 Maintainer community</li>
+<li>Orient you to The Carpentries goals and vision for lesson
+maintenance</li>
 <li>Develop skills for creating a positive environment for all
 contributors</li>
 <li>Become familiar with the key components of the lesson template</li>
 <li>Practice core technical skills for lesson maintenance</li>
 <li>Learn how and when to elevate issues to your Curriculum Advisory
-Committee</li>
+Committee or Lesson Program Governors</li>
 </ul></section><section><h2 class="section-heading" id="what-this-onboarding-does-not-cover">What This Onboarding Does Not Cover<a class="anchor" aria-label="anchor" href="#what-this-onboarding-does-not-cover"></a>
 </h2>
 <hr class="half-width">
-<p>The Carpentries supports over 40 official lessons across our three
-Lesson Programs (Data Carpentry, Library Carpentry, and Software
-Carpentry). At any given time, there are also dozens of
+<p>The Carpentries supports over 50 official lessons across our four
+Lesson Programs (Data Carpentry, HPC Carpentry, Library Carpentry, and
+Software Carpentry). At any given time, there are also dozens of
 community-supported lessons in active development in <a href="https://carpentries-incubator.org/" class="external-link">The Carpentries Incubator</a>.
 This training is intended for Maintainers of official lessons, and we
 will not cover how new lessons are developed, vetted, and adopted into
 The Carpentries core lesson stack. Those interested in curriculum
-development are encouraged to read The Carpentries <a href="https://cdh.carpentries.org/" class="external-link">Curriculum Development Handbook</a>.
-We also offer <a href="https://carpentries.github.io/lesson-development-training/" class="external-link">training
-in collaborative lesson development</a>.</p>
+development are encouraged to check-out The Carpentries <a href="https://carpentries.org/lesson-development/" class="external-link">Collaborative Lesson
+Development Training program</a>.</p>
 <p>We do not expect you to be an expert in Git or GitHub, or even to
 have used these tools at all in the past. We will provide you with an
 introduction to the core skills you need to respond to uncomplicated
@@ -512,7 +496,7 @@ skills you will need to maintain your lesson.</p>
 </section><section><h2 class="section-heading" id="goals-for-lesson-maintenance">Goals for Lesson Maintenance<a class="anchor" aria-label="anchor" href="#goals-for-lesson-maintenance"></a>
 </h2>
 <hr class="half-width">
-<p>The Carpentries teaches 400 - 600 workshops each year, meaning our
+<p>The Carpentries teaches hundreds of workshops each year, meaning our
 lesson materials are being used practically every day for synchronous,
 guided learning. Making sure our lessons keep working without
 interruptions is therefore our number one goal for maintenance.</p>
@@ -556,8 +540,8 @@ yourself whether it is necessary for the learner.</li>
 <div id="maintainer-guidelines" class="callout-inner">
 <h3 class="callout-title">Maintainer Guidelines</h3>
 <div class="callout-content">
-<p>You can find more details about <a href="https://docs.carpentries.org/handbooks/maintainers.html" class="external-link">Maintainer
-Guidelines</a> in The Carpentries documentation.</p>
+<p>You can find more details about <a href="https://docs.carpentries.org/handbooks/maintainers.html#roles-and-responsibilities" class="external-link">Maintainer
+Roles and Responsibilities</a> in The Carpentries documentation.</p>
 </div>
 </div>
 </div>
@@ -582,11 +566,324 @@ Maintainer.</li>
 </div>
 </div>
 </div>
-</section></section><section id="aio-02-communicate-contributors"><p>Content from <a href="02-communicate-contributors.html">Communicating with Contributors</a></p>
+</section></section><section id="aio-02-engage-maintainers"><p>Content from <a href="02-engage-maintainers.html">Engaging with the Maintainer Community</a></p>
 <hr>
-<p>Last updated on 2026-04-24 |
+<p>Last updated on 2026-04-25 |
 
-        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/02-communicate-contributors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/02-engage-maintainers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do I get in touch with other Maintainers?</li>
+<li>What resources exist for supporting me in this role?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Join the appropriate communication channels to stay connected with
+fellow Maintainers.</li>
+<li>Know how to get in touch with others in The Carpentries who support
+Maintainers.</li>
+<li>Add Maintainer meetings to your calendar.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="synchronous-communications">Synchronous communications<a class="anchor" aria-label="anchor" href="#synchronous-communications"></a>
+</h2>
+<hr class="half-width">
+<div class="section level3">
+<h3 id="maintainer-meetings">Maintainer meetings<a class="anchor" aria-label="anchor" href="#maintainer-meetings"></a>
+</h3>
+<p>The Maintainer community meets virtually on the third Tuesday of each
+month at two different time slots, to enable participation from
+Maintainers in different time zones. We will take time together to add
+these meetings to your calendar in a moment.</p>
+<p>We strongly encourage all new Maintainers to join our monthly
+meetings regularly, as these are an excellent place to connect with the
+broader Maintainer community, engage in discussions around topics of
+interest to Maintainers, and stay informed about upcoming work by other
+parts of The Carpentries community that may impact lesson
+maintenance.</p>
+<p>We recognize that not everyone can attend these monthly meetings, and
+so also communicate important information through dedicated Maintainer
+channels on TopicBox and Slack. So don’t worry if you can’t attend! We
+do highly recommend joining, as it’s a good way to get to know other
+Maintainers.</p>
+<div id="add-to-your-calendar-5-minutes" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="add-to-your-calendar-5-minutes" class="callout-inner">
+<h3 class="callout-title">Add to Your Calendar (5 minutes)</h3>
+<div class="callout-content">
+<p>Add the monthly Maintainer meetings to your calendar by either</p>
+<ul>
+<li>subscribing to The Carpentries <a href="https://carpentries.org/community/#community-events" class="external-link">community
+calendar</a> and copying events to your Google Calendar, or</li>
+<li>clicking the TimeandDate links on the <a href="https://codimd.carpentries.org/maintainers?both" class="external-link">Maintainers
+CodiMD pad</a> to convert the events to your local time, and adding to
+your calendar manually.</li>
+</ul>
+<p>If you are planning to attend the upcoming meeting, please <a href="https://pretix.carpentries.org/lesson-maintainers/lesson-maintainers-meetings/" class="external-link">register
+in Pretix</a>. Pretix will automatically calculate the event time in
+your local time zone and will send you a calendar invite and event
+reminders. It also helps us to track the impact of our different
+community meetings.</p>
+</div>
+</div>
+</div>
+<p>In addition to these monthly opportunities to connect across the
+broader Maintainer community, we recommend each set of co-Maintainers
+for a particular lesson set-up regular co-working times, at least
+monthly. You will be introduced to your lesson co-Maintainers after
+onboarding is complete, at which time we recommend you ask about
+existing co-working times and help establish a meeting schedule if one
+doesn’t already exist!</p>
+</div>
+</section><section><h2 class="section-heading" id="asynchronous-communications">Asynchronous communications<a class="anchor" aria-label="anchor" href="#asynchronous-communications"></a>
+</h2>
+<hr class="half-width">
+<p>Because The Carpentries community as a whole, and Maintainers also,
+are a globally distributed group, the vast majority of lesson
+contribution work is done asynchronously. It is important to subscribe
+to Maintainer-specific communication channels to stay up-to-date about
+news impacting lesson development and maintanence.</p>
+<p>There are three primary asynchronous communication channels shared
+across the Maintainer team.</p>
+<div class="section level3">
+<h3 id="slack">Slack<a class="anchor" aria-label="anchor" href="#slack"></a>
+</h3>
+<p>Slack is the most active communication platform used by our
+community. We have a private, Maintainers-only Slack channel, which you
+will all be invited to during this onboarding. Our general Maintainers
+channel is a good place to ask questions of the full Maintainer team, or
+to request input on specific issues and pull requests. Most curricula
+also have a public Slack channel for discussing issues with the
+community (browse for channels starting with <code>dc</code>,
+<code>hpc</code>, <code>lc</code>, or <code>swc</code>). Specific
+curriculum channels have not historically been very active, but we
+encourage any efforts to increase interaction with the community on
+these channels. You can also use curriculum-specific channels for
+communicating with your co-Maintainers, or you can create a private
+channel for yourself and your co-Maintainers. If you would like a
+private channel to be created for you, please <a href="mailto:team@carpentries.org">let us know</a>.</p>
+</div>
+<div class="section level3">
+<h3 id="topicbox">TopicBox<a class="anchor" aria-label="anchor" href="#topicbox"></a>
+</h3>
+<p>The <a href="https://carpentries.topicbox.com/groups/maintainers" class="external-link">Maintainers
+TopicBox list</a> is used primarily for announcements relevant to the
+full Maintainer team, including reminders about upcoming meetings. Posts
+from individual Maintainers asking questions or introducing topics for
+discussion are <strong>extremely welcome</strong>, but our Slack channel
+is a more active place for back-and-forth discussion.</p>
+<p>A few lists exist around specific curricula (search for lists
+starting with <code>curriculum</code>, but most have not been very
+active. If you would like to have a public TopicBox list created for
+discussions of your lesson, or a private list for your Maintainer team,
+please <a href="mailto:team@carpentries.org">let us know</a>.</p>
+</div>
+<div class="section level3">
+<h3 id="github">GitHub<a class="anchor" aria-label="anchor" href="#github"></a>
+</h3>
+<p>The majority of day-to-day interactions with your co-Maintainers will
+be on GitHub. You will need to be subscribed to (“watching”) your lesson
+repository to get email alerts about new issues, pull requests, and
+other activity on your lesson. When posting to GitHub, you can use the
+<code>@</code> symbol to “mention” an individual Maintainer, your lesson
+team, and / or your Curriculum Advisory Committee to ensure that the
+appropriate person or group sees your message. Feel free also to
+<code>@</code> The Carpentries Curriculum Team (Toby Hodges and Erin
+Becker) using for example
+<code>@datacarpentry/core-team-curriculum</code> or
+<code>@LibraryCarpentry/core-team-curriculum</code> and / or the
+Maintainer Community Lead, Jose Niño Muriel
+(<code>@josenino95</code>).</p>
+<div id="tagging-in-your-lesson-team" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="tagging-in-your-lesson-team" class="callout-inner">
+<h3 class="callout-title">Tagging in your Lesson Team</h3>
+<div class="callout-content">
+<p>Each group of Maintainers is associated with a GitHub team. After you
+have completed this onboarding, you will be added to the appropriate
+Maintainer team. You will then be able to find the name of your team
+below:</p>
+<ul>
+<li><a href="https://github.com/orgs/LibraryCarpentry/teams/lesson-maintainers/teams" class="external-link">Library
+Carpentry Maintainer teams</a></li>
+<li><a href="https://github.com/orgs/swcarpentry/teams/lesson-maintainers/teams" class="external-link">Software
+Carpentry Maintainer teams</a></li>
+<li><a href="https://github.com/orgs/hpc-carpentry/teams/lesson-maintainers/teams" class="external-link">HPC
+Carpentry Maintainer teams</a></li>
+<li>Data Carpentry lessons have an additional level of structure, as
+each lesson belongs to a curriculum within this Lesson Program. You can
+tag the full set of Maintainers for an entire curriculum (e.g. Ecology)
+using the <a href="https://github.com/orgs/datacarpentry/teams/lesson-maintainers/teams" class="external-link">team
+names listed here</a> or click on your curriculum and then “Teams” on
+the top menu to find the name of your lesson team.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="general-carpentries-news">General Carpentries News<a class="anchor" aria-label="anchor" href="#general-carpentries-news"></a>
+</h2>
+<hr class="half-width">
+<p>Subscribing to these channels will ensure you are up to date on
+issues affecting your lesson and lesson maintenance in general. To have
+a broader overview of all the exciting activity going on in The
+Carpentries community, we recommend subscribing to one or more of the
+following channels:</p>
+<ul>
+<li>
+<a href="https://carpentries.org/newsletter/" class="external-link">The Carpentries
+Clippings</a> - our monthly newsletter</li>
+<li><a href="https://carpentries.org/blog/" class="external-link">The Carpentries
+blog</a></li>
+<li><a href="https://bsky.app/profile/carpentries.carpentries.org" class="external-link">The
+Carpentries on Bluesky</a></li>
+<li><a href="https://hachyderm.io/@thecarpentries" class="external-link">The Carpentries on
+Mastodon</a></li>
+</ul>
+<p>If you would <strong>really</strong> like to keep up to date on
+<strong>everything</strong> that is happening, The Carpentries maintains
+a variety of <a href="https://carpentries.topicbox.com" class="external-link">mailing lists on
+TopicBox</a> and over 100 <a href="https://carpentries.org/connect/#slack" class="external-link">Slack channels</a>,
+including spaces dedicated to discussion of particular curricula,
+connecting local and regional groups, and job opportunities.</p>
+<div id="subscribe-5-minutes" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="subscribe-5-minutes" class="callout-inner">
+<h3 class="callout-title">Subscribe! (5 minutes)</h3>
+<div class="callout-content">
+<p>That’s a lot of communication channels! You don’t need to subscribe
+to everything. The list below summarizes which channels are required and
+which are highly recommended.</p>
+<p><strong>Required</strong></p>
+<ul>
+<li>
+<a href="https://carpentries.topicbox.com/groups/maintainers" class="external-link">Maintainers
+TopicBox list</a> (public)</li>
+<li>Maintainers Slack channel (private)</li>
+<li>Your lesson’s GitHub repository</li>
+</ul>
+<p><strong>Highly Recommended</strong></p>
+<ul>
+<li>Any TopicBox lists or Slack channels related to your lesson</li>
+</ul>
+<p>Take a few minutes to subscribe to the above channels. Write “done”
+in the Etherpad.</p>
+</div>
+</div>
+</div>
+<div id="introduce-yourself-2-minutes" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="introduce-yourself-2-minutes" class="callout-inner">
+<h3 class="callout-title">Introduce Yourself (2 minutes)</h3>
+<div class="callout-content">
+<p>While folks are working on subscribing to the channels above, I will
+add you to the private Maintainers Slack channel. Please introduce
+yourself on that channel.</p>
+</div>
+</div>
+</div>
+<p>To help us coordinate events aimed at our Maintainer community, it is
+very useful to have accurate information about each Maintainer’s time
+zone. We keep track of this information in our AMY database. Please take
+a moment to update your time zone, and other info if desired, in your
+AMY profile. If you don’t have any AMY profile, or are having trouble
+logging in, please let us know and we will help troubleshoot.</p>
+<div id="update-your-amy-profile-5-minutes" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="update-your-amy-profile-5-minutes" class="callout-inner">
+<h3 class="callout-title">Update your AMY Profile (5 minutes)</h3>
+<div class="callout-content">
+<ul>
+<li>Login to AMY using your GitHub credentials at <a href="https://amy.carpentries.org" class="external-link">amy.carpentries.org</a>.</li>
+<li>In the upper-right hand corner, open the drop-down menu under your
+name and select “Your Profile”.</li>
+<li>Click the “Edit” button in the upper left.</li>
+<li>Add your Airport, Country, and/or Timezone to the appropriate
+fields.</li>
+<li>Update any other information if desired.</li>
+</ul>
+<p>Thank you!</p>
+</div>
+</div>
+</div>
+<div id="maintainer-capacity" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="maintainer-capacity" class="callout-inner">
+<h3 class="callout-title">Maintainer Capacity</h3>
+<div class="callout-content">
+<p>Signing on as a Maintainer is not a lifelong commitment! The
+Carpentries recognises that this is a volunteer role and is committed to
+supporting your mental and emotional health. You are always free to step
+down from the Maintainer role, either permanently or to take a break. If
+you plan to take a short break (a couple of weeks), please let your
+co-Maintainers know. For longer breaks (a few months or longer), or if
+you would like to step down permanently, please notify the Curriculum
+Team by emailing <a href="mailto:team@carpentries.org">team@carpentries.org</a> so we can
+find someone else to support the lesson.</p>
+<p>This also applies in reverse! If you are not able to get in touch
+with at least one other Maintainer for your lesson, please get in touch
+with the Curriculum Team. We may need to find more Maintainers to
+support the lesson.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>The Maintainer community communicates on TopicBox, Slack, and
+GitHub.</li>
+<li>The Maintainer community meets monthly.</li>
+</ul>
+</div>
+</div>
+</div>
+</section></section><section id="aio-03-communicate-contributors"><p>Content from <a href="03-communicate-contributors.html">Communicating with Contributors</a></p>
+<hr>
+<p>Last updated on 2026-04-25 |
+
+        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/03-communicate-contributors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -637,19 +934,19 @@ community.</p>
 <p>While anyone can contribute to The Carpentries lessons, the vast
 majority of contributions come from:</p>
 <ul>
+<li>Workshop Instructors (and helpers) who have recently participated in
+a workshop and noticed difficulties with the materials.</li>
 <li>Trainees who have gone through Instructor Training and are
 submitting a contribution as part of “checkout” to complete their
 Instructor certification.</li>
-<li>Workshop Instructors (and helpers) who have recently participated in
-a workshop and noticed difficulties with the materials.</li>
 </ul>
 <p>Everyone who goes through The Carpentries Instructor Training program
 is required to <a href="https://carpentries.github.io/instructor-training/checkout.html#getinvolved" class="external-link">get
 involved</a> in the Carpentries community in order to become certified,
-and contributing to a lesson is a popular option. We train over a
-thousand people each year to be Instructors, about half of whom complete
-the certification process. Many of the contributions you will receive
-come from Instructor trainees.</p>
+and contributing to a lesson is a popular option. We train hundreds of
+people each year to be Instructors, about half of whom complete the
+certification process. Many of the contributions you will receive come
+from Instructor trainees.</p>
 <p>During Instructor Training, we <a href="https://carpentries.github.io/instructor-training/checkout.html" class="external-link">strongly
 encourage contributors</a> to contribute to discussion on existing PRs
 and issues, to submit a PR to resolve an issue that the Maintainers have
@@ -670,7 +967,7 @@ their contribution will be useful and accepted.</p>
 <div id="help-wanted-5-minutes" class="callout-inner">
 <h3 class="callout-title">Help Wanted (5 minutes)</h3>
 <div class="callout-content">
-<p>Locate your lesson’s help wanted list.</p>
+<p>Pick a lesson and locate its help wanted list.</p>
 <ul>
 <li>How many issues are currently open with that tag? How many have been
 closed?</li>
@@ -684,9 +981,11 @@ don’t?</li>
 </div>
 </div>
 </div>
-<p>Spending some time cleaning up your lesson’s help wanted list in your
-first few months as Maintainer will save you and your co-Maintainers
-time in the long term and help ensure higher-quality contributions.</p>
+<p>You will receive your lesson assignment after completing onboarding.
+Spending some time cleaning up your lesson’s help wanted list is a great
+activity to engage in during your first few months as a Maintainer. This
+will save you and your co-Maintainers time in the long term and help
+ensure higher-quality contributions.</p>
 <p>Despite our best efforts in encouraging the types of contributions
 listed above, you will also receive unwanted or unhelpful contributions,
 including:</p>
@@ -697,20 +996,21 @@ lesson;</li>
 The Carpentries pedagogical model;</li>
 <li>changes to the technology taught in the lesson (e.g. introduction of
 a new plotting system);</li>
-<li>multiple unrelated suggestions.</li>
+<li>multiple unrelated suggestions in the contribution.</li>
 </ul>
-<p>These contributions may come in the form of an issue or a PR. Being
-open to new contributions while keeping the lessons sleek and teachable
-is a difficult balancing act. It’s ok to say no to a contribution when
-it doesn’t add anything useful to the materials, goes beyond the scope
-of the lesson, or introduces unnecessary complexity. Even when saying
-no, however, we want to have positive interactions with contributors and
-let them know that their involvement is valued. GitHub’s OpenSource
-Guide on “Best Practices for Maintainers” includes a section on <a href="https://opensource.guide/best-practices/#learning-to-say-no" class="external-link">“learning
+<p>These contributions may come in the form of an issue or a pull
+request. Being open to new contributions while keeping the lessons sleek
+and teachable is a difficult balancing act. It’s ok to say no to a
+contribution when it doesn’t add anything useful to the materials, goes
+beyond the scope of the lesson, or introduces unnecessary complexity.
+Even when saying no, however, we want to have positive interactions with
+contributors and let them know that their involvement is valued.
+GitHub’s OpenSource Guide on “Best Practices for Maintainers” includes a
+section on <a href="https://opensource.guide/best-practices/#learning-to-say-no" class="external-link">“learning
 to say no”</a>. They recommend that you:</p>
 <ul>
 <li>
-<strong>Thank them</strong> for their contribution.</li>
+<strong>Thank contributors</strong> for their contribution.</li>
 <li>
 <strong>Explain why it doesn’t fit</strong> into the scope of the
 project, and offer clear suggestions for improvement, if you’re able. Be
@@ -807,67 +1107,72 @@ repository at the time. When a member of the Core Team takes this
 action, it is not because that they expected one of the Maintainers to
 have handled the contribution sooner. If you disagree with a pull
 request merged by a member of the Curriculum Team, or want to discuss
-changes like these with them, please get in touch!</p>
+changes like these with them, please get in touch! You can reopen an
+issue or pull request with further discussion, or <a href="mailto:team@carpentries.org">contact the Curriculum Team by
+email</a>.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="top-ten-tips-for-managing-issues-and-prs">Top Ten Tips for Managing Issues and PRs<a class="anchor" aria-label="anchor" href="#top-ten-tips-for-managing-issues-and-prs"></a>
+</section><section><h2 class="section-heading" id="top-ten-tips-for-managing-issues-and-pull-requests">Top Ten Tips for Managing Issues and Pull Requests<a class="anchor" aria-label="anchor" href="#top-ten-tips-for-managing-issues-and-pull-requests"></a>
 </h2>
 <hr class="half-width">
 <ol style="list-style-type: decimal">
 <li>
 <strong>Acknowledge receipt</strong> - Even if you won’t be able to
-take action on an issue/PR immediately, send the contributor a quick
-message to let them know you received and appreciate their contribution.
-Always say thank you!</li>
+take action on an issue or pull request immediately, send the
+contributor a quick reply to let them know you received and appreciate
+their contribution. Always say thank you!</li>
 <li>
-<strong>Tag issues with descriptive labels</strong> - For
-community-submitted issues, remember to add appropriate labels, even if
-you are not going to immediately take action. This shows contributors
-that issues are being paid attention to and encourages others to take
-action on issues.</li>
+<strong>Tag issues with descriptive labels</strong> - Remember to
+add appropriate labels, even if you are not going to immediately take
+action. This shows contributors that issues are being paid attention to
+and encourages others to take action on issues. <a href="#where-do-contributions-come-from">Adding the “help wanted” label
+will draw more attention to an issue</a>.</li>
 <li>
 <strong>Include appropriate cross-references</strong> - When putting
-in a PR to address an existing Issue, include a link to the Issue.
-GitHub will automatically add a note to the Issue linking back to the
-PR. This is also good practice when communicating in conversation
-threads on related Issues and PRs.</li>
+in a pull request to address an existing issue, <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#referencing-issues-and-pull-requests" class="external-link">refer
+to it with <code>#</code> and the issue number</a>, or a link to the
+issue. GitHub will automatically add a note to the issue linking back to
+the PR. This is also good practice when communicating in conversation
+threads on related issues and PRs.</li>
 <li>
 <strong>Use the <code>@</code> symbol to tag people in a
-conversation</strong> - Most people don’t subscribe to all of The
-Carpentries repositories (there are a lot!) and will only get email
-alerts if their GitHub handle is tagged. This is a good way to make sure
-relevant people are included in the conversation. You can also use
-<code>@</code> to tag your Curriculum Advisory Committee. More on that
-later.</li>
+conversation</strong> - Most people will only get email alerts if their
+GitHub handle is tagged. This is a good way to make sure relevant people
+are included in the conversation. You can also use <code>@</code> to tag
+your <a href="./04-communicate-advisors.html">Curriculum Advisory
+Committee</a> and members of the Core Team.</li>
 <li>
-<strong>Request reviews</strong> for non-trivial changes. You can
+<strong>Request reviews for non-trivial changes</strong> - You can
 request a review from a fellow Maintainer or from someone else who has
 been active on the repository. This is another way of including relevant
 people in the decision-making process.</li>
 <li>
-<strong>Don’t merge your own PRs</strong> - Even for small PRs, it’s
-a good idea to have a second person check for typos and formatting
-issues. In general, always get a second opinion before merging your own
-PR. This is a good time to request a review.</li>
+<strong>Avoid merging your own pull requests</strong> - Even for
+small pull requests, it’s a good idea to have a second person check for
+typos and formatting issues. In general, always try to get a second
+opinion before merging your own pull request. There are some exceptions
+when the lesson is broken.</li>
 <li>
-<strong>Do edit PRs as needed</strong> - It is OK to directly edit a
-contributor’s PR if there are minor issues preventing it from being
-accepted. Many of our contributors are non-responsive to requests to
-update a PR. This is OK. If the contribution is important - make the
-minor changes and merge.</li>
+<strong>Do edit pull requests as needed</strong> - If you see
+potential problems or improvements to a pull request, use the <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review" class="external-link">suggest
+changes feature</a> within code review, which will notify the
+contributor of your suggestions. Contributors are not always responsive
+to follow-up, so feel free to merge the changes into the pull request
+yourself if you’ve waited a short time for them to respond.</li>
 <li>
-<strong>Don’t close an issue or PR without explaining why</strong> -
-Except in the (very rare) case of spammy contributions, take a moment to
+<strong>Do not close an issue or pull request without explaining
+why</strong> - Except in the rare case of <a href="#bots-and-spam">spammy contributions</a>, take a moment to
 acknowledge the contribution and explain why it won’t be
 incorporated.</li>
 <li>
 <strong>Do close issues</strong> that have gone stale, are outdated,
 or out of scope (after explaining why).</li>
-<li>
-<strong>Pay attention</strong> to comments about accessibility and
-demotivating or exclusionary language.</li>
+<li>**Be responsive* to comments about accessibility and demotivating or
+exclusionary language.</li>
 </ol>
+<p>More detailed tips are available in the <a href="https://docs.carpentries.org/handbooks/maintainers.html#faq" class="external-link">FAQ
+section of our Maintainer Handbook</a>.</p>
 <div id="how-to-label-issues" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -877,7 +1182,7 @@ demotivating or exclusionary language.</li>
 <h3 class="callout-title">How to Label Issues</h3>
 <div class="callout-content">
 <p>To find a list of issue labels, their corresponding meanings, and
-when to use each, take a look at this guide on <a href="https://docs.carpentries.org/topic_folders/maintainers/github_labels.html" class="external-link">How
+when to use each, take a look at this guide on <a href="https://docs.carpentries.org/handbooks/maintainers.html#using-issue-labels-to-promote-collaboration" class="external-link">How
 to label issues</a> in The Carpentries handbook.</p>
 </div>
 </div>
@@ -942,304 +1247,9 @@ Values.</li>
 </div>
 </div>
 </div>
-</section></section><section id="aio-03-communicate-maintainers"><p>Content from <a href="03-communicate-maintainers.html">Communicating with Other Maintainers</a></p>
-<hr>
-<p>Last updated on 2024-02-22 |
-
-        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/03-communicate-maintainers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul>
-<li>How do I get in touch with other Maintainers?</li>
-<li>What resources exist for supporting me in this role?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li>Join the appropriate communication channels to stay connected with
-fellow Maintainers.</li>
-<li>Know how to get in touch with others in The Carpentries who support
-Maintainers.</li>
-<li>Add Maintainer meetings to your calendar.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section><h2 class="section-heading" id="synchronous-communications">Synchronous communications<a class="anchor" aria-label="anchor" href="#synchronous-communications"></a>
-</h2>
-<hr class="half-width">
-<div class="section level3">
-<h3 id="maintainer-meetings">Maintainer meetings<a class="anchor" aria-label="anchor" href="#maintainer-meetings"></a>
-</h3>
-<p>We meet virtually on the third Wednesday of each month at two
-different time slots. We will take time together to add these meetings
-to your calendar in a moment.</p>
-<p>Our monthly Maintainer meetings are an excellent place to connect
-with the broader Maintainer community, engage in discussions around
-topics of interest to Maintainers (including open Requests for Comment
-(RFCs)), and stay informed about upcoming work by other parts of The
-Carpentries community that may impact lesson maintenance.</p>
-<p>We recognize that not everyone can attend these monthly meetings, and
-so also communicate important information through our main TopicBox and
-Slack channels. So don’t worry if you can’t attend! We do strongly
-encourage joining from time to time, though, as it’s a good way to get
-to know other Maintainers.</p>
-<div id="add-to-your-calendar-5-minutes" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="add-to-your-calendar-5-minutes" class="callout-inner">
-<h3 class="callout-title">Add to Your Calendar (5 minutes)</h3>
-<div class="callout-content">
-<p>Add the monthly Maintainer meetings to your calendar by either</p>
-<ul>
-<li>subscribing to The Carpentries <a href="https://carpentries.org/community/#community-events" class="external-link">community
-calendar</a> and copying events to your Google Calendar, or</li>
-<li>clicking the TimeandDate links on the <a href="https://codimd.carpentries.org/maintainers?both" class="external-link">Maintainers
-CodiMD pad</a> to convert the events to your local time, and adding to
-your calendar manually.</li>
-</ul>
-<p>If you are planning to attend the upcoming meeting, add your name to
-the CodiMD pad to let us know you will be there!</p>
-</div>
-</div>
-</div>
-<p>In addition to these monthly opportunities to connect across the
-broad Maintainer community, you are encouraged to set up regular
-check-ins with the co-Maintainers for your lesson. The next section will
-provide more information about how to stay in touch with both the
-overall Maintainer community and your co-Maintainers.</p>
-</div>
-</section><section><h2 class="section-heading" id="asynchronous-communications">Asynchronous communications<a class="anchor" aria-label="anchor" href="#asynchronous-communications"></a>
-</h2>
-<hr class="half-width">
-<p>Because we are a globally distributed group, the vast majority of our
-work is done asynchronously. There are three primary asynchronous
-communication channels shared across the Maintainer team.</p>
-<div class="section level3">
-<h3 id="topicbox">TopicBox<a class="anchor" aria-label="anchor" href="#topicbox"></a>
-</h3>
-<p>The <a href="https://carpentries.topicbox.com/groups/maintainers" class="external-link">Maintainers
-TopicBox list</a> is used primarily for announcements relevant to the
-full Maintainer team, including reminders about upcoming meetings. Posts
-from individual Maintainers asking questions or introducing topics for
-discussion are extremely welcome, but our Slack channel is a more active
-place for back-and-forth discussion.</p>
-<p>A few lists exist around specific curricula (search for lists
-starting with <code>curriculum</code>, but most have not been very
-active. If you would like to have a public TopicBox list created for
-discussions of your lesson, or a private list for your Maintainer team,
-please <a href="mailto:team@carpentries.org">let us know</a>.</p>
-</div>
-<div class="section level3">
-<h3 id="slack">Slack<a class="anchor" aria-label="anchor" href="#slack"></a>
-</h3>
-<p>To be added to our private Maintainers channel on Slack, you will
-need to <a href="https://slack-invite.carpentries.org/" class="external-link">join The
-Carpentries organisation</a>. Our general Maintainers channel is a good
-place to ask questions of the full Maintainer team, or request input on
-specific issues and PRs. Most curricula also have a public Slack channel
-for discussing issues with the community (browse for channels starting
-with <code>dc</code>, <code>lc</code>, or <code>swc</code>). Specific
-curriculum channels have not historically been very active, but we
-encourage any efforts to increase interaction with the community on
-these channels. You can also use curriculum-specific channels for
-communicating with your co-Maintainers, or you can create a private
-channel for yourself and your co-Maintainers. If you would like a
-private channel to be created for you, please <a href="mailto:team@carpentries.org">let us know</a>.</p>
-</div>
-<div class="section level3">
-<h3 id="github">GitHub<a class="anchor" aria-label="anchor" href="#github"></a>
-</h3>
-<p>The majority of day-to-day interactions with your co-Maintainers will
-be on GitHub. You will need to be subscribed to (“watching”) your lesson
-repository to get email alerts about new issues, PRs, and other activity
-on your lesson. You can <code>@</code> mention an individual Maintainer,
-your lesson team, and / or your Curriculum Advisory Committee to ensure
-that the appropriate person sees your message. Feel free also to
-<code>@</code> The Carpentries Curriculum Team (Toby Hodges or Erin
-Becker) using <code>@staff-curriculum</code> and the Maintainer
-Community Lead (<code>@ndporter</code>).</p>
-<div id="tagging-in-your-lesson-team" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<span class="callout-header">Callout</span>
-<div id="tagging-in-your-lesson-team" class="callout-inner">
-<h3 class="callout-title">Tagging in your Lesson Team</h3>
-<div class="callout-content">
-<p>Each group of Maintainers is associated with a GitHub team. After you
-have completed this onboarding, you will be added to the appropriate
-Maintainer team. You will then be able to find the name of your team
-below:</p>
-<ul>
-<li><a href="https://github.com/orgs/LibraryCarpentry/teams/lesson-maintainers/teams" class="external-link">Library
-Carpentry Maintainer teams</a></li>
-<li><a href="https://github.com/orgs/swcarpentry/teams/lesson-maintainers/teams" class="external-link">Software
-Carpentry Maintainer teams</a></li>
-<li>Data Carpentry lessons have an additional level of structure, as
-each lesson belongs to a curriculum within this Lesson Program. You can
-tag the full set of Maintainers for an entire curriculum (e.g. Ecology)
-using the <a href="https://github.com/orgs/datacarpentry/teams/lesson-maintainers/teams" class="external-link">team
-names listed here</a> or click on your curriculum and then “Teams” on
-the top menu to find the name of your lesson team.</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="tagging-in-the-curriculum-team" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<span class="callout-header">Callout</span>
-<div id="tagging-in-the-curriculum-team" class="callout-inner">
-<h3 class="callout-title">Tagging in the Curriculum Team</h3>
-<div class="callout-content">
-<p>To tag in the curriculum team on any repository hosted in one of the
-official lesson program GitHub organisations (Data Carpentry, Library
-Carpentry, Software Carpentry), use <code>@staff-curriculum</code>. On
-The Carpentries GitHub org, the team name is
-<code>@core-team-curriculum</code>. We are working on reconciling team
-names across GitHub organisations.</p>
-</div>
-</div>
-</div>
-<p>We also highly recommend subscribing to the <a href="https://github.com/carpentries/maintainer-RFCs/" class="external-link">Maintainer RFC
-(request for comments) repository</a>. This repository is the primary
-platform for discussion and feedback from the Maintainer community on
-issues affecting Maintainers as a whole. We try to remember to announce
-new RFCs on TopicBox and Slack, but staying subscribed here will allow
-you to see others’ comments as they come in. To leave your feedback on
-an existing RFC, go to <a href="https://github.com/carpentries/maintainer-RFCs/issues" class="external-link">Issues</a>
-and leave a comment. We also discuss RFCs at monthly Maintainer meetings
-to allow for a more nuanced back-and-forth conversation.</p>
-</div>
-</section><section><h2 class="section-heading" id="general-carpentries-news">General Carpentries News<a class="anchor" aria-label="anchor" href="#general-carpentries-news"></a>
-</h2>
-<hr class="half-width">
-<p>Subscribing to these channels will ensure you are up to date on
-issues affecting your lesson and lesson maintenance in general. To have
-a broader overview of all the exciting activity going on in The
-Carpentries community, we recommend subscribing to one or more of the
-following channels:</p>
-<ul>
-<li>
-<a href="https://carpentries.org/newsletter/" class="external-link">The Carpentries
-Clippings</a> - our twice monthly newsletter</li>
-<li>
-<a href="https://hachyderm.io/@thecarpentries" class="external-link"><span class="citation">@thecarpentries</span><span class="citation">@hachyderm.io</span></a> on Mastodon</li>
-<li><a href="https://carpentries.org/blog/" class="external-link">The Carpentries
-blog</a></li>
-</ul>
-<p>If you would <strong>really</strong> like to keep up to date on
-<strong>everything</strong> that is happening, The Carpentries maintains
-a variety of <a href="https://carpentries.topicbox.com" class="external-link">mailing lists on
-TopicBox</a> and over 100 <a href="https://carpentries.org/connect/#slack" class="external-link">Slack channels</a>,
-including spaces dedicated to discussion of particular curricula,
-connecting local and regional groups, and job opportunities.</p>
-<div id="subscribe-5-minutes" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="subscribe-5-minutes" class="callout-inner">
-<h3 class="callout-title">Subscribe! (5 minutes)</h3>
-<div class="callout-content">
-<p>That’s a lot of communication channels! You don’t need to subscribe
-to everything. The list below summarizes which channels are required and
-which are highly recommended.</p>
-<p><strong>Required</strong></p>
-<ul>
-<li>
-<a href="https://carpentries.topicbox.com/groups/maintainers" class="external-link">Maintainers
-TopicBox list</a> (public)</li>
-<li>Maintainers Slack channel (private)</li>
-<li>Your lesson’s GitHub repository</li>
-</ul>
-<p><strong>Highly Recommended</strong></p>
-<ul>
-<li><a href="https://github.com/carpentries/maintainer-RFCs/" class="external-link">Maintainers RFC
-GitHub repository</a></li>
-<li>Any TopicBox lists or Slack channels related to your lesson</li>
-</ul>
-<p>Take a few minutes to subscribe to the above channels. Write “done”
-in the Etherpad.</p>
-</div>
-</div>
-</div>
-<div id="introduce-yourself-2-minutes" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="introduce-yourself-2-minutes" class="callout-inner">
-<h3 class="callout-title">Introduce Yourself (2 minutes)</h3>
-<div class="callout-content">
-<p>While folks are working on subscribing to the channels above, I will
-add you to the private Maintainers Slack channel. Please introduce
-yourself on that channel, including what lesson you will be
-maintaining.</p>
-</div>
-</div>
-</div>
-<div id="maintainer-capacity" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<span class="callout-header">Callout</span>
-<div id="maintainer-capacity" class="callout-inner">
-<h3 class="callout-title">Maintainer Capacity</h3>
-<div class="callout-content">
-<p>Signing on as a Maintainer is not a lifelong commitment! The
-Carpentries recognises that this is a volunteer role and is committed to
-supporting your mental and emotional health. You are always free to step
-down from the Maintainer role, either permanently or to take a break. If
-you plan to take a short break (a couple of weeks), please let your
-co-Maintainers know. For longer breaks (a few months or longer), or if
-you would like to step down permanently, please notify the Curriculum
-Team by emailing <a href="mailto:team@carpentries.org">team@carpentries.org</a> so we can
-find someone else to support the lesson.</p>
-<p>This also applies in reverse! If you are not able to get in touch
-with at least one other Maintainer for your lesson, please get in touch
-with the Curriculum Team. We may need to find more Maintainers to
-support the lesson.</p>
-</div>
-</div>
-</div>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<span class="callout-header">Key Points</span>
-<div class="callout-inner">
-<div class="callout-content">
-<ul>
-<li>The Maintainer community communicates on TopicBox, Slack, and
-GitHub.</li>
-<li>The Maintainer community meets monthly.</li>
-</ul>
-</div>
-</div>
-</div>
 </section></section><section id="aio-04-communicate-advisors"><p>Content from <a href="04-communicate-advisors.html">Communicating with Curriculum Advisors</a></p>
 <hr>
-<p>Last updated on 2025-01-09 |
+<p>Last updated on 2026-04-25 |
 
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/04-communicate-advisors.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1267,7 +1277,7 @@ GitHub.</li>
 <ul>
 <li>Describe who has authority, and responsibility, to make different
 types of decisions.</li>
-<li>Gain confidence in merging simple PRs independently.</li>
+<li>Gain confidence in merging simple pull requests independently.</li>
 <li>Know when and how to contact Curriculum Advisors.</li>
 </ul>
 </div>
@@ -1279,8 +1289,8 @@ types of decisions.</li>
 For example the <a href="https://datacarpentry.org/organization-genomics/" class="external-link">Project
 Organization and Management for Genomics</a> lesson is part of the <a href="https://datacarpentry.org/genomics-workshop/" class="external-link">Genomics
 curriculum</a>, which is part of the Data Carpentry Lesson Program. Data
-Carpentry has several curricula, while Library Carpentry and Software
-Carpentry each have a single curriculum.</p>
+Carpentry has several curricula, while HPC Carpentry, Library Carpentry,
+and Software Carpentry each have a single curriculum.</p>
 <p>The work that Maintainers do on routine upkeep of the lessons is
 complimented by the Curriculum Advisory Committee (CAC) for each
 curriculum. Curriculum Advisors provide high-level oversight, vision,
@@ -1302,28 +1312,42 @@ applications open.</p>
 <p>You can tag in your Curriculum Advisory Committee on an issue in your
 lesson repository using their team name (e.g. “<span class="citation">@datacarpentry/curriculum-advisors-astronomy</span>” or
 “<span class="citation">@LibraryCarpentry/curriculum-advisors</span>”).
-The CAC chair is responsible for watching the repository and serving as
-a liaison with the curriculum’s Maintainers. Each Curriculum Advisory
-Committee also has a public TopicBox list, where Maintainers and other
-community members can bring issues for consideration. More information
-about each CAC, including mailing list and GitHub repositories, is
-available on the <a href="https://carpentries.org/curriculum-advisors/" class="external-link">Curriculum Advisors
+The CAC chair is responsible for watching each associated lesson
+repository and serving as a liaison with the curriculum’s Maintainers.
+Each Curriculum Advisory Committee also has a public TopicBox list,
+where Maintainers and other community members can bring issues for
+consideration. More information about each CAC, including mailing list
+and GitHub repositories, is available on the <a href="https://carpentries.org/curriculum-advisors/" class="external-link">Curriculum Advisors
 homepage</a>.</p>
-<div id="which-strategy-5-minutes" class="callout discussion">
+<div id="callout1" class="callout">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="bell"></i>
 </div>
-<span class="callout-header">Discussion</span>
-<div id="which-strategy-5-minutes" class="callout-inner">
-<h3 class="callout-title">Which strategy? (5 minutes)</h3>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
 <div class="callout-content">
-<p>Match the issue with the correct strategy for resolving it.</p>
+<p>As of April 2026, the Curriculum Advisory Committees for Software
+Carpentry and for the Social Sciences curriculum within Data Carpentry
+were inactive. Efforts to revive these committees are ongoing. If you
+are interested in being considered for one of these committees, please
+<a href="mailto:tobyhodges@carpentries.org">contact Toby Hodges</a>.</p>
+</div>
+</div>
+</div>
+<div id="which-strategy-10-minutes" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="which-strategy-10-minutes" class="callout-inner">
+<h3 class="callout-title">Which strategy? (10 minutes)</h3>
+<div class="callout-content">
+<p>Match the issue with the correct strategy for resolving it. Some
+options may be used more than once.</p>
 <ol style="list-style-type: decimal">
 <li>Needs elevation to CAC</li>
 <li>Simple fix by a single Maintainer without review</li>
-<li>Put in a PR and wait for another Maintainer to review</li>
-<li>Raise the issue for conversation at Maintainer co-working corral or
-on email list</li>
+<li>Put in a pull request and wait for another Maintainer to review</li>
 </ol>
 <ul>
 <li><a href="https://github.com/datacarpentry/R-ecology-lesson/issues/791" class="external-link">RStudio
@@ -1336,6 +1360,25 @@ Backing Up with SQL to the top of the Creating tables… episode?</a></li>
 to the spatial packages lifecycle: migrate to use sf, terra, and
 stars</a></li>
 </ul>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ul>
+<li>RStudio installer versioning - 2 or 3</li>
+<li>A small change in the episode “Finding Things” - 2</li>
+<li>Move Backing Up with SQL to the top of the Creating tables… episode?
+- 3</li>
+<li>Update to the spatial packages lifecycle: migrate to use sf, terra,
+and stars - 1</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -1355,7 +1398,7 @@ Advisors.</li>
 </div>
 </div></section><section id="aio-05-infrastructure"><p>Content from <a href="05-infrastructure.html">Infrastructure for Lesson Maintenance</a></p>
 <hr>
-<p>Last updated on 2024-11-04 |
+<p>Last updated on 2026-04-25 |
 
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/05-infrastructure.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1392,7 +1435,7 @@ lessons and be able to use them appropriately.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="lesson-infrastructure-transition">Lesson Infrastructure Transition<a class="anchor" aria-label="anchor" href="#lesson-infrastructure-transition"></a>
+<section><h2 class="section-heading" id="lesson-infrastructure">Lesson Infrastructure<a class="anchor" aria-label="anchor" href="#lesson-infrastructure"></a>
 </h2>
 <hr class="half-width">
 <p>This episode will teach you some of the most important elements of
@@ -1412,7 +1455,7 @@ is the name for the infrastructure that was used for The Carpentries
 lessons from 2014 - May 2023. This infrastructure was managed through
 the <a href="https://github.com/swcarpentry/styles" class="external-link">styles
 repository</a>, and documented on the <a href="https://carpentries.github.io/lesson-example/" class="external-link">lesson-example
-repository</a>.</p>
+repository</a>. Styles is no longer actively maintained.</p>
 </div>
 </div>
 </div>
@@ -1427,10 +1470,10 @@ repository</a>.</p>
 <p>Up until March 2020, the lesson infrastructure was maintained by the
 <a href="https://carpentries.org/lesson-infra/" class="external-link">Lesson Infrastructure
 Committee</a>. The activity of the Committee was put on hold during the
-COVID-19 pandemic and we are making concious strategic decisions about
-how to re-form this committee ahead of May 2023.</p>
-<p>The Lesson Infrastructure is currently maintained by the <a href="https://carpentries.org/core-team-projects/#curriculum-team" class="external-link">Curriculum
-Team</a>, with the help of <a href="https://github.com/maxim-belkin" class="external-link">Maxim Belkin</a>.</p>
+COVID-19 pandemic.</p>
+<p>The Workbench is currently maintained by members of The Carpentries
+Core Team, with significant <a href="https://github.com/carpentries/sandpaper/graphs/contributors" class="external-link">contributions
+from many community members</a>.</p>
 </div>
 </div>
 </div>
@@ -1618,6 +1661,8 @@ This is an Instructor note.
 <p>In addition to showing up in-line in the Instructor view, callouts
 with the “instructor” tag are gathered to a separate “Instructor Notes”
 page.</p>
+<p>A comprehensive list of supported callout types is available in <a href="https://carpentries.github.io/sandpaper-docs/component-guide.html" class="external-link">The
+Workbench’s component guide</a>.</p>
 <div id="scavenger-hunt-5-minutes" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -1657,7 +1702,7 @@ respectively.
 <ul>
 <li>For example, the <code>instructors/</code> folder contains the
 source file for the Instructor Notes page, which - in addition to
-collating the inline Instructor Notes inlcuded in the episodes of a
+collating the inline Instructor Notes included in the episodes of a
 lesson - can contain general guidance for Instructors.</li>
 <li>The <code>learners/</code> folder contains <code>setup.md</code>,
 the source file for the setup instructions that will appear on the
@@ -1746,284 +1791,6 @@ Carpentries Workbench</a>.</li>
 </div>
 </div>
 </div>
-</section></section><section id="aio-06-git-workflow"><p>Content from <a href="06-git-workflow.html">The Carpentries Git Workflow</a></p>
-<hr>
-<p>Last updated on 2024-05-16 |
-
-        <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/06-git-workflow.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul>
-<li>How can I use git to explore and edit changes suggested by
-contributors to a lesson?</li>
-<li>How can Maintainers make changes to their lessons?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li>manage potential changes to a lesson using forks and branches</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section><h2 class="section-heading" id="maintainers-and-forked-repositories">Maintainers and Forked Repositories<a class="anchor" aria-label="anchor" href="#maintainers-and-forked-repositories"></a>
-</h2>
-<hr class="half-width">
-<p>If this is the first time you are maintaining a project where you and
-other people are going to be submitting changes there are two
-perspectives you need to keep in mind: one of the “maintainer” and one
-of the “contributor”.</p>
-<ul>
-<li>Maintainers: can directly <code>push</code> code to the
-repository</li>
-<li>Contributors: <em>cannot</em> directly <code>push</code> code to the
-repository, and need to create a separate fork</li>
-</ul>
-<figure><img src="fig/git-maintainer_contributor_diagram.svg" alt="Diagram illustrating workflows for pushing and pulling to a remote for Maintainers and contributors." class="figure mx-auto d-block"></figure><div class="section level3">
-<h3 id="pushing-and-pulling-directly-to-the-remote-repository-owned-by-the-carpentries">Pushing and pulling directly to the remote repository owned by The
-Carpentries<a class="anchor" aria-label="anchor" href="#pushing-and-pulling-directly-to-the-remote-repository-owned-by-the-carpentries"></a>
-</h3>
-<p>The <a href="https://swcarpentry.github.io/git-novice/" class="external-link">Software
-Carpentry Git lesson</a> and <a href="https://librarycarpentry.org/lc-git/" class="external-link">Library Carpentry Git
-lesson</a> show you how you can interact with a repository from an owner
-and Maintainer point of view because you are allowed to
-<code>push</code> directly to your project on GitHub (see label 1 in the
-above diagram).</p>
-<p>As a Maintainer to one of our lessons, you will be able to interact
-with the lesson just like it was your own repository (see label 1 in the
-above diagram). The only difference is the account the repository is
-under. So instead of <code>username/repo</code> it will be something
-like <code>carpentries/repo</code>. This means when you get the
-<code>git clone</code> url, you will have to get it from the
-<code>carpentries/repo</code> location, not your own.</p>
-<p>In this setup, since you are <code>clone</code>ing down from the
-original <code>carpentries</code> repo, the remote will be your
-<code>origin</code>. This is the same workflow as if you are working on
-your own personal repository, and you can
-<code>git push origin main</code>.</p>
-<div id="an-alternative-workflow-pushing-and-pulling-to-a-remote-fork" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<span class="callout-header">Callout</span>
-<div id="an-alternative-workflow-pushing-and-pulling-to-a-remote-fork" class="callout-inner">
-<h3 class="callout-title">An alternative workflow: Pushing and pulling
-to a remote (fork)</h3>
-<div class="callout-content">
-<p>Some Maintainers choose to work using the forking model of
-collaboration. Even though they have access to the original “upstream”
-Carpentries repository, they will make a “fork” of The Carpentries
-repository so they have a copy (i.e., fork) in their own account (see
-label 2 in the above diagram). Using this workflow gives you (the
-Maintainer) the same workflow as any other contributor to your lesson
-(since contributors will also need to work on a fork).</p>
-<div class="section level3">
-<h3 id="forking-a-repository">Forking a Repository<a class="anchor" aria-label="anchor" href="#forking-a-repository"></a>
-</h3>
-<p>To fork a repository on GitHub, you can visit a repository and add
-<code>/fork</code> at the end of the URL or you can click the “fork”
-button in the top right:</p>
-<figure><img src="fig/git-fork-button.png" alt="Screenshot of the top bar of swcarpentry/git-novice with four buttons on the top right: sponsor,watch, fork, and star" class="figure mx-auto d-block"></figure><p>Once you fork the repository, there will be the original “upstream”
-<code>carpentries/repo</code> and your own “fork”,
-<code>username/repo</code> (see label 2). When you visit your fork on
-the GitHub website, you will see a grey toolbar above the file list that
-says “This branch is up to date with carpentries/repo:branch.”</p>
-<figure><img src="fig/git-fork-updated.png" alt='Screenshot of grey box above a file list on github that says "This branch is up to date with swcarpentry/git-novice:gh-pages." It has two buttons, one labelled "Contribute" and the other labelled "Fetch Upstream"' class="figure mx-auto d-block"></figure><p>You can <code>clone</code> your <code>username/repo</code> down to
-your computer like any other repository you want to work on locally and
-push and pull your changes to your remote (label 3). Because the
-repository you <code>clone</code>d from is your own “fork”
-(<code>username/repo</code>), the version in your account that you
-cloned from is the “origin” repository (see the blue colored “origin”
-label in the diagram). You can then issue a pull request (PR) to the
-original <code>carpentries/repo</code> repository (see label 4).</p>
-<p>For PRs from non-maintainers you will <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request" class="external-link">review
-these changes</a> and ask for changes if needed. As the Maintainer, you
-can review and/or accept these PRs (including your own) because as a
-Maintainer you will have the repository permissions (in
-<code>carpentries/repo</code>) to accept the PR (see label 5).</p>
-</div>
-<div class="section level3">
-<h3 id="keeping-your-fork-up-to-date">Keeping your fork up-to-date<a class="anchor" aria-label="anchor" href="#keeping-your-fork-up-to-date"></a>
-</h3>
-<p>As more changes come in from other contributors and accepted by you
-or other Maintainers, the forked repository (bottom right) and your own
-local copy (bottom left) will be out of sync. This time, when you visit
-your fork on GitHub, you will see that GitHub will show you that your
-branch is <code>N commits behind</code> the upstream repository. You can
-use the “Fetch upstream” button to bring those changes to your own
-repository. <img src="fig/git-update-fork.png" alt='Screenshot of grey box above a file list on github that says "This branch is 2 commits behindwith swcarpentry/git-novice:gh-pages." It has two buttons, one labelled "Contribute" and the otherlabelled "Fetch Upstream". The "Fetch upstream" button has been clicked to reveal a menu that says"Fetch and merge 2 upstream commits from swcarpentry:gh-pages" with subtext that says "Keep yourfork up-to-date-with the upstream repository" and a link that says "Learn More" There is a white"compare" button and a green "fetch and merge" button displayed' class="figure"></p>
-<p><strong>If you wanted to perform this update locally</strong>, you
-would set the <code>carpentries/repo</code> as a new remote called
-“upstream” and then <a href="https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository#pulling-changes-from-a-remote-repository" class="external-link">pull
-the changes from upstream</a>.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="practice-using-the-recommended-workflow">Practice using the recommended workflow<a class="anchor" aria-label="anchor" href="#practice-using-the-recommended-workflow"></a>
-</h2>
-<hr class="half-width">
-<p>We will now practice using the recommended workflow for pushing and
-pulling to a remote.</p>
-<p>You will be assigned to a breakout group of 2-3 people. Once you are
-in breakout rooms, decide who will play the role of the Maintainer
-(“M”), and who will be the contributor (“C”).</p>
-<div id="working-on-the-default-branch-10-minutes" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="working-on-the-default-branch-10-minutes" class="callout-inner">
-<h3 class="callout-title">Working on the default branch (10
-minutes)</h3>
-<div class="callout-content">
-<ol style="list-style-type: decimal">
-<li>M: Create a repository: <code>&lt;date&gt;-collab-example</code> and
-initialise it with a <code>README.md</code> file so the repository is
-not completely empty.</li>
-<li>M: Add C as a collaborator under the repository settings.</li>
-<li>C: Accept the collaboration invitation (check your e-mail)</li>
-<li>M + C: <code>clone</code> the repository to your local machine</li>
-<li>M + C: Both add your name to the <code>README.md</code> file</li>
-<li>M + C: <code>add</code> and <code>commit</code> your changes</li>
-<li>M + C: <code>push</code> your changes to the remote</li>
-<li>M + C: someone will have a merge conflict</li>
-</ol>
-</div>
-</div>
-</div>
-<div id="working-on-a-new-branch-15-minutes" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="working-on-a-new-branch-15-minutes" class="callout-inner">
-<h3 class="callout-title">Working on a new branch (15 minutes)</h3>
-<div class="callout-content">
-<ol style="list-style-type: decimal">
-<li>Make sure that your local version is up-to-date:
-<code>git pull origin main</code>
-</li>
-<li>Create a new branch: <code>git switch -c BRANCH_NAME</code> or
-<code>git checkout -b BRANCH_NAME</code>
-</li>
-<li>Make changes, <code>add</code>, <code>commit</code>, and
-<code>push</code> the changes</li>
-<li>Create a PR</li>
-</ol>
-</div>
-</div>
-</div>
-<div id="accordionHint1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
-  <h4 class="accordion-header" id="headingHint1">
-  Practice using the fork workflow (Optional)
-  </h4>
-</button>
-<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
-<div class="accordion-body">
-<p>Working on the <code>main</code> branch</p>
-<ol style="list-style-type: decimal">
-<li>C: fork the repository from M</li>
-<li>C: <code>clone</code> from your respitory
-(<code>c/&lt;date&gt;-collab-example</code>)</li>
-<li>M + C: Both add your name to the <code>README.md</code> file</li>
-<li>M + C: <code>add</code> and <code>commit</code> your changes</li>
-<li>M + C: <code>push</code> your changes to the remote (C: it will be
-your <code>origin</code>)</li>
-<li>C: Issue the PR</li>
-<li>M: Review and merge the PR</li>
-<li>C: Setup the upstream remote</li>
-<li>C: Sync the upstream changes to your local machine and your
-fork</li>
-</ol>
-<p>Repeat but using a branch</p>
-<ol style="list-style-type: decimal">
-<li>Make sure that your local version is up-to-date:
-<code>git pull origin main</code>
-</li>
-<li>Create a new branch: <code>git checkout -b BRANCH_NAME</code> or
-<code>git switch -c BRANCH_NAME</code>
-</li>
-<li>Make changes, <code>add</code>, <code>commit</code>, and
-<code>push</code> the changes</li>
-<li>Create a PR</li>
-<li>M: Review and merge the PR</li>
-<li>C: Setup the upstream remote</li>
-<li>C: Sync the upstream changes to your local machine and your
-fork</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="protected-branches">Protected branches<a class="anchor" aria-label="anchor" href="#protected-branches"></a>
-</h2>
-<hr class="half-width">
-<p>Carpentries lesson repositories are configured with <em>branch
-protection</em> rules: safeguards to reduce the likelihood of
-accidentally making breaking changes to the lesson. Repositories have
-two protected branches:</p>
-<ol style="list-style-type: decimal">
-<li>A rule preventing anyone from making changes to the
-<code>legacy/gh-pages</code> branch, which includes the last version of
-the lesson that existed before it was transitioned to a new
-infrastructure in 2023. This branch exists to enable the automated
-closure of pull requests made from a fork that is still using a version
-of the lesson with the previous infrastructure.</li>
-<li>A rule prevent anyone from changing the <code>main</code> branch
-directly. This rule exists to prevent breaking or unfinished changes
-from being accidentally committed to directly to the lesson.</li>
-</ol>
-<p>In addition to the danger of merge conflicts, the protection on the
-<code>main</code> branch is another reason why you should follow a
-branching/forking workflow when making changes to a lesson.</p>
-<div id="questions-and-answers-5-minutes" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="questions-and-answers-5-minutes" class="callout-inner">
-<h3 class="callout-title">Questions and Answers (5 minutes)</h3>
-<div class="callout-content">
-<p>Please add questions to the Etherpad.</p>
-</div>
-</div>
-</div>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<span class="callout-header">Key Points</span>
-<div class="callout-inner">
-<div class="callout-content">
-<ul>
-<li>It can be helpful to clone a pull request branch to your computer
-and build a local version of the lesson to see how a contributor’s
-changes will look in the website</li>
-<li>As a Maintainer, you can choose to edit your lesson using branches
-on the repository or on your fork</li>
-</ul>
-</div>
-</div>
-</div>
 </section></section>
 </div>
     </main>
@@ -2074,8 +1841,8 @@ on the repository or on your fork</li>
   "url": "https://carpentries.github.io/maintainer-onboarding/aio.html",
   "identifier": "https://carpentries.github.io/maintainer-onboarding/aio.html",
   "dateCreated": "2017-12-11",
-  "dateModified": "2026-04-24",
-  "datePublished": "2026-04-24"
+  "dateModified": "2026-04-25",
+  "datePublished": "2026-04-25"
 }
 
   </script><script>

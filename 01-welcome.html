@@ -92,8 +92,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">FIXME</a></li>
-          </ul></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul></li>
       </ul></div>
     <!--
     <form class="d-flex col-md-2 search-form">
@@ -218,7 +217,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="02-communicate-contributors.html">2. Communicating with Contributors</a>
+        <a href="02-engage-maintainers.html">2. Engaging with the Maintainer Community</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -227,7 +226,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-communicate-maintainers.html">3. Communicating with Other Maintainers</a>
+        <a href="03-communicate-contributors.html">3. Communicating with Contributors</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -246,15 +245,6 @@
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
         <a href="05-infrastructure.html">5. Infrastructure for Lesson Maintenance</a>
-    </div><!--/div.accordion-header-->
-
-  </div><!--/div.accordion-item-->
-</div><!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush7">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading7">
-        <a href="06-git-workflow.html">6. The Carpentries Git Workflow</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -282,7 +272,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="discuss.html">Discussion</a></li><li><a href="reference.html">FIXME</a></li>
+
                     </ul></div>
                 </div>
               </div>
@@ -303,7 +293,7 @@
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter Top"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="02-communicate-contributors.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="02-engage-maintainers.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -311,14 +301,14 @@
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Home
         </a>
-        <a class="chapter-link float-end" href="02-communicate-contributors.html" rel="next">
-          Next: Communicating with...
+        <a class="chapter-link float-end" href="02-engage-maintainers.html" rel="next">
+          Next: Engaging with the...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Welcome to the Maintainer Community</h1>
-        <p>Last updated on 2025-01-09 |
+        <p>Last updated on 2026-04-25 |
 
         <a href="https://github.com/carpentries/maintainer-onboarding/edit/main/episodes/01-welcome.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -384,8 +374,9 @@ to the question</p>
 <li>Helper</li>
 <li>Instructor</li>
 <li>Learner</li>
-<li>Trainer</li>
-<li>Executive Council member</li>
+<li>Instructor Trainer</li>
+<li>Lesson Developer Trainer</li>
+<li>Executive Council of Board of Directors member</li>
 <li>Committee or Task Force member</li>
 <li>Workshop organizer or host</li>
 <li>None of the above</li>
@@ -421,27 +412,26 @@ about how to continue learning and growing in this role.</p>
 <hr class="half-width"><p>The goal of this training is to provide you with the skills and
 information you need to become a Carpentries Maintainer. During this
 training, we will:</p>
-<ul><li>Orient you to The Carpentries goals and vision for lesson
-maintenance</li>
-<li>Help you get connected with other Maintainers and the overall
+<ul><li>Help you get connected with other Maintainers and the overall
 Maintainer community</li>
+<li>Orient you to The Carpentries goals and vision for lesson
+maintenance</li>
 <li>Develop skills for creating a positive environment for all
 contributors</li>
 <li>Become familiar with the key components of the lesson template</li>
 <li>Practice core technical skills for lesson maintenance</li>
 <li>Learn how and when to elevate issues to your Curriculum Advisory
-Committee</li>
+Committee or Lesson Program Governors</li>
 </ul></section><section><h2 class="section-heading" id="what-this-onboarding-does-not-cover">What This Onboarding Does Not Cover<a class="anchor" aria-label="anchor" href="#what-this-onboarding-does-not-cover"></a></h2>
-<hr class="half-width"><p>The Carpentries supports over 40 official lessons across our three
-Lesson Programs (Data Carpentry, Library Carpentry, and Software
-Carpentry). At any given time, there are also dozens of
+<hr class="half-width"><p>The Carpentries supports over 50 official lessons across our four
+Lesson Programs (Data Carpentry, HPC Carpentry, Library Carpentry, and
+Software Carpentry). At any given time, there are also dozens of
 community-supported lessons in active development in <a href="https://carpentries-incubator.org/" class="external-link">The Carpentries Incubator</a>.
 This training is intended for Maintainers of official lessons, and we
 will not cover how new lessons are developed, vetted, and adopted into
 The Carpentries core lesson stack. Those interested in curriculum
-development are encouraged to read The Carpentries <a href="https://cdh.carpentries.org/" class="external-link">Curriculum Development Handbook</a>.
-We also offer <a href="https://carpentries.github.io/lesson-development-training/" class="external-link">training
-in collaborative lesson development</a>.</p>
+development are encouraged to check-out The Carpentries <a href="https://carpentries.org/lesson-development/" class="external-link">Collaborative Lesson
+Development Training program</a>.</p>
 <p>We do not expect you to be an expert in Git or GitHub, or even to
 have used these tools at all in the past. We will provide you with an
 introduction to the core skills you need to respond to uncomplicated
@@ -458,7 +448,7 @@ and the Library Carpentry <a href="https://librarycarpentry.org/lc-git/" class="
 lesson</a> are also great resources for learning and reviewing the core
 skills you will need to maintain your lesson.</p>
 </section><section><h2 class="section-heading" id="goals-for-lesson-maintenance">Goals for Lesson Maintenance<a class="anchor" aria-label="anchor" href="#goals-for-lesson-maintenance"></a></h2>
-<hr class="half-width"><p>The Carpentries teaches 400 - 600 workshops each year, meaning our
+<hr class="half-width"><p>The Carpentries teaches hundreds of workshops each year, meaning our
 lesson materials are being used practically every day for synchronous,
 guided learning. Making sure our lessons keep working without
 interruptions is therefore our number one goal for maintenance.</p>
@@ -498,8 +488,8 @@ yourself whether it is necessary for the learner.</li>
 <div id="maintainer-guidelines" class="callout-inner">
 <h3 class="callout-title">Maintainer Guidelines</h3>
 <div class="callout-content">
-<p>You can find more details about <a href="https://docs.carpentries.org/handbooks/maintainers.html" class="external-link">Maintainer
-Guidelines</a> in The Carpentries documentation.</p>
+<p>You can find more details about <a href="https://docs.carpentries.org/handbooks/maintainers.html#roles-and-responsibilities" class="external-link">Maintainer
+Roles and Responsibilities</a> in The Carpentries documentation.</p>
 </div>
 </div>
 </div>
@@ -525,7 +515,7 @@ Maintainer.</li>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="02-communicate-contributors.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="02-engage-maintainers.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -533,8 +523,8 @@ Maintainer.</li>
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Home
         </a>
-        <a class="chapter-link float-end" href="02-communicate-contributors.html" rel="next">
-          Next: Communicating with...
+        <a class="chapter-link float-end" href="02-engage-maintainers.html" rel="next">
+          Next: Engaging with the...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -582,8 +572,8 @@ Maintainer.</li>
   "url": "https://carpentries.github.io/maintainer-onboarding/01-welcome.html",
   "identifier": "https://carpentries.github.io/maintainer-onboarding/01-welcome.html",
   "dateCreated": "2017-12-11",
-  "dateModified": "2025-01-09",
-  "datePublished": "2026-04-24"
+  "dateModified": "2026-04-25",
+  "datePublished": "2026-04-25"
 }
 
   </script><script>
