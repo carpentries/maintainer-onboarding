@@ -58,16 +58,24 @@ contact: 'mailto:team@carpentries.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
+  - 01-welcome.md
+  - 02-engage-maintainers.md
+  - 03-communicate-contributors.md
+  - 04-communicate-advisors.md
+  - 05-infrastructure.md
 
 # Information for Learners
 learners: 
-
+   - setup.md
+   
 # Information for Instructors
-instructors: 
+instructors:
+ - instructor-notes.md
 
 # Learner Profiles
-profiles: 
+profiles:
+ - learner-profiles.md
 
 # Customisation ---------------------------------------------
 #

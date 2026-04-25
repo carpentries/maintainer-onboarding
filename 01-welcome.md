@@ -28,9 +28,7 @@ exercises: 5
 Using correct names and pronouns is important to setting a tone of respect. Learning these is hard to
 do quickly, so we recommend displaying it prominently during the training.
 
-If on Zoom, give everyone a moment to update their display name to reflect this information.
-
-If in person, encourage attendees to put this information on worn name tags or table-displayed name placards.
+Give everyone a moment to update their display name to reflect this information.
 
 Note that pronouns are personal and some participants might prefer not to share them.
 Do not force people to share their pronouns.
@@ -44,7 +42,7 @@ Do not force people to share their pronouns.
 
 ## Sign In
 
-Ask participants to sign in with their name, pronouns, institution, lesson assigned, and
+Ask participants to sign in with their name, pronouns (optional), institution, and
 potentially a short icebreaker question ("Tell us one good thing that happened in the past week.") in the course's shared notes.
 
 
@@ -82,8 +80,9 @@ In what ways have you been involved in The Carpentries community?
 - Helper
 - Instructor
 - Learner
-- Trainer
-- Executive Council member
+- Instructor Trainer
+- Lesson Developer Trainer
+- Executive Council of Board of Directors member
 - Committee or Task Force member
 - Workshop organizer or host
 - None of the above
@@ -125,21 +124,20 @@ with The Carpentries lessons on GitHub during this training and get information 
 The goal of this training is to provide you with the skills and information you need to
 become a Carpentries Maintainer. During this training, we will:
 
-- Orient you to The Carpentries goals and vision for lesson maintenance
 - Help you get connected with other Maintainers and the overall Maintainer community
+- Orient you to The Carpentries goals and vision for lesson maintenance
 - Develop skills for creating a positive environment for all contributors
 - Become familiar with the key components of the lesson template
 - Practice core technical skills for lesson maintenance
-- Learn how and when to elevate issues to your Curriculum Advisory Committee
+- Learn how and when to elevate issues to your Curriculum Advisory Committee or Lesson Program Governors
 
 ## What This Onboarding Does Not Cover
 
-The Carpentries supports over 40 official lessons across our three Lesson Programs (Data Carpentry, Library Carpentry, and Software Carpentry).
+The Carpentries supports over 50 official lessons across our four Lesson Programs (Data Carpentry, HPC Carpentry, Library Carpentry, and Software Carpentry).
 At any given time, there are also dozens of community-supported lessons in active development in
 [The Carpentries Incubator](https://carpentries-incubator.org/). This training is intended for Maintainers of official lessons, and we will
 not cover how new lessons are developed, vetted, and adopted into The Carpentries core lesson stack. Those interested in curriculum
-development are encouraged to read The Carpentries [Curriculum Development Handbook](https://cdh.carpentries.org/). We also offer [training in collaborative 
-lesson development](https://carpentries.github.io/lesson-development-training/).
+development are encouraged to check-out The Carpentries [Collaborative Lesson Development Training program](https://carpentries.org/lesson-development/).
 
 We do not expect you to be an expert in Git or GitHub, or even to have used these tools at all in the past. We will provide you with
 an introduction to the core skills you need to respond to uncomplicated issues and pull requests,
@@ -152,7 +150,7 @@ will need to maintain your lesson.
 
 ## Goals for Lesson Maintenance
 
-The Carpentries teaches 400 - 600 workshops each year, meaning our lesson materials are being used practically every day for
+The Carpentries teaches hundreds of workshops each year, meaning our lesson materials are being used practically every day for
 synchronous, guided learning. Making sure our lessons keep working without interruptions is therefore our number one goal for maintenance.
 
 A secondary (but still extremely important!) goal is ensuring that the spaces we use for lesson development and maintenance
@@ -179,7 +177,7 @@ With these goals in mind, The Carpentries expectations of Maintainers are that y
 
 ## Maintainer Guidelines
 
-You can find more details about [Maintainer Guidelines](https://docs.carpentries.org/handbooks/maintainers.html) in The Carpentries documentation.
+You can find more details about [Maintainer Roles and Responsibilities](https://docs.carpentries.org/handbooks/maintainers.html#roles-and-responsibilities) in The Carpentries documentation.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
