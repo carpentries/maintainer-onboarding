@@ -155,7 +155,7 @@ If you disagree with a pull request merged by a member of the Curriculum Team, o
 1. **Do edit pull requests as needed** - If you see potential problems or improvements to a pull request, use the [suggest changes feature](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review) within code review, which will notify the contributor of your suggestions. Contributors are not always responsive to follow-up, so feel free to merge the changes into the pull request yourself if you've waited a short time for them to respond. 
 1. **Do not close an issue or pull request without explaining why** - Except in the rare case of [spammy contributions](#bots-and-spam), take a moment to acknowledge the contribution and explain why it won’t be incorporated.
 1. **Do close issues** that have gone stale, are outdated, or out of scope (after explaining why).
-1. **Be responsive* to comments about accessibility and demotivating or exclusionary language.
+1. **Be responsive** to comments about accessibility and demotivating or exclusionary language.
 
 More detailed tips are available in the [FAQ section of our Maintainer Handbook](https://docs.carpentries.org/handbooks/maintainers.html#faq).
 
